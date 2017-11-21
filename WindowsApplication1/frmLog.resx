@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dtpStartDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="dtpStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 10</value>
+  </data>
+  <data name="dtpStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dtpStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Name" xml:space="preserve">
+    <value>dtpStartDate</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;dtpStartDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dtpEndDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="dtpEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 60</value>
+  </data>
+  <data name="dtpEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <data name="dtpEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Name" xml:space="preserve">
+    <value>dtpEndDate</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;dtpEndDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblStartDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblStartDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 12</value>
+  </data>
+  <data name="lblStartDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="lblStartDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblStartDate.Text" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="lblStartDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Name" xml:space="preserve">
+    <value>lblStartDate</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblStartDate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEndDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblEndDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 66</value>
+  </data>
+  <data name="lblEndDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="lblEndDate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblEndDate.Text" xml:space="preserve">
+    <value>End Date:</value>
+  </data>
+  <data name="lblEndDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Name" xml:space="preserve">
+    <value>lblEndDate</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblEndDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkInfo.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="chkInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="chkInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkInfo.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="chkInfo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkInfo.Name" xml:space="preserve">
+    <value>chkInfo</value>
+  </data>
+  <data name="&gt;&gt;chkInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInfo.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;chkInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkWarn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkWarn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 25</value>
+  </data>
+  <data name="chkWarn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="chkWarn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkWarn.Text" xml:space="preserve">
+    <value>Warn</value>
+  </data>
+  <data name="chkWarn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkWarn.Name" xml:space="preserve">
+    <value>chkWarn</value>
+  </data>
+  <data name="&gt;&gt;chkWarn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarn.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;chkWarn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkAlarm.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 25</value>
+  </data>
+  <data name="chkAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="chkAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkAlarm.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="chkAlarm.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkAlarm.Name" xml:space="preserve">
+    <value>chkAlarm</value>
+  </data>
+  <data name="&gt;&gt;chkAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAlarm.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;chkAlarm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkError.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkError.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 25</value>
+  </data>
+  <data name="chkError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 33</value>
+  </data>
+  <data name="chkError.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkError.Text" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="chkError.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkError.Name" xml:space="preserve">
+    <value>chkError</value>
+  </data>
+  <data name="&gt;&gt;chkError.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkError.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;chkError.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkOperator.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkOperator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkOperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="chkOperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <data name="chkOperator.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkOperator.Text" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="chkOperator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkOperator.Name" xml:space="preserve">
+    <value>chkOperator</value>
+  </data>
+  <data name="&gt;&gt;chkOperator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOperator.Parent" xml:space="preserve">
+    <value>grpUser</value>
+  </data>
+  <data name="&gt;&gt;chkOperator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkEngineer.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkEngineer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkEngineer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="chkEngineer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <data name="chkEngineer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkEngineer.Text" xml:space="preserve">
+    <value>Engineer</value>
+  </data>
+  <data name="chkEngineer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkEngineer.Name" xml:space="preserve">
+    <value>chkEngineer</value>
+  </data>
+  <data name="&gt;&gt;chkEngineer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkEngineer.Parent" xml:space="preserve">
+    <value>grpUser</value>
+  </data>
+  <data name="&gt;&gt;chkEngineer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkManager.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkManager.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 30</value>
+  </data>
+  <data name="chkManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <data name="chkManager.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkManager.Text" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="chkManager.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkManager.Name" xml:space="preserve">
+    <value>chkManager</value>
+  </data>
+  <data name="&gt;&gt;chkManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkManager.Parent" xml:space="preserve">
+    <value>grpUser</value>
+  </data>
+  <data name="&gt;&gt;chkManager.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkAdministrator.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAdministrator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkAdministrator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 30</value>
+  </data>
+  <data name="chkAdministrator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <data name="chkAdministrator.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkAdministrator.Text" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="chkAdministrator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkAdministrator.Name" xml:space="preserve">
+    <value>chkAdministrator</value>
+  </data>
+  <data name="&gt;&gt;chkAdministrator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAdministrator.Parent" xml:space="preserve">
+    <value>grpUser</value>
+  </data>
+  <data name="&gt;&gt;chkAdministrator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkManufacturer.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkManufacturer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkManufacturer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 30</value>
+  </data>
+  <data name="chkManufacturer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 33</value>
+  </data>
+  <data name="chkManufacturer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkManufacturer.Text" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="chkManufacturer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkManufacturer.Name" xml:space="preserve">
+    <value>chkManufacturer</value>
+  </data>
+  <data name="&gt;&gt;chkManufacturer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkManufacturer.Parent" xml:space="preserve">
+    <value>grpUser</value>
+  </data>
+  <data name="&gt;&gt;chkManufacturer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="Column1.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>During Time</value>
+  </data>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Column6.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DataGridView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="DataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 167</value>
+  </data>
+  <data name="DataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1253, 482</value>
+  </data>
+  <data name="DataGridView1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Name" xml:space="preserve">
+    <value>DataGridView1</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;DataGridView1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnRefresh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1136, 43</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 70</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 7</value>
+  </data>
+  <data name="grpUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 76</value>
+  </data>
+  <data name="grpUser.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="grpUser.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="&gt;&gt;grpUser.Name" xml:space="preserve">
+    <value>grpUser</value>
+  </data>
+  <data name="&gt;&gt;grpUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpUser.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;grpUser.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 89</value>
+  </data>
+  <data name="grpLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>826, 64</value>
+  </data>
+  <data name="grpLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="grpLevel.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.Name" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ProgressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 124</value>
+  </data>
+  <data name="ProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 23</value>
+  </data>
+  <data name="ProgressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProgressBar1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Name" xml:space="preserve">
+    <value>ProgressBar1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1253, 158</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1259, 652</value>
+  </data>
+  <data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Panel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="DataGridView1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,164,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1259, 652</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1265, 300</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Log Analysis</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column6.Name" xml:space="preserve">
+    <value>Column6</value>
+  </data>
+  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column7.Name" xml:space="preserve">
+    <value>Column7</value>
+  </data>
+  <data name="&gt;&gt;Column7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column8.Name" xml:space="preserve">
+    <value>Column8</value>
+  </data>
+  <data name="&gt;&gt;Column8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmLog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

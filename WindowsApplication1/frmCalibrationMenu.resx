@@ -1,0 +1,2248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;btnStageVerification4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD2Height.Parent" xml:space="preserve">
+    <value>grpStage2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnValvePurge3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpStage3.Name" xml:space="preserve">
+    <value>grpStage3</value>
+  </data>
+  <data name="grpStage4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCalibrationCCD3Height.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValve4HeightSensor.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="btnValvePurge2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStageVerification2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnValveBalance3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnValveCalibration4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1187, 29</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification1.Name" xml:space="preserve">
+    <value>btnStageVerification1</value>
+  </data>
+  <data name="btnCCD4Image.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="btnStageVerification4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValveWeight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 769</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2.Parent" xml:space="preserve">
+    <value>grpStage2</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner3.Name" xml:space="preserve">
+    <value>btnValveCleaner3</value>
+  </data>
+  <data name="grpValve3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 318</value>
+  </data>
+  <data name="&gt;&gt;grpStage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCD3Image.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveCalibration1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveBalance1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnCCD2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 212</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner2.Parent" xml:space="preserve">
+    <value>grpValve2</value>
+  </data>
+  <data name="btnValveCalibration3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>800, 29</value>
+  </data>
+  <data name="btnCalibrationCCD2Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1187, 1076</value>
+  </data>
+  <data name="btnValveBalance2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCD4Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1187, 959</value>
+  </data>
+  <data name="btnValveBalance1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValvePurge4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpValve3.Name" xml:space="preserve">
+    <value>grpValve3</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4Image.Name" xml:space="preserve">
+    <value>btnCCD4Image</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD3Height.Name" xml:space="preserve">
+    <value>btnCalibrationCCD3Height</value>
+  </data>
+  <data name="btnCCD4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveBalance4.Name" xml:space="preserve">
+    <value>btnValveBalance4</value>
+  </data>
+  <data name="btnCCD3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 212</value>
+  </data>
+  <data name="btnValvePurge1.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnValveBalance4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValveCalibration1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValve2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValve3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValvePurge1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveWeight1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStageVerification1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;grpValve4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpValve2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4.Parent" xml:space="preserve">
+    <value>grpStage4</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveWeight2.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="grpValve4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveBalance1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveCalibration2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValvePurge3.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;grpStage2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge2.Parent" xml:space="preserve">
+    <value>grpValve2</value>
+  </data>
+  <data name="btnValve2HeightSensor.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="btnValve4HeightSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValve4HeightSensor.Parent" xml:space="preserve">
+    <value>grpStage4</value>
+  </data>
+  <data name="btnValveWeight3.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="btnValvePurge1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationCCD2Height.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnValve3HeightSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveBalance3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD2Image.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight2.Name" xml:space="preserve">
+    <value>btnValveWeight2</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD1Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;grpStage2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;grpValve1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValvePurge3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="btnValveWeight1.Text" xml:space="preserve">
+    <value>Valve1 Weight</value>
+  </data>
+  <data name="grpStage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 312</value>
+  </data>
+  <data name="btnValveWeight3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight3.Name" xml:space="preserve">
+    <value>btnValveWeight3</value>
+  </data>
+  <data name="grpValve1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 318</value>
+  </data>
+  <data name="&gt;&gt;btnValve4HeightSensor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveBalance2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCleaner2.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="btnValveCleaner1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 214</value>
+  </data>
+  <data name="btnValveCalibration3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCD3Image.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnValveCleaner2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 214</value>
+  </data>
+  <data name="btnValveWeight2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValvePurge2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;grpStage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpStage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValvePurge2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="btnCalibrationCCD3Height.Text" xml:space="preserve">
+    <value>CCD3 to Height Sensor</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValve3HeightSensor.Text" xml:space="preserve">
+    <value>Valve3 to Height Sensor</value>
+  </data>
+  <data name="grpStage1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveBalance3.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnValve2HeightSensor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValveBalance4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD1Image.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpValve1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnPidController.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStageVerification1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 864</value>
+  </data>
+  <data name="grpStage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 312</value>
+  </data>
+  <data name="btnValveCalibration3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValvePurge1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;grpStage1.Name" xml:space="preserve">
+    <value>grpStage1</value>
+  </data>
+  <data name="btnValveCalibration4.Text" xml:space="preserve">
+    <value>Valve4 Calibration</value>
+  </data>
+  <data name="btnCCD2Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 959</value>
+  </data>
+  <data name="btnValve3HeightSensor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnCCD4Image.Text" xml:space="preserve">
+    <value>CCD4</value>
+  </data>
+  <data name="btnStageVerification3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>800, 864</value>
+  </data>
+  <data name="btnValveBalance1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnCCD1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 212</value>
+  </data>
+  <data name="&gt;&gt;grpValve4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification3.Name" xml:space="preserve">
+    <value>btnStageVerification3</value>
+  </data>
+  <data name="btnValvePurge2.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnValve2HeightSensor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCD2.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;grpStage1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValve3HeightSensor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpValve2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 445</value>
+  </data>
+  <data name="btnCCD4Image.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCalibration1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveBalance3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValvePurge4.Text" xml:space="preserve">
+    <value>Valve4 Purge</value>
+  </data>
+  <data name="grpValve2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCD3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveWeight4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStageVerification4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1187, 864</value>
+  </data>
+  <data name="btnValveBalance3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpStage3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCD3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveCalibration2.Text" xml:space="preserve">
+    <value>Valve2 Calibration</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCCD4Image.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnValve1HeightSensor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpValve1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnValveCalibration3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValvePurge2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveCalibration3.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="btnValveBalance2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="grpStage2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpStage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveCleaner2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCalibrationCCD2Height.Text" xml:space="preserve">
+    <value>CCD2 to Height Sensor</value>
+  </data>
+  <data name="btnValve3HeightSensor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValvePurge2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValvePurge1.Text" xml:space="preserve">
+    <value>Valve1 Purge</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveCalibration2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValveBalance2.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnValveCalibration1.Text" xml:space="preserve">
+    <value>Valve1 Calibration</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnValve3HeightSensor.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="btnPidController.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 1072</value>
+  </data>
+  <data name="grpStage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1173, 124</value>
+  </data>
+  <data name="btnStageVerification3.Text" xml:space="preserve">
+    <value>Stage3 Verification</value>
+  </data>
+  <data name="btnValveWeight4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPidController.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD1Height.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpStage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpValve4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValvePurge3.Text" xml:space="preserve">
+    <value>Valve3 Purge</value>
+  </data>
+  <data name="btnValvePurge4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveCalibration4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="grpStage4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration1.Name" xml:space="preserve">
+    <value>btnValveCalibration1</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner4.Parent" xml:space="preserve">
+    <value>grpValve4</value>
+  </data>
+  <data name="btnCCD1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValvePurge4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveCalibration1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnPidController.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveCleaner2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3.Parent" xml:space="preserve">
+    <value>grpStage3</value>
+  </data>
+  <data name="btnStageVerification2.Text" xml:space="preserve">
+    <value>Stage2 Verification</value>
+  </data>
+  <data name="btnValveBalance4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValveCleaner1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveCleaner1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCCD4Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveWeight4.Text" xml:space="preserve">
+    <value>Valve4 Weight</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance1.Name" xml:space="preserve">
+    <value>btnValveBalance1</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration4.Name" xml:space="preserve">
+    <value>btnValveCalibration4</value>
+  </data>
+  <data name="btnValveBalance4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCCD3.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpValve1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpStage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCleaner4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3.Name" xml:space="preserve">
+    <value>btnCCD3</value>
+  </data>
+  <data name="btnValveCleaner1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCD2Image.Text" xml:space="preserve">
+    <value>CCD2</value>
+  </data>
+  <data name="grpValve1.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="btnPidController.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD3Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCalibration2.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance2.Name" xml:space="preserve">
+    <value>btnValveBalance2</value>
+  </data>
+  <data name="&gt;&gt;grpValve4.Name" xml:space="preserve">
+    <value>grpValve4</value>
+  </data>
+  <data name="btnStageVerification1.Text" xml:space="preserve">
+    <value>Stage1 Verification</value>
+  </data>
+  <data name="btnValvePurge4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveWeight1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveBalance2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnStageVerification2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD2Height.Name" xml:space="preserve">
+    <value>btnCalibrationCCD2Height</value>
+  </data>
+  <data name="&gt;&gt;grpValve2.Name" xml:space="preserve">
+    <value>grpValve2</value>
+  </data>
+  <data name="btnValveCleaner3.Text" xml:space="preserve">
+    <value>Valve3 Cleaner </value>
+  </data>
+  <data name="&gt;&gt;grpStage3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveBalance3.Text" xml:space="preserve">
+    <value>Valve3 Flow Rate</value>
+  </data>
+  <data name="grpStage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 124</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1.Parent" xml:space="preserve">
+    <value>grpStage1</value>
+  </data>
+  <data name="btnValve3HeightSensor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpValve2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpStage3.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="grpValve1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpValve3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveCleaner4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 214</value>
+  </data>
+  <data name="btnCCD3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnValve3HeightSensor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStageVerification2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 864</value>
+  </data>
+  <data name="btnValveCleaner3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 214</value>
+  </data>
+  <data name="&gt;&gt;grpStage3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnCalibrationCCD3Height.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;grpStage4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCCD1.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1.Name" xml:space="preserve">
+    <value>btnCCD1</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnStageVerification1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveCleaner4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance1.Parent" xml:space="preserve">
+    <value>grpValve1</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnValve2HeightSensor.Text" xml:space="preserve">
+    <value>Valve2 to Height Sensor</value>
+  </data>
+  <data name="btnValveBalance2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;grpValve4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValve4HeightSensor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD4Height.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnValveCleaner3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStageVerification3.TabIndex" type="System.Int32, mscorlib">
+    <value>473</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpValve3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveWeight4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveCalibration4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValveCalibration4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD3Height.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpValve3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>787, 445</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve2HeightSensor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveBalance4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValvePurge3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner3.Parent" xml:space="preserve">
+    <value>grpValve3</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge2.Name" xml:space="preserve">
+    <value>btnValvePurge2</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpStage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveCalibration4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnCCD4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpStage1.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnValveWeight1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 769</value>
+  </data>
+  <data name="&gt;&gt;btnValve4HeightSensor.Name" xml:space="preserve">
+    <value>btnValve4HeightSensor</value>
+  </data>
+  <data name="btnValveCleaner2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD4Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveBalance1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCD2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveBalance1.Text" xml:space="preserve">
+    <value>Valve1 Flow Rate</value>
+  </data>
+  <data name="btnValve2HeightSensor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValve4HeightSensor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveWeight1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveBalance2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveCleaner2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnValveBalance1.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnValve2HeightSensor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnCCD1Image.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="grpStage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 312</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance3.Name" xml:space="preserve">
+    <value>btnValveBalance3</value>
+  </data>
+  <data name="btnValveCleaner1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveCleaner2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveCleaner3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCD2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2Image.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnValveCalibration4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpStage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD4Height.Parent" xml:space="preserve">
+    <value>grpStage4</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3Image.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge4.Parent" xml:space="preserve">
+    <value>grpValve4</value>
+  </data>
+  <data name="&gt;&gt;grpStage4.Name" xml:space="preserve">
+    <value>grpStage4</value>
+  </data>
+  <data name="btnCalibrationCCD2Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCD2Image.TabIndex" type="System.Int32, mscorlib">
+    <value>477</value>
+  </data>
+  <data name="btnValveCleaner4.Text" xml:space="preserve">
+    <value>Valve4 Cleaner </value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner4.Name" xml:space="preserve">
+    <value>btnValveCleaner4</value>
+  </data>
+  <data name="btnValveBalance4.Text" xml:space="preserve">
+    <value>Valve4 Flow Rate</value>
+  </data>
+  <data name="btnValveBalance2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnValveCalibration1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpStage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnPidController.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4.Name" xml:space="preserve">
+    <value>btnCCD4</value>
+  </data>
+  <data name="btnCCD4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD1Image.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner1.Parent" xml:space="preserve">
+    <value>grpValve1</value>
+  </data>
+  <data name="btnStageVerification1.TabIndex" type="System.Int32, mscorlib">
+    <value>471</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnValveWeight2.Text" xml:space="preserve">
+    <value>Valve2 Weight</value>
+  </data>
+  <data name="grpStage4.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValveWeight3.Text" xml:space="preserve">
+    <value>Valve3 Weight</value>
+  </data>
+  <data name="btnValveCleaner3.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;grpValve3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnValveBalance4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValve1HeightSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveBalance2.Parent" xml:space="preserve">
+    <value>grpValve2</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpStage3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValve1HeightSensor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.Text" xml:space="preserve">
+    <value>CCD1 to Height Sensor</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="btnValveWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValve3HeightSensor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="grpValve2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance3.Parent" xml:space="preserve">
+    <value>grpValve3</value>
+  </data>
+  <data name="btnCalibrationCCD3Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpValve4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveCleaner2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnValveCalibration3.Text" xml:space="preserve">
+    <value>Valve3 Calibration</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveBalance1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification4.Name" xml:space="preserve">
+    <value>btnStageVerification4</value>
+  </data>
+  <data name="btnCCD2Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4Image.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnValveWeight4.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValve4HeightSensor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2Image.Name" xml:space="preserve">
+    <value>btnCCD2Image</value>
+  </data>
+  <data name="btnValveWeight2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCD3Image.Text" xml:space="preserve">
+    <value>CCD3</value>
+  </data>
+  <data name="btnValvePurge3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpStage2.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnValveWeight4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationCCD2Height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="grpValve3.Text" xml:space="preserve">
+    <value>Valve3 Position</value>
+  </data>
+  <data name="btnValveCleaner2.Text" xml:space="preserve">
+    <value>Valve2 Cleaner </value>
+  </data>
+  <data name="&gt;&gt;btnCCD2.Name" xml:space="preserve">
+    <value>btnCCD2</value>
+  </data>
+  <data name="btnCCD4.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="btnValvePurge2.Text" xml:space="preserve">
+    <value>Valve2 Purge</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge1.Parent" xml:space="preserve">
+    <value>grpValve1</value>
+  </data>
+  <data name="btnValveBalance2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;grpStage4.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnStageVerification4.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="btnValveCalibration2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCleaner3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValvePurge1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge1.Name" xml:space="preserve">
+    <value>btnValvePurge1</value>
+  </data>
+  <data name="btnStageVerification3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStageVerification3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnValve1HeightSensor.Parent" xml:space="preserve">
+    <value>grpStage1</value>
+  </data>
+  <data name="btnValve1HeightSensor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCCD3.Text" xml:space="preserve">
+    <value>CCD3 to Valve</value>
+  </data>
+  <data name="&gt;&gt;btnValve1HeightSensor.Name" xml:space="preserve">
+    <value>btnValve1HeightSensor</value>
+  </data>
+  <data name="grpValve3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveWeight4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpValve4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1173, 445</value>
+  </data>
+  <data name="grpStage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnStageVerification2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1Image.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveWeight1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPidController.ToolTip" xml:space="preserve">
+    <value>PID Controller</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnValveCleaner1.Text" xml:space="preserve">
+    <value>Valve1 Cleaner </value>
+  </data>
+  <data name="btnCalibrationCCD3Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValve1HeightSensor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpValve1.Name" xml:space="preserve">
+    <value>grpValve1</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge4.Name" xml:space="preserve">
+    <value>btnValvePurge4</value>
+  </data>
+  <data name="btnBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight1.Name" xml:space="preserve">
+    <value>btnValveWeight1</value>
+  </data>
+  <data name="&gt;&gt;grpValve2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnStageVerification2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD1Height.Parent" xml:space="preserve">
+    <value>grpStage1</value>
+  </data>
+  <data name="btnValve4HeightSensor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCD2Image.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnPidController.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveWeight2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnValve3HeightSensor.Name" xml:space="preserve">
+    <value>btnValve3HeightSensor</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationMenu</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.Text" xml:space="preserve">
+    <value>CCD4 to Height Sensor</value>
+  </data>
+  <data name="grpStage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 312</value>
+  </data>
+  <data name="&gt;&gt;btnValve2HeightSensor.Parent" xml:space="preserve">
+    <value>grpStage2</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD4Height.Name" xml:space="preserve">
+    <value>btnCalibrationCCD4Height</value>
+  </data>
+  <data name="btnValveWeight1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="grpStage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>787, 124</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveBalance2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCalibration2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 29</value>
+  </data>
+  <data name="btnCCD4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpValve2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpValve1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCCD4Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner1.Name" xml:space="preserve">
+    <value>btnValveCleaner1</value>
+  </data>
+  <data name="btnStageVerification1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValve2HeightSensor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification2.Name" xml:space="preserve">
+    <value>btnStageVerification2</value>
+  </data>
+  <data name="btnValveCalibration4.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="btnValveBalance3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnStageVerification1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD1Height.Name" xml:space="preserve">
+    <value>btnCalibrationCCD1Height</value>
+  </data>
+  <data name="btnValvePurge4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnStageVerification3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValve2HeightSensor.Name" xml:space="preserve">
+    <value>btnValve2HeightSensor</value>
+  </data>
+  <data name="&gt;&gt;btnPidController.Name" xml:space="preserve">
+    <value>btnPidController</value>
+  </data>
+  <data name="&gt;&gt;btnValve1HeightSensor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveWeight1.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="&gt;&gt;btnValve1HeightSensor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnValveBalance4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnCCD3Image.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpValve4.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="btnCCD1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpValve4.Text" xml:space="preserve">
+    <value>Valve4 Position</value>
+  </data>
+  <data name="btnValve1HeightSensor.Text" xml:space="preserve">
+    <value>Valve1 to Height Sensor</value>
+  </data>
+  <data name="btnStageVerification3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3Image.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnCCD1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="grpStage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCalibration3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCCD3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCleaner3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnValvePurge2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveWeight1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveCalibration2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValvePurge1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight4.Name" xml:space="preserve">
+    <value>btnValveWeight4</value>
+  </data>
+  <data name="grpValve4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValvePurge3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD3Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD1Image.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStageVerification4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCD3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnCCD1Image.Text" xml:space="preserve">
+    <value>CCD1</value>
+  </data>
+  <data name="grpValve1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnValvePurge4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCCD4.Text" xml:space="preserve">
+    <value>CCD4 to Valve</value>
+  </data>
+  <data name="btnCCD2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStageVerification1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValveWeight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnStageVerification4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveBalance2.Text" xml:space="preserve">
+    <value>Valve2 Flow Rate</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner1.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="btnCalibrationCCD4Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValve4HeightSensor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge3.Parent" xml:space="preserve">
+    <value>grpValve3</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCCD2Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationCCD2Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="grpValve1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 445</value>
+  </data>
+  <data name="&gt;&gt;btnPidController.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStageVerification2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveWeight2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveWeight3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationCCD1Height.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValve4HeightSensor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnPidController.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAOmSURBVHhe5Zrh
+        UeswEIRfCZRACZRACZRACZRACZRACa8ESqAESngd5O16cp7l2MRKdJdhxjvz/fDq4vGdZUmx/OdwOOwe
+        a+4Na+4Na+4Na94K6A48HnlwMbfAmt0ck38HPFC+wJP7TSfW7ARiAT6BJp95dr/twpqdQG+SLGFBPsA/
+        8cjNeoQ1u4DuJUnyntq0h3zpbzuxZhfQy7kkoVykm/QGa3YBsdtHgi8nYnTAXHtKJ9bsAuLoHwnaKRHi
+        dBkxny6mGmt2Icnh0MeQ0bgqrNnFaHKjcVVYs4vR5EbjqrBmF1vJaXuQYzqwZhdbyWl7kGM6sGYXW8lp
+        e5BjOrBmF6PJjcZVYc0uRpMbjavCml1sJaftQY7pwJpdbCWn7UGO6cCaXWwlp+1BjunAml2MJjcaV4U1
+        uxhNbjSuCmt2sZWctgc5pgNrdrGVnLYHOaYDa3axlZy2BzmmA2t2MZrcaFwV1uxiNLnRuCqs2cVocqNx
+        VVizC5eceuHn426s2YVLTr3w83E31uwAenXJqRd+8viavnWz1pqVQHbvUdp/+Nk78hq/qcaaVUCuANx7
+        WDdcxV84ek/gb3hCy2aMNSuAXAG4GXuX4rSd3EsbN2LyOcoLYc0KoLz7rHefybk7HTDxZR8Sct8ylO5R
+        WnMWSLfSyPI8Q0zoXPIZxi49B9J9TG7jf+tRM1hzFkgv+EP8HwPkAMt+JMQC6jcMZQOlNWeA8vb649H/
+        NkVeyJs5R9n3C9acIV3o0gugfBevgcXledQrWT9YcwZIH4VlMIQ45YV3LdEbfpx/FmvOAOkdX+4UNPMo
+        BDE26LlKxgVrziAXiMPVqyjCcj5Iz1WyZrDmDHKBOFy9S6bFkxzPpY/WOvPMYM0Z5AJxuHpdPeHXPg76
+        XVJMj/rV2rXEmKAr0V9bBO36yxdqUF47XEPMDrrgKlk+W3MGSO/6+vUZpFPbNbCQuZglS2drzgCdWjE+
+        iHcp0Qv0j1TJoEisOUu6WI4R8Sfo+ehdArs/V4q5iGUfgVtzFij3Bv2G+ZJC8BFiAYiOBaUfeVqzAihP
+        i1oIFunc2mF9+wTlApDSd47WrALKiTKZNQGICfLdAwtG2Eu0nW065ZKyxyCwZhUQk3SzAseMk3cT4qow
+        v01afufiZ7FmNVB+1RbwzxaLpJz6y13eAwJrdgC5rj0CC1M6BmSs2QkUr9PPvWRhGx+HZY3RjTVvBcS5
+        nz1Eab3rDmvuDWvuDWvuDWvuDWvui8Of/yj5xxtBMa+XAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCCD1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveCleaner4.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>470</value>
+  </data>
+  <data name="btnCCD3Image.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnCCD2Image.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveBalance3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCD4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 212</value>
+  </data>
+  <data name="btnValvePurge3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStageVerification3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValve3HeightSensor.Parent" xml:space="preserve">
+    <value>grpStage3</value>
+  </data>
+  <data name="btnValveCalibration1.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="btnValveCleaner3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValve1.Text" xml:space="preserve">
+    <value>Valve1 Position</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveCleaner4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpValve2.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="btnValveCalibration2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCalibrationCCD3Height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="btnCCD1Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveWeight2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD3Height.Parent" xml:space="preserve">
+    <value>grpStage3</value>
+  </data>
+  <data name="btnCCD2Image.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;grpStage1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnCCD4Image.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValve1HeightSensor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnCalibrationCCD2Height.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValvePurge4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValvePurge3.Name" xml:space="preserve">
+    <value>btnValvePurge3</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValve3.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="btnStageVerification3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStageVerification4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValve1HeightSensor.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1Image.Name" xml:space="preserve">
+    <value>btnCCD1Image</value>
+  </data>
+  <data name="btnValveCalibration3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="grpStage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 124</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3Image.Name" xml:space="preserve">
+    <value>btnCCD3Image</value>
+  </data>
+  <data name="btnValvePurge1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValveCalibration1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 29</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpValve3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveCalibration3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValveWeight3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStageVerification4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCD3Image.TabIndex" type="System.Int32, mscorlib">
+    <value>478</value>
+  </data>
+  <data name="btnBack.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnCCD1Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 959</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD2Height.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnStageVerification1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValve2HeightSensor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCCD2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveCleaner2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCalibration1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1533, 1175</value>
+  </data>
+  <data name="btnValveCalibration3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveCleaner3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationCCD2Height.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpValve4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 318</value>
+  </data>
+  <data name="btnCCD4Image.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveBalance1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValve2HeightSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpStage2.Name" xml:space="preserve">
+    <value>grpStage2</value>
+  </data>
+  <data name="btnStageVerification4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCalibrationCCD3Height.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValveWeight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnStageVerification4.Text" xml:space="preserve">
+    <value>Stage4 Verification</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValvePurge3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCalibration4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCCD2Image.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCCD4Image.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration3.Name" xml:space="preserve">
+    <value>btnValveCalibration3</value>
+  </data>
+  <data name="&gt;&gt;btnValvePurge2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValve3HeightSensor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveCleaner1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnValveCleaner1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCD4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="grpStage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnPidController.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpStage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveBalance4.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnCCD3Image.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCCD1Image.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnCCD1Image.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnValveWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1187, 769</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner2.Name" xml:space="preserve">
+    <value>btnValveCleaner2</value>
+  </data>
+  <data name="btnValveWeight3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCCD1.Text" xml:space="preserve">
+    <value>CCD1 to Valve</value>
+  </data>
+  <data name="&gt;&gt;btnValve3HeightSensor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValve1HeightSensor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance4.Parent" xml:space="preserve">
+    <value>grpValve4</value>
+  </data>
+  <data name="btnValvePurge1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValvePurge2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnValve4HeightSensor.Text" xml:space="preserve">
+    <value>Valve4 to Height Sensor</value>
+  </data>
+  <data name="btnStageVerification2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationCCD1Height.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpStage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCCD1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnStageVerification1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpStage3.Text" xml:space="preserve">
+    <value>Stage3 Position</value>
+  </data>
+  <data name="btnStageVerification2.TabIndex" type="System.Int32, mscorlib">
+    <value>472</value>
+  </data>
+  <data name="grpStage1.Text" xml:space="preserve">
+    <value>Stage1 Position</value>
+  </data>
+  <data name="btnValveWeight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>800, 769</value>
+  </data>
+  <data name="btnCCD1Image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCCD2.Text" xml:space="preserve">
+    <value>CCD2 to Valve</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnCCD3Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCCD2Image.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnValveCleaner4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveWeight2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnValveCalibration2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnCCD4Image.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="&gt;&gt;btnValveBalance4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpStage2.Text" xml:space="preserve">
+    <value>Stage2 Position</value>
+  </data>
+  <data name="btnCalibrationCCD2Height.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCD2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpStage4.Text" xml:space="preserve">
+    <value>Stage4 Position</value>
+  </data>
+  <data name="btnValve4HeightSensor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 125</value>
+  </data>
+  <data name="btnCalibrationCCD3Height.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnValveCalibration2.Name" xml:space="preserve">
+    <value>btnValveCalibration2</value>
+  </data>
+  <data name="&gt;&gt;btnStageVerification2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnCCD3Image.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValve3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveWeight3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="grpValve2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 318</value>
+  </data>
+  <data name="grpValve2.Text" xml:space="preserve">
+    <value>Valve2 Position</value>
+  </data>
+  <data name="btnValvePurge4.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnCCD3Image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>800, 959</value>
+  </data>
+  <data name="&gt;&gt;btnValveCalibration2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCCD1Image.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValve2HeightSensor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveBalance3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="btnCalibrationCCD2Height.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValvePurge1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationCCD3Height.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD3Image.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCleaner1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationCCD1Height.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStageVerification1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveWeight2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCalibration4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationCCD4Height.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveWeight4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValvePurge4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpValve3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValve3HeightSensor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpStage4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCleaner3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpValve4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStageVerification4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpValve1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValve2HeightSensor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStageVerification2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValvePurge2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCleaner4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveBalance3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValve4HeightSensor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="btnValveCalibration3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPidController.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpValve2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveBalance4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCalibration2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveWeight3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="grpStage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveWeight1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnBack.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD2Image.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveBalance2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD4Image.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCalibration1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveBalance1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValvePurge3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValve1HeightSensor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpStage3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCCD1Image.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveCleaner2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpStage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStageVerification3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E265C0D-BCA4-496B-BCE9-BFA26635C177}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WetcoConveyor</RootNamespace>
+    <AssemblyName>WetcoConveyor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WetcoConveyor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WetcoConveyor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WriteIni, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DTS_20170413[v6][Dual_Conveyor]\WindowsApplication1\MachineDLL\WriteIni.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsCV-A.vb" />
+    <Compile Include="clsCV-B.vb" />
+    <Compile Include="cls800AQLul.vb" />
+    <Compile Include="clsLicens.vb" />
+    <Compile Include="clsLoaderComm.vb" />
+    <Compile Include="clsPidController.vb" />
+    <Compile Include="clsSMEMA.vb" />
+    <Compile Include="clsPLC_FX3U.vb" />
+    <Compile Include="clsTemperatureController.vb" />
+    <Compile Include="clsULoader.vb" />
+    <Compile Include="clsUnit.vb" />
+    <Compile Include="clsUnloaderComm.vb" />
+    <Compile Include="frmCalibrationPidCtrl.Designer.vb">
+      <DependentUpon>frmCalibrationPidCtrl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationPidCtrl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmElectricCylinder.Designer.vb">
+      <DependentUpon>frmElectricCylinder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmElectricCylinder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManualPageF350A.Designer.vb">
+      <DependentUpon>frmManualPageF350A.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManualPageF350A.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPidController.Designer.vb">
+      <DependentUpon>frmPidController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPidController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetKit.Designer.vb">
+      <DependentUpon>frmSetKit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetKit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.vb">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IConveyor.vb" />
+    <Compile Include="mGlobalPool.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCalibrationPidCtrl.resx">
+      <DependentUpon>frmCalibrationPidCtrl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationPidCtrl.zh-CN.resx">
+      <DependentUpon>frmCalibrationPidCtrl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationPidCtrl.zh-TW.resx">
+      <DependentUpon>frmCalibrationPidCtrl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElectricCylinder.resx">
+      <DependentUpon>frmElectricCylinder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElectricCylinder.zh-CN.resx">
+      <DependentUpon>frmElectricCylinder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElectricCylinder.zh-TW.resx">
+      <DependentUpon>frmElectricCylinder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.zh-CN.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.zh-TW.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManualPageF350A.resx">
+      <DependentUpon>frmManualPageF350A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPidController.resx">
+      <DependentUpon>frmPidController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPidController.zh-CN.resx">
+      <DependentUpon>frmPidController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPidController.zh-TW.resx">
+      <DependentUpon>frmPidController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetKit.resx">
+      <DependentUpon>frmSetKit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetKit.zh-CN.resx">
+      <DependentUpon>frmSetKit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetKit.zh-TW.resx">
+      <DependentUpon>frmSetKit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.zh-CN.resx">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.zh-TW.resx">
+      <DependentUpon>frmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Premtek.Base\Premtek.Base.csproj">
+      <Project>{89ec5a71-f817-49b0-9aa0-6861581a381a}</Project>
+      <Name>Premtek.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectAOI\ProjectAOI.vbproj">
+      <Project>{8E7D33A3-7F0C-4374-A76D-9CDDE9E54EF5}</Project>
+      <Name>ProjectAOI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectCore\ProjectCore.vbproj">
+      <Project>{2b1fae8f-9ae8-4fa4-8ddc-3da365177691}</Project>
+      <Name>ProjectCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectIO\ProjectIO.vbproj">
+      <Project>{ab1b4d09-75a8-4acf-af7b-9484d8631a6c}</Project>
+      <Name>ProjectIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectMotion\ProjectMotion.vbproj">
+      <Project>{9CB15806-2608-411C-A2EB-CA428A6A3ADF}</Project>
+      <Name>ProjectMotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectRecipe\ProjectRecipe.vbproj">
+      <Project>{2ea9fe4d-abc5-499a-89d7-c41e8a10a1ea}</Project>
+      <Name>ProjectRecipe</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledHigh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledLow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASA-1.tif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASA-2.tif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MachineA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MachineB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotplate1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I33_110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I33_156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i33b_174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i33b_100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlackLight-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GreenLight-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICON-021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MachineAICON1122-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MachineAICON1122-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MachineAICON1122-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedLight-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowBlack1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowBlack2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrowBlack3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelExit1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

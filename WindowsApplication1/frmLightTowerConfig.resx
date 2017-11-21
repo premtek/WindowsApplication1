@@ -1,0 +1,4695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkWarnYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOff.ZOrder" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkInfoYellowOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmGreenOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOn.Name" xml:space="preserve">
+    <value>chkErrorBlueOn</value>
+  </data>
+  <data name="chkInfoBuzzerOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoBlueFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="lblGreenIndicator.Text" xml:space="preserve">
+    <value>GREEN</value>
+  </data>
+  <data name="chkErrorBuzzerOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkInfoBuzzerOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkIdleBuzzerOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOn.Name" xml:space="preserve">
+    <value>chkWarnYellowOn</value>
+  </data>
+  <data name="chkRunBuzzerFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoYellowOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 404</value>
+  </data>
+  <data name="chkIdleYellowFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkIdleBlueFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOn.Name" xml:space="preserve">
+    <value>chkAlarmYellowOn</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkRunBuzzerOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBuzzerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 254</value>
+  </data>
+  <data name="chkInfoGreenOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmRedFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnGreenOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 254</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="lblBlueIndicator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkIdleBlueFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueFlash.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="chkInfoRedOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 404</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunYellowFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkInfoRedOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoRedOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1440, 329</value>
+  </data>
+  <data name="Label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkRunYellowOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoYellowOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkErrorRedOff.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="chkWarnBuzzerOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBlueOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBuzzerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1360, 254</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBlueOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkInfoGreenOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmRedOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOff.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="lblBlueIndicator.Text" xml:space="preserve">
+    <value>BLUE</value>
+  </data>
+  <data name="chkRunBuzzerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1360, 479</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOn.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorYellowFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleGreenOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkErrorBlueFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOn.Name" xml:space="preserve">
+    <value>chkInfoBuzzerOn</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueFlash.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmGreenOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 62</value>
+  </data>
+  <data name="chkErrorBlueOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueFlash.Name" xml:space="preserve">
+    <value>chkIdleBlueFlash</value>
+  </data>
+  <data name="chkErrorBlueOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 104</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleYellowFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkRunBlueFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorRedOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkRunBuzzerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOn.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="chkIdleGreenFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorYellowOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkErrorBlueFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorRedOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoYellowOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1440, 404</value>
+  </data>
+  <data name="chkInfoGreenFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkIdleYellowOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;lblYellowIndicator.Name" xml:space="preserve">
+    <value>lblYellowIndicator</value>
+  </data>
+  <data name="chkInfoYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBuzzerFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorYellowOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOff.Name" xml:space="preserve">
+    <value>chkAlarmYellowOff</value>
+  </data>
+  <data name="chkWarnRedOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunBlueOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunRedFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerFlash.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkWarnBlueFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoBuzzerOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorGreenOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkIdleYellowOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 179</value>
+  </data>
+  <data name="chkRunBlueOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOff.Name" xml:space="preserve">
+    <value>chkAlarmBuzzerOff</value>
+  </data>
+  <data name="&gt;&gt;lblGreenIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkRunYellowFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBlueFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOn.Name" xml:space="preserve">
+    <value>chkErrorRedOn</value>
+  </data>
+  <data name="chkIdleRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkInfoRedFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmGreenOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueFlash.Name" xml:space="preserve">
+    <value>chkInfoBlueFlash</value>
+  </data>
+  <data name="chkIdleYellowOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 329</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOff.Name" xml:space="preserve">
+    <value>chkErrorGreenOff</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOff.Name" xml:space="preserve">
+    <value>chkIdleBuzzerOff</value>
+  </data>
+  <data name="chkRunGreenFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunBlueOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkErrorGreenFlash.Name" xml:space="preserve">
+    <value>chkErrorGreenFlash</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOff.ZOrder" xml:space="preserve">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOn.Name" xml:space="preserve">
+    <value>chkRunBuzzerOn</value>
+  </data>
+  <data name="chkInfoGreenFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoGreenOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBlueFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOn.Name" xml:space="preserve">
+    <value>chkAlarmGreenOn</value>
+  </data>
+  <data name="chkRunBlueOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleGreenOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkWarnBuzzerOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 62</value>
+  </data>
+  <data name="chkInfoBlueOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblBuzzer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnGreenOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmYellowOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmBlueOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 179</value>
+  </data>
+  <data name="chkRunYellowOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkRunRedFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerFlash.Name" xml:space="preserve">
+    <value>chkInfoBuzzerFlash</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOn.Name" xml:space="preserve">
+    <value>chkInfoYellowOn</value>
+  </data>
+  <data name="chkInfoGreenOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmYellowOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOn.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="chkErrorRedOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnBuzzerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1391, 631</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunYellowOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 479</value>
+  </data>
+  <data name="lblGreenIndicator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorYellowOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBuzzerFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="lblRedIndicator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkRunBlueFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkErrorRedOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkInfoYellowOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 404</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowFlash.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOff.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="chkAlarmGreenOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="grpLightTower.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleRedOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmGreenFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 179</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOn.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoBlueFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorYellowOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoBlueOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorGreenFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnGreenOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleRedOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblBuzzer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunBuzzerFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOn.Name" xml:space="preserve">
+    <value>chkErrorBuzzerOn</value>
+  </data>
+  <data name="chkErrorYellowOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleGreenOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnBlueOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGreenIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorGreenOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkRunYellowFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOff.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="chkIdleGreenOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorBlueFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOn.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAlarmBlueOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorYellowOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 104</value>
+  </data>
+  <data name="chkAlarmBlueOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 179</value>
+  </data>
+  <data name="chkInfoBlueOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOff.Name" xml:space="preserve">
+    <value>chkWarnBlueOff</value>
+  </data>
+  <data name="chkAlarmGreenOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmYellowFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 179</value>
+  </data>
+  <data name="chkWarnBuzzerOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorBlueOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorGreenOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnYellowFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkIdleYellowFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkRunBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkErrorBlueOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorRedOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmYellowFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOn.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="chkErrorRedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOn.Name" xml:space="preserve">
+    <value>chkAlarmBlueOn</value>
+  </data>
+  <data name="chkRunYellowOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoBlueOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1183, 631</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOff.Name" xml:space="preserve">
+    <value>chkRunBuzzerOff</value>
+  </data>
+  <data name="chkInfoGreenOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorRedFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmYellowFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOff.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="chkAlarmBlueFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmGreenFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleRedFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleRedOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBlueOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkRunRedOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBlueOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedFlash.Name" xml:space="preserve">
+    <value>chkIdleRedFlash</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chkAlarmBlueFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnBlueOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOff.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="chkWarnRedOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOff.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="chkErrorRedOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunRedOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 479</value>
+  </data>
+  <data name="chkIdleYellowOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedFlash.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="chkIdleBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleGreenOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 329</value>
+  </data>
+  <data name="chkWarnRedOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnRedFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblGreenIndicator.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="chkAlarmYellowOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorGreenFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkIdleBlueOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="chkWarnGreenOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnRedOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="lblYellowIndicator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="chkAlarmGreenFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoBlueOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkInfoRedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkWarnBlueFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoGreenOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOn.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="chkInfoBuzzerOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBuzzerOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkErrorBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBlueOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="Label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenFlash.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="chkIdleBuzzerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 329</value>
+  </data>
+  <data name="chkAlarmBlueOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOn.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;lblYellowIndicator.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;lblBuzzer.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBuzzerOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmYellowOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnGreenOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="chkIdleRedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleBlueOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnYellowOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 254</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="chkWarnRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunRedFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpLightTower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 12</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowFlash.Name" xml:space="preserve">
+    <value>chkAlarmYellowFlash</value>
+  </data>
+  <data name="chkRunBlueOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoBlueOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1440, 179</value>
+  </data>
+  <data name="chkAlarmRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkRunRedOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOff.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunBlueFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunGreenFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorYellowFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoRedFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueFlash.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBlueOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 404</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="chkIdleBlueOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBlueFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkAlarmYellowOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnRedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBuzzerOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmRedOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerFlash.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOff.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="chkAlarmYellowOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 179</value>
+  </data>
+  <data name="chkRunRedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="lblBuzzer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOff.ZOrder" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="chkInfoRedOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBuzzerFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBlueOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoYellowOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="lblRedIndicator.Text" xml:space="preserve">
+    <value>RED</value>
+  </data>
+  <data name="chkAlarmRedOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBuzzerOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBlueOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedFlash.Name" xml:space="preserve">
+    <value>chkWarnRedFlash</value>
+  </data>
+  <data name="chkWarnGreenFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorBlueOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkInfoYellowOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOn.Name" xml:space="preserve">
+    <value>chkInfoGreenOn</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOn.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="chkInfoBlueOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 479</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkIdleYellowFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 329</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBuzzerOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkRunBuzzerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkErrorBuzzerOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 479</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOn.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="chkErrorGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmGreenFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowFlash.Name" xml:space="preserve">
+    <value>chkRunYellowFlash</value>
+  </data>
+  <data name="&gt;&gt;lblBlueIndicator.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="chkInfoGreenOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleBuzzerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorRedOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmYellowFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkAlarmBlueOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOn.Name" xml:space="preserve">
+    <value>chkErrorGreenOn</value>
+  </data>
+  <data name="chkWarnGreenOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunYellowOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleRedOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBlueIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 62</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorYellowOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkRunRedFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 479</value>
+  </data>
+  <data name="chkRunGreenOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRedIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 38</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoRedOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblYellowIndicator.Text" xml:space="preserve">
+    <value>YELLOW</value>
+  </data>
+  <data name="chkErrorBlueOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 104</value>
+  </data>
+  <data name="chkIdleGreenOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmRedOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkRunRedOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBlueFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnRedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleRedOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 329</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedFlash.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOn.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="chkRunGreenOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOff.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="chkErrorGreenOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoRedOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1360, 179</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleRedOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkErrorBlueOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunGreenFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 479</value>
+  </data>
+  <data name="chkRunRedFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkWarnGreenOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkIdleBlueOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkWarnYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBlueOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnBuzzerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBlueIndicator.Name" xml:space="preserve">
+    <value>lblBlueIndicator</value>
+  </data>
+  <data name="lblRedIndicator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRedIndicator.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorRedOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 104</value>
+  </data>
+  <data name="chkInfoRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoGreenOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOn.Name" xml:space="preserve">
+    <value>chkIdleYellowOn</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorBuzzerOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOff.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="chkWarnBlueOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoGreenFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 404</value>
+  </data>
+  <data name="chkInfoRedOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkAlarmGreenFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorGreenOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleGreenOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 329</value>
+  </data>
+  <data name="&gt;&gt;lblBuzzer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorGreenOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnGreenFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmYellowOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorGreenFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnRedOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkErrorRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBuzzerFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnYellowOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoRedFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorBlueOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnYellowOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnRedOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkWarnBuzzerOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chkWarnGreenOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="Label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 62</value>
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleBlueOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowFlash.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="chkWarnRedFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 254</value>
+  </data>
+  <data name="chkRunRedOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkIdleGreenFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOff.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="chkRunYellowOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleRedOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkWarnRedOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 254</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOn.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="chkRunRedOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmGreenOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 179</value>
+  </data>
+  <data name="chkRunYellowFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOn.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenFlash.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="chkRunRedOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleBlueOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoRedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorYellowOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 104</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunYellowFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorGreenOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoRedOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunRedFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoYellowOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnBuzzerOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOn.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="chkInfoRedFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkRunYellowOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunBuzzerOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowFlash.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="chkErrorBuzzerOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoGreenOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunBuzzerOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorGreenOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorGreenOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="chkRunYellowOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkIdleGreenFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 329</value>
+  </data>
+  <data name="chkWarnRedOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmBlueOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="lblBlueIndicator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="chkInfoGreenFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorBuzzerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 104</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOff.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="chkAlarmYellowFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOff.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOn.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkRunRedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 479</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpLightTower.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkWarnRedFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorYellowFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 104</value>
+  </data>
+  <data name="chkIdleRedFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmBlueOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBuzzerOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBuzzerOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoRedFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleGreenOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoBuzzerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1360, 404</value>
+  </data>
+  <data name="chkAlarmGreenFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmBlueFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 179</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOff.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="chkAlarmRedFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="chkErrorRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOff.Name" xml:space="preserve">
+    <value>chkInfoYellowOff</value>
+  </data>
+  <data name="chkWarnRedOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="lblBlueIndicator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBlueFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleYellowFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBlueOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorYellowOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkInfoBlueOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmYellowFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkWarnYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmGreenOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 179</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkIdleYellowFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnBuzzerOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmYellowOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="lblBlueIndicator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkErrorRedFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkInfoYellowFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOn.Name" xml:space="preserve">
+    <value>chkRunBlueOn</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOn.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="chkRunYellowOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkRunYellowOn.Name" xml:space="preserve">
+    <value>chkRunYellowOn</value>
+  </data>
+  <data name="chkErrorYellowFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunGreenFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmGreenFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkInfoBuzzerOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoBlueOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 404</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOff.Name" xml:space="preserve">
+    <value>chkErrorRedOff</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunGreenOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkErrorBuzzerOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOn.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 254</value>
+  </data>
+  <data name="chkWarnYellowOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunYellowOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoGreenFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnBlueOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOn.Name" xml:space="preserve">
+    <value>chkAlarmRedOn</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkWarnRedFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmYellowOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorYellowOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnRedOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunRedOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOn.Name" xml:space="preserve">
+    <value>chkWarnBlueOn</value>
+  </data>
+  <data name="chkInfoYellowOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnGreenFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleYellowOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkInfoBuzzerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmGreenOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoYellowFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunGreenOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 479</value>
+  </data>
+  <data name="chkRunBlueOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="chkInfoRedOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleRedOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="chkIdleBlueOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 329</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorGreenFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorRedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkInfoYellowOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkWarnGreenFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkErrorYellowOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="chkRunYellowFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorBuzzerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedFlash.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="chkRunBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnGreenOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOn.Name" xml:space="preserve">
+    <value>chkRunGreenOn</value>
+  </data>
+  <data name="chkWarnYellowFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnBlueFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnBuzzerOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkIdleRedOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmBlueFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleBlueOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGreenIndicator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="lblBuzzer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 38</value>
+  </data>
+  <data name="chkErrorBuzzerOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoYellowFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOff.Name" xml:space="preserve">
+    <value>chkInfoBuzzerOff</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOff.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOn.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="chkRunGreenOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBuzzerOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOff.Name" xml:space="preserve">
+    <value>chkErrorBlueOff</value>
+  </data>
+  <data name="chkAlarmBlueOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 88</value>
+  </data>
+  <data name="chkInfoGreenOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 404</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorRedFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOn.Name" xml:space="preserve">
+    <value>chkErrorYellowOn</value>
+  </data>
+  <data name="chkRunYellowOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 479</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnYellowFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 254</value>
+  </data>
+  <data name="chkRunBuzzerFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkWarnBlueOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkWarnBlueOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkRunBlueFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkWarnGreenOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;lblBuzzer.Name" xml:space="preserve">
+    <value>lblBuzzer</value>
+  </data>
+  <data name="chkRunYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBuzzerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1360, 329</value>
+  </data>
+  <data name="chkIdleRedOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmGreenOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="chkInfoYellowFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 404</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOff.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="chkIdleYellowOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkInfoBuzzerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 404</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowFlash.Name" xml:space="preserve">
+    <value>chkIdleYellowFlash</value>
+  </data>
+  <data name="chkErrorRedOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmBlueOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleRedFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnBlueFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunBlueFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorRedOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="chkErrorBlueFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOn.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="chkIdleBuzzerOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 179</value>
+  </data>
+  <data name="chkRunGreenOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmRedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 179</value>
+  </data>
+  <data name="lblYellowIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 62</value>
+  </data>
+  <data name="lblYellowIndicator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkRunGreenOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnBlueOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmGreenOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnYellowOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueFlash.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="chkAlarmRedOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmYellowOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1440, 254</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOff.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowFlash.Name" xml:space="preserve">
+    <value>chkWarnYellowFlash</value>
+  </data>
+  <data name="chkErrorGreenOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowFlash.Name" xml:space="preserve">
+    <value>chkInfoYellowFlash</value>
+  </data>
+  <data name="chkWarnBlueOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnYellowOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorGreenFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnYellowOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="lblYellowIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="chkAlarmYellowOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkRunRedOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkIdleBuzzerOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoRedOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkWarnBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="chkIdleBlueOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 329</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedFlash.Name" xml:space="preserve">
+    <value>chkInfoRedFlash</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOff.ZOrder" xml:space="preserve">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueFlash.Name" xml:space="preserve">
+    <value>chkWarnBlueFlash</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOff.Name" xml:space="preserve">
+    <value>chkInfoBlueOff</value>
+  </data>
+  <data name="chkErrorRedOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunBlueFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkInfoRedFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleGreenOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBlueOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunBlueOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoYellowOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 62</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunRedFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOn.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="chkIdleBlueFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunBlueOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunYellowOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkWarnBuzzerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerFlash.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkIdleGreenOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorBlueOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmYellowOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1440, 104</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 62</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;lblRedIndicator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkAlarmRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOn.Name" xml:space="preserve">
+    <value>chkIdleBuzzerOn</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblBlueIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 38</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOff.Name" xml:space="preserve">
+    <value>chkIdleRedOff</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkRunBuzzerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkWarnRedOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOff.ZOrder" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="chkInfoYellowFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoGreenOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleRedOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblRedIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBlueIndicator.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBuzzerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmBlueOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkIdleBuzzerOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmRedOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmBlueOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnRedOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleGreenFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkWarnBlueOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOff.Name" xml:space="preserve">
+    <value>chkIdleGreenOff</value>
+  </data>
+  <data name="lblYellowIndicator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="chkErrorYellowOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOff.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="Label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOn.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="chkWarnBlueFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkErrorYellowOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBlueFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkErrorYellowFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="Label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkWarnBlueOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOff.Name" xml:space="preserve">
+    <value>chkRunRedOff</value>
+  </data>
+  <data name="chkWarnYellowFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;lblGreenIndicator.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBlueOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleGreenOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkWarnGreenFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOff.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunYellowOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmYellowFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnGreenOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnGreenOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnYellowOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmGreenOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoYellowFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleGreenOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleRedFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkWarnGreenOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkInfoBlueFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 404</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnGreenFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunRedOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowFlash.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="chkRunBlueOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 479</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblYellowIndicator.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;grpLightTower.Name" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmRedOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkAlarmBlueFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="chkWarnRedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 254</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOn.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="chkIdleGreenOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 329</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOff.Name" xml:space="preserve">
+    <value>chkAlarmBlueOff</value>
+  </data>
+  <data name="chkIdleBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmYellowOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorGreenFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 104</value>
+  </data>
+  <data name="chkIdleRedFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkWarnGreenOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBuzzerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOn.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="chkIdleRedOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleGreenFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBuzzerOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorGreenOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 104</value>
+  </data>
+  <data name="chkRunBuzzerFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 404</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOn.Name" xml:space="preserve">
+    <value>chkAlarmBuzzerOn</value>
+  </data>
+  <data name="chkAlarmRedOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkInfoBuzzerOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmYellowOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOn.Name" xml:space="preserve">
+    <value>chkIdleGreenOn</value>
+  </data>
+  <data name="chkInfoYellowOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOn.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="chkRunRedOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorBlueOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerFlash.Name" xml:space="preserve">
+    <value>chkWarnBuzzerFlash</value>
+  </data>
+  <data name="chkIdleBuzzerOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmBlueOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkAlarmYellowOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkWarnRedFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmYellowOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOn.Name" xml:space="preserve">
+    <value>chkWarnRedOn</value>
+  </data>
+  <data name="chkRunYellowOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorGreenFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblGreenIndicator.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoBuzzerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="lblRedIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="&gt;&gt;lblBuzzer.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="chkAlarmYellowFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOn.Name" xml:space="preserve">
+    <value>chkWarnGreenOn</value>
+  </data>
+  <data name="chkWarnRedOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="chkAlarmRedFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkRunYellowFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedFlash.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="chkInfoBlueOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmRedOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueFlash.Name" xml:space="preserve">
+    <value>chkAlarmBlueFlash</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOn.Name" xml:space="preserve">
+    <value>chkInfoRedOn</value>
+  </data>
+  <data name="chkInfoYellowOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 479</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorYellowOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleYellowOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnYellowOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorYellowOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenFlash.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="chkWarnGreenOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorBlueFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 104</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGreenIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>784, 38</value>
+  </data>
+  <data name="chkWarnYellowFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkErrorGreenOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOff.Name" xml:space="preserve">
+    <value>chkIdleBlueOff</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorGreenOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 104</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnBlueFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleRedFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="lblRedIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 62</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkWarnYellowOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkIdleYellowOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBuzzerFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmGreenFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="chkInfoBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBuzzerFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleRedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 329</value>
+  </data>
+  <data name="chkInfoGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblBlueIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="chkRunRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chkInfoGreenFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="chkWarnRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunGreenFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="chkRunRedOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunGreenFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="lblBlueIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOn.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="Label11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorRedFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkInfoYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIdleYellowFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkErrorGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOff.Name" xml:space="preserve">
+    <value>chkWarnGreenOff</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueFlash.Name" xml:space="preserve">
+    <value>chkRunBlueFlash</value>
+  </data>
+  <data name="chkAlarmRedFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 179</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBlueOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmRedOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedFlash.Name" xml:space="preserve">
+    <value>chkAlarmRedFlash</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerOff.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="chkWarnGreenOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 254</value>
+  </data>
+  <data name="chkIdleRedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleBlueFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmGreenOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkRunGreenOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoBuzzerOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOff.ZOrder" xml:space="preserve">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerFlash.Name" xml:space="preserve">
+    <value>chkRunBuzzerFlash</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkWarnRedOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleGreenOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorRedFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorBuzzerOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkWarnGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnYellowFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnYellowOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="chkIdleBlueOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkWarnYellowOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="lblBuzzer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenFlash.Name" xml:space="preserve">
+    <value>chkWarnGreenFlash</value>
+  </data>
+  <data name="chkIdleBuzzerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoYellowFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 104</value>
+  </data>
+  <data name="chkInfoGreenOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 404</value>
+  </data>
+  <data name="chkInfoRedOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorBlueFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 254</value>
+  </data>
+  <data name="chkRunBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkRunGreenOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkWarnYellowOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnYellowFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleGreenFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowFlash.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorRedOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkRunBuzzerOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkAlarmGreenOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpLightTower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1599, 726</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOff.Name" xml:space="preserve">
+    <value>chkRunGreenOff</value>
+  </data>
+  <data name="grpLightTower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorYellowOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnYellowOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 254</value>
+  </data>
+  <data name="chkInfoRedFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="Label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkAlarmRedOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmYellowOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkIdleBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="chkInfoGreenOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoRedOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorRedOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="grpLightTower.Text" xml:space="preserve">
+    <value>Light Tower</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleBuzzerOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkInfoRedOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunGreenOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>864, 479</value>
+  </data>
+  <data name="chkInfoBuzzerOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBuzzerOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmGreenOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunRedFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkInfoBlueFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueFlash.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="chkWarnGreenOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkInfoYellowOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoGreenFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmRedOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkIdleBuzzerOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBlueOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 254</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkIdleBlueFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;lblBlueIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenFlash.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Light Tower</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunRedOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorBlueOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmRedOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 179</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmBlueFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 179</value>
+  </data>
+  <data name="chkWarnRedFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOn.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoBlueFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorRedFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOff.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="chkWarnGreenOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorRedFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 104</value>
+  </data>
+  <data name="chkWarnYellowOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleBlueOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunGreenOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOff.Name" xml:space="preserve">
+    <value>chkRunYellowOff</value>
+  </data>
+  <data name="chkRunYellowOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblBuzzer.Text" xml:space="preserve">
+    <value>BUZZER</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblGreenIndicator.Name" xml:space="preserve">
+    <value>lblGreenIndicator</value>
+  </data>
+  <data name="chkInfoRedOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorGreenOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoGreenOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerFlash.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1628, 746</value>
+  </data>
+  <data name="chkInfoBlueOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunBuzzerFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1440, 479</value>
+  </data>
+  <data name="chkWarnBlueFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorYellowFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerFlash.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOff.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="chkIdleRedOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunBlueOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkIdleYellowOff.Name" xml:space="preserve">
+    <value>chkIdleYellowOff</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmBlueFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunGreenOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkRunBuzzerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkIdleYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBuzzerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkWarnRedOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRedIndicator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkErrorBlueFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblYellowIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 38</value>
+  </data>
+  <data name="chkInfoGreenOn.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmRedFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkRunYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnRedFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkRunRedOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOff.Name" xml:space="preserve">
+    <value>chkErrorBuzzerOff</value>
+  </data>
+  <data name="chkWarnRedFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkIdleRedOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueFlash.Name" xml:space="preserve">
+    <value>chkErrorBlueFlash</value>
+  </data>
+  <data name="chkErrorYellowFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmBlueOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkInfoGreenOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkErrorBuzzerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenFlash.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="chkIdleBuzzerOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkIdleBuzzerOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenFlash.Name" xml:space="preserve">
+    <value>chkAlarmGreenFlash</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerFlash.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chkRunYellowFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>696, 479</value>
+  </data>
+  <data name="grpLightTower.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblGreenIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="chkIdleGreenOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBlueOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkIdleBuzzerOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowFlash.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="chkErrorYellowOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="chkWarnBuzzerOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkWarnBlueFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkRunGreenFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerFlash.Name" xml:space="preserve">
+    <value>chkIdleBuzzerFlash</value>
+  </data>
+  <data name="&gt;&gt;grpLightTower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkWarnBlueOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorGreenFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOn.Name" xml:space="preserve">
+    <value>chkIdleBlueOn</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenFlash.Name" xml:space="preserve">
+    <value>chkIdleGreenFlash</value>
+  </data>
+  <data name="chkIdleRedFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="chkIdleBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblGreenIndicator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="chkIdleYellowOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 62</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkErrorBuzzerOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1360, 104</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOn.Name" xml:space="preserve">
+    <value>chkInfoBlueOn</value>
+  </data>
+  <data name="chkWarnBlueOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1112, 254</value>
+  </data>
+  <data name="chkRunRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 404</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkIdleBlueFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 329</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunGreenOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="chkIdleRedFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 329</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 329</value>
+  </data>
+  <data name="chkWarnYellowFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkRunYellowOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 62</value>
+  </data>
+  <data name="chkAlarmYellowFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerFlash.Name" xml:space="preserve">
+    <value>chkErrorBuzzerFlash</value>
+  </data>
+  <data name="chkErrorRedFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleBlueOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkIdleYellowFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOn.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="lblBuzzer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkIdleGreenOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOn.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="chkErrorGreenOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkAlarmRedOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkErrorBlueOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoBuzzerOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorGreenOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmGreenFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkRunGreenOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkErrorBuzzerOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBuzzerOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkRunBuzzerOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleBlueOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenFlash.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkInfoYellowOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkWarnYellowFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmGreenOff.Name" xml:space="preserve">
+    <value>chkAlarmGreenOff</value>
+  </data>
+  <data name="chkInfoBlueOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleRedFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblYellowIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBuzzerFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkRunYellowFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkAlarmGreenOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkWarnYellowOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkWarnGreenFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>944, 254</value>
+  </data>
+  <data name="chkRunGreenOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOn.Name" xml:space="preserve">
+    <value>chkWarnBuzzerOn</value>
+  </data>
+  <data name="chkInfoBlueOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkAlarmYellowOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 179</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOff.ZOrder" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleYellowOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkRunGreenOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkRunGreenOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkInfoBuzzerOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmGreenOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkInfoRedFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 404</value>
+  </data>
+  <data name="Label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkWarnGreenFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkAlarmBlueOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmRedFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoBuzzerOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedFlash.Name" xml:space="preserve">
+    <value>chkRunRedFlash</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedFlash.Name" xml:space="preserve">
+    <value>chkErrorRedFlash</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOff.Name" xml:space="preserve">
+    <value>chkWarnRedOff</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBlueOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoRedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 404</value>
+  </data>
+  <data name="chkInfoGreenOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="lblYellowIndicator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedOn.Name" xml:space="preserve">
+    <value>chkIdleRedOn</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunRedOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkErrorYellowFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="lblBuzzer.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkErrorBlueOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleBuzzerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunRedOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkWarnYellowOff.Name" xml:space="preserve">
+    <value>chkWarnYellowOff</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedFlash.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="Label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOff.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunYellowOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoBlueOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBuzzerFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBlueOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkErrorYellowFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRunBlueOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkAlarmGreenOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBlueOn.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="chkIdleYellowOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleYellowOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkRunBuzzerFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmBlueOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkIdleYellowOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpLightTower.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="chkAlarmRedOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkInfoBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoYellowFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBuzzerOff.Name" xml:space="preserve">
+    <value>chkWarnBuzzerOff</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkRunBuzzerOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkErrorRedFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkErrorYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoRedFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenFlash.Name" xml:space="preserve">
+    <value>chkRunGreenFlash</value>
+  </data>
+  <data name="chkRunGreenOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkRunRedOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkIdleRedFlash.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="chkErrorRedOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 88</value>
+  </data>
+  <data name="&gt;&gt;chkWarnGreenFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenFlash.Name" xml:space="preserve">
+    <value>chkInfoGreenFlash</value>
+  </data>
+  <data name="chkRunBlueFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkRunBuzzerFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkErrorRedFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkInfoBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoGreenOn.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoBlueOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;grpLightTower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOn.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="chkIdleRedOff.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="chkInfoYellowFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;chkRunRedOn.Name" xml:space="preserve">
+    <value>chkRunRedOn</value>
+  </data>
+  <data name="chkErrorBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnYellowOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chkAlarmYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunGreenOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoGreenFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkErrorBlueOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 104</value>
+  </data>
+  <data name="&gt;&gt;lblRedIndicator.Name" xml:space="preserve">
+    <value>lblRedIndicator</value>
+  </data>
+  <data name="chkErrorRedOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueFlash.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="chkWarnBuzzerOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 479</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOff.Name" xml:space="preserve">
+    <value>chkInfoGreenOff</value>
+  </data>
+  <data name="chkInfoRedFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunRedFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;chkRunGreenFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBlueOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoGreenFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmGreenOff.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkInfoRedOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkInfoYellowOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkWarnYellowOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRunGreenFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkWarnBlueFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 254</value>
+  </data>
+  <data name="chkErrorGreenFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblBuzzer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 62</value>
+  </data>
+  <data name="chkIdleBlueOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkAlarmRedFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkWarnRedFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chkInfoBuzzerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAlarmBlueFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleYellowFlash.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkRunBlueOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkAlarmYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="chkErrorBuzzerOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;chkInfoGreenOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="chkAlarmBlueOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkWarnBlueFlash.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="lblYellowIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkWarnBlueOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkIdleBlueFlash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkRunBlueOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="chkInfoYellowOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 62</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkErrorRedOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>368, 104</value>
+  </data>
+  <data name="&gt;&gt;chkIdleGreenFlash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkWarnRedOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="chkRunBuzzerOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1280, 479</value>
+  </data>
+  <data name="chkIdleBuzzerOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRedIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenFlash.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkIdleYellowOff.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmBuzzerFlash.Name" xml:space="preserve">
+    <value>chkAlarmBuzzerFlash</value>
+  </data>
+  <data name="chkErrorGreenOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkRunBuzzerOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleRedOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkWarnGreenFlash.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="lblGreenIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 62</value>
+  </data>
+  <data name="lblRedIndicator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;chkErrorGreenOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkIdleBuzzerOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowOff.Name" xml:space="preserve">
+    <value>chkErrorYellowOff</value>
+  </data>
+  <data name="chkInfoYellowOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chkIdleGreenFlash.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="chkInfoYellowOn.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="&gt;&gt;chkInfoRedOff.Name" xml:space="preserve">
+    <value>chkInfoRedOff</value>
+  </data>
+  <data name="chkErrorYellowOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkAlarmRedOff.Name" xml:space="preserve">
+    <value>chkAlarmRedOff</value>
+  </data>
+  <data name="chkErrorGreenOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmLightTowerConfig</value>
+  </data>
+  <data name="chkIdleGreenOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="chkIdleYellowOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 329</value>
+  </data>
+  <data name="chkWarnRedOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkRunBlueOff.Name" xml:space="preserve">
+    <value>chkRunBlueOff</value>
+  </data>
+  <data name="chkErrorBlueFlash.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="chkAlarmGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueFlash.Text" xml:space="preserve">
+    <value>Flash</value>
+  </data>
+  <data name="chkRunGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunGreenFlash.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;chkErrorYellowFlash.Name" xml:space="preserve">
+    <value>chkErrorYellowFlash</value>
+  </data>
+  <data name="chkIdleBuzzerOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="grpLightTower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chkAlarmYellowOn.Parent" xml:space="preserve">
+    <value>grpLightTower</value>
+  </data>
+  <data name="&gt;&gt;chkErrorBuzzerOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

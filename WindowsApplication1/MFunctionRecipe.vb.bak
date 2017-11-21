@@ -1,0 +1,164 @@
+﻿Imports ProjectRecipe
+Imports ProjectCore
+
+Public Module MFunctionRecipe
+
+
+    Function UpdateOriginDataConveyorParentRelation(ByVal stageNo As Integer, ByVal NodeID As String, ByVal mConveyorNo As eConveyor) As Boolean
+        Dim levelNo As Integer
+        With gCRecipe.Node(stageNo)(NodeID).ConveyorPos(mConveyorNo)
+            If GetNodeLevel(NodeID, levelNo) = True Then
+                If levelNo > 1 Then 'Soni + 2016.09.14 計算相對偏移量
+                    Dim parentNodeID As String = "" 'NodeID.Substring(0, NodeID.Length - 4) '取父節點名稱
+                    If gCRecipe.GetParentNodeID(NodeID, parentNodeID) = True Then 'Soni + 2017.03.05 修正名稱過長錯誤
+                        .ParentAlignAlignOffsetX = gCRecipe.Node(stageNo)(parentNodeID).ConveyorPos(mConveyorNo).AlignmentData(0).AlignPosX - .AlignmentData(0).AlignPosX
+                        .ParentAlignAlignOffsetY = gCRecipe.Node(stageNo)(parentNodeID).ConveyorPos(mConveyorNo).AlignmentData(0).AlignPosY - .AlignmentData(0).AlignPosY
+                        .ParentAlignAlignOffsetZ = gCRecipe.Node(stageNo)(parentNodeID).ConveyorPos(mConveyorNo).AlignmentData(0).AlignPosZ - .AlignmentData(0).AlignPosZ
+
+                        .AlignBasicOffsetX = .AlignmentData(0).AlignPosX - .BasicPositionX
+                        .AlignBasicOffsetY = .AlignmentData(0).AlignPosY - .BasicPositionY
+                        .AlignBasicOffsetZ = .AlignmentData(0).AlignPosZ - .BasicPositionZ
+                    End If
+
+                Else
+                    .ParentAlignAlignOffsetX = -.AlignmentData(0).AlignPosX
+                    .ParentAlignAlignOffsetY = -.AlignmentData(0).AlignPosY
+                    .ParentAlignAlignOffsetZ = -.AlignmentData(0).AlignPosZ
+
+                    .AlignBasicOffsetX = .AlignmentData(0).AlignPosX - .BasicPositionX
+                    .AlignBasicOffsetY = .AlignmentData(0).AlignPosY - .BasicPositionY
+                    .AlignBasicOffsetZ = .AlignmentData(0).AlignPosZ - .BasicPositionZ
+                End If
+            End If
+
+        End With
+
+        Return True
+    End Function
+
+    Function UpdateOriginDataConveyorHeight(ByVal stageNo As Integer, ByVal NodeID As String, ByVal mConveyorNo As eConveyor, ByVal alignIdx As Integer, ByVal absIdxX As Integer, ByVal absIdxY As Integer, ByRef mMultiArrayAdapter As CMultiArrayAdapter) As Boolean
+        With gCRecipe.Node(stageNo)(NodeID).ConveyorPos(mConveyorNo).LaserData(alignIdx)
+            .LaserPositionX = .TeachPosX - mMultiArrayAdapter.GetMemoryPosX(absIdxX, absIdxY)
+            .LaserPositionY = .TeachPosY - mMultiArrayAdapter.GetMemoryPosY(absIdxX, absIdxY)
+            .LaserPositionZ = .TeachPosZ
+        End With
+        Return True
+    End Function
+    Function UpdateOriginDataConveyorAlign(ByVal stageNo As Integer, ByVal NodeID As String, ByVal mConveyorNo As eConveyor, ByVal alignIdx As Integer, ByVal absIdxX As Integer, ByVal absIdxY As Integer, ByRef mMultiArrayAdapter As CMultiArrayAdapter) As Boolean
+        With gCRecipe.Node(stageNo)(NodeID).ConveyorPos(mConveyorNo).AlignmentData(alignIdx)
+            .AlignPosX = .TeachPosX - mMultiArrayAdapter.GetMemoryPosX(absIdxX, absIdxY)
+            .AlignPosY = .TeachPosY - mMultiArrayAdapter.GetMemoryPosY(absIdxX, absIdxY)
+            .AlignPosZ = .TeachPosZ
+            .AlignOffsetX = 0
+            .AlignOffsetY = 0
+            .AlignRoation = 0
+        End With
+        Return True
+    End Function
+
+    Function UpdateOriginDataConveyorSkip1(ByVal stageNo As Integer, ByVal NodeID As String, ByVal mConveyorNo As eConveyor, ByVal absIdxX As Integer, ByVal absIdxY As Integer, ByRef mMultiArrayAdapter As CMultiArrayAdapter) As Boolean
+        With gCRecipe.Node(stageNo)(NodeID).ConveyorPos(mConveyorNo).SkipMarkData(0)
+            .AlignPosX = .TeachPosX - mMultiArrayAdapter.GetMemoryPosX(absIdxX, absIdxY)
+            .AlignPosY = .TeachPosY - mMultiArrayAdapter.GetMemoryPosY(absIdxX, absIdxY)
+            .AlignPosZ = .TeachPosZ 'Soni + 2016.09.26 補給流程用的Z軸高度
+            .AlignOffsetX = 0
+            .AlignOffsetY = 0
+        End With
+        Return True
+    End Function
+
+    ''' <summary>更新指定Conveyor的基準點與父節點關係
+    ''' </summary>
+    ''' <param name="conveyorNo"></param>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Function UpdateOriginDataConveyorBasicParentRelation(ByVal stageNo As Integer, ByVal NodeID As String, ByVal conveyorNo As eConveyor) As Boolean
+        Dim levelNo As Integer
+        With gCRecipe.Node(stageNo)(NodeID).ConveyorPos(conveyorNo)
+            If GetNodeLevel(NodeID, levelNo) = True Then
+                If levelNo > 1 Then 'Soni + 2016.09.14 計算相對偏移量
+                    Dim parentNodeID As String = "" 'NodeID.Substring(0, NodeID.Length - 4) '取父節點名稱
+                    If gCRecipe.GetParentNodeID(NodeID, parentNodeID) = True Then 'Soni + 2017.03.05 修正名稱過長錯誤
+                        '[Note]:Parent Node AlignmentEnable=False，則不能取AlignPos
+                        If gCRecipe.Node(stageNo)(parentNodeID).AlignmentEnable = True Then
+                            .ParentAlignBasicOffsetX = gCRecipe.Node(stageNo)(parentNodeID).ConveyorPos(conveyorNo).AlignmentData(0).AlignPosX - .BasicPositionX
+                            .ParentAlignBasicOffsetY = gCRecipe.Node(stageNo)(parentNodeID).ConveyorPos(conveyorNo).AlignmentData(0).AlignPosY - .BasicPositionY
+                            .ParentAlignBasicOffsetZ = gCRecipe.Node(stageNo)(parentNodeID).ConveyorPos(conveyorNo).AlignmentData(0).AlignPosZ - .BasicPositionZ
+                            .AlignBasicOffsetX = .AlignmentData(0).AlignPosX - .BasicPositionX
+                            .AlignBasicOffsetY = .AlignmentData(0).AlignPosY - .BasicPositionY
+                            .AlignBasicOffsetZ = .AlignmentData(0).AlignPosZ - .BasicPositionZ
+                        Else
+                            .ParentAlignBasicOffsetX = -.BasicPositionX
+                            .ParentAlignBasicOffsetY = -.BasicPositionY
+                            .ParentAlignBasicOffsetZ = -.BasicPositionZ
+                            .AlignBasicOffsetX = -.BasicPositionX
+                            .AlignBasicOffsetY = -.BasicPositionY
+                            .AlignBasicOffsetZ = -.BasicPositionZ
+                        End If
+                    End If
+                Else
+                    '[Note]:Node AlignmentEnable=False，則不能取AlignPos
+                    If gCRecipe.Node(stageNo)(NodeID).AlignmentEnable = True Then
+                        .ParentAlignBasicOffsetX = -.BasicPositionX
+                        .ParentAlignBasicOffsetY = -.BasicPositionY
+                        .ParentAlignBasicOffsetZ = -.BasicPositionZ
+                        .AlignBasicOffsetX = .AlignmentData(0).AlignPosX - .BasicPositionX
+                        .AlignBasicOffsetY = .AlignmentData(0).AlignPosY - .BasicPositionY
+                        .AlignBasicOffsetZ = .AlignmentData(0).AlignPosZ - .BasicPositionZ
+                    Else
+                        .ParentAlignBasicOffsetX = -.BasicPositionX
+                        .ParentAlignBasicOffsetY = -.BasicPositionY
+                        .ParentAlignBasicOffsetZ = -.BasicPositionZ
+                        .AlignBasicOffsetX = -.BasicPositionX
+                        .AlignBasicOffsetY = -.BasicPositionY
+                        .AlignBasicOffsetZ = -.BasicPositionZ
+                    End If
+                End If
+            End If
+        End With
+        Return True
+    End Function
+
+    ''' <summary>由教導基準點更新(0,0)基準點
+    ''' </summary>
+    ''' <param name="mConveyorNo"></param>
+    ''' <param name="absIdxX"></param>
+    ''' <param name="absIdxY"></param>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Function UpdateOriginDataBasic(ByVal stageNo As Integer, ByVal NodeID As String, ByVal mConveyorNo As eConveyor, ByVal absIdxX As Integer, ByVal absIdxY As Integer, ByRef mMultiArrayAdapter As CMultiArrayAdapter) As Boolean
+        With gCRecipe.Node(stageNo)(NodeID).ConveyorPos(mConveyorNo)
+            .BasicPositionX = .TeachBasicPosX - mMultiArrayAdapter.GetMemoryPosX(absIdxX, absIdxY)
+            .BasicPositionY = .TeachBasicPosY - mMultiArrayAdapter.GetMemoryPosY(absIdxX, absIdxY)
+            .BasicPositionZ = .TeachBasicPosZ
+        End With
+        Return True
+    End Function
+
+    ''' <summary>更新陣列(0,0)的資料
+    ''' </summary>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Function UpdateOriginData(ByVal stageNo As Integer, ByVal NodeID As String, ByVal absIdxX As Integer, ByVal absIdxY As Integer, ByRef mMultiArrayAdapter As CMultiArrayAdapter) As Boolean
+        'Conveyor1資料
+        UpdateOriginDataConveyorAlign(stageNo, NodeID, eConveyor.ConveyorNo1, 0, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataConveyorAlign(stageNo, NodeID, eConveyor.ConveyorNo1, 1, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataConveyorAlign(stageNo, NodeID, eConveyor.ConveyorNo1, 2, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataConveyorSkip1(stageNo, NodeID, eConveyor.ConveyorNo1, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataBasic(stageNo, NodeID, eConveyor.ConveyorNo1, absIdxX, absIdxY, mMultiArrayAdapter)
+        '先算完基本資料, 再推算父子關係
+        UpdateOriginDataConveyorParentRelation(stageNo, NodeID, eConveyor.ConveyorNo1)
+        UpdateOriginDataConveyorBasicParentRelation(stageNo, NodeID, eConveyor.ConveyorNo1)
+        'Conveyor2資料
+        UpdateOriginDataConveyorAlign(stageNo, NodeID, eConveyor.ConveyorNo2, 0, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataConveyorAlign(stageNo, NodeID, eConveyor.ConveyorNo2, 1, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataConveyorAlign(stageNo, NodeID, eConveyor.ConveyorNo2, 2, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataConveyorSkip1(stageNo, NodeID, eConveyor.ConveyorNo2, absIdxX, absIdxY, mMultiArrayAdapter)
+        UpdateOriginDataBasic(stageNo, NodeID, eConveyor.ConveyorNo2, absIdxX, absIdxY, mMultiArrayAdapter)
+        '先算完基本資料, 再推算父子關係
+        UpdateOriginDataConveyorParentRelation(stageNo, NodeID, eConveyor.ConveyorNo2)
+        UpdateOriginDataConveyorBasicParentRelation(stageNo, NodeID, eConveyor.ConveyorNo2)
+        Return True
+    End Function
+
+End Module

@@ -1,0 +1,157 @@
+﻿Imports ProjectRecipe
+Imports ProjectMotion
+Imports ProjectCore
+Imports ProjectIO
+Imports ProjectAOI
+Imports ProjectFeedback
+Imports Cognex.VisionPro
+Imports Cognex.VisionPro.PMAlign
+Imports MapData
+Imports System.Drawing
+Imports System.Windows.Forms.DataVisualization.Charting
+Imports System.Random
+Imports System.IO
+
+Public Class frmSetProcessTime
+    Public RecipeEdit As CRecipe
+    Dim TmpFrm As Windows.Forms.Form
+    Dim frmRecipe04Data As frmRecipe04
+    Public ErrMessage As String
+    Public sys As sSysParam
+    Public [Step] As CPatternStep
+    Dim mIsCanClosed As Boolean = True
+
+    '20160820
+    Public Sub New(ByVal tmpForm As frmRecipe04)
+
+        ' 此為設計工具所需的呼叫。
+        InitializeComponent()
+        ' 在 InitializeComponent() 呼叫之後加入任何初始設定。
+        frmRecipe04Data = tmpForm
+        sys = tmpForm.sys
+
+    End Sub
+
+    Private Sub frmSetProcessTime_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Toby_20171026_Modify
+        Dim mPatternID As String = frmRecipe04Data.treePattern.SelectedNode.Text
+
+        cboProcessTimeType.Items.Clear()
+        cboProcessTimeType.Items.Add("None")
+        '先隱藏ReturnTime 功能_ Toby
+        cboProcessTimeType.Items.Add("ReturnTime")
+        cboProcessTimeType.Items.Add("NextRoundDelayTime")
+        cboProcessTimeType.SelectedIndex = RecipeEdit.Pattern(mPatternID).ProcessTimeType
+
+        'Toby  新增顆數設定
+        'numDieCount.Text = RecipeEdit.Pattern(mPatternID).Diecount
+        Premtek.ControlMisc.SetNumericValue(numDieCount, RecipeEdit.Pattern(mPatternID).Diecount)
+    End Sub
+
+
+    Private Sub btnProcessTimeSave_Click(sender As Object, e As EventArgs) Handles btnProcessTimeSave.Click
+        'Sue20170627
+        gSyslog.Save("[frmSetProcessTime]" & vbTab & "[btnProcessTimeSave]" & vbTab & "Click")
+
+        'Toby_20171026_Modify
+        Dim mPatternID As String = frmRecipe04Data.treePattern.SelectedNode.Text
+        'Dim mPatternID As String = frmRecipe04Data.lstPatternID.SelectedItem
+
+        For s = 0 To Me.dgvPressTime.Rows.Count - 1 '介面資料轉入Pattern RecipeEdit.Pattern(mPatternID).Round.Count - 1
+            If IsNumeric(Me.dgvPressTime.Rows(s).Cells(1).Value) Then
+                '設定小於0則強制設到0
+                If Me.dgvPressTime.Rows(s).Cells(1).Value < 0 Then
+                    Me.dgvPressTime.Rows(s).Cells(1).Value = 0
+                End If
+                RecipeEdit.Pattern(mPatternID).Round(s).ProcessTime = Val(Me.dgvPressTime.Rows(s).Cells(1).Value)
+            Else
+                '輸入資料有誤
+                gSyslog.Save(gMsgHandler.GetMessage(Warn_3000016))
+                MsgBox(gMsgHandler.GetMessage(Warn_3000016), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+                Exit Sub
+            End If
+        Next
+        RecipeEdit.Pattern(mPatternID).Round.Last().ProcessTime = 0 '最後一筆強制為0
+        RecipeEdit.Pattern(mPatternID).ProcessTimeType = cboProcessTimeType.SelectedIndex
+
+        'Toby  新增顆數設定
+        If numDieCount.Text = "" Then
+            MsgBox(gMsgHandler.GetMessage(Warn_3000016), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        Else
+            RecipeEdit.Pattern(mPatternID).Diecount = numDieCount.Value
+        End If
+
+
+        IIf(rbtnMax.Checked, RecipeEdit.DispTimeModel = eDispTimeModel.Max, RecipeEdit.DispTimeModel = eDispTimeModel.Min)
+
+        '[說明]:存取Recipe
+        If RecipeEdit.SaveRecipe(RecipeEdit.strFileName) = False Then
+            gEqpMsg.AddHistoryAlarm("Error_1002021", "frmRecipe btnSaveAsRecipe", , gMsgHandler.GetMessage(Error_1002021), eMessageLevel.Error)  'Save File Fail !
+        Else
+            'Sue0822
+            '存檔成功 
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000036))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000036), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+
+        End If
+
+        '[說明]:讀取Recipe
+        If RecipeEdit.ReadRecipe(RecipeEdit.strFileName) = True Then
+            'Sue0822
+            '讀檔成功
+            gSyslog.Save(gMsgHandler.GetMessage(INFO_6002020))
+            MsgBox(gMsgHandler.GetMessage(INFO_6002020), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+        Else
+            gEqpMsg.AddHistoryAlarm("Error_1002020", "frmRecipe btnSaveAsRecipe", , gMsgHandler.GetMessage(Error_1002020), eMessageLevel.Error)  'Load File Fail !
+        End If
+
+
+    End Sub
+
+    Private Sub btnProcessTimeClose_Click(sender As Object, e As EventArgs) Handles btnProcessTimeClose.Click
+        'Sue20170627
+        gSyslog.Save("[frmSetLightConnection]" & vbTab & "[btnProcessTimeClose]" & vbTab & "Click")
+        Me.Close()
+    End Sub
+
+    Private Sub frmSetProcessTime_Deactivate(sender As Object, e As EventArgs) Handles MyBase.Deactivate
+        Me.Close()
+    End Sub
+
+    Private Sub cboProcessTimeType_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProcessTimeType.SelectedIndexChanged
+        'Toby_20171026_Modify
+        Dim mPatternID As String = frmRecipe04Data.treePattern.SelectedNode.Text
+        'Dim mPatternID As String = frmRecipe04Data.lstPatternID.SelectedItem
+        Dim mRoundMax As Integer
+        If cboProcessTimeType.SelectedIndex = 1 Then
+            GroupBox2.Visible = True
+        Else
+            GroupBox2.Visible = False
+        End If
+        Me.dgvPressTime.Rows.Clear()
+        If RecipeEdit.Pattern(mPatternID).Round.Count > 1 Then
+            mRoundMax = RecipeEdit.Pattern(mPatternID).Round.Count - 2
+        Else
+            mRoundMax = 0
+        End If
+        For s = 0 To mRoundMax
+            Me.dgvPressTime.Rows.Add()
+            Me.dgvPressTime.Rows(s).Cells(0).Value = (s + 1).ToString()
+            If cboProcessTimeType.SelectedIndex = 0 Then
+                '[Note]:eProcessTimeType.None
+                Me.dgvPressTime.Rows(s).Cells(1).Value = 0
+            Else
+                Me.dgvPressTime.Rows(s).Cells(1).Value = RecipeEdit.Pattern(mPatternID).Round(s).ProcessTime.ToString()
+            End If
+
+            Me.dgvPressTime.Rows(s).Cells(2).Style.NullValue = "s"
+        Next
+    End Sub
+
+    Private Sub numDieCount_Validated(sender As Object, e As EventArgs) Handles numDieCount.Validated
+        If numDieCount.Text = "" Then
+            numDieCount.Text = numDieCount.Value
+        End If
+    End Sub
+End Class

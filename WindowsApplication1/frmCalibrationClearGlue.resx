@@ -1,0 +1,1435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCylinder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCylinder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCylinder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 219</value>
+  </data>
+  <data name="btnCylinder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnCylinder.TabIndex" type="System.Int32, mscorlib">
+    <value>531</value>
+  </data>
+  <data name="btnCylinder.Text" xml:space="preserve">
+    <value>PowerOff</value>
+  </data>
+  <data name="&gt;&gt;btnCylinder.Name" xml:space="preserve">
+    <value>btnCylinder</value>
+  </data>
+  <data name="&gt;&gt;btnCylinder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinder.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;btnCylinder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClearGlue.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnClearGlue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnClearGlue.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGdSURBVFhHxZeBccIwDEUZgREYgREyAiN0BEZgk47Q
+        ETpCR+gIHSH4QVR8OtmSnDTVnQ4Cif309eWDwzzPh//OB8DOcSz7XUveSp4fe+8MAcAX2y75U16Pe0Jo
+        AAGZ9oJoAaDELu3oAazyxFT4TwFD+wCDSnxUpnpWYkcMYADivXI2xqKnFkgcIAHRWtQCyQFsBFGD5AEC
+        EBjwuyQ+wIj1QSNzXh881vetlr2c1DgxqUj3nw08EAusZ94niAFxWQynF+Q6A+IrIFpUEFT5CZeTUZC3
+        l97OuwWiVz0VkTVcBCSthOdqOaD+BqRqhwaRSrRBtwdRxhSQCIDARFuD5+wwpgMQHugpMOIR1gtDyI2t
+        gwnXk3qKPEWGICyzsvnZmBavNSjHemkleKAG8QBaIP6oBn7oAnJxFGi1htFGuX4EIGSB1mmKFybDIzdv
+        79/vExCWRwDgc2uSAItFAkJ7pAdAG+KRhBAQKm8p0J8EC20AQpah59qQXF/jEix3roCwPIJ587ECQnsE
+        FU55AvRc/69cFKE9Y7EBhCgyBlCeugPtNR/br9BhSgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnClearGlue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClearGlue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 120</value>
+  </data>
+  <data name="btnClearGlue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnClearGlue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnClearGlue.TabIndex" type="System.Int32, mscorlib">
+    <value>461</value>
+  </data>
+  <data name="btnClearGlue.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
+  <data name="btnClearGlue.ToolTip" xml:space="preserve">
+    <value>Clear Glue</value>
+  </data>
+  <data name="&gt;&gt;btnClearGlue.Name" xml:space="preserve">
+    <value>btnClearGlue</value>
+  </data>
+  <data name="&gt;&gt;btnClearGlue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClearGlue.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;btnClearGlue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nmcClearGlueNumLimit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcClearGlueNumLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 180</value>
+  </data>
+  <data name="nmcClearGlueNumLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcClearGlueNumLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueNumLimit.Name" xml:space="preserve">
+    <value>nmcClearGlueNumLimit</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueNumLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueNumLimit.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueNumLimit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nmcClearGluePressureTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcClearGluePressureTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 80</value>
+  </data>
+  <data name="nmcClearGluePressureTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcClearGluePressureTime.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePressureTime.Name" xml:space="preserve">
+    <value>nmcClearGluePressureTime</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePressureTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePressureTime.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePressureTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nmcClearGluePitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcClearGluePitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 130</value>
+  </data>
+  <data name="nmcClearGluePitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcClearGluePitch.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePitch.Name" xml:space="preserve">
+    <value>nmcClearGluePitch</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePitch.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGluePitch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="nmcClearGlueDistanceZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcClearGlueDistanceZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 30</value>
+  </data>
+  <data name="nmcClearGlueDistanceZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcClearGlueDistanceZ.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueDistanceZ.Name" xml:space="preserve">
+    <value>nmcClearGlueDistanceZ</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueDistanceZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueDistanceZ.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueDistanceZ.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblUnit5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 80</value>
+  </data>
+  <data name="lblUnit5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 30</value>
+  </data>
+  <data name="lblUnit5.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="lblUnit5.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblUnit5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUnit5.Name" xml:space="preserve">
+    <value>lblUnit5</value>
+  </data>
+  <data name="&gt;&gt;lblUnit5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit5.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblUnit5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTouchTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTouchTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTouchTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="lblTouchTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 23</value>
+  </data>
+  <data name="lblTouchTime.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="lblTouchTime.Text" xml:space="preserve">
+    <value>(B) Time</value>
+  </data>
+  <data name="lblTouchTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblTouchTime.Name" xml:space="preserve">
+    <value>lblTouchTime</value>
+  </data>
+  <data name="&gt;&gt;lblTouchTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTouchTime.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblTouchTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblUnit4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 30</value>
+  </data>
+  <data name="lblUnit4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="lblUnit4.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lblUnit4.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUnit4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUnit4.Name" xml:space="preserve">
+    <value>lblUnit4</value>
+  </data>
+  <data name="&gt;&gt;lblUnit4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit4.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblUnit4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblZUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblZUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblZUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="lblZUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 23</value>
+  </data>
+  <data name="lblZUp.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="lblZUp.Text" xml:space="preserve">
+    <value>(A) Z Up</value>
+  </data>
+  <data name="lblZUp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblZUp.Name" xml:space="preserve">
+    <value>lblZUp</value>
+  </data>
+  <data name="&gt;&gt;lblZUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblZUp.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblZUp.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblUnit6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 130</value>
+  </data>
+  <data name="lblUnit6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="lblUnit6.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lblUnit6.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUnit6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUnit6.Name" xml:space="preserve">
+    <value>lblUnit6</value>
+  </data>
+  <data name="&gt;&gt;lblUnit6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit6.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblUnit6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 180</value>
+  </data>
+  <data name="lblCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 23</value>
+  </data>
+  <data name="lblCount.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblCount.Text" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="lblCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Name" xml:space="preserve">
+    <value>lblCount</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblCount.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPitch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 23</value>
+  </data>
+  <data name="lblPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblPitch.Text" xml:space="preserve">
+    <value>(C) Pitch</value>
+  </data>
+  <data name="lblPitch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Name" xml:space="preserve">
+    <value>lblPitch</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Parent" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="grpClearConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpClearConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 277</value>
+  </data>
+  <data name="grpClearConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 308</value>
+  </data>
+  <data name="grpClearConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="grpClearConfig.Text" xml:space="preserve">
+    <value>Cleaner Function</value>
+  </data>
+  <data name="&gt;&gt;grpClearConfig.Name" xml:space="preserve">
+    <value>grpClearConfig</value>
+  </data>
+  <data name="&gt;&gt;grpClearConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpClearConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpClearConfig.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblHomeAccUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHomeAccUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblHomeAccUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHomeAccUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 64</value>
+  </data>
+  <data name="lblHomeAccUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="lblHomeAccUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>470</value>
+  </data>
+  <data name="lblHomeAccUnit.Text" xml:space="preserve">
+    <value>mm/s</value>
+  </data>
+  <data name="&gt;&gt;lblHomeAccUnit.Name" xml:space="preserve">
+    <value>lblHomeAccUnit</value>
+  </data>
+  <data name="&gt;&gt;lblHomeAccUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHomeAccUnit.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;lblHomeAccUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 24</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>468</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkMotorDir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMotorDir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMotorDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 96</value>
+  </data>
+  <data name="chkMotorDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 28</value>
+  </data>
+  <data name="chkMotorDir.TabIndex" type="System.Int32, mscorlib">
+    <value>468</value>
+  </data>
+  <data name="chkMotorDir.Text" xml:space="preserve">
+    <value>Dir</value>
+  </data>
+  <data name="&gt;&gt;chkMotorDir.Name" xml:space="preserve">
+    <value>chkMotorDir</value>
+  </data>
+  <data name="&gt;&gt;chkMotorDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMotorDir.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;chkMotorDir.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nmcClearGlueMoveSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcClearGlueMoveSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 62</value>
+  </data>
+  <data name="nmcClearGlueMoveSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcClearGlueMoveSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>467</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveSpeed.Name" xml:space="preserve">
+    <value>nmcClearGlueMoveSpeed</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveSpeed.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveSpeed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nmcClearGlueMoveOffset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcClearGlueMoveOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="nmcClearGlueMoveOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcClearGlueMoveOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>466</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveOffset.Name" xml:space="preserve">
+    <value>nmcClearGlueMoveOffset</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveOffset.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;nmcClearGlueMoveOffset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 28</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>462</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>(A) Y Move</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 65</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>463</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>(B) Speed</value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpJetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpJetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>422, 65</value>
+  </data>
+  <data name="grpJetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 140</value>
+  </data>
+  <data name="grpJetting.TabIndex" type="System.Int32, mscorlib">
+    <value>467</value>
+  </data>
+  <data name="grpJetting.Text" xml:space="preserve">
+    <value>Jetting</value>
+  </data>
+  <data name="&gt;&gt;grpJetting.Name" xml:space="preserve">
+    <value>grpJetting</value>
+  </data>
+  <data name="&gt;&gt;grpJetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpJetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpJetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nmcValveClearGluePosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcValveClearGluePosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 136</value>
+  </data>
+  <data name="nmcValveClearGluePosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcValveClearGluePosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosZ.Name" xml:space="preserve">
+    <value>nmcValveClearGluePosZ</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosZ.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nmcValveClearGluePosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcValveClearGluePosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 83</value>
+  </data>
+  <data name="nmcValveClearGluePosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcValveClearGluePosY.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosY.Name" xml:space="preserve">
+    <value>nmcValveClearGluePosY</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosY.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nmcValveClearGluePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcValveClearGluePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 25</value>
+  </data>
+  <data name="nmcValveClearGluePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="nmcValveClearGluePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosX.Name" xml:space="preserve">
+    <value>nmcValveClearGluePosX</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosX.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;nmcValveClearGluePosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnGo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnGo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 120</value>
+  </data>
+  <data name="btnGo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnGo.TabIndex" type="System.Int32, mscorlib">
+    <value>379</value>
+  </data>
+  <data name="btnGo.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Name" xml:space="preserve">
+    <value>btnGo</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblUnit3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 136</value>
+  </data>
+  <data name="lblUnit3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="lblUnit3.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="lblUnit3.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUnit3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUnit3.Name" xml:space="preserve">
+    <value>lblUnit3</value>
+  </data>
+  <data name="&gt;&gt;lblUnit3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit3.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;lblUnit3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAxisZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblAxisZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAxisZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 136</value>
+  </data>
+  <data name="lblAxisZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="lblAxisZ.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lblAxisZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="lblAxisZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblAxisZ.Name" xml:space="preserve">
+    <value>lblAxisZ</value>
+  </data>
+  <data name="&gt;&gt;lblAxisZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAxisZ.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;lblAxisZ.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblUnit2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 83</value>
+  </data>
+  <data name="lblUnit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="lblUnit2.TabIndex" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <data name="lblUnit2.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUnit2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Name" xml:space="preserve">
+    <value>lblUnit2</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 30</value>
+  </data>
+  <data name="lblUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="lblUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Name" xml:space="preserve">
+    <value>lblUnit</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 30</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="btnGetDispenserNo1ClearGluePos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnGetDispenserNo1ClearGluePos.Name" xml:space="preserve">
+    <value>btnGetDispenserNo1ClearGluePos</value>
+  </data>
+  <data name="&gt;&gt;btnGetDispenserNo1ClearGluePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetDispenserNo1ClearGluePos.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;btnGetDispenserNo1ClearGluePos.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblAxisY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblAxisY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAxisY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 83</value>
+  </data>
+  <data name="lblAxisY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="lblAxisY.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblAxisY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="lblAxisY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblAxisY.Name" xml:space="preserve">
+    <value>lblAxisY</value>
+  </data>
+  <data name="&gt;&gt;lblAxisY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAxisY.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;lblAxisY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblAxisX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblAxisX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAxisX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 30</value>
+  </data>
+  <data name="lblAxisX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 23</value>
+  </data>
+  <data name="lblAxisX.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblAxisX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="lblAxisX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblAxisX.Name" xml:space="preserve">
+    <value>lblAxisX</value>
+  </data>
+  <data name="&gt;&gt;lblAxisX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAxisX.Parent" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;lblAxisX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grpClearPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpClearPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 65</value>
+  </data>
+  <data name="grpClearPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 206</value>
+  </data>
+  <data name="grpClearPos.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="grpClearPos.Text" xml:space="preserve">
+    <value>Valve Cleaner Position</value>
+  </data>
+  <data name="&gt;&gt;grpClearPos.Name" xml:space="preserve">
+    <value>grpClearPos</value>
+  </data>
+  <data name="&gt;&gt;grpClearPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpClearPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpClearPos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbValve.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbValve.Items" xml:space="preserve">
+    <value>Valve1</value>
+  </data>
+  <data name="cmbValve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 11</value>
+  </data>
+  <data name="cmbValve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
+  <data name="cmbValve.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="cmbValve.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmbValve.Name" xml:space="preserve">
+    <value>cmbValve</value>
+  </data>
+  <data name="&gt;&gt;cmbValve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbValve.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbValve.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSelctValve.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSelctValve.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSelctValve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="lblSelctValve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="lblSelctValve.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="lblSelctValve.Text" xml:space="preserve">
+    <value>Select Valve</value>
+  </data>
+  <data name="lblSelctValve.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSelctValve.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblSelctValve.Name" xml:space="preserve">
+    <value>lblSelctValve</value>
+  </data>
+  <data name="&gt;&gt;lblSelctValve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelctValve.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelctValve.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 605</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 605</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 667</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>690, 20</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnClearGluePrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnClearGluePrev.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnClearGluePrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnClearGluePrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnClearGluePrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 605</value>
+  </data>
+  <data name="btnClearGluePrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="btnClearGluePrev.TabIndex" type="System.Int32, mscorlib">
+    <value>530</value>
+  </data>
+  <data name="btnClearGluePrev.Text" xml:space="preserve">
+    <value>Prev.</value>
+  </data>
+  <data name="&gt;&gt;btnClearGluePrev.Name" xml:space="preserve">
+    <value>btnClearGluePrev</value>
+  </data>
+  <data name="&gt;&gt;btnClearGluePrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClearGluePrev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnClearGluePrev.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>423, 208</value>
+  </data>
+  <data name="UcJoyStick1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 16, 24, 16</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 377</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1066, 687</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cleaner Position</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationClearGlue</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

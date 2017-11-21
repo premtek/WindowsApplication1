@@ -1,0 +1,1377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpPico.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpPico.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblPicoParameterFrequencyUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 321</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 42</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>484</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblPicoParameterFrequencyUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequencyUnit.Name" xml:space="preserve">
+    <value>lblPicoParameterFrequencyUnit</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequencyUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequencyUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequencyUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbPicoParameterJetTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterJetTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterJetTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterJetTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="lbPicoParameterJetTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterJetTime.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="lbPicoParameterJetTime.Text" xml:space="preserve">
+    <value>Jet Time</value>
+  </data>
+  <data name="lbPicoParameterJetTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterJetTime.Name" xml:space="preserve">
+    <value>lbPicoParameterJetTime</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterJetTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterJetTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterJetTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 241</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblPicoParameterValveOffTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTimeUnit.Name" xml:space="preserve">
+    <value>lblPicoParameterValveOffTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTimeUnit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtPicoParameterFrequency.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterFrequency.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPicoParameterFrequency.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 324</value>
+  </data>
+  <data name="txtPicoParameterFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="txtPicoParameterFrequency.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterFrequency.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterFrequency.Name" xml:space="preserve">
+    <value>txtPicoParameterFrequency</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterFrequency.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterFrequency.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 81</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="lbPicoParameterStrokeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStrokeUnit.Name" xml:space="preserve">
+    <value>lbPicoParameterStrokeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStrokeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStrokeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStrokeUnit.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 281</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lbPicoParameterCycleTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTimeUnit.Name" xml:space="preserve">
+    <value>lbPicoParameterCycleTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTimeUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 41</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltageUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltageUnit.Name" xml:space="preserve">
+    <value>lbPicoParameterCloseVoltageUnit</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltageUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltageUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltageUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 1</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>478</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblPicoParameterJetTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterJetTimeUnit.Name" xml:space="preserve">
+    <value>lblPicoParameterJetTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterJetTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterJetTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterJetTimeUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 201</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lbPicoParameterCloseTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTimeUnit.Name" xml:space="preserve">
+    <value>lbPicoParameterCloseTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTimeUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblPicoParameterFrequency.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPicoParameterFrequency.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPicoParameterFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPicoParameterFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 321</value>
+  </data>
+  <data name="lblPicoParameterFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 42</value>
+  </data>
+  <data name="lblPicoParameterFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="lblPicoParameterFrequency.Text" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="lblPicoParameterFrequency.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequency.Name" xml:space="preserve">
+    <value>lblPicoParameterFrequency</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequency.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterFrequency.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 244</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterValveOffTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterValveOffTime.Name" xml:space="preserve">
+    <value>txtPicoParameterValveOffTime</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterValveOffTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterValveOffTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterValveOffTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 161</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lbPicoParameterPulseTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTimeUnit.Name" xml:space="preserve">
+    <value>lbPicoParameterPulseTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTimeUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 121</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 39</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lbPicoParameterOpenTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTimeUnit.Name" xml:space="preserve">
+    <value>lbPicoParameterOpenTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTimeUnit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 41</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.Text" xml:space="preserve">
+    <value>CloseVoltage</value>
+  </data>
+  <data name="lbPicoParameterCloseVoltage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltage.Name" xml:space="preserve">
+    <value>lbPicoParameterCloseVoltage</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltage.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseVoltage.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbPicoParameterStroke.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterStroke.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterStroke.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterStroke.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 81</value>
+  </data>
+  <data name="lbPicoParameterStroke.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterStroke.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbPicoParameterStroke.Text" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="lbPicoParameterStroke.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStroke.Name" xml:space="preserve">
+    <value>lbPicoParameterStroke</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStroke.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStroke.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterStroke.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtPicoParameterJetTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterJetTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterJetTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterJetTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 4</value>
+  </data>
+  <data name="txtPicoParameterJetTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterJetTime.TabIndex" type="System.Int32, mscorlib">
+    <value>477</value>
+  </data>
+  <data name="txtPicoParameterJetTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterJetTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterJetTime.Name" xml:space="preserve">
+    <value>txtPicoParameterJetTime</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterJetTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterJetTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterJetTime.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtPicoParameterStroke.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterStroke.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterStroke.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterStroke.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 84</value>
+  </data>
+  <data name="txtPicoParameterStroke.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterStroke.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtPicoParameterStroke.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterStroke.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterStroke.Name" xml:space="preserve">
+    <value>txtPicoParameterStroke</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterStroke.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterStroke.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterStroke.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 204</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterCloseTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseTime.Name" xml:space="preserve">
+    <value>txtPicoParameterCloseTime</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseTime.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 121</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.Text" xml:space="preserve">
+    <value>OpenTime</value>
+  </data>
+  <data name="lbPicoParameterOpenTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTime.Name" xml:space="preserve">
+    <value>lbPicoParameterOpenTime</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterOpenTime.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 161</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.Text" xml:space="preserve">
+    <value>Valve On Time</value>
+  </data>
+  <data name="lbPicoParameterPulseTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTime.Name" xml:space="preserve">
+    <value>lbPicoParameterPulseTime</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterPulseTime.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 241</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.Text" xml:space="preserve">
+    <value>Valve Off Time</value>
+  </data>
+  <data name="lblPicoParameterValveOffTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTime.Name" xml:space="preserve">
+    <value>lblPicoParameterValveOffTime</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lblPicoParameterValveOffTime.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 284</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterCycleTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCycleTime.Name" xml:space="preserve">
+    <value>txtPicoParameterCycleTime</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCycleTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCycleTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCycleTime.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 124</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterOpenTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterOpenTime.Name" xml:space="preserve">
+    <value>txtPicoParameterOpenTime</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterOpenTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterOpenTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterOpenTime.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 164</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterPulseTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterPulseTime.Name" xml:space="preserve">
+    <value>txtPicoParameterPulseTime</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterPulseTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterPulseTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterPulseTime.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 44</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 33</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPicoParameterCloseVoltage.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseVoltage.Name" xml:space="preserve">
+    <value>txtPicoParameterCloseVoltage</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseVoltage.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;txtPicoParameterCloseVoltage.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 201</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.Text" xml:space="preserve">
+    <value>CloseTime</value>
+  </data>
+  <data name="lbPicoParameterCloseTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTime.Name" xml:space="preserve">
+    <value>lbPicoParameterCloseTime</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCloseTime.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 281</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 39</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.Text" xml:space="preserve">
+    <value>CycleTime</value>
+  </data>
+  <data name="lbPicoParameterCycleTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTime.Name" xml:space="preserve">
+    <value>lbPicoParameterCycleTime</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTime.Parent" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;lbPicoParameterCycleTime.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="tlpPico.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tlpPico.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="tlpPico.RowCount" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tlpPico.Size" type="System.Drawing.Size, System.Drawing">
+    <value>513, 364</value>
+  </data>
+  <data name="tlpPico.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tlpPico.Name" xml:space="preserve">
+    <value>tlpPico</value>
+  </data>
+  <data name="&gt;&gt;tlpPico.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpPico.Parent" xml:space="preserve">
+    <value>grpPicoParameter</value>
+  </data>
+  <data name="&gt;&gt;tlpPico.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpPico.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPicoParameterFrequencyUnit" Row="8" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterJetTime" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPicoParameterValveOffTimeUnit" Row="6" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterFrequency" Row="8" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterStrokeUnit" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterCycleTimeUnit" Row="7" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterCloseVoltageUnit" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblPicoParameterJetTimeUnit" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterCloseTimeUnit" Row="5" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblPicoParameterFrequency" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterValveOffTime" Row="6" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterPulseTimeUnit" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterOpenTimeUnit" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterCloseVoltage" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterStroke" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterJetTime" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterStroke" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterCloseTime" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterOpenTime" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterPulseTime" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblPicoParameterValveOffTime" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterCycleTime" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterOpenTime" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterPulseTime" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="txtPicoParameterCloseVoltage" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterCloseTime" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbPicoParameterCycleTime" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,67.74194,Percent,32.25806,Absolute,212" /&gt;&lt;Rows Styles="Percent,11.26126,Percent,11.26126,Percent,11.26126,Percent,11.26126,Percent,11.26126,Percent,11.26126,Percent,11.26126,Percent,11.26126,Percent,9.90991" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="grpPicoParameter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpPicoParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="grpPicoParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 427</value>
+  </data>
+  <data name="grpPicoParameter.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpPicoParameter.Text" xml:space="preserve">
+    <value>PicoParameter</value>
+  </data>
+  <data name="&gt;&gt;grpPicoParameter.Name" xml:space="preserve">
+    <value>grpPicoParameter</value>
+  </data>
+  <data name="&gt;&gt;grpPicoParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPicoParameter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpPicoParameter.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>771, 360</value>
+  </data>
+  <data name="btnBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="btnBack.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSavePicoParameter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnSavePicoParameter.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSavePicoParameter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSavePicoParameter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSavePicoParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 360</value>
+  </data>
+  <data name="btnSavePicoParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnSavePicoParameter.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="btnSavePicoParameter.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnSavePicoParameter.Name" xml:space="preserve">
+    <value>btnSavePicoParameter</value>
+  </data>
+  <data name="&gt;&gt;btnSavePicoParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSavePicoParameter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSavePicoParameter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtJetValveName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtJetValveName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 16</value>
+  </data>
+  <data name="txtJetValveName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 33</value>
+  </data>
+  <data name="txtJetValveName.TabIndex" type="System.Int32, mscorlib">
+    <value>478</value>
+  </data>
+  <data name="&gt;&gt;txtJetValveName.Name" xml:space="preserve">
+    <value>txtJetValveName</value>
+  </data>
+  <data name="&gt;&gt;txtJetValveName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtJetValveName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtJetValveName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lstJetValve.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lstJetValve.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lstJetValve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 53</value>
+  </data>
+  <data name="lstJetValve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 148</value>
+  </data>
+  <data name="lstJetValve.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="&gt;&gt;lstJetValve.Name" xml:space="preserve">
+    <value>lstJetValve</value>
+  </data>
+  <data name="&gt;&gt;lstJetValve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstJetValve.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lstJetValve.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValveDBAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveDBAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValveDBAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 39</value>
+  </data>
+  <data name="btnValveDBAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 54</value>
+  </data>
+  <data name="btnValveDBAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>477</value>
+  </data>
+  <data name="btnValveDBAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBAdd.Name" xml:space="preserve">
+    <value>btnValveDBAdd</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnValveDBDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveDBDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValveDBDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 124</value>
+  </data>
+  <data name="btnValveDBDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 54</value>
+  </data>
+  <data name="btnValveDBDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="btnValveDBDelete.Text" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBDelete.Name" xml:space="preserve">
+    <value>btnValveDBDelete</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValveDBDelete.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1025, 459</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucValveParameterPico</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

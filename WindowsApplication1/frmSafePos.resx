@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSafeDistanceBY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblSafeDistanceAXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAX.Name" xml:space="preserve">
+    <value>lblSafeDistanceAX</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSpanAX.Text" xml:space="preserve">
+    <value>Span X</value>
+  </data>
+  <data name="lblSpanBY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSpanAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 32</value>
+  </data>
+  <data name="lblSafeDistanceAY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 82</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblSafeDistanceBYUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBY.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="nmcSafeDistanceBX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSpanAX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAXUnit.Name" xml:space="preserve">
+    <value>lblSafeDistanceAXUnit</value>
+  </data>
+  <data name="lblSpanAYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="nmcSafeDistanceBY.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grpSpanB.Name" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceBY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 85</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAX.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nmcSpanAY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 31</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblSafeDistanceBY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="grpSpanA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSafeDistanceAYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lblSafeDistanceAX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBY.Name" xml:space="preserve">
+    <value>lblSpanBY</value>
+  </data>
+  <data name="lblSpanAXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lblSpanBYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSafeDistanceAXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcSpanAX.Name" xml:space="preserve">
+    <value>nmcSpanAX</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nmcSpanBY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSafeDistanceAY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBXUnit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblSpanAX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="lblSafeDistanceAY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblSpanBX.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;grpSpanB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSafeDistanceAY.Text" xml:space="preserve">
+    <value>Safe Distance Y</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBY.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Stage Safe</value>
+  </data>
+  <data name="lblSpanAY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 31</value>
+  </data>
+  <data name="nmcSpanAX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBY.Name" xml:space="preserve">
+    <value>nmcSafeDistanceBY</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBY.Name" xml:space="preserve">
+    <value>lblSafeDistanceBY</value>
+  </data>
+  <data name="grpSpanA.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="nmcSpanAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBXUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSpanAYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 31</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBX.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAY.Name" xml:space="preserve">
+    <value>nmcSpanAY</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nmcSafeDistanceBY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSafeDistanceAX.Text" xml:space="preserve">
+    <value>Safe Distance X</value>
+  </data>
+  <data name="nmcSpanAY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSafeDistanceAY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 82</value>
+  </data>
+  <data name="lblSafeDistanceAXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBX.Name" xml:space="preserve">
+    <value>nmcSpanBX</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="lblSpanAX.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAY.Name" xml:space="preserve">
+    <value>nmcSafeDistanceAY</value>
+  </data>
+  <data name="lblSafeDistanceAX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSpanBXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAYUnit.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpSpanA.Text" xml:space="preserve">
+    <value>Machine-A Span</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBY.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nmcSafeDistanceBX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSpanAY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="lblSpanAY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="grpSpanA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblSafeDistanceAY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcSafeDistanceAY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpanAXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="nmcSpanBX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAYUnit.Name" xml:space="preserve">
+    <value>lblSpanAYUnit</value>
+  </data>
+  <data name="lblSpanBYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="nmcSafeDistanceAX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSafeDistanceBY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSafeDistanceBX.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAXUnit.Name" xml:space="preserve">
+    <value>lblSpanAXUnit</value>
+  </data>
+  <data name="nmcSafeDistanceAY.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="nmcSpanBY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblSpanAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nmcSafeDistanceBX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcSafeDistanceBY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="nmcSafeDistanceAX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblSpanBY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="lblSpanAXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpanAY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSpanBYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSpanBXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 82</value>
+  </data>
+  <data name="nmcSafeDistanceBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="nmcSpanBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="lblSafeDistanceAX.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBY.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAY.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 82</value>
+  </data>
+  <data name="nmcSpanAX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSafeDistanceAXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;grpSpanB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSpanBXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="nmcSpanBY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="nmcSpanBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 32</value>
+  </data>
+  <data name="lblSpanBXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSafeDistanceAY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSafeDistanceAY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSpanBYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>789, 32</value>
+  </data>
+  <data name="lblSafeDistanceBY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAY.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 361</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSpanAY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 30</value>
+  </data>
+  <data name="lblSpanAX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSafeDistanceAY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcSpanAY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSafeDistanceBX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceAXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAYUnit.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAY.Name" xml:space="preserve">
+    <value>lblSafeDistanceAY</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAX.Name" xml:space="preserve">
+    <value>lblSpanAX</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAYUnit.Name" xml:space="preserve">
+    <value>lblSafeDistanceAYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBYUnit.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="lblSpanBX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpSpanB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSpanBY.Text" xml:space="preserve">
+    <value>Span Y</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBX.Name" xml:space="preserve">
+    <value>nmcSafeDistanceBX</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpSpanA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 130</value>
+  </data>
+  <data name="lblSpanBY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 35</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAY.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcSpanBX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSpanBX.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSpanBXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 32</value>
+  </data>
+  <data name="grpSpanB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpanAYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblSafeDistanceBY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBYUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAX.Name" xml:space="preserve">
+    <value>nmcSafeDistanceAX</value>
+  </data>
+  <data name="lblSpanBY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 30</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcSpanBY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="lblSpanAY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBYUnit.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAX.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBX.Name" xml:space="preserve">
+    <value>lblSpanBX</value>
+  </data>
+  <data name="grpSpanB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 130</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="lblSpanBYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAX.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nmcSafeDistanceBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 82</value>
+  </data>
+  <data name="grpSpanB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 165</value>
+  </data>
+  <data name="lblSpanBY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSpanAXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblSpanAXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="nmcSpanBY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 32</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblSpanBY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSpanBY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSpanAYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcSafeDistanceAY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="grpSpanB.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="nmcSpanBY.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grpSpanA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAXUnit.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAY.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAY.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="nmcSafeDistanceBY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAYUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblSpanBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="lblSpanBXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSafePos</value>
+  </data>
+  <data name="lblSpanAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 30</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblSpanBXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="nmcSafeDistanceAX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblSpanAYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpSpanB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpSpanA.Name" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBX.Name" xml:space="preserve">
+    <value>lblSafeDistanceBX</value>
+  </data>
+  <data name="lblSafeDistanceAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 82</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 82</value>
+  </data>
+  <data name="nmcSafeDistanceBY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBYUnit.Name" xml:space="preserve">
+    <value>lblSpanBYUnit</value>
+  </data>
+  <data name="nmcSafeDistanceAY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSpanAY.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblSpanBX.Text" xml:space="preserve">
+    <value>Span X</value>
+  </data>
+  <data name="lblSafeDistanceAXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 82</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSpanAXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 32</value>
+  </data>
+  <data name="lblSpanBYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBY.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBYUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSafeDistanceBXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="lblSpanAY.Text" xml:space="preserve">
+    <value>Span Y</value>
+  </data>
+  <data name="lblSpanAXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBXUnit.Name" xml:space="preserve">
+    <value>lblSpanBXUnit</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanAX.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAXUnit.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAXUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSpanBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="lblSafeDistanceAX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSpanAX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAX.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="lblSafeDistanceBX.Text" xml:space="preserve">
+    <value>Safe Distance X</value>
+  </data>
+  <data name="lblSpanBX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 361</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceAY.Parent" xml:space="preserve">
+    <value>grpSpanA</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBXUnit.Name" xml:space="preserve">
+    <value>lblSafeDistanceBXUnit</value>
+  </data>
+  <data name="lblSpanBYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBXUnit.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBYUnit.Name" xml:space="preserve">
+    <value>lblSafeDistanceBYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblSpanBXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 30</value>
+  </data>
+  <data name="nmcSafeDistanceBY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 82</value>
+  </data>
+  <data name="lblSpanAYUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSafeDistanceBX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSafeDistanceBY.Text" xml:space="preserve">
+    <value>Safe Distance Y</value>
+  </data>
+  <data name="&gt;&gt;grpSpanA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSafeDistanceBYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcSafeDistanceAX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="lblSpanAYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBX.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="lblSafeDistanceBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="lblSpanBX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSafeDistanceAY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 30</value>
+  </data>
+  <data name="nmcSpanAY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceAYUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>884, 443</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBY.Name" xml:space="preserve">
+    <value>nmcSpanBY</value>
+  </data>
+  <data name="&gt;&gt;nmcSpanBX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpSpanA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSafeDistanceBY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 30</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSafeDistanceAXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSafeDistanceAYUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSpanBY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBX.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;nmcSafeDistanceBY.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;grpSpanA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSafeDistanceBX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSpanAY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpSpanB.Text" xml:space="preserve">
+    <value>Machine-B Span</value>
+  </data>
+  <data name="lblSpanBYUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSafeDistanceBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 82</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBX.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="lblSpanAY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSpanAYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblSpanBX.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="nmcSafeDistanceAX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 82</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAY.Name" xml:space="preserve">
+    <value>lblSpanAY</value>
+  </data>
+  <data name="&gt;&gt;lblSafeDistanceBXUnit.Parent" xml:space="preserve">
+    <value>grpSpanB</value>
+  </data>
+  <data name="&gt;&gt;lblSpanAXUnit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

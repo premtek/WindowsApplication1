@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblProcessTimeType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblProcessTimeType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="lblProcessTimeType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="lblProcessTimeType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="lblProcessTimeType.TabIndex" type="System.Int32, mscorlib">
+    <value>452</value>
+  </data>
+  <data name="lblProcessTimeType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTimeType.Name" xml:space="preserve">
+    <value>lblProcessTimeType</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTimeType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTimeType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblProcessTimeType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboProcessTimeType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="cboProcessTimeType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 12</value>
+  </data>
+  <data name="cboProcessTimeType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 28</value>
+  </data>
+  <data name="cboProcessTimeType.TabIndex" type="System.Int32, mscorlib">
+    <value>453</value>
+  </data>
+  <data name="&gt;&gt;cboProcessTimeType.Name" xml:space="preserve">
+    <value>cboProcessTimeType</value>
+  </data>
+  <data name="&gt;&gt;cboProcessTimeType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboProcessTimeType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cboProcessTimeType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dgvPressTime.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Num.HeaderText" xml:space="preserve">
+    <value>Num</value>
+  </data>
+  <data name="Num.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="ProcessTime.HeaderText" xml:space="preserve">
+    <value>Process Time</value>
+  </data>
+  <data name="ProcessTime.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="Unit.HeaderText" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Unit.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="dgvPressTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 46</value>
+  </data>
+  <data name="dgvPressTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 583</value>
+  </data>
+  <data name="dgvPressTime.TabIndex" type="System.Int32, mscorlib">
+    <value>454</value>
+  </data>
+  <data name="&gt;&gt;dgvPressTime.Name" xml:space="preserve">
+    <value>dgvPressTime</value>
+  </data>
+  <data name="&gt;&gt;dgvPressTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvPressTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvPressTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbtnMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 49</value>
+  </data>
+  <data name="rbtnMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="rbtnMin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtnMin.Text" xml:space="preserve">
+    <value>Min time</value>
+  </data>
+  <data name="&gt;&gt;rbtnMin.Name" xml:space="preserve">
+    <value>rbtnMin</value>
+  </data>
+  <data name="&gt;&gt;rbtnMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnMin.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;rbtnMin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtnMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtnMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="rbtnMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="rbtnMax.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtnMax.Text" xml:space="preserve">
+    <value>Max time</value>
+  </data>
+  <data name="&gt;&gt;rbtnMax.Name" xml:space="preserve">
+    <value>rbtnMax</value>
+  </data>
+  <data name="&gt;&gt;rbtnMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtnMax.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;rbtnMax.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 12</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 80</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>455</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Process Model</value>
+  </data>
+  <data name="GroupBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnProcessTimeClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnProcessTimeClose.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnProcessTimeClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnProcessTimeClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 559</value>
+  </data>
+  <data name="btnProcessTimeClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="btnProcessTimeClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnProcessTimeClose.TabIndex" type="System.Int32, mscorlib">
+    <value>451</value>
+  </data>
+  <data name="btnProcessTimeClose.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeClose.Name" xml:space="preserve">
+    <value>btnProcessTimeClose</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnProcessTimeSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnProcessTimeSave.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnProcessTimeSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnProcessTimeSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 479</value>
+  </data>
+  <data name="btnProcessTimeSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="btnProcessTimeSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnProcessTimeSave.TabIndex" type="System.Int32, mscorlib">
+    <value>450</value>
+  </data>
+  <data name="btnProcessTimeSave.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeSave.Name" xml:space="preserve">
+    <value>btnProcessTimeSave</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnProcessTimeSave.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numDieCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 59</value>
+  </data>
+  <data name="numDieCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="numDieCount.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="&gt;&gt;numDieCount.Name" xml:space="preserve">
+    <value>numDieCount</value>
+  </data>
+  <data name="&gt;&gt;numDieCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numDieCount.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;numDieCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDot.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 40</value>
+  </data>
+  <data name="lblDot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="lblDot.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblDot.Text" xml:space="preserve">
+    <value>產品顆數</value>
+  </data>
+  <data name="&gt;&gt;lblDot.Name" xml:space="preserve">
+    <value>lblDot</value>
+  </data>
+  <data name="&gt;&gt;lblDot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDot.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblDot.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 98</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 98</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>457</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Die set</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>461, 643</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SetProcessTime</value>
+  </data>
+  <data name="&gt;&gt;Num.Name" xml:space="preserve">
+    <value>Num</value>
+  </data>
+  <data name="&gt;&gt;Num.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProcessTime.Name" xml:space="preserve">
+    <value>ProcessTime</value>
+  </data>
+  <data name="&gt;&gt;ProcessTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unit.Name" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="&gt;&gt;Unit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSetProcessTime</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

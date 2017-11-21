@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblContinueRun.Text" xml:space="preserve">
+    <value>接續流程</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>手动Map</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>装载/卸载</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Mapping资料</value>
+  </data>
+  <data name="lblConveyor.Text" xml:space="preserve">
+    <value>传送带</value>
+  </data>
+  <data name="gpbFunction.Text" xml:space="preserve">
+    <value>功能设置</value>
+  </data>
+  <data name="gpbAugerValveCTThreshold.Text" xml:space="preserve">
+    <value>螺杆阀过电流保护</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>阀3</value>
+  </data>
+  <data name="btnAugerValveCTThreshold.ToolTip" xml:space="preserve">
+    <value>螺杆阀过电流保护设定</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>阀3</value>
+  </data>
+  <data name="lblScrewValveNo2CTThreshold.Text" xml:space="preserve">
+    <value>阀2</value>
+  </data>
+  <data name="lblScrewValveNo1CTThreshold.Text" xml:space="preserve">
+    <value>阀1</value>
+  </data>
+  <data name="tabMechanismModule.Text" xml:space="preserve">
+    <value>机构组态</value>
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>机台型号</value>
+  </data>
+  <data name="btnSaveMachineType.ToolTip" xml:space="preserve">
+    <value>储存机台型号</value>
+  </data>
+  <data name="lblMachineType.Text" xml:space="preserve">
+    <value>机台型号</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="gpbMechanismSoftware.Text" xml:space="preserve">
+    <value>机构配置</value>
+  </data>
+  <data name="lblConveyorModel.Text" xml:space="preserve">
+    <value>传送带模式</value>
+  </data>
+  <data name="lblCCDOnFly.Text" xml:space="preserve">
+    <value>CCD飛拍</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>测高设备</value>
+  </data>
+  <data name="btnMechanismModule.ToolTip" xml:space="preserve">
+    <value>设置硬体组态</value>
+  </data>
+  <data name="lblCCDModuleType.Text" xml:space="preserve">
+    <value>CCD 固定方式</value>
+  </data>
+  <data name="lblStageUseValveCount.Text" xml:space="preserve">
+    <value>平台 / 阀</value>
+  </data>
+  <data name="gpbValveType.Text" xml:space="preserve">
+    <value>胶阀型号</value>
+  </data>
+  <data name="lblDispenserNo4ValveType.Text" xml:space="preserve">
+    <value>胶阀4</value>
+  </data>
+  <data name="lblDispenserNo3ValveType.Text" xml:space="preserve">
+    <value>胶阀3</value>
+  </data>
+  <data name="lblDispenserNo2ValveType.Text" xml:space="preserve">
+    <value>胶阀2</value>
+  </data>
+  <data name="lblDispenserNo1ValveType.Text" xml:space="preserve">
+    <value>胶阀1</value>
+  </data>
+  <data name="btnValveType.ToolTip" xml:space="preserve">
+    <value>设置胶阀组态</value>
+  </data>
+  <data name="tabBasicFunction.Text" xml:space="preserve">
+    <value>基本设置</value>
+  </data>
+  <data name="btnBack3.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="grpAirPressureUnit.Text" xml:space="preserve">
+    <value>气压单位</value>
+  </data>
+  <data name="btnSetAirPressureUnit.ToolTip" xml:space="preserve">
+    <value>设定空压单位</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>机台设定</value>
+  </data>
+  <data name="btnSetPositionUnit.ToolTip" xml:space="preserve">
+    <value>设定移动单位</value>
+  </data>
+  <data name="grpCCDImage.Text" xml:space="preserve">
+    <value>CCD影像保存</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>保存方式</value>
+  </data>
+  <data name="btnCCDImagePath.ToolTip" xml:space="preserve">
+    <value>载入CCD照片路径</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>档案路径</value>
+  </data>
+  <data name="btnSaveImage.ToolTip" xml:space="preserve">
+    <value>设定存档方式</value>
+  </data>
+  <data name="GroupBox3.Text" xml:space="preserve">
+    <value>功能设置</value>
+  </data>
+  <data name="btnLogPath.ToolTip" xml:space="preserve">
+    <value>载入日志路径</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Log路径</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>设备名称</value>
+  </data>
+  <data name="btnSetMachine.ToolTip" xml:space="preserve">
+    <value>设定设备名称</value>
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>语系</value>
+  </data>
+  <data name="lblLanguageType.Text" xml:space="preserve">
+    <value>语系(Language)</value>
+  </data>
+  <data name="btnSaveLanguage.ToolTip" xml:space="preserve">
+    <value>设定语言</value>
+  </data>
+  <data name="tabCommonFunction.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GroupBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 161</value>
+  </data>
+  <data name="btnSetMAXVelocity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 80</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>復歸逾时</value>
+  </data>
+  <data name="btnSetVelocity.ToolTip" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="grpConveyor.Text" xml:space="preserve">
+    <value>传送带</value>
+  </data>
+  <data name="btnSetCvDirection.ToolTip" xml:space="preserve">
+    <value>设定传送带方向</value>
+  </data>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="rbtnUnloadReversal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnUnloadReversal.Text" xml:space="preserve">
+    <value>反向</value>
+  </data>
+  <data name="rbtnUnloadForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnUnloadForward.Text" xml:space="preserve">
+    <value>正向</value>
+  </data>
+  <data name="GroupBox6.Text" xml:space="preserve">
+    <value>装载</value>
+  </data>
+  <data name="rbtnLoadReversal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnLoadReversal.Text" xml:space="preserve">
+    <value>反向</value>
+  </data>
+  <data name="rbtnLoadForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnLoadForward.Text" xml:space="preserve">
+    <value>正向</value>
+  </data>
+  <data name="gpbTolerance.Text" xml:space="preserve">
+    <value>容许误差</value>
+  </data>
+  <data name="lblTemperatureTolerance.Text" xml:space="preserve">
+    <value>温度</value>
+  </data>
+  <data name="lblPressureTolerance.Text" xml:space="preserve">
+    <value>压力</value>
+  </data>
+  <data name="btnTolerance.ToolTip" xml:space="preserve">
+    <value>设定容许误差</value>
+  </data>
+  <data name="lblTirggerTolerance.Text" xml:space="preserve">
+    <value>触发板</value>
+  </data>
+  <data name="lblMotionTolerance.Text" xml:space="preserve">
+    <value>运动</value>
+  </data>
+  <data name="gpTiltSet.Text" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="rb2.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="rb3.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="rb4.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="rb1.Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>移动到校正位置</value>
+  </data>
+  <data name="lbTiltStage4.Text" xml:space="preserve">
+    <value>平台4</value>
+  </data>
+  <data name="lbTiltStage3.Text" xml:space="preserve">
+    <value>平台3</value>
+  </data>
+  <data name="lbTiltStage2.Text" xml:space="preserve">
+    <value>平台2</value>
+  </data>
+  <data name="lbTiltStage1.Text" xml:space="preserve">
+    <value>平台1</value>
+  </data>
+  <data name="btnSetTilt.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="btnSetTilt.ToolTip" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="grpWeight.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="labWeightLower.Text" xml:space="preserve">
+    <value>最小重量</value>
+  </data>
+  <data name="labWeightUpper.Text" xml:space="preserve">
+    <value>最大重量</value>
+  </data>
+  <data name="btnCorrectionSet.ToolTip" xml:space="preserve">
+    <value>补正设定</value>
+  </data>
+  <data name="labCorrection.Text" xml:space="preserve">
+    <value>重试次数:</value>
+  </data>
+  <data name="cbCorrection.Text" xml:space="preserve">
+    <value>补正.</value>
+  </data>
+  <data name="cbNonCorrection.Text" xml:space="preserve">
+    <value>非补正.</value>
+  </data>
+  <data name="btnWeightSet.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="cbEnableBWeightMeasure.Text" xml:space="preserve">
+    <value>B机天平重量提醒</value>
+  </data>
+  <data name="btnCleanWeightB.Text" xml:space="preserve">
+    <value>B 机清除计数</value>
+  </data>
+  <data name="cbEnableAWeightMeasure.Text" xml:space="preserve">
+    <value>A机天平重量提醒</value>
+  </data>
+  <data name="btnCleanWeightA.Text" xml:space="preserve">
+    <value>A 机清除计数</value>
+  </data>
+  <data name="grpStableTime.Text" xml:space="preserve">
+    <value>时间设置</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>加热稳定时间</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>传感器逾时</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>测高稳定时间</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>定位稳定时间</value>
+  </data>
+  <data name="btnSetTime.ToolTip" xml:space="preserve">
+    <value>设定稳定时间</value>
+  </data>
+  <data name="grpSafeTemperature.Text" xml:space="preserve">
+    <value>安全温度</value>
+  </data>
+  <data name="cbEnableInitialHotPlate.Text" xml:space="preserve">
+    <value>初始化加热保持</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>加热板最小温度</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>加热板最大温度</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>阀最大温度</value>
+  </data>
+  <data name="btnSetSafeTemp.ToolTip" xml:space="preserve">
+    <value>设定安全温度</value>
+  </data>
+  <data name="lblSafeOpenDoor.Text" xml:space="preserve">
+    <value>可开门温度</value>
+  </data>
+  <data name="gpbDetectGlue.Text" xml:space="preserve">
+    <value>胶水检测</value>
+  </data>
+  <data name="chkIsReset.Text" xml:space="preserve">
+    <value>系统启动重新计时</value>
+  </data>
+  <data name="lblGlueDetector4.Text" xml:space="preserve">
+    <value>低液位检测4</value>
+  </data>
+  <data name="lblGlueDetector3.Text" xml:space="preserve">
+    <value>低液位检测3</value>
+  </data>
+  <data name="lblGlueDetector2.Text" xml:space="preserve">
+    <value>低液位检测2</value>
+  </data>
+  <data name="lblGlueDetector1.Text" xml:space="preserve">
+    <value>低液位检测1</value>
+  </data>
+  <data name="btnBack2.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="tabCharge.Text" xml:space="preserve">
+    <value>付费功能</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+</root>

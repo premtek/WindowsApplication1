@@ -1,0 +1,1612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAutoCalibrationSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 62</value>
+  </data>
+  <data name="btnSetValvePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Y.Name" xml:space="preserve">
+    <value>txtTeachDispenser2Y</value>
+  </data>
+  <data name="txtTeachDispenser2X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPosX.Name" xml:space="preserve">
+    <value>btnSetCcdPosX</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAutoCalibrationSetup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Label52.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcDisplay1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtDispenserNo1EPRegulatorAO.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label60.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label48.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValve2On.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetCcdPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPrevPage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>2390, 1298</value>
+  </data>
+  <data name="Label53.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2X.Name" xml:space="preserve">
+    <value>txtTeachDispenser2X</value>
+  </data>
+  <data name="btnNextPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Label50.Name" xml:space="preserve">
+    <value>Label50</value>
+  </data>
+  <data name="&gt;&gt;Label60.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtTeachCCD2Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="txtTeachCCD2X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 28</value>
+  </data>
+  <data name="txtTeachCCD2Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="Label52.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Y.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtDispenserNo1EPRegulatorAO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label51.Name" xml:space="preserve">
+    <value>Label51</value>
+  </data>
+  <data name="Label52.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label49.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTeachCCD2X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>378</value>
+  </data>
+  <data name="&gt;&gt;Label58.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UcCalibrationStatus1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 1288</value>
+  </data>
+  <data name="&gt;&gt;lblDispenserNo1EPRegulator.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCalibrationSetup.Name" xml:space="preserve">
+    <value>btnAutoCalibrationSetup</value>
+  </data>
+  <data name="btnSetCcdPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 24</value>
+  </data>
+  <data name="btnPrevPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGo2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="txtTeachDispenser2X.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label59.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="txtTeachCCD2Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 70</value>
+  </data>
+  <data name="btnSetCcdPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValve2On.Text" xml:space="preserve">
+    <value>Valve2 On</value>
+  </data>
+  <data name="&gt;&gt;btnNextPage.Name" xml:space="preserve">
+    <value>btnNextPage</value>
+  </data>
+  <data name="btnValve2On.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachCCD2Z.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;Label58.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label59.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 32</value>
+  </data>
+  <data name="Label60.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="UcJoyStick1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;lblDispenserNo1EPRegulator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label60.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calibration CCD &amp; Valve2</value>
+  </data>
+  <data name="txtTeachDispenser2X.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="&gt;&gt;Label57.Name" xml:space="preserve">
+    <value>Label57</value>
+  </data>
+  <data name="btnGo2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVFhHxZYBUQNBDEVPAhIqAQlIQAISkFAHSEAC
+        EioBCUiohGNfpoH/r7nrLcNs/8wfSNjuyyW7V6Z5nu/uMjnaZXK0y+Rol8nRLpOjXSZHu0yOtge/em5+
+        az418wf1uZn8a/OhuVvKDK4F0/TY/M66DrO+qxhlBtcCFwXxtF/NCq1Md1i7FDn2MSkzuBas66V5TzEf
+        zQ8XZ0efmk3KDK4F29KNt/x5ccb/WkSKriRgj6+kzOBasF89hVxJmcG14La4BVxdxrK3ENbZ4VRmcC1Y
+        F+cBOLPWGVfvETXrKZx1eWiNGVwL1pWHLTa56NiswMrAU3Qv9lBmcC2olW3PAvh5qwNpLYLPcc2Pygyu
+        BbXYSDdjHPlK5yWl0KUZgYpunJQZXAtqJUxHoWLmFMZ4suVZBDkVnfhTETl7AGuFVOJG6HcKn499lBlc
+        C2oBzrbzJJyRnmJYn91hn4Myg2vBuniq5fwZE10CwjjS/BtAnvOgn+F31hozuBZsK+97btpjOvHzwlJm
+        cC3YJ56W+S47U5lu0BmTMoNrQb94urwZaWJ7TS+lzOAuE/dwmRztMjnaZXK0y+Rol8mxnqdvTqu5vGYX
+        +xIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;Label59.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 818</value>
+  </data>
+  <data name="&gt;&gt;Label52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGo1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Z.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GroupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="Label51.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.Text" xml:space="preserve">
+    <value>Syringe Pressure On</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>377</value>
+  </data>
+  <data name="btnGo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 98</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtDispenserNo1EPRegulatorAO.Name" xml:space="preserve">
+    <value>txtDispenserNo1EPRegulatorAO</value>
+  </data>
+  <data name="&gt;&gt;Label54.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 116</value>
+  </data>
+  <data name="&gt;&gt;Label53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNextPage.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2X.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label57.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 41</value>
+  </data>
+  <data name="txtTeachDispenser2Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="Label50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtTeachDispenser2Z.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnGlueNo1SyringePressure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 31</value>
+  </data>
+  <data name="&gt;&gt;btnGlueNo1SyringePressure.Name" xml:space="preserve">
+    <value>btnGlueNo1SyringePressure</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="txtTeachDispenser2Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 79</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Z.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAutoCalibrationSetup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnPrevPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGo2.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="Label48.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label58.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnNextPage.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btnSetValvePosX.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label52.Name" xml:space="preserve">
+    <value>Label52</value>
+  </data>
+  <data name="txtTeachDispenser2X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetValvePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 25</value>
+  </data>
+  <data name="&gt;&gt;Label49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 99</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCcdPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 75</value>
+  </data>
+  <data name="Label58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label59.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.Name" xml:space="preserve">
+    <value>btnGo1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTeachDispenser2Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label52.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPosX.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Y.Name" xml:space="preserve">
+    <value>txtTeachCCD2Y</value>
+  </data>
+  <data name="&gt;&gt;Label48.Name" xml:space="preserve">
+    <value>Label48</value>
+  </data>
+  <data name="txtTeachCCD2X.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve2On.Name" xml:space="preserve">
+    <value>btnValve2On</value>
+  </data>
+  <data name="Label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 84</value>
+  </data>
+  <data name="Label48.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetValvePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="UcDisplay1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel2" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="UcCalibrationStatus1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,173,Percent,100,Absolute,400" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;Label58.Name" xml:space="preserve">
+    <value>Label58</value>
+  </data>
+  <data name="btnNextPage.TabIndex" type="System.Int32, mscorlib">
+    <value>374</value>
+  </data>
+  <data name="Label60.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 75</value>
+  </data>
+  <data name="&gt;&gt;Label49.Name" xml:space="preserve">
+    <value>Label49</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Y.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnPrevPage.TabIndex" type="System.Int32, mscorlib">
+    <value>375</value>
+  </data>
+  <data name="Label50.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="btnGo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 75</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label60.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnPrevPage.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Label50.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label59.Name" xml:space="preserve">
+    <value>Label59</value>
+  </data>
+  <data name="Label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 116</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCalibrationSetup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnValve2On.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;txtDispenserNo1EPRegulatorAO.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="Label53.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="Label54.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnNextPage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnNextPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 382</value>
+  </data>
+  <data name="&gt;&gt;Label49.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtTeachDispenser2Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="Label55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="txtTeachDispenser2Z.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnNextPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcCalibrationStatus1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="Label58.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="txtTeachDispenser2Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Y.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtTeachCCD2Y.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label53.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnDispenserNo1EPRegulator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValve2On.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 62</value>
+  </data>
+  <data name="Label59.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnAutoCalibrationSetup.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachCCD2Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtTeachCCD2X.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnGo1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label57.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="btnSetValvePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 75</value>
+  </data>
+  <data name="btnNextPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 75</value>
+  </data>
+  <data name="txtTeachDispenser2Z.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label48.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Z.Name" xml:space="preserve">
+    <value>txtTeachCCD2Z</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.Text" xml:space="preserve">
+    <value>EPRegulator Pressure</value>
+  </data>
+  <data name="Label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 31</value>
+  </data>
+  <data name="btnPrevPage.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTeachCCD2Y.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTeachDispenser2X.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetValvePosX.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="Label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UcJoyStick1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 5</value>
+  </data>
+  <data name="&gt;&gt;Label60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>CCD Pos</value>
+  </data>
+  <data name="Label49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Name" xml:space="preserve">
+    <value>btnGo2</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2X.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtTeachDispenser2Y.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnGo2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 79</value>
+  </data>
+  <data name="Label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 124</value>
+  </data>
+  <data name="btnValve2On.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 151</value>
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 36</value>
+  </data>
+  <data name="Panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label48.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 79</value>
+  </data>
+  <data name="GroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label49.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtTeachCCD2Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 111</value>
+  </data>
+  <data name="&gt;&gt;Label52.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="btnPrevPage.Text" xml:space="preserve">
+    <value>Prev.</value>
+  </data>
+  <data name="&gt;&gt;Label48.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAATz8dAF1BAABPQB4AUUEeAFRDHwBVRB8Aa0wFAHNQAAB1UQAAeVQAAH1XAAB+WAAAeFgQAFZF
+        IABmUiQAaVQhAGpWJwBuWCMAYlArAGxYKwBtWS0AclolAHZdJwB4XiUAfGEmAHxhKQB6Yi0AgVoAAINc
+        AgCFXQAAgFsFAIhfAACAXAoAimAAAI1iAACKYQQAh2IPAJFlAACUZwAAkWYEAJZoAACWagUAmWoAAJts
+        AACdbQAAm24JAJxvCgCfcgwAiWUTAI9tHgCRahIAkG0cAJlzHgCgbwAAonEAAKRyAACndAAAonIEAKh1
+        AACteAAAoHMNAKJ1DwCwewAAsnwBALR+AgCzfgUAtH8GAKN3EwCkdxAAp3kRAKV5FQCrfRUAgGUqAIVq
+        KwCEaS0AiW0uAJp2JACcdyQAl3csAIZtNQCJbTAAjnExAJN0MgCTdjQAl3k2AJh5NQCbfDUAnX03AJx+
+        OQClfiQAh3BAAJB3QgCUe0EAlHtGAJl+QAC2gAYAtoEIALeDDQC4gwgAuYQKALuGDAC+iQ4AroAXAK+B
+        GAC6hhAAvYkRAL6KFAC/jBYAsYQcAL6MGQCegDsAqoEkALOHIgCziCYApIM6AKuKPgC1kT8Au5Q7AMGN
+        FQDCjhkAw5AaAMOQHQDEkR0Ay5cfAMaUIQDIliIAyZclAMmYJgDKmSgAzJsqAM+dKgDOnS0A0J0nAM+f
+        MQDEmz8A0J8wANCgMgDWozAA1aQzANKjNgDVpToA1qg9ANuqOgCbgEEAnYFBAJyCRgCghEIAoYVFAKWH
+        RgCsikAAr41AAKuMRACmi08AsY5CALOQQACzkEQAtJJGALqVQAC8lkAAsZJMALeWTQC6l0oAuZhMAL2a
+        TAC+nEwAo41cAKyQUAC0mVwAs5tkALykcADAmUAAx59CAMGdTADEn0wAwJ9YAMyjRQDNpEcAx6JNAMii
+        SgDIo04AyqVPANepQADarEQA0ahKANSsTQDbrkkA3rBFANywSgDFoVEAzahVAMGhWgDQq1YA0q5cANiw
+        UgDds1MA3LNVAOKyQwDhtE0A4bZSAOS5VQDgt1kA5btbAMKkYQDHqmcAxalpAMisbQDXs2IA1LFkANi1
+        ZQDYtWgA27hpAN26aADcumwA3b11AOa+YQDov2IA4L5yAOjAZQDnwWoA6cJrAOXCcwDqxXMA68h3AOXE
+        egDryXsAtbCpALeyrAC9uLIAuri2AL25tgC8urgAv727AM25iwDszIMA7M6IAO3QjQDu05MA8NWXAPDV
+        mADx2KAA892sAMfFwwDJx8YAy8rIAM3MygDX1dQA49/aAOTh3ADo5N8A6ebhAOno5ADq6ukA7OzrAO3t
+        7AD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAqQ8OBgYFBQUFBQQEBAQEBAQBAQMDAwMDAwMRqgAAAJMVXJKTk5OTkZGTkZGRkZCQ
+        kJCQkF9fX19fXlsTXwDLG5haKiknJycnJyYmJiYmIyMjIyMjIyIgIiAkTZIUABmUcCwsLCsrKyspKSkp
+        JycnJyYmJiYmIyYjIyMjTl5KGJ06NjY2Ni0tLS0sLCwrKysrKykpKScnJycmJiYolRAZnzg4ODgcpTc3
+        NjY2Ni0Moy0sLCwrKysKoSspKSmXEkmrPDs7OyCtOTk5ODg4NxykNzY2NjYtLQujLCwsK5sWSoc/PDw8
+        Iq48Ozs8KQkJAlAJCCM4ODg3HKQ2Ni02dRdRrGFhYEMjtEA8PDwK5Ojo5+XiCjs7OTkerTg4ODieGlKx
+        amtpaSi+YmFhQiH29fTz8vUKPDw8PCCuOzs7O59JVLh5e3p6KsFsa2pqM/n+/f389x1AQD8/I7Q8Pzw8
+        q0tWuXyCgYAv0X19e3tuR0QfoD49YmRkY2MmtUFBP0CHUVjCg4yJhj3VhIKBgH9+fS/Pe3l4d3d3airA
+        ZWRkYKxSb8SLjo6ORdmNjImJiIiEMNOBgH9+bTExB10lJUZmsFRzyY+8vLpH4Le2to6NjY1F2YmIhIgy
+        5Ojo5uXjMXm4VXTKu7Nvbw2mV1ervLu3t0bgjo6NjU/29fTz8vU0fLlZmtjGk+bo5+bm42/Ix8bGSOq8
+        uru7c/r+/f38+E6Fwm+a2siZ9vX08/L1lNfKyspo68jHxsa8q58zzXZ2jorDc5za16j7/v79/Pmn3Nza
+        2m3s19fKysrIyGjqxsa7j8mWnNza4c7ONenMzN7f3t7ece7c3Nra2NjXbezKysjFyJyd3Nzq7Oxy8evq
+        6urq4eFx8N/e3t7e3Nxt7trYysbKnZ3d3Ovu7u3t7ezs7Ovr6+rq6urh4eHf39/e3tzXxtqdotXe6uzu
+        7+7u7e3t7ezs7Ovr6+rq6uHh4d/e3MrK0qXWv+rh4eHq6urq4erh4d/f39/e3t7e3Nzc2tfK2N2vAAC9
+        v9ne3+Hf4eHf39/f39/f3t7e3t7e3t7e3NvUv9AAAADWpaKioqKioqKioqKioqKioqKioqKioqKioqXW
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////////wAAAA4AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAcAA
+        AAP/////////////////////
+</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 192</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="btnAutoCalibrationSetup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 220</value>
+  </data>
+  <data name="btnSetCcdPosX.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="txtTeachDispenser2Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValve2On.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 75</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 31</value>
+  </data>
+  <data name="&gt;&gt;Label53.Name" xml:space="preserve">
+    <value>Label53</value>
+  </data>
+  <data name="&gt;&gt;btnDispenserNo1EPRegulator.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 31</value>
+  </data>
+  <data name="&gt;&gt;btnNextPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label49.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnSetCcdPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 1</value>
+  </data>
+  <data name="Label49.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="Label55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 430</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Z.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtTeachDispenser2Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 120</value>
+  </data>
+  <data name="UcCalibrationStatus1.TabIndex" type="System.Int32, mscorlib">
+    <value>392</value>
+  </data>
+  <data name="Label55.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Valve2 Pos</value>
+  </data>
+  <data name="Label48.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 31</value>
+  </data>
+  <data name="&gt;&gt;txtDispenserNo1EPRegulatorAO.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label59.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;UcCalibrationStatus1.Name" xml:space="preserve">
+    <value>UcCalibrationStatus1</value>
+  </data>
+  <data name="btnSetValvePosX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txtTeachDispenser2X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 38</value>
+  </data>
+  <data name="Label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 31</value>
+  </data>
+  <data name="txtTeachCCD2Z.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 84</value>
+  </data>
+  <data name="Label58.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 180</value>
+  </data>
+  <data name="txtTeachDispenser2Z.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="Label57.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;Label60.Name" xml:space="preserve">
+    <value>Label60</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnPrevPage.Name" xml:space="preserve">
+    <value>btnPrevPage</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1807, 1288</value>
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="GroupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnAutoCalibrationSetup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 180</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationCCD2Valve2</value>
+  </data>
+  <data name="txtTeachDispenser2Y.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispenserNo1EPRegulator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetValvePosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAutoCalibrationSetup.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Label54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 42</value>
+  </data>
+  <data name="btnSetCcdPosX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 32</value>
+  </data>
+  <data name="btnGo2.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 1</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 380</value>
+  </data>
+  <data name="btnValve2On.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrevPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 75</value>
+  </data>
+  <data name="&gt;&gt;Label54.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="btnGo1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label50.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>393</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2Z.Name" xml:space="preserve">
+    <value>txtTeachDispenser2Z</value>
+  </data>
+  <data name="Label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 31</value>
+  </data>
+  <data name="GroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Name" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="Label60.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 31</value>
+  </data>
+  <data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnGlueNo1SyringePressure.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnValve2On.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Label55.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="Label54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 75</value>
+  </data>
+  <data name="Label1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Pa</value>
+  </data>
+  <data name="Label54.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>390</value>
+  </data>
+  <data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnValve2On.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnGo1.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;btnDispenserNo1EPRegulator.Name" xml:space="preserve">
+    <value>btnDispenserNo1EPRegulator</value>
+  </data>
+  <data name="TableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Panel1" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="GroupBox2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="GroupBox1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="UcJoyStick1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,188,Absolute,188,Absolute,438,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachCCD2Z.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="UcCalibrationStatus1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;UcCalibrationStatus1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="Label54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValve2On.TabIndex" type="System.Int32, mscorlib">
+    <value>392</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCalibrationSetup.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Label48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;btnDispenserNo1EPRegulator.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="Label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 31</value>
+  </data>
+  <data name="Label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 31</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtTeachCCD2X.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 41</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Y.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="btnGo2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnAutoCalibrationSetup.TabIndex" type="System.Int32, mscorlib">
+    <value>397</value>
+  </data>
+  <data name="Label58.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="Label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 120</value>
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label59.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="Label51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblDispenserNo1EPRegulator.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblDispenserNo1EPRegulator.Name" xml:space="preserve">
+    <value>lblDispenserNo1EPRegulator</value>
+  </data>
+  <data name="&gt;&gt;btnGlueNo1SyringePressure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="&gt;&gt;btnNextPage.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnGo1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVFhHxZYBUQNBDEVPAhIqAQlIQAISkFAHSEAC
+        EioBCUiohGNfpoH/r7nrLcNs/8wfSNjuyyW7V6Z5nu/uMjnaZXK0y+Rol8nRLpOjXSZHu0yOtge/em5+
+        az418wf1uZn8a/OhuVvKDK4F0/TY/M66DrO+qxhlBtcCFwXxtF/NCq1Md1i7FDn2MSkzuBas66V5TzEf
+        zQ8XZ0efmk3KDK4F29KNt/x5ccb/WkSKriRgj6+kzOBasF89hVxJmcG14La4BVxdxrK3ENbZ4VRmcC1Y
+        F+cBOLPWGVfvETXrKZx1eWiNGVwL1pWHLTa56NiswMrAU3Qv9lBmcC2olW3PAvh5qwNpLYLPcc2Pygyu
+        BbXYSDdjHPlK5yWl0KUZgYpunJQZXAtqJUxHoWLmFMZ4suVZBDkVnfhTETl7AGuFVOJG6HcKn499lBlc
+        C2oBzrbzJJyRnmJYn91hn4Myg2vBuniq5fwZE10CwjjS/BtAnvOgn+F31hozuBZsK+97btpjOvHzwlJm
+        cC3YJ56W+S47U5lu0BmTMoNrQb94urwZaWJ7TS+lzOAuE/dwmRztMjnaZXK0y+Rol8mxnqdvTqu5vGYX
+        +xIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2X.Name" xml:space="preserve">
+    <value>txtTeachCCD2X</value>
+  </data>
+  <data name="btnDispenserNo1EPRegulator.TabIndex" type="System.Int32, mscorlib">
+    <value>399</value>
+  </data>
+  <data name="&gt;&gt;Label50.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;Label51.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;Label48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTeachCCD2X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label55.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>391</value>
+  </data>
+  <data name="&gt;&gt;Label53.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Label50.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 31</value>
+  </data>
+  <data name="TableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 1290</value>
+  </data>
+  <data name="txtTeachCCD2X.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPosX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2X.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="TableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="UcCalibrationStatus1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcCalibrationStatus1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="Label59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnPrevPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 295</value>
+  </data>
+  <data name="&gt;&gt;Label51.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="TableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>2390, 1298</value>
+  </data>
+  <data name="btnPrevPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label55.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>394</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 19</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 62</value>
+  </data>
+  <data name="Label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 31</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtTeachCCD2Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="txtTeachCCD2Z.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;Label57.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 75</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser2X.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtTeachCCD2Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="Label58.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;Label54.Name" xml:space="preserve">
+    <value>Label54</value>
+  </data>
+  <data name="Label55.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 468</value>
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnGlueNo1SyringePressure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label57.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtDispenserNo1EPRegulatorAO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="&gt;&gt;btnAutoCalibrationSetup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnPrevPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1994, 4</value>
+  </data>
+  <data name="txtTeachDispenser2Y.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnGo1.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>376</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label57.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="TableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Label51.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGlueNo1SyringePressure.TabIndex" type="System.Int32, mscorlib">
+    <value>398</value>
+  </data>
+  <data name="&gt;&gt;Label55.Name" xml:space="preserve">
+    <value>Label55</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCcdPosX.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD2Z.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="UcCalibrationStatus1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="btnNextPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAutoCalibrationSetup.Text" xml:space="preserve">
+    <value>Auto Calib.</value>
+  </data>
+  <data name="Label48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label54.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtTeachDispenser2X.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;Label50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcCalibrationStatus1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucCalibrationStatus, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtTeachCCD2Y.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="Label50.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.Name" xml:space="preserve">
+    <value>btnSetValvePosX</value>
+  </data>
+  <data name="Label51.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label53.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnValve2On.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

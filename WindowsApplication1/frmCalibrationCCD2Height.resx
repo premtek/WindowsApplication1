@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="grpHeightSensorPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblReaderUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblReaderUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblReaderUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblReaderUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 183</value>
+  </data>
+  <data name="lblReaderUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblReaderUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="lblReaderUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblReaderUnit.Name" xml:space="preserve">
+    <value>lblReaderUnit</value>
+  </data>
+  <data name="&gt;&gt;lblReaderUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReaderUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblReaderUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="btnReZero.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnReZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 223</value>
+  </data>
+  <data name="btnReZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 31</value>
+  </data>
+  <data name="btnReZero.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="btnReZero.Text" xml:space="preserve">
+    <value>Height Reader Calibration</value>
+  </data>
+  <data name="&gt;&gt;btnReZero.Name" xml:space="preserve">
+    <value>btnReZero</value>
+  </data>
+  <data name="&gt;&gt;btnReZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReZero.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnReZero.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="txtLaserPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtLaserPosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLaserPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtLaserPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 130</value>
+  </data>
+  <data name="txtLaserPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtLaserPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="txtLaserPosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtLaserPosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.Name" xml:space="preserve">
+    <value>txtLaserPosZ</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="txtLaserPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtLaserPosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLaserPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtLaserPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 80</value>
+  </data>
+  <data name="txtLaserPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtLaserPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="txtLaserPosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtLaserPosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.Name" xml:space="preserve">
+    <value>txtLaserPosY</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="txtLaserPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtLaserPosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLaserPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtLaserPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="txtLaserPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtLaserPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="txtLaserPosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtLaserPosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.Name" xml:space="preserve">
+    <value>txtLaserPosX</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 180</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 30</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>478</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Height Reader </value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="btnAutoZero.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnAutoZero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnAutoZero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAutoZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 184</value>
+  </data>
+  <data name="btnAutoZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnAutoZero.TabIndex" type="System.Int32, mscorlib">
+    <value>477</value>
+  </data>
+  <data name="btnAutoZero.Text" xml:space="preserve">
+    <value>Auto Zero</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZero.Name" xml:space="preserve">
+    <value>btnAutoZero</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZero.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZero.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZero.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="lblLaserReaderValue.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserReaderValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblLaserReaderValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserReaderValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 180</value>
+  </data>
+  <data name="lblLaserReaderValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblLaserReaderValue.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="lblLaserReaderValue.Text" xml:space="preserve">
+    <value>-00.000</value>
+  </data>
+  <data name="&gt;&gt;lblLaserReaderValue.Name" xml:space="preserve">
+    <value>lblLaserReaderValue</value>
+  </data>
+  <data name="&gt;&gt;lblLaserReaderValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserReaderValue.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserReaderValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="btnGoSensorPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnGoSensorPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnGoSensorPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGoSensorPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGoSensorPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 106</value>
+  </data>
+  <data name="btnGoSensorPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnGoSensorPos.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnGoSensorPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;btnGoSensorPos.Name" xml:space="preserve">
+    <value>btnGoSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnGoSensorPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoSensorPos.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnGoSensorPos.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="btnSetHightSensorPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnSetHightSensorPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSetHightSensorPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetHightSensorPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetHightSensorPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 30</value>
+  </data>
+  <data name="btnSetHightSensorPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnSetHightSensorPos.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="btnSetHightSensorPos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnSetHightSensorPos.Name" xml:space="preserve">
+    <value>btnSetHightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnSetHightSensorPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetHightSensorPos.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnSetHightSensorPos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="lblLaserPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblLaserPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblLaserPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="lblLaserPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="lblLaserPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Name" xml:space="preserve">
+    <value>lblLaserPosZ</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="lblLaserPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="lblLaserPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblLaserPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="lblLaserPosY.Text" xml:space="preserve">
+    <value> Pos Y</value>
+  </data>
+  <data name="lblLaserPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Name" xml:space="preserve">
+    <value>lblLaserPosY</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="lblLaserPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="lblLaserPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblLaserPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lblLaserPosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="lblLaserPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Name" xml:space="preserve">
+    <value>lblLaserPosX</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="lblLaserPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 130</value>
+  </data>
+  <data name="lblLaserPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblLaserPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lblLaserPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Name" xml:space="preserve">
+    <value>lblLaserPosZUnit</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="lblLaserPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="lblLaserPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblLaserPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lblLaserPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Name" xml:space="preserve">
+    <value>lblLaserPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="lblLaserPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblLaserPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="lblLaserPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblLaserPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="lblLaserPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Name" xml:space="preserve">
+    <value>lblLaserPosXUnit</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="grpHeightSensorPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpHeightSensorPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 218</value>
+  </data>
+  <data name="grpHeightSensorPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 273</value>
+  </data>
+  <data name="grpHeightSensorPos.TabIndex" type="System.Int32, mscorlib">
+    <value>371</value>
+  </data>
+  <data name="grpHeightSensorPos.Text" xml:space="preserve">
+    <value>Height Reader Position</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Name" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="grpCCDPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCCDPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtCCDPosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCCDPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCCDPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 130</value>
+  </data>
+  <data name="txtCCDPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCCDPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="txtCCDPosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCCDPosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosZ.Name" xml:space="preserve">
+    <value>txtCCDPosZ</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosZ.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="txtCCDPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtCCDPosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCCDPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCCDPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 80</value>
+  </data>
+  <data name="txtCCDPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCCDPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="txtCCDPosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCCDPosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosY.Name" xml:space="preserve">
+    <value>txtCCDPosY</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosY.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="txtCCDPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtCCDPosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCCDPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCCDPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="txtCCDPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCCDPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>399</value>
+  </data>
+  <data name="txtCCDPosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCCDPosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosX.Name" xml:space="preserve">
+    <value>txtCCDPosX</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosX.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCCDPosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="btnGoCCDPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnGoCCDPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnGoCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGoCCDPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGoCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 110</value>
+  </data>
+  <data name="btnGoCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnGoCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="btnGoCCDPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDPos.Name" xml:space="preserve">
+    <value>btnGoCCDPos</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="btnSetCcdPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnSetCcdPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSetCcdPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetCcdPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetCcdPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 34</value>
+  </data>
+  <data name="btnSetCcdPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnSetCcdPos.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="btnSetCcdPos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.Name" xml:space="preserve">
+    <value>btnSetCcdPos</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="lblCCDPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCCDPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 130</value>
+  </data>
+  <data name="lblCCDPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblCCDPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="lblCCDPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Name" xml:space="preserve">
+    <value>lblCCDPosZUnit</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="lblCCDPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCCDPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="lblCCDPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblCCDPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="lblCCDPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Name" xml:space="preserve">
+    <value>lblCCDPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="lblCCDPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCCDPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="lblCCDPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblCCDPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="lblCCDPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Name" xml:space="preserve">
+    <value>lblCCDPosXUnit</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="lblCCDPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCCDPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblCCDPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblCCDPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="lblCCDPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="lblCCDPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Name" xml:space="preserve">
+    <value>lblCCDPosZ</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="lblCCDPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCCDPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="lblCCDPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblCCDPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="lblCCDPosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="lblCCDPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Name" xml:space="preserve">
+    <value>lblCCDPosY</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="lblCCDPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCCDPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="lblCCDPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblCCDPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="lblCCDPosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="lblCCDPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Name" xml:space="preserve">
+    <value>lblCCDPosX</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grpCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1042, 12</value>
+  </data>
+  <data name="grpCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 200</value>
+  </data>
+  <data name="grpCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>372</value>
+  </data>
+  <data name="grpCCDPos.Text" xml:space="preserve">
+    <value>CCD Position</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Name" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="btnCancel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1738, 956</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="btnOK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1582, 956</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="btnCCDToHightNext.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnCCDToHightNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCCDToHightNext.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCCDToHightNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCDToHightNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCDToHightNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1426, 956</value>
+  </data>
+  <data name="btnCCDToHightNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnCCDToHightNext.TabIndex" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+  <data name="btnCCDToHightNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btnCCDToHightNext.ToolTip" xml:space="preserve">
+    <value>取消並離開</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightNext.Name" xml:space="preserve">
+    <value>btnCCDToHightNext</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightNext.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="btnCCDToHightPrev.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnCCDToHightPrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCCDToHightPrev.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCCDToHightPrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCDToHightPrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCDToHightPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 956</value>
+  </data>
+  <data name="btnCCDToHightPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnCCDToHightPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="btnCCDToHightPrev.Text" xml:space="preserve">
+    <value>Prev.</value>
+  </data>
+  <data name="btnCCDToHightPrev.ToolTip" xml:space="preserve">
+    <value>取消並離開</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightPrev.Name" xml:space="preserve">
+    <value>btnCCDToHightPrev</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightPrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightPrev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCCDToHightPrev.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="GroupBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcExposure.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="nmcExposure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="nmcExposure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 29</value>
+  </data>
+  <data name="nmcExposure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="nmcExposure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 29</value>
+  </data>
+  <data name="nmcExposure.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="nmcExposure.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Name" xml:space="preserve">
+    <value>nmcExposure</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="lblExposureTimeUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblExposureTimeUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExposureTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblExposureTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblExposureTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 31</value>
+  </data>
+  <data name="lblExposureTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 24</value>
+  </data>
+  <data name="lblExposureTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="lblExposureTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Name" xml:space="preserve">
+    <value>lblExposureTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 784</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 67</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Exposure Time</value>
+  </data>
+  <data name="GroupBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="UcStatusBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 1167</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>685, 20</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>513</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="UcLightControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UcLightControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcLightControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 784</value>
+  </data>
+  <data name="UcLightControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 187</value>
+  </data>
+  <data name="UcLightControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Name" xml:space="preserve">
+    <value>UcLightControl1</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLightControl, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="UcDisplay1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 15</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 771</value>
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="UcJoyStick1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="UcJoyStick1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1162, 497</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 380</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>369</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>109, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>76</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 1038</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAATz8dAF1BAABPQB4AUUEeAFRDHwBVRB8Aa0wFAHNQAAB1UQAAeVQAAH1XAAB+WAAAeFgQAFZF
+        IABmUiQAaVQhAGpWJwBuWCMAYlArAGxYKwBtWS0AclolAHZdJwB4XiUAfGEmAHxhKQB6Yi0AgVoAAINc
+        AgCFXQAAgFsFAIhfAACAXAoAimAAAI1iAACKYQQAh2IPAJFlAACUZwAAkWYEAJZoAACWagUAmWoAAJts
+        AACdbQAAm24JAJxvCgCfcgwAiWUTAI9tHgCRahIAkG0cAJlzHgCgbwAAonEAAKRyAACndAAAonIEAKh1
+        AACteAAAoHMNAKJ1DwCwewAAsnwBALR+AgCzfgUAtH8GAKN3EwCkdxAAp3kRAKV5FQCrfRUAgGUqAIVq
+        KwCEaS0AiW0uAJp2JACcdyQAl3csAIZtNQCJbTAAjnExAJN0MgCTdjQAl3k2AJh5NQCbfDUAnX03AJx+
+        OQClfiQAh3BAAJB3QgCUe0EAlHtGAJl+QAC2gAYAtoEIALeDDQC4gwgAuYQKALuGDAC+iQ4AroAXAK+B
+        GAC6hhAAvYkRAL6KFAC/jBYAsYQcAL6MGQCegDsAqoEkALOHIgCziCYApIM6AKuKPgC1kT8Au5Q7AMGN
+        FQDCjhkAw5AaAMOQHQDEkR0Ay5cfAMaUIQDIliIAyZclAMmYJgDKmSgAzJsqAM+dKgDOnS0A0J0nAM+f
+        MQDEmz8A0J8wANCgMgDWozAA1aQzANKjNgDVpToA1qg9ANuqOgCbgEEAnYFBAJyCRgCghEIAoYVFAKWH
+        RgCsikAAr41AAKuMRACmi08AsY5CALOQQACzkEQAtJJGALqVQAC8lkAAsZJMALeWTQC6l0oAuZhMAL2a
+        TAC+nEwAo41cAKyQUAC0mVwAs5tkALykcADAmUAAx59CAMGdTADEn0wAwJ9YAMyjRQDNpEcAx6JNAMii
+        SgDIo04AyqVPANepQADarEQA0ahKANSsTQDbrkkA3rBFANywSgDFoVEAzahVAMGhWgDQq1YA0q5cANiw
+        UgDds1MA3LNVAOKyQwDhtE0A4bZSAOS5VQDgt1kA5btbAMKkYQDHqmcAxalpAMisbQDXs2IA1LFkANi1
+        ZQDYtWgA27hpAN26aADcumwA3b11AOa+YQDov2IA4L5yAOjAZQDnwWoA6cJrAOXCcwDqxXMA68h3AOXE
+        egDryXsAtbCpALeyrAC9uLIAuri2AL25tgC8urgAv727AM25iwDszIMA7M6IAO3QjQDu05MA8NWXAPDV
+        mADx2KAA892sAMfFwwDJx8YAy8rIAM3MygDX1dQA49/aAOTh3ADo5N8A6ebhAOno5ADq6ukA7OzrAO3t
+        7AD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAqQ8OBgYFBQUFBQQEBAQEBAQBAQMDAwMDAwMRqgAAAJMVXJKTk5OTkZGTkZGRkZCQ
+        kJCQkF9fX19fXlsTXwDLG5haKiknJycnJyYmJiYmIyMjIyMjIyIgIiAkTZIUABmUcCwsLCsrKyspKSkp
+        JycnJyYmJiYmIyYjIyMjTl5KGJ06NjY2Ni0tLS0sLCwrKysrKykpKScnJycmJiYolRAZnzg4ODgcpTc3
+        NjY2Ni0Moy0sLCwrKysKoSspKSmXEkmrPDs7OyCtOTk5ODg4NxykNzY2NjYtLQujLCwsK5sWSoc/PDw8
+        Iq48Ozs8KQkJAlAJCCM4ODg3HKQ2Ni02dRdRrGFhYEMjtEA8PDwK5Ojo5+XiCjs7OTkerTg4ODieGlKx
+        amtpaSi+YmFhQiH29fTz8vUKPDw8PCCuOzs7O59JVLh5e3p6KsFsa2pqM/n+/f389x1AQD8/I7Q8Pzw8
+        q0tWuXyCgYAv0X19e3tuR0QfoD49YmRkY2MmtUFBP0CHUVjCg4yJhj3VhIKBgH9+fS/Pe3l4d3d3airA
+        ZWRkYKxSb8SLjo6ORdmNjImJiIiEMNOBgH9+bTExB10lJUZmsFRzyY+8vLpH4Le2to6NjY1F2YmIhIgy
+        5Ojo5uXjMXm4VXTKu7Nvbw2mV1ervLu3t0bgjo6NjU/29fTz8vU0fLlZmtjGk+bo5+bm42/Ix8bGSOq8
+        uru7c/r+/f38+E6Fwm+a2siZ9vX08/L1lNfKyspo68jHxsa8q58zzXZ2jorDc5za16j7/v79/Pmn3Nza
+        2m3s19fKysrIyGjqxsa7j8mWnNza4c7ONenMzN7f3t7ece7c3Nra2NjXbezKysjFyJyd3Nzq7Oxy8evq
+        6urq4eFx8N/e3t7e3Nxt7trYysbKnZ3d3Ovu7u3t7ezs7Ovr6+rq6urh4eHf39/e3tzXxtqdotXe6uzu
+        7+7u7e3t7ezs7Ovr6+rq6uHh4d/e3MrK0qXWv+rh4eHq6urq4erh4d/f39/e3t7e3Nzc2tfK2N2vAAC9
+        v9ne3+Hf4eHf39/f39/f3t7e3t7e3t7e3NvUv9AAAADWpaKioqKioqKioqKioqKioqKioqKioqKioqXW
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////////wAAAA4AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAcAA
+        AAP/////////////////////
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CCD &amp; High Sensor</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationCCD2Height</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,2196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tlpPreDispense.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="tlpPreDispense.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textDotDownSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textDotDownSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotDownSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotDownSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 35</value>
+  </data>
+  <data name="textDotDownSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotDownSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotDownSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="textDotDownSpeed.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotDownSpeed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotDownSpeed.Name" xml:space="preserve">
+    <value>textDotDownSpeed</value>
+  </data>
+  <data name="&gt;&gt;textDotDownSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotDownSpeed.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotDownSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotDispenseGap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotDispenseGap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotDispenseGap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotDispenseGap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 103</value>
+  </data>
+  <data name="textDotDispenseGap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotDispenseGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotDispenseGap.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="textDotDispenseGap.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotDispenseGap.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotDispenseGap.Name" xml:space="preserve">
+    <value>textDotDispenseGap</value>
+  </data>
+  <data name="&gt;&gt;textDotDispenseGap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotDispenseGap.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotDispenseGap.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbDotDownSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDownSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDownSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDownSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="lbDotDownSpeed.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDownSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="lbDotDownSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="lbDotDownSpeed.Text" xml:space="preserve">
+    <value>Down Speed</value>
+  </data>
+  <data name="lbDotDownSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeed.Name" xml:space="preserve">
+    <value>lbDotDownSpeed</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeed.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbDotDispenseGap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDispenseGap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDispenseGap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDispenseGap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 103</value>
+  </data>
+  <data name="lbDotDispenseGap.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDispenseGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 35</value>
+  </data>
+  <data name="lbDotDispenseGap.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="lbDotDispenseGap.Text" xml:space="preserve">
+    <value>Dispense Gap</value>
+  </data>
+  <data name="lbDotDispenseGap.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGap.Name" xml:space="preserve">
+    <value>lbDotDispenseGap</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGap.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGap.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 104</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 33</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lbDotDispenseGapUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGapUnit.Name" xml:space="preserve">
+    <value>lbDotDispenseGapUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGapUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGapUnit.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDispenseGapUnit.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textDotSettlingTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotSettlingTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotSettlingTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotSettlingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 1</value>
+  </data>
+  <data name="textDotSettlingTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotSettlingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotSettlingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="textDotSettlingTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotSettlingTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotSettlingTime.Name" xml:space="preserve">
+    <value>textDotSettlingTime</value>
+  </data>
+  <data name="&gt;&gt;textDotSettlingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotSettlingTime.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotSettlingTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbDotSettlingTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotSettlingTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotSettlingTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotSettlingTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="lbDotSettlingTime.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotSettlingTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="lbDotSettlingTime.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="lbDotSettlingTime.Text" xml:space="preserve">
+    <value>Settling Time</value>
+  </data>
+  <data name="lbDotSettlingTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTime.Name" xml:space="preserve">
+    <value>lbDotSettlingTime</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTime.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 2</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 31</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="lbDotSettlingTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTimeUnit.Name" xml:space="preserve">
+    <value>lbDotSettlingTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotSettlingTimeUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 36</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 31</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.Text" xml:space="preserve">
+    <value>mm/sec</value>
+  </data>
+  <data name="lbDotDownSpeedUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeedUnit.Name" xml:space="preserve">
+    <value>lbDotDownSpeedUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeedUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeedUnit.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownSpeedUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textDotDownAcc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotDownAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotDownAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotDownAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 69</value>
+  </data>
+  <data name="textDotDownAcc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotDownAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotDownAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="textDotDownAcc.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotDownAcc.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotDownAcc.Name" xml:space="preserve">
+    <value>textDotDownAcc</value>
+  </data>
+  <data name="&gt;&gt;textDotDownAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotDownAcc.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotDownAcc.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbDotDownAcc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDownAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDownAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDownAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 69</value>
+  </data>
+  <data name="lbDotDownAcc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDownAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="lbDotDownAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="lbDotDownAcc.Text" xml:space="preserve">
+    <value>Down Acc</value>
+  </data>
+  <data name="lbDotDownAcc.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAcc.Name" xml:space="preserve">
+    <value>lbDotDownAcc</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAcc.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAcc.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lbDotDownAccUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDownAccUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDownAccUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotDownAccUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDownAccUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 70</value>
+  </data>
+  <data name="lbDotDownAccUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDownAccUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 31</value>
+  </data>
+  <data name="lbDotDownAccUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lbDotDownAccUnit.Text" xml:space="preserve">
+    <value>mm/sec^2</value>
+  </data>
+  <data name="lbDotDownAccUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAccUnit.Name" xml:space="preserve">
+    <value>lbDotDownAccUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAccUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAccUnit.Parent" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDownAccUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tlpPreDispense.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpPreDispense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="tlpPreDispense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="tlpPreDispense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="tlpPreDispense.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tlpPreDispense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 139</value>
+  </data>
+  <data name="tlpPreDispense.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;tlpPreDispense.Name" xml:space="preserve">
+    <value>tlpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;tlpPreDispense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpPreDispense.Parent" xml:space="preserve">
+    <value>grpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;tlpPreDispense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpPreDispense.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="textDotDownSpeed" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="textDotDispenseGap" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDownSpeed" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDispenseGap" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDispenseGapUnit" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textDotSettlingTime" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotSettlingTime" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotSettlingTimeUnit" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDownSpeedUnit" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textDotDownAcc" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDownAcc" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDownAccUnit" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,70,Percent,30,Absolute,171" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="grpPreDispense.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grpPreDispense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpPreDispense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 5</value>
+  </data>
+  <data name="grpPreDispense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="grpPreDispense.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="grpPreDispense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 175</value>
+  </data>
+  <data name="grpPreDispense.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="grpPreDispense.Text" xml:space="preserve">
+    <value>Pre-Dispense</value>
+  </data>
+  <data name="&gt;&gt;grpPreDispense.Name" xml:space="preserve">
+    <value>grpPreDispense</value>
+  </data>
+  <data name="&gt;&gt;grpPreDispense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPreDispense.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;grpPreDispense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpDuringDispense.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="tlpDuringDispense.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbDotMultiShotDelta.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotMultiShotDelta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotMultiShotDelta.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotMultiShotDelta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 65</value>
+  </data>
+  <data name="lbDotMultiShotDelta.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotMultiShotDelta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 33</value>
+  </data>
+  <data name="lbDotMultiShotDelta.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="lbDotMultiShotDelta.Text" xml:space="preserve">
+    <value>Multi-Shot Delta</value>
+  </data>
+  <data name="lbDotMultiShotDelta.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDelta.Name" xml:space="preserve">
+    <value>lbDotMultiShotDelta</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDelta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDelta.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDelta.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotValveOnTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotValveOnTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotValveOnTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotValveOnTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 1</value>
+  </data>
+  <data name="textDotValveOnTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotValveOnTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotValveOnTime.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="textDotValveOnTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotValveOnTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotValveOnTime.Name" xml:space="preserve">
+    <value>textDotValveOnTime</value>
+  </data>
+  <data name="&gt;&gt;textDotValveOnTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotValveOnTime.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotValveOnTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbDotValveOnTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotValveOnTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotValveOnTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotValveOnTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="lbDotValveOnTime.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotValveOnTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lbDotValveOnTime.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="lbDotValveOnTime.Text" xml:space="preserve">
+    <value>Valve On Time</value>
+  </data>
+  <data name="lbDotValveOnTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTime.Name" xml:space="preserve">
+    <value>lbDotValveOnTime</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTime.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 2</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="lbDotValveOnTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTimeUnit.Name" xml:space="preserve">
+    <value>lbDotValveOnTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTimeUnit.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotValveOnTimeUnit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textDotNumberOfShots.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotNumberOfShots.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotNumberOfShots.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotNumberOfShots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 33</value>
+  </data>
+  <data name="textDotNumberOfShots.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotNumberOfShots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotNumberOfShots.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="textDotNumberOfShots.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotNumberOfShots.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotNumberOfShots.Name" xml:space="preserve">
+    <value>textDotNumberOfShots</value>
+  </data>
+  <data name="&gt;&gt;textDotNumberOfShots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotNumberOfShots.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotNumberOfShots.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbDotNumberOfShots.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotNumberOfShots.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotNumberOfShots.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotNumberOfShots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="lbDotNumberOfShots.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotNumberOfShots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lbDotNumberOfShots.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="lbDotNumberOfShots.Text" xml:space="preserve">
+    <value>Number Of Shots</value>
+  </data>
+  <data name="lbDotNumberOfShots.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShots.Name" xml:space="preserve">
+    <value>lbDotNumberOfShots</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShots.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShots.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 34</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.Text" xml:space="preserve">
+    <value>unit</value>
+  </data>
+  <data name="lbDotNumberOfShotsUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShotsUnit.Name" xml:space="preserve">
+    <value>lbDotNumberOfShotsUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShotsUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShotsUnit.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotNumberOfShotsUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 66</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 31</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lbDotMultiShotDeltaUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDeltaUnit.Name" xml:space="preserve">
+    <value>lbDotMultiShotDeltaUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDeltaUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDeltaUnit.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotMultiShotDeltaUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textDotMultiShotDelta.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotMultiShotDelta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotMultiShotDelta.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotMultiShotDelta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 65</value>
+  </data>
+  <data name="textDotMultiShotDelta.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotMultiShotDelta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotMultiShotDelta.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="textDotMultiShotDelta.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotMultiShotDelta.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotMultiShotDelta.Name" xml:space="preserve">
+    <value>textDotMultiShotDelta</value>
+  </data>
+  <data name="&gt;&gt;textDotMultiShotDelta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotMultiShotDelta.Parent" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotMultiShotDelta.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tlpDuringDispense.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpDuringDispense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="tlpDuringDispense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="tlpDuringDispense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="tlpDuringDispense.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tlpDuringDispense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 99</value>
+  </data>
+  <data name="tlpDuringDispense.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;tlpDuringDispense.Name" xml:space="preserve">
+    <value>tlpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;tlpDuringDispense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpDuringDispense.Parent" xml:space="preserve">
+    <value>grpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;tlpDuringDispense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpDuringDispense.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lbDotMultiShotDelta" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textDotValveOnTime" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotValveOnTime" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotValveOnTimeUnit" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textDotNumberOfShots" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotNumberOfShots" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotNumberOfShotsUnit" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbDotMultiShotDeltaUnit" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textDotMultiShotDelta" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,70,Percent,30,Absolute,171" /&gt;&lt;Rows Styles="Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="grpDuringDispense.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grpDuringDispense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpDuringDispense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 190</value>
+  </data>
+  <data name="grpDuringDispense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="grpDuringDispense.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="grpDuringDispense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 135</value>
+  </data>
+  <data name="grpDuringDispense.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="grpDuringDispense.Text" xml:space="preserve">
+    <value>During-Dispense</value>
+  </data>
+  <data name="&gt;&gt;grpDuringDispense.Name" xml:space="preserve">
+    <value>grpDuringDispense</value>
+  </data>
+  <data name="&gt;&gt;grpDuringDispense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpDuringDispense.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;grpDuringDispense.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tlpPostDispense.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="tlpPostDispense.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbDotSuckBack.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotSuckBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotSuckBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotSuckBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 129</value>
+  </data>
+  <data name="lbDotSuckBack.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotSuckBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 34</value>
+  </data>
+  <data name="lbDotSuckBack.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="lbDotSuckBack.Text" xml:space="preserve">
+    <value>Suck Back Time</value>
+  </data>
+  <data name="lbDotSuckBack.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBack.Name" xml:space="preserve">
+    <value>lbDotSuckBack</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBack.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotRetractDistance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotRetractDistance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotRetractDistance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotRetractDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 33</value>
+  </data>
+  <data name="textDotRetractDistance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotRetractDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotRetractDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="textDotRetractDistance.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotRetractDistance.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractDistance.Name" xml:space="preserve">
+    <value>textDotRetractDistance</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractDistance.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractDistance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbDotRetractDistance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotRetractDistance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotRetractDistance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotRetractDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="lbDotRetractDistance.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotRetractDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lbDotRetractDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="lbDotRetractDistance.Text" xml:space="preserve">
+    <value>Retract Distance</value>
+  </data>
+  <data name="lbDotRetractDistance.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistance.Name" xml:space="preserve">
+    <value>lbDotRetractDistance</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistance.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistance.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textDotDwellTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotDwellTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotDwellTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotDwellTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 1</value>
+  </data>
+  <data name="textDotDwellTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotDwellTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotDwellTime.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="textDotDwellTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotDwellTime.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotDwellTime.Name" xml:space="preserve">
+    <value>textDotDwellTime</value>
+  </data>
+  <data name="&gt;&gt;textDotDwellTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotDwellTime.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotDwellTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbDotDwellTime.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDwellTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDwellTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDwellTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 1</value>
+  </data>
+  <data name="lbDotDwellTime.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDwellTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lbDotDwellTime.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="lbDotDwellTime.Text" xml:space="preserve">
+    <value>Dwell Time</value>
+  </data>
+  <data name="lbDotDwellTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTime.Name" xml:space="preserve">
+    <value>lbDotDwellTime</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTime.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 2</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="lbDotDwellTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTimeUnit.Name" xml:space="preserve">
+    <value>lbDotDwellTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTimeUnit.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotDwellTimeUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 34</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lbDotRetractDistanceUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistanceUnit.Name" xml:space="preserve">
+    <value>lbDotRetractDistanceUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistanceUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistanceUnit.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractDistanceUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textDotRetractSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotRetractSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotRetractSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotRetractSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 65</value>
+  </data>
+  <data name="textDotRetractSpeed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotRetractSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotRetractSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="textDotRetractSpeed.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotRetractSpeed.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractSpeed.Name" xml:space="preserve">
+    <value>textDotRetractSpeed</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractSpeed.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractSpeed.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbDotRetractSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotRetractSpeed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotRetractSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotRetractSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 65</value>
+  </data>
+  <data name="lbDotRetractSpeed.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotRetractSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lbDotRetractSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="lbDotRetractSpeed.Text" xml:space="preserve">
+    <value>Retract Speed</value>
+  </data>
+  <data name="lbDotRetractSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeed.Name" xml:space="preserve">
+    <value>lbDotRetractSpeed</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeed.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeed.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 66</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.Text" xml:space="preserve">
+    <value>mm/sec</value>
+  </data>
+  <data name="lbDotRetractSpeedUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeedUnit.Name" xml:space="preserve">
+    <value>lbDotRetractSpeedUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeedUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeedUnit.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractSpeedUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbDotRetractAcc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotRetractAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotRetractAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotRetractAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 97</value>
+  </data>
+  <data name="lbDotRetractAcc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotRetractAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 31</value>
+  </data>
+  <data name="lbDotRetractAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="lbDotRetractAcc.Text" xml:space="preserve">
+    <value>Retract Acc</value>
+  </data>
+  <data name="lbDotRetractAcc.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAcc.Name" xml:space="preserve">
+    <value>lbDotRetractAcc</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAcc.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAcc.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textDotRetractAcc.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotRetractAcc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotRetractAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotRetractAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 97</value>
+  </data>
+  <data name="textDotRetractAcc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotRetractAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotRetractAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="textDotRetractAcc.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotRetractAcc.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractAcc.Name" xml:space="preserve">
+    <value>textDotRetractAcc</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractAcc.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotRetractAcc.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="textDotSuckBack.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="textDotSuckBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="textDotSuckBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textDotSuckBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 129</value>
+  </data>
+  <data name="textDotSuckBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="textDotSuckBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="textDotSuckBack.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="textDotSuckBack.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textDotSuckBack.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textDotSuckBack.Name" xml:space="preserve">
+    <value>textDotSuckBack</value>
+  </data>
+  <data name="&gt;&gt;textDotSuckBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textDotSuckBack.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;textDotSuckBack.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lbDotRetractAccUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotRetractAccUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotRetractAccUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotRetractAccUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotRetractAccUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 98</value>
+  </data>
+  <data name="lbDotRetractAccUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotRetractAccUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="lbDotRetractAccUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lbDotRetractAccUnit.Text" xml:space="preserve">
+    <value>mm/sec^2</value>
+  </data>
+  <data name="lbDotRetractAccUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAccUnit.Name" xml:space="preserve">
+    <value>lbDotRetractAccUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAccUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAccUnit.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotRetractAccUnit.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbDotSuckBackUnit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lbDotSuckBackUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDotSuckBackUnit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lbDotSuckBackUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbDotSuckBackUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 130</value>
+  </data>
+  <data name="lbDotSuckBackUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
+  </data>
+  <data name="lbDotSuckBackUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 32</value>
+  </data>
+  <data name="lbDotSuckBackUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="lbDotSuckBackUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="lbDotSuckBackUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBackUnit.Name" xml:space="preserve">
+    <value>lbDotSuckBackUnit</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBackUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBackUnit.Parent" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;lbDotSuckBackUnit.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tlpPostDispense.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpPostDispense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="tlpPostDispense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="tlpPostDispense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="tlpPostDispense.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tlpPostDispense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>510, 164</value>
+  </data>
+  <data name="tlpPostDispense.TabIndex" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;tlpPostDispense.Name" xml:space="preserve">
+    <value>tlpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;tlpPostDispense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpPostDispense.Parent" xml:space="preserve">
+    <value>grpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;tlpPostDispense.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpPostDispense.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lbDotSuckBack" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textDotRetractDistance" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotRetractDistance" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textDotDwellTime" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDwellTime" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotDwellTimeUnit" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbDotRetractDistanceUnit" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="textDotRetractSpeed" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotRetractSpeed" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lbDotRetractSpeedUnit" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbDotRetractAcc" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="textDotRetractAcc" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="textDotSuckBack" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lbDotRetractAccUnit" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lbDotSuckBackUnit" Row="4" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,70,Percent,30,Absolute,171" /&gt;&lt;Rows Styles="Percent,20,Percent,20,Percent,20,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="grpPostDispense.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grpPostDispense.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpPostDispense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 335</value>
+  </data>
+  <data name="grpPostDispense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="grpPostDispense.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="grpPostDispense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 200</value>
+  </data>
+  <data name="grpPostDispense.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="grpPostDispense.Text" xml:space="preserve">
+    <value>Post-Dispense</value>
+  </data>
+  <data name="&gt;&gt;grpPostDispense.Name" xml:space="preserve">
+    <value>grpPostDispense</value>
+  </data>
+  <data name="&gt;&gt;grpPostDispense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPostDispense.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;grpPostDispense.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnDotDBDel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnDotDBDel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDotDBDel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnDotDBDel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDotDBDel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 140</value>
+  </data>
+  <data name="btnDotDBDel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnDotDBDel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDotDBDel.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnDotDBDel.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBDel.Name" xml:space="preserve">
+    <value>btnDotDBDel</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBDel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBDel.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBDel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDotDBUpdate.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnDotDBUpdate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDotDBUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnDotDBUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDotDBUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 70</value>
+  </data>
+  <data name="btnDotDBUpdate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnDotDBUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDotDBUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="btnDotDBUpdate.ToolTip" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBUpdate.Name" xml:space="preserve">
+    <value>btnDotDBUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBUpdate.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDotDBAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnDotDBAdd.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnDotDBAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnDotDBAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDotDBAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnDotDBAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnDotDBAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDotDBAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="btnDotDBAdd.ToolTip" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBAdd.Name" xml:space="preserve">
+    <value>btnDotDBAdd</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBAdd.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnDotDBAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 532</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 4</value>
+  </data>
+  <data name="TableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 532</value>
+  </data>
+  <data name="TableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Name" xml:space="preserve">
+    <value>TableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Panel1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,532" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lstDotDB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lstDotDB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lstDotDB.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lstDotDB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 33</value>
+  </data>
+  <data name="lstDotDB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lstDotDB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 172</value>
+  </data>
+  <data name="lstDotDB.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;lstDotDB.Name" xml:space="preserve">
+    <value>lstDotDB</value>
+  </data>
+  <data name="&gt;&gt;lstDotDB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstDotDB.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;lstDotDB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtDotDB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="txtDotDB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtDotDB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtDotDB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtDotDB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 33</value>
+  </data>
+  <data name="txtDotDB.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;txtDotDB.Name" xml:space="preserve">
+    <value>txtDotDB</value>
+  </data>
+  <data name="&gt;&gt;txtDotDB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDotDB.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;txtDotDB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 322</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tlpTool.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btSetDefaultValue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btSetDefaultValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="btSetDefaultValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 3</value>
+  </data>
+  <data name="btSetDefaultValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 37</value>
+  </data>
+  <data name="btSetDefaultValue.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btSetDefaultValue.Text" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="&gt;&gt;btSetDefaultValue.Name" xml:space="preserve">
+    <value>btSetDefaultValue</value>
+  </data>
+  <data name="&gt;&gt;btSetDefaultValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btSetDefaultValue.Parent" xml:space="preserve">
+    <value>tlpTool</value>
+  </data>
+  <data name="&gt;&gt;btSetDefaultValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tlpTool.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tlpTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 543</value>
+  </data>
+  <data name="tlpTool.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tlpTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 43</value>
+  </data>
+  <data name="tlpTool.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;tlpTool.Name" xml:space="preserve">
+    <value>tlpTool</value>
+  </data>
+  <data name="&gt;&gt;tlpTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tlpTool.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tlpTool.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tlpTool.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btSetDefaultValue" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,24.8062,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="TableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 5, 3, 5</value>
+  </data>
+  <data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>926, 589</value>
+  </data>
+  <data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="grpPreDispense" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="grpDuringDispense" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="grpPostDispense" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="TableLayoutPanel2" Row="0" RowSpan="3" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="Panel2" Row="0" RowSpan="2" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tlpTool" Row="3" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,328,Absolute,76,Percent,100" /&gt;&lt;Rows Styles="Absolute,185,Absolute,145,Absolute,210,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>926, 589</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucDotTypeParameter</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

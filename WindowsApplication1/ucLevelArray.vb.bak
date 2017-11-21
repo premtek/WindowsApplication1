@@ -1,0 +1,300 @@
+﻿Imports ProjectCore
+Imports ProjectMotion
+Imports ProjectRecipe
+
+Public Class ucLevelArray
+    ''' <summary>配接用參數</summary>
+    ''' <remarks></remarks>
+    Public sys As sSysParam
+    ''' <summary>配接用參數</summary>
+    ''' <remarks></remarks>
+    Public PatternID As String
+    ''' <summary>配接用參數</summary>
+    ''' <remarks></remarks>
+    Public NodeID As String
+
+    Dim mLevelNo As Integer
+    ''' <summary>設定陣列所在層數</summary>
+    ''' <remarks></remarks>
+    Public Property LevelNo As Integer
+        Get
+            Return mLevelNo
+        End Get
+        Set(value As Integer)
+            mLevelNo = value
+            If value < 0 Then '層數不對時, 不能設定與儲存
+                grpArray.Enabled = False
+            Else
+                grpArray.Enabled = True
+            End If
+        End Set
+    End Property
+    ''' <summary>已移動</summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Public Event OnMoved(sender As Object, e As EventArgs)
+    ''' <summary>設定值已變更</summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Public Event ValueChanged(sender As Object, e As EventArgs)
+
+    ''' <summary>介面保護更新</summary>
+    ''' <remarks></remarks>
+    Public Sub RefreshUI()
+        If gSYS(eSys.OverAll).Act(eAct.Home).RunStatus <> enmRunStatus.Finish Then '未復歸不能按
+            btnGoEndPos.Enabled = False
+            btnGoStartPos.Enabled = False
+            btnSetEndPos.Enabled = False
+            btnSetPitch.Enabled = False
+            btnSetStartPos.Enabled = False
+        Else
+            btnGoEndPos.Enabled = True
+            btnGoStartPos.Enabled = True
+            btnSetEndPos.Enabled = True
+            btnSetPitch.Enabled = True
+            btnSetStartPos.Enabled = True
+        End If
+    End Sub
+
+    Public Sub LoadData()
+        SetNumericValue(nmcArrayXCount, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.CountX)
+        SetNumericValue(nmcArrayXPitch, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.PitchX)
+        SetNumericValue(nmcArrayYCount, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.CountY)
+        SetNumericValue(nmcArrayYPitch, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.PitchY)
+        SetNumericValue(nmcStartPosX, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.StartPosX)
+        SetNumericValue(nmcStartPosY, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.StartPosY)
+        SetNumericValue(nmcStartPosZ, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.StartPosZ) 'Soni + 2017.01.10 多層陣列
+        SetNumericValue(nmcEndPosX, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.EndPosX)
+        SetNumericValue(nmcEndPosY, gCRecipe.Node(sys.StageNo)(NodeID).Array(mLevelNo).Array.EndPosY)
+    End Sub
+
+    Sub SetNumericValue(ByRef nmc As NumericUpDown, ByVal value As Decimal)
+        If nmc Is Nothing Then
+            Exit Sub
+        End If
+        If nmc.Minimum > value Then
+            nmc.BackColor = Color.Red
+            Exit Sub
+        End If
+        If nmc.Maximum < value Then
+            nmc.BackColor = Color.Red
+            Exit Sub
+        End If
+        nmc.Value = value
+    End Sub
+
+    Private Sub btnSetStartPos_Click(sender As Object, e As EventArgs) Handles btnSetStartPos.Click
+        gSyslog.Save("[frmRecipe02]" & vbTab & "[btnSetStartPos]" & vbTab & "Click")
+        btnSetStartPos.Enabled = False
+        nmcStartPosX.Value = gCMotion.GetPositionValue(sys.AxisX)
+        nmcStartPosY.Value = gCMotion.GetPositionValue(sys.AxisY)
+        nmcStartPosZ.Value = gCMotion.GetPositionValue(sys.AxisZ)
+        UpdateArray(sender, e) 'Soni + 2017.04.20
+        btnSetStartPos.Enabled = True
+    End Sub
+
+    Private Sub btnSetEndPos_Click(sender As Object, e As EventArgs) Handles btnSetEndPos.Click
+        gSyslog.Save("[frmRecipe02]" & vbTab & "[btnSetEndPos]" & vbTab & "Click")
+        btnSetEndPos.Enabled = False
+        nmcEndPosX.Value = gCMotion.GetPositionValue(sys.AxisX)
+        nmcEndPosY.Value = gCMotion.GetPositionValue(sys.AxisY)
+        UpdateArray(sender, e) 'Soni + 2017.04.20
+        btnSetEndPos.Enabled = True
+    End Sub
+
+    ''' <summary>重新計算X/Y間距</summary>
+    ''' <param name="sender"></param>
+    ''' <param name="e"></param>
+    ''' <remarks></remarks>
+    Private Sub btnSetPitch_Click(sender As Object, e As EventArgs) Handles btnSetPitch.Click
+        gSyslog.Save("[frmRecipe02]" & vbTab & "[btnSetPitchX]" & vbTab & "Click")
+        btnSetPitch.Enabled = False
+        If Val(nmcArrayXCount.Value) = 0 Then
+            MsgBox(lblArrayXCount.Text & " Error", MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            btnSetPitch.Enabled = True
+            Exit Sub
+        End If
+
+        If Val(nmcArrayYCount.Value) = 0 Then
+            MsgBox(lblArrayYCount.Text & " Error", MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            btnSetPitch.Enabled = True
+            Exit Sub
+        End If
+
+        If Not gCRecipe.Pattern.ContainsKey(PatternID) Then
+            'Pattern不存在
+            gSyslog.Save(PatternID & gMsgHandler.GetMessage(Warn_3000043))
+            MsgBox(PatternID & gMsgHandler.GetMessage(Warn_3000043), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            btnSetPitch.Enabled = True
+            Exit Sub
+        End If
+
+        If Not gCRecipe.Pattern.ContainsKey(PatternID) Then
+            'Pattern不存在
+            gSyslog.Save(PatternID & gMsgHandler.GetMessage(Warn_3000043))
+            MsgBox(PatternID & gMsgHandler.GetMessage(Warn_3000043), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            'MsgBox("Pattern(" & PatternID & ") Not Exists.")
+            btnSetPitch.Enabled = True
+            Exit Sub
+        End If
+
+        Dim DistanceX As Decimal = Val(nmcEndPosX.Value - nmcStartPosX.Value)
+        Dim DistanceY As Decimal = Val(nmcEndPosY.Value - nmcStartPosY.Value)
+        If nmcArrayXCount.Value > 1 Then 'Soni +2016.09.13 除0例外
+            nmcArrayXPitch.Value = Math.Round(DistanceX / (Val(nmcArrayXCount.Value) - 1), 3)
+        Else
+            nmcArrayXPitch.Value = 0
+        End If
+        If nmcArrayYCount.Value > 1 Then  'Soni +2016.09.13 除0例外
+            nmcArrayYPitch.Value = Math.Round(DistanceY / (Val(nmcArrayYCount.Value) - 1), 3)
+        Else
+            nmcArrayYPitch.Value = 0
+        End If
+
+        btnSetPitch.Enabled = True
+    End Sub
+
+    Private Sub btnGoStartPos_Click(sender As Object, e As EventArgs) Handles btnGoStartPos.Click
+        gSyslog.Save("[frmRecipe01]" & vbTab & "[btnGoStartPos]" & vbTab & "Click")
+        btnGoStartPos.Enabled = False
+        If gSYS(eSys.OverAll).Act(eAct.Home).RunStatus <> enmRunStatus.Finish Then
+            BtnHomeFirstBehavior(sender)
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000012), "Warn_3000012", eMessageLevel.Warning)
+            btnGoStartPos.Enabled = True
+            Exit Sub
+        End If
+        If gCRecipe Is Nothing Then
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000012), "Warn_3000012", eMessageLevel.Warning)
+            btnGoStartPos.Enabled = True
+            Exit Sub
+        End If
+
+        '[說明]:X、Y、Z軸
+        gCMotion.SetVelAccDec(sys.AxisX)
+        gCMotion.SetVelAccDec(sys.AxisY)
+        gCMotion.SetVelAccDec(sys.AxisZ)
+        gCMotion.SetVelAccDec(sys.AxisB)
+        gCMotion.SetVelAccDec(sys.AxisC)
+
+        Dim AxisNo(4) As Integer
+        Dim TargetPos(4) As Decimal
+        AxisNo(0) = sys.AxisX
+        AxisNo(1) = sys.AxisY
+        AxisNo(2) = sys.AxisZ
+        AxisNo(3) = sys.AxisB
+        AxisNo(4) = sys.AxisC
+
+        TargetPos(0) = Val(nmcStartPosX.Value)
+        TargetPos(1) = Val(nmcStartPosY.Value)
+        TargetPos(2) = Val(nmcStartPosZ.Value)
+        ButtonSafeMovePos(sender, AxisNo, TargetPos, sys)
+        'ucJoyStick1.RefreshPosition()
+        RaiseEvent OnMoved(sender, e)
+        btnGoStartPos.Enabled = True
+    End Sub
+
+    Private Sub btnGoEndPos_Click(sender As Object, e As EventArgs) Handles btnGoEndPos.Click
+        gSyslog.Save("[frmRecipe01]" & vbTab & "[btnGoStartPos]" & vbTab & "Click")
+        btnGoEndPos.Enabled = False
+        If gSYS(eSys.OverAll).Act(eAct.Home).RunStatus <> enmRunStatus.Finish Then
+            BtnHomeFirstBehavior(sender)
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000012), "Warn_3000012", eMessageLevel.Warning)
+            btnGoEndPos.Enabled = True
+            Exit Sub
+        End If
+        If gCRecipe Is Nothing Then
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000012), "Warn_3000012", eMessageLevel.Warning)
+            btnGoEndPos.Enabled = True
+            Exit Sub
+        End If
+
+        '[說明]:X、Y、Z軸
+        gCMotion.SetVelAccDec(sys.AxisX)
+        gCMotion.SetVelAccDec(sys.AxisY)
+        gCMotion.SetVelAccDec(sys.AxisZ)
+        gCMotion.SetVelAccDec(sys.AxisB)
+        gCMotion.SetVelAccDec(sys.AxisC)
+
+        Dim AxisNo(4) As Integer
+        Dim TargetPos(4) As Decimal
+        AxisNo(0) = sys.AxisX
+        AxisNo(1) = sys.AxisY
+        AxisNo(2) = sys.AxisZ
+        AxisNo(3) = sys.AxisB
+        AxisNo(4) = sys.AxisC
+
+        TargetPos(0) = Val(nmcEndPosX.Value)
+        TargetPos(1) = Val(nmcEndPosY.Value)
+        TargetPos(2) = Val(nmcStartPosZ.Value)
+        ButtonSafeMovePos(sender, AxisNo, TargetPos, sys)
+        RaiseEvent OnMoved(sender, e) 'ucJoyStick1.RefreshPosition()
+        btnGoEndPos.Enabled = True
+    End Sub
+
+    ''' <summary>表單已載入</summary>
+    ''' <remarks></remarks>
+    Public IsFormLoaded As Boolean
+
+    Sub UpdateArray(sender As Object, e As EventArgs)
+        If Not IsFormLoaded Then '不可見時
+            Exit Sub
+        End If
+        '--- 可編輯才儲存 ---
+        If Not gCRecipe.Editable Then
+            Exit Sub
+        End If
+        If NodeID Is Nothing Then
+            '請先選擇Node
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000025))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000025), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        End If
+        Dim StageNo As Integer = CInt(NodeID.Split(",")(1))
+
+        Dim mArray As New CArray
+        mArray.CountX = Val(nmcArrayXCount.Value)
+        mArray.PitchX = Val(nmcArrayXPitch.Value)
+
+        mArray.CountY = Val(nmcArrayYCount.Value)
+        mArray.PitchY = Val(nmcArrayYPitch.Value)
+        mArray.StartPosX = Val(nmcStartPosX.Value)
+        mArray.StartPosY = Val(nmcStartPosY.Value)
+        mArray.StartPosZ = Val(nmcStartPosZ.Value) 'Soni + 2017.04.20
+        mArray.EndPosX = Val(nmcEndPosX.Value)
+        mArray.EndPosY = Val(nmcEndPosY.Value)
+
+        If StageNo >= gCRecipe.Node.Count Then
+            '無相應站號
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000060))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000060), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        End If
+
+        If Not gCRecipe.Node(StageNo).ContainsKey(NodeID) Then
+            '無相應節點
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000061))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000061), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        End If
+
+        If LevelNo >= gCRecipe.Node(StageNo)(NodeID).Array.Count Then
+            '該層資料不存在
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000062))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000062), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        End If
+
+        gCRecipe.Node(StageNo)(NodeID).Array(LevelNo).Array = mArray
+        gCRecipe.Node(StageNo)(NodeID).Array(LevelNo).LevelType = eLevelType.Array
+
+        RaiseEvent ValueChanged(sender, e)
+    End Sub
+
+  
+
+    Private Sub nmcArray_ValueChanged(sender As Object, e As EventArgs) Handles nmcStartPosZ.ValueChanged, nmcStartPosY.ValueChanged, nmcStartPosX.ValueChanged, nmcEndPosY.ValueChanged, nmcEndPosX.ValueChanged, nmcArrayYPitch.ValueChanged, nmcArrayYCount.ValueChanged, nmcArrayXPitch.ValueChanged, nmcArrayXCount.ValueChanged
+        UpdateArray(sender, e)
+    End Sub
+End Class

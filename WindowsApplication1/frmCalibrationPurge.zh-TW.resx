@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtCalibrationPurgePosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgePosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgePosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoPos.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblLaserPosZ.Text" xml:space="preserve">
+    <value>Z軸</value>
+  </data>
+  <data name="lblLaserPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.Text" xml:space="preserve">
+    <value>Y軸</value>
+  </data>
+  <data name="lblLaserPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosX.Text" xml:space="preserve">
+    <value>X軸</value>
+  </data>
+  <data name="lblLaserPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpHeightSensorPos.Text" xml:space="preserve">
+    <value>閥頭排膠位置</value>
+  </data>
+  <data name="grpHeightSensorPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblCCDPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosZ.Text" xml:space="preserve">
+    <value>Z軸</value>
+  </data>
+  <data name="lblCCDPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosY.Text" xml:space="preserve">
+    <value>Y軸</value>
+  </data>
+  <data name="lblCCDPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosX.Text" xml:space="preserve">
+    <value>X軸</value>
+  </data>
+  <data name="lblCCDPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpCCDPos.Text" xml:space="preserve">
+    <value>CCD校正位置</value>
+  </data>
+  <data name="grpCCDPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeVacuum.Text" xml:space="preserve">
+    <value>排膠真空</value>
+  </data>
+  <data name="lblPurgeVacuum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palVacuumReady.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPurgeVacuumOnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcDispenserNo1PurgeTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPurge.ToolTip" xml:space="preserve">
+    <value>排膠</value>
+  </data>
+  <data name="Label92.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleTime.Text" xml:space="preserve">
+    <value>排膠週期</value>
+  </data>
+  <data name="lblCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeTime.Text" xml:space="preserve">
+    <value>排膠時間</value>
+  </data>
+  <data name="lblPurgeTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbPurge.Text" xml:space="preserve">
+    <value>排膠參數</value>
+  </data>
+  <data name="gpbPurge.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblPurge3PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge3PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge3PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign3PosZ.Text" xml:space="preserve">
+    <value>定位點3 Z</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign3PosY.Text" xml:space="preserve">
+    <value>定位點3 Y</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign3PosX.Text" xml:space="preserve">
+    <value>定位點3 X</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAlign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnAlign.Text" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="btnAlign.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblPurge2PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge2PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge2PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign2PosZ.Text" xml:space="preserve">
+    <value>定位點2 Z</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign2PosY.Text" xml:space="preserve">
+    <value>定位點2 Y</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign2PosX.Text" xml:space="preserve">
+    <value>定位點2 X</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblPurge1PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge1PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge1PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign1PosZ.Text" xml:space="preserve">
+    <value>定位點1 Z</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign1PosY.Text" xml:space="preserve">
+    <value>定位點1 Y</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign1PosX.Text" xml:space="preserve">
+    <value>定位點1 X</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSceneSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScene.Text" xml:space="preserve">
+    <value>場景</value>
+  </data>
+  <data name="lblScene.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTrainScene.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="grpPurgeAlignPos.Text" xml:space="preserve">
+    <value>排膠定位位置</value>
+  </data>
+  <data name="grpPurgeAlignPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcExposure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>曝光時間</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTiltValvePosB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>B閥校正位置</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="gpTiltMove.Text" xml:space="preserve">
+    <value>Tilt校正位置</value>
+  </data>
+  <data name="gpTiltMove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPurgeNext.Text" xml:space="preserve">
+    <value>下頁</value>
+  </data>
+  <data name="btnPurgeNext.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPurgePrev.Text" xml:space="preserve">
+    <value>上頁</value>
+  </data>
+  <data name="btnPurgePrev.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcLightControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>排膠位置</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

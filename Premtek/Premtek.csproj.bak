@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9962CDE-62C3-4037-82B3-C235B8947C08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Premtek</RootNamespace>
+    <AssemblyName>Premtek</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Automation.BDaq, Version=1.0.1.0, Culture=neutral, PublicKeyToken=463f5928d60183a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MachineDLL\Automation.BDaq.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.CalibFix, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.Caliper, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.Core, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.Display.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.ImageProcessing, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.PMAlign, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.ToolGroup, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="ProjectCore">
+      <HintPath>..\ProjectCore\bin\ProjectCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectIO">
+      <HintPath>..\ProjectIO\bin\ProjectIO.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectRecipe">
+      <HintPath>..\ProjectRecipe\bin\ProjectRecipe.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAlignResult.cs" />
+    <Compile Include="CAlignResults.cs" />
+    <Compile Include="CArrayInfo.cs" />
+    <Compile Include="CDatabaseValve.cs" />
+    <Compile Include="CDatabaseValveAdvanjet.cs" />
+    <Compile Include="CDatabaseValveJet.cs" />
+    <Compile Include="CDispensingMath.cs" />
+    <Compile Include="CFileMisc.cs" />
+    <Compile Include="CMotionMisc.cs" />
+    <Compile Include="ControlMisc.cs" />
+    <Compile Include="CRecipeAlignStage.cs" />
+    <Compile Include="CRecipeHeightGroup.cs" />
+    <Compile Include="CRecipeMachine.cs" />
+    <Compile Include="CRecipeMap.cs" />
+    <Compile Include="CRecipeParameterFindHeight.cs" />
+    <Compile Include="CRecipeStepArcLimit.cs" />
+    <Compile Include="CRecipeStepArcMid.cs" />
+    <Compile Include="CRecipeStepCircleLimit.cs" />
+    <Compile Include="CRecipeStepContiEnd.cs" />
+    <Compile Include="CRecipeStepContiStart.cs" />
+    <Compile Include="CRecipeStepLineLimit.cs" />
+    <Compile Include="CRecipeStepLineMid.cs" />
+    <Compile Include="CRecipeStepPurge.cs" />
+    <Compile Include="CRecipeStepTimerStart.cs" />
+    <Compile Include="CRecipeStepTimesUp.cs" />
+    <Compile Include="CSystem1Machine.cs" />
+    <Compile Include="CSystem2Stage.cs" />
+    <Compile Include="CSystem0Top.cs" />
+    <Compile Include="CToolKitMap.cs" />
+    <Compile Include="CMath.cs" />
+    <Compile Include="CRecipeAlignGroup.cs" />
+    <Compile Include="CPosPoint.cs" />
+    <Compile Include="CRecipe.cs" />
+    <Compile Include="CRecipeAlignPos.cs" />
+    <Compile Include="CRecipeParameterValve.cs" />
+    <Compile Include="CRecipeParameterDot.cs" />
+    <Compile Include="CRecipeParameterLine.cs" />
+    <Compile Include="CRecipePattern.cs" />
+    <Compile Include="CRecipeStep.cs" />
+    <Compile Include="CRecipeStepPattern.cs" />
+    <Compile Include="CRecipeStepArcCircle.cs" />
+    <Compile Include="CRecipeStepArray.cs" />
+    <Compile Include="CRecipeStepDelay.cs" />
+    <Compile Include="CRecipeStepFindHeight.cs" />
+    <Compile Include="CRecipeStepLine.cs" />
+    <Compile Include="CRecipeParameterStepGroup.cs" />
+    <Compile Include="CRecipeStepRectangle.cs" />
+    <Compile Include="CCylinder.cs" />
+    <Compile Include="frmMapSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapSplit.Designer.cs">
+      <DependentUpon>frmMapSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe.Designer.cs">
+      <DependentUpon>frmRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CRecipeStepDot.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucJoyStick.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucJoyStick.Designer.cs">
+      <DependentUpon>ucJoyStick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeArcMid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeArcMid.Designer.cs">
+      <DependentUpon>ucRecipeArcMid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeContiEnd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeContiEnd.Designer.cs">
+      <DependentUpon>ucRecipeContiEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeContiStart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeContiStart.Designer.cs">
+      <DependentUpon>ucRecipeContiStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeLineMid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeLineMid.Designer.cs">
+      <DependentUpon>ucRecipeLineMid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipePattern.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipePattern.Designer.cs">
+      <DependentUpon>ucRecipePattern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeArc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeArc.Designer.cs">
+      <DependentUpon>ucRecipeArc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeArray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeArray.Designer.cs">
+      <DependentUpon>ucRecipeArray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeCircle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeCircle.Designer.cs">
+      <DependentUpon>ucRecipeCircle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeDelay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeDelay.Designer.cs">
+      <DependentUpon>ucRecipeDelay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeDot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeDot.Designer.cs">
+      <DependentUpon>ucRecipeDot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeFindHeight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeFindHeight.Designer.cs">
+      <DependentUpon>ucRecipeFindHeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipePatternGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipePatternGroup.Designer.cs">
+      <DependentUpon>ucRecipePatternGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeLine.Designer.cs">
+      <DependentUpon>ucRecipeLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipePurge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipePurge.Designer.cs">
+      <DependentUpon>ucRecipePurge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeRectangle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeRectangle.Designer.cs">
+      <DependentUpon>ucRecipeRectangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeStepParameter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeStepParameter.Designer.cs">
+      <DependentUpon>ucRecipeStepParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeTimerStart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeTimerStart.Designer.cs">
+      <DependentUpon>ucRecipeTimerStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeTimesUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeTimesUp.Designer.cs">
+      <DependentUpon>ucRecipeTimesUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeWeight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeWeight.Designer.cs">
+      <DependentUpon>ucRecipeWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucVision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucVision.Designer.cs">
+      <DependentUpon>ucVision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWaferMapAdjust.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWaferMapAdjust.Designer.cs">
+      <DependentUpon>ucWaferMapAdjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWaferMapAngle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWaferMapAngle.Designer.cs">
+      <DependentUpon>ucWaferMapAngle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWaferMapCenter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWaferMapCenter.Designer.cs">
+      <DependentUpon>ucWaferMapCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucWaferMapPitchSize.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWaferMapPitchSize.Designer.cs">
+      <DependentUpon>ucWaferMapPitchSize.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMapSplit.resx">
+      <DependentUpon>frmMapSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe.resx">
+      <DependentUpon>frmRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucJoyStick.resx">
+      <DependentUpon>ucJoyStick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeArcMid.resx">
+      <DependentUpon>ucRecipeArcMid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeContiEnd.resx">
+      <DependentUpon>ucRecipeContiEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeContiStart.resx">
+      <DependentUpon>ucRecipeContiStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeLineMid.resx">
+      <DependentUpon>ucRecipeLineMid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipePattern.resx">
+      <DependentUpon>ucRecipePattern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeArc.resx">
+      <DependentUpon>ucRecipeArc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeArray.resx">
+      <DependentUpon>ucRecipeArray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeCircle.resx">
+      <DependentUpon>ucRecipeCircle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeDelay.resx">
+      <DependentUpon>ucRecipeDelay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeDot.resx">
+      <DependentUpon>ucRecipeDot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeFindHeight.resx">
+      <DependentUpon>ucRecipeFindHeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipePatternGroup.resx">
+      <DependentUpon>ucRecipePatternGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeLine.resx">
+      <DependentUpon>ucRecipeLine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipePurge.resx">
+      <DependentUpon>ucRecipePurge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeRectangle.resx">
+      <DependentUpon>ucRecipeRectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeStepParameter.resx">
+      <DependentUpon>ucRecipeStepParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeTimerStart.resx">
+      <DependentUpon>ucRecipeTimerStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeTimesUp.resx">
+      <DependentUpon>ucRecipeTimesUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeWeight.resx">
+      <DependentUpon>ucRecipeWeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucVision.resx">
+      <DependentUpon>ucVision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWaferMapAdjust.resx">
+      <DependentUpon>ucWaferMapAdjust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWaferMapAngle.resx">
+      <DependentUpon>ucWaferMapAngle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWaferMapCenter.resx">
+      <DependentUpon>ucWaferMapCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWaferMapPitchSize.resx">
+      <DependentUpon>ucWaferMapPitchSize.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapData\MapData.vbproj">
+      <Project>{c4b7528e-f6fa-40bc-b364-829243bbda08}</Project>
+      <Name>MapData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Premtek.Base\Premtek.Base.csproj">
+      <Project>{89ec5a71-f817-49b0-9aa0-6861581a381a}</Project>
+      <Name>Premtek.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectAOI\ProjectAOI.vbproj">
+      <Project>{8e7d33a3-7f0c-4374-a76d-9cdde9e54ef5}</Project>
+      <Name>ProjectAOI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectCore\ProjectCore.vbproj">
+      <Project>{2b1fae8f-9ae8-4fa4-8ddc-3da365177691}</Project>
+      <Name>ProjectCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectIO\ProjectIO.vbproj">
+      <Project>{ab1b4d09-75a8-4acf-af7b-9484d8631a6c}</Project>
+      <Name>ProjectIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectMotion\ProjectMotion.vbproj">
+      <Project>{9cb15806-2608-411c-a2eb-ca428a6a3adf}</Project>
+      <Name>ProjectMotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WetcoConveyor\WetcoConveyor.vbproj">
+      <Project>{2e265c0d-bca4-496b-bce9-bfa26635c177}</Project>
+      <Name>WetcoConveyor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Array.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIDs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goPos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserReader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I33_110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I33_133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I33_135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\I33_156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpeedHigh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpeedLow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpeedMid.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

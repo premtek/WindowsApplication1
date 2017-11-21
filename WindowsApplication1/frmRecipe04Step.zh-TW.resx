@@ -1,0 +1,1083 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>B閥位置</value>
+  </data>
+  <data name="btnSelectValveDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btnSelectValveCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="lblSelect.Text" xml:space="preserve">
+    <value>選擇閥</value>
+  </data>
+  <data name="grpSelectValve.Text" xml:space="preserve">
+    <value>選擇作業閥</value>
+  </data>
+  <data name="tabSelectValve.Text" xml:space="preserve">
+    <value>選擇閥</value>
+  </data>
+  <data name="btnContiStartCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnContiStartDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpCOntiStart.Text" xml:space="preserve">
+    <value>連續點膠開始</value>
+  </data>
+  <data name="TabContiStart.Text" xml:space="preserve">
+    <value>連續點膠開始</value>
+  </data>
+  <data name="btnContiEndCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnContiEndDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpContiEnd.Text" xml:space="preserve">
+    <value>連續點膠結束</value>
+  </data>
+  <data name="TabContiEnd.Text" xml:space="preserve">
+    <value>連續點膠結束</value>
+  </data>
+  <data name="lblMove3DMaxSpeed.Text" xml:space="preserve">
+    <value>最大速度</value>
+  </data>
+  <data name="btnMove3DGo.ToolTip" xml:space="preserve">
+    <value>移動到指定位置</value>
+  </data>
+  <data name="btnMove3DSet.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblMove3DEndPosZ.Text" xml:space="preserve">
+    <value>目標位置Z</value>
+  </data>
+  <data name="lblMove3DEndPosY.Text" xml:space="preserve">
+    <value>目標位置Y</value>
+  </data>
+  <data name="lblMove3DEndPosX.Text" xml:space="preserve">
+    <value>目標位置X</value>
+  </data>
+  <data name="grpMove3D.Text" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="tabMove3D.Text" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="lblDot3DWeight.Text" xml:space="preserve">
+    <value>膠重</value>
+  </data>
+  <data name="btDotTypeSelect.ToolTip" xml:space="preserve">
+    <value>點型式選擇</value>
+  </data>
+  <data name="lbDotTypeSelect.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="lblDots3DVelocity.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="btnDot3DCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnDots3DGo.ToolTip" xml:space="preserve">
+    <value>移動到點位置</value>
+  </data>
+  <data name="btnDots3DSet.ToolTip" xml:space="preserve">
+    <value>設定點位置</value>
+  </data>
+  <data name="lblDots3DEndPosZ.Text" xml:space="preserve">
+    <value>目標位置Z</value>
+  </data>
+  <data name="lblDots3DEndPosY.Text" xml:space="preserve">
+    <value>目標位置Y</value>
+  </data>
+  <data name="lblDots3DEndPosX.Text" xml:space="preserve">
+    <value>目標位置X</value>
+  </data>
+  <data name="btnDots3DDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpDot3D.Text" xml:space="preserve">
+    <value>打點</value>
+  </data>
+  <data name="tabDots3D.Text" xml:space="preserve">
+    <value>打點</value>
+  </data>
+  <data name="btLineTypeSelect.ToolTip" xml:space="preserve">
+    <value>線型式選擇</value>
+  </data>
+  <data name="lbLineTypeSelect.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="btnLine3DRefresh.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>註解</value>
+  </data>
+  <data name="btnLine3DCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnLine3DEndMove.ToolTip" xml:space="preserve">
+    <value>移動到線結束位置</value>
+  </data>
+  <data name="btnLine3DStartMove.ToolTip" xml:space="preserve">
+    <value>移動到線起始位置</value>
+  </data>
+  <data name="lblLine3DPitch.Text" xml:space="preserve">
+    <value>間距</value>
+  </data>
+  <data name="lblLine3DWeightCoef.Text" xml:space="preserve">
+    <value>膠重係數</value>
+  </data>
+  <data name="lblLine3DDot.Text" xml:space="preserve">
+    <value>點數</value>
+  </data>
+  <data name="lblLine3DWeight.Text" xml:space="preserve">
+    <value>膠重</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnLine3DEndSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnLine3DEndSet.ToolTip" xml:space="preserve">
+    <value>設定線結束位置</value>
+  </data>
+  <data name="btnLine3DStartSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnLine3DStartSet.ToolTip" xml:space="preserve">
+    <value>設定線起始位置</value>
+  </data>
+  <data name="lblLine3DStartPosZ.Text" xml:space="preserve">
+    <value>起始位置Z</value>
+  </data>
+  <data name="lblLine3DStartPosY.Text" xml:space="preserve">
+    <value>起始位置Y</value>
+  </data>
+  <data name="lblLine3DStartPosX.Text" xml:space="preserve">
+    <value>起始位置X</value>
+  </data>
+  <data name="lblLine3DEndPosZ.Text" xml:space="preserve">
+    <value>結束位置Z</value>
+  </data>
+  <data name="lblLine3DEndPosY.Text" xml:space="preserve">
+    <value>結束位置Y</value>
+  </data>
+  <data name="lblLine3DEndPosX.Text" xml:space="preserve">
+    <value>結束位置X</value>
+  </data>
+  <data name="btnLine3DDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpLine3D.Text" xml:space="preserve">
+    <value>畫線</value>
+  </data>
+  <data name="tabLine3D.Text" xml:space="preserve">
+    <value>畫線</value>
+  </data>
+  <data name="btArcTypeSelect.ToolTip" xml:space="preserve">
+    <value>弧型式選擇</value>
+  </data>
+  <data name="lbArcTypeSelect.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="btnArcRefresh.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>註解</value>
+  </data>
+  <data name="btnArcCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="lblArcPitch.Text" xml:space="preserve">
+    <value>間距</value>
+  </data>
+  <data name="lblArcWeightCoef.Text" xml:space="preserve">
+    <value>膠重係數</value>
+  </data>
+  <data name="lblArcDot.Text" xml:space="preserve">
+    <value>點數</value>
+  </data>
+  <data name="lblArcWeight.Text" xml:space="preserve">
+    <value>膠重</value>
+  </data>
+  <data name="btnArcMidMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArcMidMove.ToolTip" xml:space="preserve">
+    <value>移動到弧中繼位置</value>
+  </data>
+  <data name="btnArcEndMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArcEndMove.ToolTip" xml:space="preserve">
+    <value>移動到弧結束位置</value>
+  </data>
+  <data name="btnArcStartMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArcStartMove.ToolTip" xml:space="preserve">
+    <value>移動到弧起始位置</value>
+  </data>
+  <data name="btnArcMidSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArcMidSet.ToolTip" xml:space="preserve">
+    <value>設定弧中繼位置</value>
+  </data>
+  <data name="btnArcEndSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArcEndSet.ToolTip" xml:space="preserve">
+    <value>設定弧結束位置</value>
+  </data>
+  <data name="btnArcStartSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArcStartSet.ToolTip" xml:space="preserve">
+    <value>設定弧起始位置</value>
+  </data>
+  <data name="lblArcAngle.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="lblArcStartPosZ.Text" xml:space="preserve">
+    <value>起始位置Z</value>
+  </data>
+  <data name="lblArcStartPosY.Text" xml:space="preserve">
+    <value>起始位置Y</value>
+  </data>
+  <data name="lblArcStartPosX.Text" xml:space="preserve">
+    <value>起始位置X</value>
+  </data>
+  <data name="lblArcMidPosZ.Text" xml:space="preserve">
+    <value>中繼位置Z</value>
+  </data>
+  <data name="lblArcMidPosY.Text" xml:space="preserve">
+    <value>中繼位置Y</value>
+  </data>
+  <data name="lblArcMidPosX.Text" xml:space="preserve">
+    <value>中繼位置X</value>
+  </data>
+  <data name="lblArcEndPosZ.Text" xml:space="preserve">
+    <value>結束位置Z</value>
+  </data>
+  <data name="lblArcEndPosY.Text" xml:space="preserve">
+    <value>結束位置Y</value>
+  </data>
+  <data name="lblArcEndPosX.Text" xml:space="preserve">
+    <value>結束位置X</value>
+  </data>
+  <data name="btnArcDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpArc.Text" xml:space="preserve">
+    <value>畫弧</value>
+  </data>
+  <data name="tabArc.Text" xml:space="preserve">
+    <value>畫弧</value>
+  </data>
+  <data name="btCircleTypeSelect.ToolTip" xml:space="preserve">
+    <value>圓型式選擇</value>
+  </data>
+  <data name="lbCircleTypeSelect.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="btnCircleRefresh.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>註解</value>
+  </data>
+  <data name="btnCircleCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="lblCirclePitch.Text" xml:space="preserve">
+    <value>間距</value>
+  </data>
+  <data name="lblCircleWeightCoef.Text" xml:space="preserve">
+    <value>膠重係數</value>
+  </data>
+  <data name="lblCircleDot.Text" xml:space="preserve">
+    <value>點數</value>
+  </data>
+  <data name="lblCircleWeight.Text" xml:space="preserve">
+    <value>膠重</value>
+  </data>
+  <data name="btnCircleStartMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleStartMove.ToolTip" xml:space="preserve">
+    <value>移動到圓起始位置</value>
+  </data>
+  <data name="btnCircleStartSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleStartSet.ToolTip" xml:space="preserve">
+    <value>設定圓起始位置</value>
+  </data>
+  <data name="lblCircleStartPosZ.Text" xml:space="preserve">
+    <value>起始位置Z</value>
+  </data>
+  <data name="lblCircleStartPosY.Text" xml:space="preserve">
+    <value>起始位置Y</value>
+  </data>
+  <data name="lblCircleStartPosX.Text" xml:space="preserve">
+    <value>起始位置X</value>
+  </data>
+  <data name="btnCircleMidMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleMidMove.ToolTip" xml:space="preserve">
+    <value>移動到圓起始位置</value>
+  </data>
+  <data name="btnCircleEndMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleEndMove.ToolTip" xml:space="preserve">
+    <value>移動到圓結束位置</value>
+  </data>
+  <data name="btnCircleMidSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleMidSet.ToolTip" xml:space="preserve">
+    <value>設定圓中繼位置</value>
+  </data>
+  <data name="btnCircleEndSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleEndSet.ToolTip" xml:space="preserve">
+    <value>設定圓結束位置</value>
+  </data>
+  <data name="lblCircleMidPosZ.Text" xml:space="preserve">
+    <value>中繼點 Z</value>
+  </data>
+  <data name="lblCircleMidPosY.Text" xml:space="preserve">
+    <value>中繼點 Y</value>
+  </data>
+  <data name="lblCircleMidPosX.Text" xml:space="preserve">
+    <value>中繼點 X</value>
+  </data>
+  <data name="lblCircleEndPosZ.Text" xml:space="preserve">
+    <value>中繼點2 Z</value>
+  </data>
+  <data name="lblCircleEndPosY.Text" xml:space="preserve">
+    <value>中繼點2 Y</value>
+  </data>
+  <data name="lblCircleEndPosX.Text" xml:space="preserve">
+    <value>中繼點2 X</value>
+  </data>
+  <data name="btnCircleDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpCircle.Text" xml:space="preserve">
+    <value>畫圓</value>
+  </data>
+  <data name="tabCircle.Text" xml:space="preserve">
+    <value>畫圓</value>
+  </data>
+  <data name="btnWaitCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnWaitDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="lblWaitDwellTime.Text" xml:space="preserve">
+    <value>等待時間</value>
+  </data>
+  <data name="grpWait.Text" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="tabWait.Text" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="lbCircle3DTypeSelect.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="btnCircle3DCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnCircle3DDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btnCircle3DCenterMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircle3DCenterMove.ToolTip" xml:space="preserve">
+    <value>移動到空間圓圓心位置</value>
+  </data>
+  <data name="btnCircle3DEndMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircle3DEndMove.ToolTip" xml:space="preserve">
+    <value>移動到空間圓結束位置</value>
+  </data>
+  <data name="btnCircleCenterSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircleCenterSet.ToolTip" xml:space="preserve">
+    <value>設定空間圓圓心位置</value>
+  </data>
+  <data name="btnCircle3DEndSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCircle3DEndSet.ToolTip" xml:space="preserve">
+    <value>設定空間圓結束位置</value>
+  </data>
+  <data name="lblCircle3DCenterPosZ.Text" xml:space="preserve">
+    <value>圓心位置Z</value>
+  </data>
+  <data name="lblCircle3DCenterPosY.Text" xml:space="preserve">
+    <value>圓心位置Y</value>
+  </data>
+  <data name="lblCircle3DCenterPosX.Text" xml:space="preserve">
+    <value>圓心位置X</value>
+  </data>
+  <data name="lblCircle3DEndPosZ.Text" xml:space="preserve">
+    <value>結束位置Z</value>
+  </data>
+  <data name="lblCircle3DEndPosY.Text" xml:space="preserve">
+    <value>結束位置Y</value>
+  </data>
+  <data name="lblCircle3DEndPosX.Text" xml:space="preserve">
+    <value>結束位置X</value>
+  </data>
+  <data name="grpCircle3D.Text" xml:space="preserve">
+    <value>空間圓</value>
+  </data>
+  <data name="tabCircle3D.Text" xml:space="preserve">
+    <value>空間圓</value>
+  </data>
+  <data name="btArc3DTypeSelect.ToolTip" xml:space="preserve">
+    <value>空間弧型式選擇</value>
+  </data>
+  <data name="lbArc3DTypeSelect.Text" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="btnArc3DCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnArc3DDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btnArc3DCenterMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArc3DCenterMove.ToolTip" xml:space="preserve">
+    <value>移動到空間弧圓心位置</value>
+  </data>
+  <data name="btnArc3DEndMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArc3DEndMove.ToolTip" xml:space="preserve">
+    <value>移動到空間弧結束位置</value>
+  </data>
+  <data name="btnArc3DStartrMove.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArc3DStartrMove.ToolTip" xml:space="preserve">
+    <value>移動到空間弧起始位置</value>
+  </data>
+  <data name="btnArc3DCenterSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArc3DCenterSet.ToolTip" xml:space="preserve">
+    <value>設定空間弧圓心位置</value>
+  </data>
+  <data name="btnArc3DEndSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArc3DEndSet.ToolTip" xml:space="preserve">
+    <value>設定空間弧結束位置</value>
+  </data>
+  <data name="btnArc3DStartSet.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnArc3DStartSet.ToolTip" xml:space="preserve">
+    <value>設定空間弧起始位置</value>
+  </data>
+  <data name="lblArc3DAngle.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="lblArc3DStartPosZ.Text" xml:space="preserve">
+    <value>起始位置Z</value>
+  </data>
+  <data name="lblArc3DStartPosY.Text" xml:space="preserve">
+    <value>起始位置Y</value>
+  </data>
+  <data name="lblArc3DStartPosX.Text" xml:space="preserve">
+    <value>起始位置X</value>
+  </data>
+  <data name="lblArc3DCenterPosZ.Text" xml:space="preserve">
+    <value>圓心位置Z</value>
+  </data>
+  <data name="lblArc3DCenterPosY.Text" xml:space="preserve">
+    <value>圓心位置Y</value>
+  </data>
+  <data name="lblArc3DCenterPosX.Text" xml:space="preserve">
+    <value>圓心位置X</value>
+  </data>
+  <data name="lblArc3DEndPosZ.Text" xml:space="preserve">
+    <value>結束位置Z</value>
+  </data>
+  <data name="lblArc3DEndPosY.Text" xml:space="preserve">
+    <value>結束位置Y</value>
+  </data>
+  <data name="lblArc3DEndPosX.Text" xml:space="preserve">
+    <value>結束位置X</value>
+  </data>
+  <data name="grpArc3D.Text" xml:space="preserve">
+    <value>空間弧</value>
+  </data>
+  <data name="tabArc3D.Text" xml:space="preserve">
+    <value>空間弧</value>
+  </data>
+  <data name="btnExtendOnCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnExtendOnDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpExtendOn.Text" xml:space="preserve">
+    <value>延伸路徑開始</value>
+  </data>
+  <data name="tabExtendOn.Text" xml:space="preserve">
+    <value>延伸路徑開始</value>
+  </data>
+  <data name="btnExtendOffCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnExtendOffDone.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="grpExtendOff.Text" xml:space="preserve">
+    <value>延伸路徑結束</value>
+  </data>
+  <data name="tabExtendOff.Text" xml:space="preserve">
+    <value>延伸路徑結束</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>步驟編輯</value>
+  </data>
+</root>

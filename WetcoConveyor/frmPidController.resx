@@ -1,0 +1,2898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCloseA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;tbValueA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 636</value>
+  </data>
+  <data name="gboxB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 37</value>
+  </data>
+  <data name="btnSetA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gboxB2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueA1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbValueB6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbValueB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="btnCloseB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCloseA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB3.Name" xml:space="preserve">
+    <value>btnCloseB3</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="gboxA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;btnSetA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gboxA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="gboxB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetB6.Name" xml:space="preserve">
+    <value>btnSetB6</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA4.Name" xml:space="preserve">
+    <value>btnOpenA4</value>
+  </data>
+  <data name="tbValueA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCloseA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCloseA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;gboxA6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnSetB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="&gt;&gt;btnSetB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbValueA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenA4.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="btnCloseB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="btnCloseB6.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCloseA3.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="gboxA5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseA4.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnCloseA3.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnSetB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnCloseB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetB2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnSetA5.Name" xml:space="preserve">
+    <value>btnSetA5</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbValueA4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCloseA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.Name" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="tbValueB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueB1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gboxB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnSetA4.Name" xml:space="preserve">
+    <value>btnSetA4</value>
+  </data>
+  <data name="tbValueB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="btnCloseA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="btnSetA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnOpenB6.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="gboxB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 206</value>
+  </data>
+  <data name="gboxA6.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="btnCloseB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA1.Name" xml:space="preserve">
+    <value>btnOpenA1</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbValueB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="tbValueA2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbValueA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnOpenA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbValueB4.Name" xml:space="preserve">
+    <value>tbValueB4</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;tbValueA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="btnSetA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="btnSetA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="tbValueB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB1.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnOpenA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB4.Name" xml:space="preserve">
+    <value>btnCloseB4</value>
+  </data>
+  <data name="btnSetB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="btnCloseB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA5.Name" xml:space="preserve">
+    <value>btnCloseA5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPidController</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA1.Name" xml:space="preserve">
+    <value>btnCloseA1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOpenA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tbValueA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="gboxB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxMachineA.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;btnSetB5.Name" xml:space="preserve">
+    <value>btnSetB5</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseA5.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="&gt;&gt;tbValueB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenB2.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnCloseB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnCloseA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbValueA4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbValueA5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetB4.Name" xml:space="preserve">
+    <value>btnSetB4</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbValueA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnSetB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCloseA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbValueA6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbValueA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="&gt;&gt;gboxB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 70</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCloseA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 551</value>
+  </data>
+  <data name="btnSetA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="&gt;&gt;tbValueA4.Name" xml:space="preserve">
+    <value>tbValueA4</value>
+  </data>
+  <data name="btnOpenB4.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gboxMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCloseB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetB3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gboxB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 37</value>
+  </data>
+  <data name="&gt;&gt;btnSetB1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 70</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetB5.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetB2.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnOpenA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="btnCloseA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbValueB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="btnSetB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnOpenA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnOpenB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="btnCloseA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="tbValueA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="tbValueB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbValueB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="Label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.Name" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.Name" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="btnOpenB1.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnCloseB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnCloseA6.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="btnCloseA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="tbValueA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;tbValueB2.Name" xml:space="preserve">
+    <value>tbValueB2</value>
+  </data>
+  <data name="btnSetB3.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnOpenB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="tbValueB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA.Name" xml:space="preserve">
+    <value>btnCloseA</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="btnSetB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnOpenB5.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxMachineA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="gboxB1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="btnOpenA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="btnCloseB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetA2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="btnCloseA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB3.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnSetB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gboxA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;tbValueB2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSetA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="btnOpenB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="btnSetA3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnOpenA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnSetA6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Chuck Temperature</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="btnOpenB2.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="btnOpenA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnSetA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="btnCloseB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA6.Name" xml:space="preserve">
+    <value>btnCloseA6</value>
+  </data>
+  <data name="&gt;&gt;tbValueB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA2.Name" xml:space="preserve">
+    <value>btnCloseA2</value>
+  </data>
+  <data name="gboxA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSetA4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnOpenA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gboxA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSetB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="tbValueA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="btnOpenA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="btnCloseB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="&gt;&gt;tbValueA2.Name" xml:space="preserve">
+    <value>tbValueA2</value>
+  </data>
+  <data name="btnCloseB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnCloseB5.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="tbValueA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnSetB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="btnSetA4.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSetA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenB1.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gboxA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetA3.Name" xml:space="preserve">
+    <value>btnSetA3</value>
+  </data>
+  <data name="gboxMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueA4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetB3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gboxB4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="tbValueB4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOpenA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnOpenA6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCloseA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="&gt;&gt;btnSetA2.Name" xml:space="preserve">
+    <value>btnSetA2</value>
+  </data>
+  <data name="tbValueA5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbValueB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetA1.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnCloseA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB2.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="gboxB6.Text" xml:space="preserve">
+    <value>NO.6</value>
+  </data>
+  <data name="&gt;&gt;btnSetB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="btnCloseB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueA2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnOpenB.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="tbValueB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.Name" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA5.Name" xml:space="preserve">
+    <value>btnOpenA5</value>
+  </data>
+  <data name="btnSetB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="&gt;&gt;btnSetB5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbValueA6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnOpenA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="btnOpenA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="btnOpenA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueB5.Name" xml:space="preserve">
+    <value>tbValueB5</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 751</value>
+  </data>
+  <data name="btnSetA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB2.Name" xml:space="preserve">
+    <value>btnOpenB2</value>
+  </data>
+  <data name="&gt;&gt;gboxA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxB4.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbValueB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 38</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="btnCloseB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="btnOpenA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="btnOpenA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 551</value>
+  </data>
+  <data name="btnSetB1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnCloseB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gboxB5.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="gboxA6.Text" xml:space="preserve">
+    <value>NO.6</value>
+  </data>
+  <data name="&gt;&gt;btnSetA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueB3.Name" xml:space="preserve">
+    <value>tbValueB3</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueB2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnSetB3.Name" xml:space="preserve">
+    <value>btnSetB3</value>
+  </data>
+  <data name="tbValueA1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOpenB6.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="btnSetA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnCloseB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 551</value>
+  </data>
+  <data name="&gt;&gt;tbValueA2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbValueB6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="gboxB2.Text" xml:space="preserve">
+    <value>NO.2</value>
+  </data>
+  <data name="gboxA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;btnSetB2.Name" xml:space="preserve">
+    <value>btnSetB2</value>
+  </data>
+  <data name="tbValueA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSetA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="btnOpenA.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 375</value>
+  </data>
+  <data name="gboxMachineB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 13</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.Name" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="btnCloseB4.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOpenB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbValueB3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOpenB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetA4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnSetB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB6.Name" xml:space="preserve">
+    <value>btnCloseB6</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB2.Name" xml:space="preserve">
+    <value>btnCloseB2</value>
+  </data>
+  <data name="btnOpenB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;tbValueA5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenA.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="btnCloseA1.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="btnOpenB.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="btnSetA1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOpenA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetA1.Name" xml:space="preserve">
+    <value>btnSetA1</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gboxA2.Text" xml:space="preserve">
+    <value>NO.2</value>
+  </data>
+  <data name="Label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gboxA2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxB4.Text" xml:space="preserve">
+    <value>NO.4</value>
+  </data>
+  <data name="btnSetB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="btnOpenA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCloseA.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="btnCloseA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB6.Name" xml:space="preserve">
+    <value>btnOpenB6</value>
+  </data>
+  <data name="&gt;&gt;tbValueA3.Name" xml:space="preserve">
+    <value>tbValueA3</value>
+  </data>
+  <data name="&gt;&gt;tbValueB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="gboxA5.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="btnOpenB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="tbValueB5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="btnCloseA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbValueA3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxMachineB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA2.Name" xml:space="preserve">
+    <value>btnOpenA2</value>
+  </data>
+  <data name="&gt;&gt;btnSetA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenB3.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gboxA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCloseA2.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetA6.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA6.Name" xml:space="preserve">
+    <value>btnOpenA6</value>
+  </data>
+  <data name="btnSetB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB.Name" xml:space="preserve">
+    <value>btnOpenB</value>
+  </data>
+  <data name="btnOpenA6.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnCloseB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA5.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gboxB3.Text" xml:space="preserve">
+    <value>NO.3</value>
+  </data>
+  <data name="&gt;&gt;tbValueB1.Name" xml:space="preserve">
+    <value>tbValueB1</value>
+  </data>
+  <data name="gboxA4.Text" xml:space="preserve">
+    <value>NO.4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxMachineB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="btnCloseB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="gboxMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="gboxB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 206</value>
+  </data>
+  <data name="gboxA5.Text" xml:space="preserve">
+    <value>NO.5</value>
+  </data>
+  <data name="btnSetB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="btnOpenA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="btnSetB6.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbValueB1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCloseA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetB1.Name" xml:space="preserve">
+    <value>btnSetB1</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gboxB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnSetB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.Name" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="btnOpenB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB5.Name" xml:space="preserve">
+    <value>btnOpenB5</value>
+  </data>
+  <data name="tbValueB1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCloseA.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCloseB2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSetA5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gboxB6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="&gt;&gt;btnSetA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="btnOpenB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueB6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="gboxB5.Text" xml:space="preserve">
+    <value>NO.5</value>
+  </data>
+  <data name="btnOpenA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbValueA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="tbValueB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="tbValueB6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gboxA1.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="gboxB6.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetA1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA2.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.Name" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="btnOpenB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCloseB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;btnSetB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbValueA3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbValueB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetA6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOpenA5.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;tbValueA1.Name" xml:space="preserve">
+    <value>tbValueA1</value>
+  </data>
+  <data name="tbValueA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnCloseA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnOpenA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;gboxA6.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnSetA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="tbValueB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="btnOpenB5.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="btnCloseB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;tbValueA5.Name" xml:space="preserve">
+    <value>tbValueA5</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 551</value>
+  </data>
+  <data name="btnOpenA4.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbValueA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="tbValueB5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSetA2.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="gboxA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 375</value>
+  </data>
+  <data name="&gt;&gt;btnSetB6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="tbValueB2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCloseB1.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="gboxA6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCloseA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="btnCloseA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 70</value>
+  </data>
+  <data name="btnOpenB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="gboxB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA.Name" xml:space="preserve">
+    <value>btnOpenA</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;tbValueB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="tbValueB3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxMachineB.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="btnCloseB2.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnSetA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnSetB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="tbValueA5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="tbValueA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="btnSetB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gboxB1.Text" xml:space="preserve">
+    <value>NO.1</value>
+  </data>
+  <data name="btnCloseB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenA6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB5.Name" xml:space="preserve">
+    <value>btnCloseB5</value>
+  </data>
+  <data name="gboxB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 375</value>
+  </data>
+  <data name="gboxMachineB.Text" xml:space="preserve">
+    <value>Machine B</value>
+  </data>
+  <data name="gboxB5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="btnSetA3.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB1.Name" xml:space="preserve">
+    <value>btnCloseB1</value>
+  </data>
+  <data name="btnSetA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="tbValueA4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;tbValueB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="tbValueA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="tbValueA2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="gboxA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="tbValueA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseA5.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnCloseA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="btnCloseA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnSetB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenA6.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="tbValueA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxMachineA.Text" xml:space="preserve">
+    <value>Machine A</value>
+  </data>
+  <data name="gboxA4.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="btnOpenA3.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="tbValueA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetB5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnSetB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB3.Name" xml:space="preserve">
+    <value>btnOpenB3</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbValueB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="btnSetB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOpenB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnOpenA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetA2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnCloseA4.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="btnOpenA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;btnSetB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA1.Text" xml:space="preserve">
+    <value>NO.1</value>
+  </data>
+  <data name="&gt;&gt;btnSetA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="tbValueB3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gboxB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbValueA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="btnSetA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.Name" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="btnSetA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="btnOpenB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="btnSetB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseB2.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="btnCloseB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 37</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenB5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSetA3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnOpenB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnSetA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="btnOpenB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbValueA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseB6.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;tbValueB4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOpenB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbValueB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.Name" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="gboxA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbValueB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="tbValueB4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbValueA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 44</value>
+  </data>
+  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCloseA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="tbValueA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetB4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenA1.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1032, 667</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 206</value>
+  </data>
+  <data name="tbValueB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gboxA2.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="&gt;&gt;tbValueB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbValueA3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="tbValueA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOpenB4.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="&gt;&gt;tbValueA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB4.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="tbValueB5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOpenA3.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="btnSetB6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gboxA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbValueA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSetB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseB.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCloseB1.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnCloseA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA3.Name" xml:space="preserve">
+    <value>btnCloseA3</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="btnCloseA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCloseA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="&gt;&gt;btnOpenB.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gboxA4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCloseA6.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB.Name" xml:space="preserve">
+    <value>btnCloseB</value>
+  </data>
+  <data name="tbValueA1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tbValueA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;tbValueB3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbValueA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA3.Name" xml:space="preserve">
+    <value>btnOpenA3</value>
+  </data>
+  <data name="gboxA3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;tbValueB6.Name" xml:space="preserve">
+    <value>tbValueB6</value>
+  </data>
+  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxB3.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="gboxB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnCloseB.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gboxA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnCloseB3.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="&gt;&gt;tbValueB5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCloseA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbValueB4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCloseB5.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnCloseA2.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="tbValueB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnOpenB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="btnSetB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="gboxB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnCloseA1.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnCloseA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxMachineB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="btnSetB4.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnOpenA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbValueA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 375</value>
+  </data>
+  <data name="&gt;&gt;btnSetA5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenB4.Name" xml:space="preserve">
+    <value>btnOpenB4</value>
+  </data>
+  <data name="gboxMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="btnOpenA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetB4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxA1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="btnCloseB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueB2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOpenB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnCloseB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 70</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCloseB4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.Name" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="tbValueB1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;gboxA6.Name" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="gboxA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="btnOpenA1.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOpenA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetB1.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="tbValueB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxA3.Text" xml:space="preserve">
+    <value>NO.3</value>
+  </data>
+  <data name="&gt;&gt;btnSetB2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCloseB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnOpenA6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tbValueA1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.Name" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 35</value>
+  </data>
+  <data name="tbValueA3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSetA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbValueB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.Name" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="&gt;&gt;gboxB4.Name" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="&gt;&gt;gboxB4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbValueA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnSetA6.Name" xml:space="preserve">
+    <value>btnSetA6</value>
+  </data>
+  <data name="btnOpenA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbValueB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbValueA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="gboxMachineB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCloseA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbValueA6.Name" xml:space="preserve">
+    <value>tbValueA6</value>
+  </data>
+  <data name="tbValueB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="gboxA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="btnCloseA.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="btnExit.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="tbValueB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="tbValueB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="gboxA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 37</value>
+  </data>
+  <data name="btnCloseB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="tbValueA6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnCloseB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCloseB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="tbValueB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnOpenB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxMachineB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 636</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOpenB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="gboxB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;tbValueB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 38</value>
+  </data>
+  <data name="btnCloseA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 87</value>
+  </data>
+  <data name="tbValueA6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCloseB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenA2.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCloseB3.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="gboxA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 206</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA4.Name" xml:space="preserve">
+    <value>btnCloseA4</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;btnCloseA3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCloseB4.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="gboxA3.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="tbValueB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 35</value>
+  </data>
+  <data name="btnOpenA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOpenA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbValueB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCloseB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="tbValueB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenB1.Name" xml:space="preserve">
+    <value>btnOpenB1</value>
+  </data>
+  <data name="btnSetA5.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

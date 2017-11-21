@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>目標點膠重量:</value>
+  </data>
+  <data name="cbEnableAverageWeight.Text" xml:space="preserve">
+    <value>重量校正反饋功能</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>天平秤重平均數:</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>B閥位置:</value>
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>移動到Tilt位置</value>
+  </data>
+  <data name="gpTiltMove.Text" xml:space="preserve">
+    <value>Tilt位置</value>
+  </data>
+  <data name="cbEnableAverageDot.Text" xml:space="preserve">
+    <value>Dot 重量檢察功能</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Dot 重量範圍</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>點膠重量偏差(±):</value>
+  </data>
+  <data name="btnWeightDBAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="btnWeightDBDel.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="cbEnableProductionRunFail.Text" xml:space="preserve">
+    <value>失敗時停止生產</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>點膠間時間延遲:</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>平台穩定時間:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnWeighingStop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACkAAAAeCAYAAACxHzfjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACrSURBVFhHzc2x
+        CQMBFMPQWyKQ/vaf8ac3AotULl6jwn7ubh7GNRjXYFyDcQ3GNRib9/u5f+WWgbGhcyu3DIwNnVu5ZWBs
+        6NzKLQNjQ+dWbhkYGzq3csvA2NC5lVsGxobOrdwyMDZ0buWWgbGhcyu3DIwNnVu5ZWBs6NzKLQNjQ+dW
+        bhkYGzq3csvA2NC5lVsGxobOrdwyMK7BuAbjGoxrMK7BuAbjGoxb7vkBDwXJKxAaoX4AAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="btnWeighingStop.ToolTip" xml:space="preserve">
+    <value>秤重停止</value>
+  </data>
+  <data name="btnWeighingRun.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACwAAAAkCAYAAADy19hsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFNSURBVFhH1ddb
+        bcNAFIThQAiEQiiEQCiEQgiEQCiEQimEQiiEMnDmVF7JD39Ge41Oj/RJ0cSy52Ftr0/btv0rGGaGYWYY
+        ZoZhZhhmhqGjeQn03zNg6Ggu8is3OdMxK2Ho7IXjR4ji73TcKhg6mmPh4lsudPxsGDpRbC9JvmTp+sbQ
+        0bjCxYcsWd8YOpqawiHW95XOMQJDR1NbuPiRNzpXDwwdTWvhItb3K52zBYaOprdw8SndNyaGjma0cOh+
+        8WDoaGYULmJ9N714MHQ0MwsX1U8TDB3NzMJxIza9ITF04gL7xUZ0P+owdDQjhf9uNjpvLQwdTW/hKa9r
+        DB1Na+GpGyIMHU1t4Vin07ecGDpRYi/0yNJNPYaOxhVe/tmEoaOhwkP7gxYYOppj4eYH/ygMnSgozXuA
+        WTB0NE//tD/CMDMMM8MwMwwzwzCv7XQHwIYH+KBDKkgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnWeighingRun.ToolTip" xml:space="preserve">
+    <value>秤重開始</value>
+  </data>
+  <data name="butWeighingPause.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACwAAAAkCAYAAADy19hsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADUSURBVFhH7dbR
+        CcJAFETRlGAJKcESLCUlWIIlpBRLsBRLSAfrLGQhyJUd/yawDw6E64M88uVUSjkVjMkwJsOYDGMyjMkw
+        JsOYDGMyjP/Q3GWVG/3eaOZ9r7rQjgOjS/OQ+tDMtFdp3oe9F+04MLrqiw9HVD+/8teeEu/1YHRpxsE9
+        GF2acXAPRpdmHNyD0aUZB/dgdGnGwT0YXZpxcA9Gl+Z0Bz+PR4h78EY7DowuzVXa/9yVdhrNIttuoR0H
+        xmQYk2FMhjEZxmQYk2FMhjEZxlxl+gASnSnPbmLcjQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="butWeighingPause.ToolTip" xml:space="preserve">
+    <value>秤重暫停</value>
+  </data>
+  <data name="btnWeightRequestStableValue.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACwAAAAkCAYAAADy19hsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ9SURBVFhH1ZfN
+        UeQwFIQJgctW7ZGqTYAQCIEQCIEQCGFDIARCIAQOBLBFBBCBtz+XekrIbY9/YMYcvrLVkvXasvQkX3Rd
+        96OI4p6J4p6J4jH+/P51Je7Fc6ETL+X+QVyn576CKI4hIxi1wWPQ7ib1s4UoJhT8TrwXM/BUtBvBi3Cl
+        /Chq4w+pv7VEsUVBMWIDjNxVamdUfyl4IT/zmNqtIYo1Cna7NrDa1y96n9osJYpGQRgpT4NVo4TR8jxM
+        fpk5RNEoACueQP9S/Vz0vBfq5qkRRYPREugu1c9Fz1+XfuAytZlLFKEK8p7qE2rLnGU0n0MdeZr+btu6
+        JUQR1LEXzCD4GGrrKaTioO5vqduU5qIIdNwGKBrEDaHUjRn24ts0j6MI6jgZ7s3UWg2624Q6f7Gntm4J
+        UQR1PBiRUl5reDAAa4giqGO2WgIcUlopH4LqShuMuDxl2Dvfpg0kisbBRX/6qsrRYFs2KrMB+dlNm0cU
+        jTr3Qaafd7p611tq2PpLra8hikYBOIX1BgRnCh8vZxvWfb1pvIrv2TiMAjh/MrqeGv1n1XXSsK6YrY+k
+        wAay2nQUW0oQghH806JRGVN9XuYqMA3ct2bN4eWXEsUWdc6i8QEGuCevDkZKGlOnbvsmPqqywfTiP5Io
+        jqEAjFz6xBj0V6hhOvGyaWqYRQerKE6hABjAeDIInPAw+il9qYxpn/5aZufmKC5BwZirZnIxUS/GXnTW
+        GSOK34mMYbr+36tBn3zpKJ4CGWv/rg1fYNR0FE+FjB3ydgOmY9obCKdGxuo/azOapwfCOZC5dpMZTXVR
+        PAcy6Vw9mZejeC5k9ujRM4p7Jop7Jor7pbv4D1213nQ1vix6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnWeightRequestStableValue.ToolTip" xml:space="preserve">
+    <value>檢查重量穩定值</value>
+  </data>
+  <data name="btnWeightClean.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACkAAAAlCAYAAADfosCNAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKnSURBVFhH7dev
+        bhRRFMfxfYQNCQmyKS/QpC+wggeowVdV15G+RSV1mBqCqmqCqcA0qahAIGhSA0GVJgj+M3x/yZ7NuXd+
+        c7ublOwIxEfM2XvOPTN77/yZdF03ejY4NjY4NjY4NjaYPX70cAtnDW9w2XABlxcO3byZDWYUmaH7h87c
+        vJkNZhSZQo0O2ccXuAbkE1xe2HLzZja4ivlEn+EalGuXtwobXAVN/G9SbDBjkmNN1KA19weuQfkJlxdO
+        3byZDWYU+QY3+X2aurmDDQaSN6Ar4QrfF9XfcfMHGwxKnhdxxWvnOEDcWnRrUsyNrR27+YMNBpKfV8Vq
+        v/AWGy5f9Bv0VGqd7AeXG2wwkPyuKpapwZM8/uPkwRN0c0f5N8bqKivH1ZLBE7XBQGJr01zW42nsCk+x
+        iRts59/JOalqBF3l3Tw2s0Eh6a5NU5z5vLGrdPwSe3kMOXrEDp148a9kNigk7VZFsl5BGtJf/TodH9VN
+        CrmHVa1wU48NNigk6SbuitlbBg1t4yIdDzWpV7/v81o1uy57gUDC0Kb5CvvmQlNah7qisSY33biqXhhc
+        l71AqArU7BOCpvYQu/uZGyOmXrDrshcQBusvGdo0enecubxlkKvN4+qKXZe9gDC4tWnkwOUJV3CGwdsJ
+        uaq99F1DioPAwKFNE+wZ09wU17iF3QTk6gnlaobeCRYHgYGtJ438Ru9q0tgLxJrsfbuQo2d666kjvVe3
+        4iCYROcHFrucpnZSg2E/1WzderLbyAnFgTBo2WKicc3XLGGMruCyNaVYKkUxYcBdm6amv0/f171miemE
+        T9HaKE6xLouiwoBXVcKyohF9TuizIMdWVazLokFhwPsqYR2KdVk0KCZhXRbr0jUZr//rtnj09pocIxsc
+        GxscGxscl27yF97493etjqv/AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnWeightClean.ToolTip" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="btnWeightLoad.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACwAAAAkCAYAAADy19hsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAI8SURBVFhH1ZhP
+        TttAGMWT2LFjkjTB+dOq0BLUC+QClTgAC5ZIbFhwkByBI3AAFiwrxIJKXbBkgbqOWKF2E7VCqAIxfS8C
+        CcXPQRl7IvNJvyh6nzzzPPlm/DklY8ybQopFRopFRopFRopFRoppfPnQG4KtVxiqa/NCigoYGQHzMW7P
+        ZfN992HQ71zRvBonK1JU0ESrHuGK0lwqlbKJG3Uav//ci7/B+ECNZ4sUFZh8HAXVhME0aLz7rmH4q2z2
+        u8dc8QVIvUkpKhY1/IzveVPjqnwUn7qr05vc6MV7ykdCSMPWsA39VtNs9Ds/lI+EkMYyDXMe7JlL5SMh
+        vAQxBFsEd31Tr4Um9P3cqcFgWPWzGUZcPg1wTqq+9wuD3uVN1fP+VcrlR5ws90/zLW4YwVWdgB2VzxsY
+        /wrTpgwwp5VhlsJY5VzRjGp/8CvaGSYIrnCuh/484mb9DOWRyTBrd1/lXLDeWd2mWWJreAQOVc4VAU4M
+        1rGtYW48eZErVsJgwjq2MkwQ/GirnAtaK9EpVzmLYdbxUo42gofTLo+3LIYPicq5gs1SFATWhnfAucq5
+        Aqv7ly2AreE2wFeddwEeIN+tS4Ig2FM4ed1R4AFywLLIYvgIjFTOFdx4a532T5VLCLMg9sFS6xjN0C1W
+        +lrlEsIsiAGYqJwrsOkuGlH4W+USggLBOj5SubxBcKNzvhOZV+IsCLabHGQMpg29QzgHO0X5h0xCmAcH
+        AdNXJsektgNSLDJSLDJSLDJSLC6m9B9QSnWAbIBatAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnWeightLoad.ToolTip" xml:space="preserve">
+    <value>載入路徑</value>
+  </data>
+  <data name="btnClose.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>點膠Dot 數:</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>dot</value>
+  </data>
+  <data name="cbEnableWeightFunc.Text" xml:space="preserve">
+    <value>啟用膠量回饋</value>
+  </data>
+  <data name="Pressure.Text" xml:space="preserve">
+    <value>膠管氣壓:</value>
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>天平穩定時間:</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>脈衝時間:</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>重量校準次數:</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>打點週期:</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>選擇閥</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>重量:</value>
+  </data>
+  <data name="grpProductionWeighing.Text" xml:space="preserve">
+    <value>重量測試</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1443, 822</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>重量測試</value>
+  </data>
+</root>

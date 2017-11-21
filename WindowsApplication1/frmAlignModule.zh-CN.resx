@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="btnBlobROI.Text" xml:space="preserve">
+    <value> 搜寻  范围</value>
+  </data>
+  <data name="btnBlobRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBlobRun.Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+  <data name="cmbBlobPolarity.Items" xml:space="preserve">
+    <value>黑点</value>
+  </data>
+  <data name="cmbBlobPolarity.Items1" xml:space="preserve">
+    <value>白点</value>
+  </data>
+  <data name="cmbBlobPolarity.Text" xml:space="preserve">
+    <value>黑点</value>
+  </data>
+  <data name="lblBlobMinArea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBlobMinArea.Text" xml:space="preserve">
+    <value>最小面积:</value>
+  </data>
+  <data name="lblHighThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHighThreshold.Text" xml:space="preserve">
+    <value>上限灰阶:</value>
+  </data>
+  <data name="lblLowThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLowThreshold.Text" xml:space="preserve">
+    <value>下限灰阶:</value>
+  </data>
+  <data name="lblBlobPolarity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBlobPolarity.Text" xml:space="preserve">
+    <value>极性:</value>
+  </data>
+  <data name="grpBlob.Text" xml:space="preserve">
+    <value>面积</value>
+  </data>
+  <data name="CogDisplay1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtwAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAKIAAAAAAQAAr1IAAMU/AAATAAoKZAALAP//CwD//wsA//8DAAAAAAADAAEA
+        AAAFAAAAAAAAAAAABQAAAAAAAAAAAAUAAAAAAAAA8D8TAAAAwAALAP//CwD//xMAAIAAAAMAAwAAAAsA
+        //8LAAAAAAAAAAAA4D8AAAAAAADgPwAAAAAAAOA/AAAAAAAA4D8BAAAAAQAAAAsA//8LAAAACwAAAAsA
+        //8L
+</value>
+  </data>
+  <data name="lblTrainMsg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTrainMsg.Text" xml:space="preserve">
+    <value>训练讯息:</value>
+  </data>
+  <data name="btnPMAlignRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPMAlignRun.Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+  <data name="lblScale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblScale.Text" xml:space="preserve">
+    <value>缩放: ±</value>
+  </data>
+  <data name="btnTrain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTrain.Text" xml:space="preserve">
+    <value>训练</value>
+  </data>
+  <data name="lblRotationUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRotation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRotation.Text" xml:space="preserve">
+    <value>角度: ±</value>
+  </data>
+  <data name="lblMatchRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMatchRate.Text" xml:space="preserve">
+    <value>相似比例:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblMatchRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblMatchRateUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpParamter.Text" xml:space="preserve">
+    <value>參数</value>
+  </data>
+  <data name="btnAlignROI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAlignROI.Text" xml:space="preserve">
+    <value> 搜寻  范围</value>
+  </data>
+  <data name="btnImageMask.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnImageMask.Text" xml:space="preserve">
+    <value> 影像  遮罩</value>
+  </data>
+  <data name="btnGrabTrainImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGrabTrainImage.Text" xml:space="preserve">
+    <value>取像</value>
+  </data>
+  <data name="lblPatternAreaWUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnShowTrain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnShowTrain.Text" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 24</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>宽:</value>
+  </data>
+  <data name="lblPatternAreaHUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 24</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>高:</value>
+  </data>
+  <data name="grpPatternArea.Text" xml:space="preserve">
+    <value>图案范围</value>
+  </data>
+  <data name="lblRadiusTolerance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRadiusTolerance.Text" xml:space="preserve">
+    <value>半径误差:</value>
+  </data>
+  <data name="lblRadiusUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProjectionLength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblProjectionLength.Text" xml:space="preserve">
+    <value>投影长度:</value>
+  </data>
+  <data name="btnCaliperRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCaliperRun.Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+  <data name="btnShowCalipers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnShowCalipers.Text" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="lblFilterHalfSizePixels.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFilterHalfSizePixels.Text" xml:space="preserve">
+    <value>过滤一半像素:</value>
+  </data>
+  <data name="lblContrastThreshold.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblContrastThreshold.Text" xml:space="preserve">
+    <value>对比灰阶:</value>
+  </data>
+  <data name="lblPolarity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPolarity.Text" xml:space="preserve">
+    <value>边緣极性:</value>
+  </data>
+  <data name="lblCalipersIgnoreNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCalipersIgnoreNumber.Text" xml:space="preserve">
+    <value>忽略数量:</value>
+  </data>
+  <data name="cmbCaplipersSearchDirection.Items" xml:space="preserve">
+    <value>向內</value>
+  </data>
+  <data name="cmbCaplipersSearchDirection.Items1" xml:space="preserve">
+    <value>向外</value>
+  </data>
+  <data name="cmbCaplipersSearchDirection.Text" xml:space="preserve">
+    <value>向內</value>
+  </data>
+  <data name="lblSearchDirection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchDirection.Text" xml:space="preserve">
+    <value>搜寻方向:</value>
+  </data>
+  <data name="lblSearchLength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSearchLength.Text" xml:space="preserve">
+    <value>搜寻长度:</value>
+  </data>
+  <data name="lblCalipersNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCalipersNumber.Text" xml:space="preserve">
+    <value>数量:</value>
+  </data>
+  <data name="grpCaliper.Text" xml:space="preserve">
+    <value>卡尺</value>
+  </data>
+  <data name="lblOutput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="lblOutput.Text" xml:space="preserve">
+    <value>输出端</value>
+  </data>
+  <data name="lblInput.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="lblInput.Text" xml:space="preserve">
+    <value>输入端</value>
+  </data>
+  <data name="btnThresholdMore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnThresholdMore.Text" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="lblLowerlimit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLowerlimit.Text" xml:space="preserve">
+    <value>下限值:</value>
+  </data>
+  <data name="lblUpperlimit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUpperlimit.Text" xml:space="preserve">
+    <value>上限值:</value>
+  </data>
+  <data name="grpThreshold.Text" xml:space="preserve">
+    <value>灰阶</value>
+  </data>
+  <data name="TabPageAlign.Text" xml:space="preserve">
+    <value>影像工具</value>
+  </data>
+  <data name="btnSceneAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="btnSceneDel.ToolTip" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="grpSelectScene.Text" xml:space="preserve">
+    <value>1. 选择场景</value>
+  </data>
+  <data name="btnLoadScene.ToolTip" xml:space="preserve">
+    <value>载入</value>
+  </data>
+  <data name="grpCalibScene.Text" xml:space="preserve">
+    <value>1. 场景</value>
+  </data>
+  <data name="grpSetLight.Text" xml:space="preserve">
+    <value>2. 亮度设定</value>
+  </data>
+  <data name="btnACQ.Text" xml:space="preserve">
+    <value>取像</value>
+  </data>
+  <data name="btnImport.Text" xml:space="preserve">
+    <value>汇入</value>
+  </data>
+  <data name="lblFolder.Text" xml:space="preserve">
+    <value>影像:</value>
+  </data>
+  <data name="grpImageSource.Text" xml:space="preserve">
+    <value>3. 影像來源</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="lblTrainTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 24</value>
+  </data>
+  <data name="lblTrainTool.Text" xml:space="preserve">
+    <value>4. 工具教导</value>
+  </data>
+  <data name="btnRepeatRun.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnRun.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="grpText.Text" xml:space="preserve">
+    <value>5. 侧试</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>定位模组</value>
+  </data>
+</root>

@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnScalePR.Text" xml:space="preserve">
+    <value>比例校准</value>
+  </data>
+  <data name="lblScaleYX.Text" xml:space="preserve">
+    <value>Y/X比例</value>
+  </data>
+  <data name="lblScaleXY.Text" xml:space="preserve">
+    <value>X/Y比例</value>
+  </data>
+  <data name="lblScaleYY.Text" xml:space="preserve">
+    <value>Y/Y比例</value>
+  </data>
+  <data name="lblScaleXX.Text" xml:space="preserve">
+    <value>X/X比例</value>
+  </data>
+  <data name="grpCCDScale.Text" xml:space="preserve">
+    <value>CCD比例</value>
+  </data>
+  <data name="lblBasicPosY.Text" xml:space="preserve">
+    <value>Y轴点胶基准点</value>
+  </data>
+  <data name="lblBasicPosX.Text" xml:space="preserve">
+    <value>X轴点胶基准点</value>
+  </data>
+  <data name="btnMoveBasicPos.ToolTip" xml:space="preserve">
+    <value>移动到基准点</value>
+  </data>
+  <data name="btnSetBasicPos.ToolTip" xml:space="preserve">
+    <value>设定点胶基准点</value>
+  </data>
+  <data name="lblBasicPosZ.Text" xml:space="preserve">
+    <value>Z轴点胶基准点</value>
+  </data>
+  <data name="grpBasicPos.Text" xml:space="preserve">
+    <value>点胶基准点</value>
+  </data>
+  <data name="grpIndex.Text" xml:space="preserve">
+    <value>阵列</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnALign2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrainScene2.ToolTip" xml:space="preserve">
+    <value>设定第二定位点场景内容</value>
+  </data>
+  <data name="btnSetCcdPosX2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSetCcdPosX2.ToolTip" xml:space="preserve">
+    <value>设定第二定位点(角度修正)</value>
+  </data>
+  <data name="btnGoCCD2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGoCCD2.ToolTip" xml:space="preserve">
+    <value>移动到第二定位点</value>
+  </data>
+  <data name="btnALign3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrainScene3.ToolTip" xml:space="preserve">
+    <value>设定第三定位点场景内容</value>
+  </data>
+  <data name="btnSetCCDPosX3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSetCCDPosX3.ToolTip" xml:space="preserve">
+    <value>设定第三定位点(忽略标记)</value>
+  </data>
+  <data name="btnGoCCD3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGoCCD3.ToolTip" xml:space="preserve">
+    <value>移动到第三定位点</value>
+  </data>
+  <data name="btnALign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrainScene.ToolTip" xml:space="preserve">
+    <value>设定第一定位点场景内容</value>
+  </data>
+  <data name="btnGoCCD.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGoCCD.ToolTip" xml:space="preserve">
+    <value>移动到第一定位点</value>
+  </data>
+  <data name="btnSetCcdPosX.ToolTip" xml:space="preserve">
+    <value>设定第一定位点拍照位置</value>
+  </data>
+  <data name="btnSkipMarkAlign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrainSkipMarkScene.ToolTip" xml:space="preserve">
+    <value>设定定位点场景内容</value>
+  </data>
+  <data name="btnGoSkipMark.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGoSkipMark.ToolTip" xml:space="preserve">
+    <value>移动到定位点</value>
+  </data>
+  <data name="btnSetSkipMarkPosX.ToolTip" xml:space="preserve">
+    <value>设定定位点</value>
+  </data>
+  <data name="btn2ALign3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrain2Scene3.ToolTip" xml:space="preserve">
+    <value>设定第三定位点场景内容</value>
+  </data>
+  <data name="btnSetCcd2PosX3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSetCcd2PosX3.ToolTip" xml:space="preserve">
+    <value>设定第三定位点(忽略标记)</value>
+  </data>
+  <data name="btnGo2CCD3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGo2CCD3.ToolTip" xml:space="preserve">
+    <value>移动到第三定位点</value>
+  </data>
+  <data name="btn2ALign2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrain2Scene2.ToolTip" xml:space="preserve">
+    <value>设定第二定位点场景内容</value>
+  </data>
+  <data name="btnSetCcd2PosX2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMKSURBVHhe5ZqB
+        UcMwDEUZgREYgREYgREYgREYgREYgREYgREYoRuU/7n6TnW+E8VyUnL6d++gP05jq7Yip707n8/pkWY2
+        pJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5rZkGY2pLkX0Av4uvCs2uyBNPcAegT8x3KTQEhzD6BP
+        M/jCm2q7NdLcA+jbDL7wqdpujTSjQJzqT0BOb+gVlIHXvDTO4fuRB3U8gjQjQEx2ZUDkA9xfjj2Ad2CP
+        15zAG/gbLHQPmDjt8Ud7zSjSjGA6uyVf6tq9SDNC1dmt+FbX7kWaEdhB09mtGJpApRkB4rrnurWdHskP
+        +Msxo5BmFMgmstEMryWkGQXiHcF2fCSHCcKWy2FoUiTSjADNFUI1XDasCciahPqkrt2LNHuBlgqhAmfK
+        pJqE1gTwtT6/F2muAaorRA/NAUCcFXX7ORhQWWp7kaYXSG2Hlzip9ypALJPrczx0l9LS9AJxQ2M74mEx
+        sVXtvXTnCWl64YVNJ9bQLHYgFlt1ew+3CQKBegqjZoehZ9POS6h2kOZaIH56nBXqaVHNh3oPC9uY9i3Y
+        ZsjzBWlGgOZuk1cBgHhnkc8HIO4R7LmWYbdHIs0IUCu7qwCUY5NAQK1b749tNwJpRoHq6TwXgMJVIKBW
+        gny37zUCaUaBbG7wBIDUQWjNqP+/gYLY+bKeuwJwadsqoQ+xgSpLIRKAVtvC0NkgTQ8QS+a686WM3jIA
+        ZLb0Xos0l4A4WA6gXse8b3sDQK42Pnxtjs1x26fNUAlA6dDk0zRtewPAxMrKkXcI/q1rhtCusUaac0A2
+        AIVJIKDeAEwKIYjJtjx8Gf6lrTTngFqDYyDKt0a9ARie+T1Ic4mq4xY+InN/z8jX5hgZXgN4kKYHaO7T
+        VtQBULvF4/0+AfIGYpLIIK5zbra4FSeTNnshzTWw86AMVnGzwXmR5lo4UDNoy78PAJFmDxywGfxhAkCk
+        2QsHfrQAEGlGgIb/nGZrpJkNaWZDmtmQZjakmQ1pZkOa2ZBmNqSZDWlmQ5q5ON/9ArYa9gizlY5GAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSetCcd2PosX2.ToolTip" xml:space="preserve">
+    <value>设定第二定位点(角度修正)</value>
+  </data>
+  <data name="btnGo2CCD2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGo2CCD2.ToolTip" xml:space="preserve">
+    <value>移动到第二定位点</value>
+  </data>
+  <data name="btn2ALign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrain2Scene.ToolTip" xml:space="preserve">
+    <value>设定第一定位点场景内容</value>
+  </data>
+  <data name="btnGo2CCD.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGo2CCD.ToolTip" xml:space="preserve">
+    <value>移动到第一定位点</value>
+  </data>
+  <data name="btnSetCcd2PosX.ToolTip" xml:space="preserve">
+    <value>设定第一定位点拍照位置</value>
+  </data>
+  <data name="btnSkipMark2Align.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnTrainSkipMark2Scene.ToolTip" xml:space="preserve">
+    <value>设定定位点场景内容</value>
+  </data>
+  <data name="btnGoSkipMark2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnGoSkipMark2.ToolTip" xml:space="preserve">
+    <value>移动到定位点</value>
+  </data>
+  <data name="btnSetSkipMark2PosX.ToolTip" xml:space="preserve">
+    <value>设定定位点</value>
+  </data>
+  <data name="btnMoveBasicPos2.ToolTip" xml:space="preserve">
+    <value>移动到基准点</value>
+  </data>
+  <data name="btnSetBasicPos2.ToolTip" xml:space="preserve">
+    <value>设定点胶基准点</value>
+  </data>
+  <data name="btnSetRadius.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="grpAssistLine.Text" xml:space="preserve">
+    <value>輔助線半徑</value>
+  </data>
+  <data name="lblCCDPosY3.Text" xml:space="preserve">
+    <value>第三组拍照位置Y</value>
+  </data>
+  <data name="lblSceneID3.Text" xml:space="preserve">
+    <value>第三组场景</value>
+  </data>
+  <data name="lblCCDPosX3.Text" xml:space="preserve">
+    <value>第三组拍照位置X</value>
+  </data>
+  <data name="lblCCDPosY2.Text" xml:space="preserve">
+    <value>第二组拍照位置Y</value>
+  </data>
+  <data name="lblSceneID2.Text" xml:space="preserve">
+    <value>第二组场景</value>
+  </data>
+  <data name="lblCCDPosX2.Text" xml:space="preserve">
+    <value>第二组拍照位置X</value>
+  </data>
+  <data name="chkAlignmentEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="chkAlignmentEnable.Text" xml:space="preserve">
+    <value>定位基准开启</value>
+  </data>
+  <data name="lblAlignType.Text" xml:space="preserve">
+    <value>定位方式</value>
+  </data>
+  <data name="lblSceneID.Text" xml:space="preserve">
+    <value>第一组场景</value>
+  </data>
+  <data name="lblCCDPosZ.Text" xml:space="preserve">
+    <value>第一组拍照位置Z</value>
+  </data>
+  <data name="lblCCDPosY.Text" xml:space="preserve">
+    <value>第一组拍照位置Y</value>
+  </data>
+  <data name="lblCCDPosX.Text" xml:space="preserve">
+    <value>第一组拍照位置X</value>
+  </data>
+  <data name="TabConveyor1Alignment.Text" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="chkSkipMarkEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="chkSkipMarkEnable.Text" xml:space="preserve">
+    <value>不生产点开启</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>X軸拍照位置</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>Y軸拍照位置</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Z軸拍照位置</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="TabConveyor1SkipMark.Text" xml:space="preserve">
+    <value>不生产点</value>
+  </data>
+  <data name="TabPageConveyor1.Text" xml:space="preserve">
+    <value>流道1</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>第二组拍照位置Y</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>第二組场景</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>第二组拍照位置X</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>第三组拍照位置Y</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>第三組场景</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>第三组拍照位置X</value>
+  </data>
+  <data name="chkAlignmentEnable2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="chkAlignmentEnable2.Text" xml:space="preserve">
+    <value>定位基准开启</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>定位方式</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>第一組场景</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>第一组拍照位置Z</value>
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>第一组拍照位置Y</value>
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>第一组拍照位置X</value>
+  </data>
+  <data name="TabConveyor2Alignment.Text" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="chkSkipMarkEnable2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="chkSkipMarkEnable2.Text" xml:space="preserve">
+    <value>不生产点开启</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>X軸拍照位置</value>
+  </data>
+  <data name="Label45.Text" xml:space="preserve">
+    <value>Y軸拍照位置</value>
+  </data>
+  <data name="Label46.Text" xml:space="preserve">
+    <value>Z軸拍照位置</value>
+  </data>
+  <data name="Label47.Text" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="TabConveyor2SkipMark.Text" xml:space="preserve">
+    <value>不生产点</value>
+  </data>
+  <data name="TabPageConveyor2.Text" xml:space="preserve">
+    <value>流道2</value>
+  </data>
+  <data name="TabBasicPotion1.Text" xml:space="preserve">
+    <value>流道1</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>X轴点胶基准点</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Y轴点胶基准点</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Z轴点胶基准点</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>点胶基准点</value>
+  </data>
+  <data name="TabBasicPotion2.Text" xml:space="preserve">
+    <value>流道2</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA/5mZmf93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3
+        d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/9mZmb/d3d3/2ZmZv9mZmb/ZmZm/0RE
+        RP9ERET/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/0RERP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/ZmZm/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf9mZmb/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP/MzMz/mZmZ/5mZmf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+ZmZn/mZmZ/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/5mZmf+ZmZn/ZmZm/wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP/MZmb//5mZ//+Zmf//zMz//5mZ///MzP//////AAAA/5mZ
+        mf+ZmZn/AAAA/8xmZv//mZn//5mZ///MzP//mZn//8zM//////8AAAD/mZmZ/5mZmf93d3f/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm///M
+        zP8AAAD/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xmZv/MZmb//8zM/wAAAP+ZmZn/mZmZ/3d3
+        d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xm
+        Zv/MZmb//5mZ/wAAAP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xmZv/MZmb/zGZm/8xmZv//mZn/AAAA/5mZ
+        mf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xm
+        Zv/MZmb/zGZm/8xmZv//zMz/AAAA/5mZmf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm///M
+        zP8AAAD/mZmZ/5mZmf93d3f/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/2Yz
+        M//MZmb/zGZm/8xmZv/MZmb/zGZm//+Zmf8AAAD/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xm
+        Zv/MZmb//5mZ/wAAAP+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZ
+        mf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xmZv/MZmb//5mZ/wAAAP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xm
+        Zv/MZmb/zGZm/8xmZv//mZn/AAAA/5mZmf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zM
+        zP+ZmZn/mZmZ/wAAAP8iIiL/ZjMz/2YzM/9mMzP/ZjMz/2YzM//MZmb/AAAA/5mZmf+ZmZn/AAAA/yIi
+        Iv9mMzP/ZjMz/2YzM/9mMzP/ZjMz/8xmZv8AAAD/mZmZ/5mZmf93d3f/AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAD/zMzM/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/mZmZ/5mZ
+        mf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/d3d3/wAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf93d3f/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/mZmZ/5mZmf/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/5mZ
+        mf+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf8AAAD/zGZm//+Z
+        mf//mZn//8zM//+Zmf//zMz//////wAAAP+ZmZn/mZmZ/3d3d/8AAAD/AAAA/wAAAP8AAAD/MzMz/1VV
+        Vf93d3f/mZmZ/5mZmf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAA
+        AP9mMzP/zGZm/8xmZv/MZmb/zGZm/8xmZv//zMz/AAAA/5mZmf+ZmZn/d3d3/3d3d/93d3f/d3d3/3d3
+        d/93d3f/d3d3/3d3d/+ZmZn/mZmZ/5mZmf93d3f/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZ
+        mf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm//+Zmf8AAAD/mZmZ/5mZmf/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/zMzM/5mZmf+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP/MzMz/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xmZv/MZmb//8zM/wAAAP+ZmZn/mZmZ/3d3
+        d/8AAAD/AAAA/wAAAP8AAAD/MzMz/1VVVf93d3f/mZmZ/5mZmf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xmZv/MZmb/zGZm/8xmZv//mZn/AAAA/5mZ
+        mf+ZmZn/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/+ZmZn/mZmZ/5mZmf93d3f/AAAA/wAA
+        AP8AAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm//+Z
+        mf8AAAD/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/3d3d/93d3f/d3d3/3d3
+        d/8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf8AAAD/IiIi/2YzM/9mMzP/ZjMz/2Yz
+        M/9mMzP/zGZm/wAAAP+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/yIiIv8AAAD/AAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/2Yz
+        M/8iIiL/IiIi/yIiIv8iIiL/IiIi/wAAAP8AAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf8AAAD/zGZm/2YzM/9mMzP/ZjMz/2YzM/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/u7u7/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/wAAAP/MZmb/ZjMz/2YzM/9mMzP/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
+        //+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/8xmZv9mMzP/ZjMz/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD////////////u7u7/7u7u/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP8AAAD/zGZm/2YzM/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//+Zmf//mZn/AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAHAAAABwAAAAcAA
+        AAHAAAADwAAAB8AAAA/AAAAf4AAAP///+H8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>定位基准</value>
+  </data>
+</root>

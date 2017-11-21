@@ -1,0 +1,3117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;Label21.Name" xml:space="preserve">
+    <value>Label21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gboxB5.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="Label18.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gboxMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 555</value>
+  </data>
+  <data name="gboxB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 37</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbTeachValueB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gboxB2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="btnInitialTempB5.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="tbTeachValueB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="gboxA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnTeachTempB6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="Label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="Label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB6.Name" xml:space="preserve">
+    <value>tbTeachValueB6</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="btnInitialTempB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbTeachValueB2.Name" xml:space="preserve">
+    <value>tbTeachValueB2</value>
+  </data>
+  <data name="gboxA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnTeachTempA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="gboxB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTeachValueA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnTeachTempB1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;Label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbTeachValueA2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnInitialTempA6.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTeachTempA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;Label24.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="btnInitialTempA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="tbTeachValueB5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tbTeachValueB5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA2.Name" xml:space="preserve">
+    <value>btnInitialTempA2</value>
+  </data>
+  <data name="btnTeachTempB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempB3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="tbTeachValueA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA4.Name" xml:space="preserve">
+    <value>btnInitialTempA4</value>
+  </data>
+  <data name="btnInitialTempB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label22.Name" xml:space="preserve">
+    <value>Label22</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.Name" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="PictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="gboxB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;Label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;Label13.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTeachTempA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="Label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA2.Text" xml:space="preserve">
+    <value>NO.2</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="Label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnInitialTempB4.Name" xml:space="preserve">
+    <value>btnInitialTempB4</value>
+  </data>
+  <data name="btnInitialTempB6.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="gboxB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 206</value>
+  </data>
+  <data name="gboxA6.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="btnTeachTempB4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;gboxA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;Label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbTeachValueA3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="btnTeachTempB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="&gt;&gt;Label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label23.Name" xml:space="preserve">
+    <value>Label23</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="gboxB5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInitialTempA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnInitialTempB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB5.Name" xml:space="preserve">
+    <value>btnTeachTempB5</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB1.Name" xml:space="preserve">
+    <value>btnTeachTempB1</value>
+  </data>
+  <data name="&gt;&gt;Label19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label20.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB1.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnTeachTempA1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbTeachValueB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="gboxA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="&gt;&gt;Label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationPidCtrl</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnTeachTempA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label21.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="btnInitialTempA6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label14.Name" xml:space="preserve">
+    <value>Label14</value>
+  </data>
+  <data name="tbTeachValueA6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTeachValueB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="gboxMachineA.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB5.Name" xml:space="preserve">
+    <value>btnInitialTempB5</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="btnInitialTempA2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA3.Name" xml:space="preserve">
+    <value>tbTeachValueA3</value>
+  </data>
+  <data name="btnTeachTempA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;Label15.Name" xml:space="preserve">
+    <value>Label15</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB1.Name" xml:space="preserve">
+    <value>tbTeachValueB1</value>
+  </data>
+  <data name="tbTeachValueB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxB6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnInitialTempA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempB5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tbTeachValueA4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnTeachTempA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="&gt;&gt;gboxB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="btnTeachTempA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="btnTeachTempB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="gboxA5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueA6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTeachTempA2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnInitialTempB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempA3.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="gboxB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 37</value>
+  </data>
+  <data name="btnInitialTempA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA5.Name" xml:space="preserve">
+    <value>btnInitialTempA5</value>
+  </data>
+  <data name="tbTeachValueA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnTeachTempB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxB6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="Label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="tbTeachValueB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.Name" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="tbTeachValueA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA3.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="&gt;&gt;Label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label22.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="tbTeachValueB1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnInitialTempA4.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA5.Name" xml:space="preserve">
+    <value>tbTeachValueA5</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.Name" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 206</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA1.Name" xml:space="preserve">
+    <value>tbTeachValueA1</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.Name" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label23.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="btnInitialTempA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnTeachTempA4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label16.Name" xml:space="preserve">
+    <value>Label16</value>
+  </data>
+  <data name="btnTeachTempB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnInitialTempA1.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="Label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="btnInitialTempA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label18.Name" xml:space="preserve">
+    <value>Label18</value>
+  </data>
+  <data name="Label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="Label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTeachTempA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="btnTeachTempB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="btnInitialTempB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="gboxMachineA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnInitialTempA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempA6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gboxB1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label24.Name" xml:space="preserve">
+    <value>Label24</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB6.Name" xml:space="preserve">
+    <value>btnTeachTempB6</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB2.Name" xml:space="preserve">
+    <value>btnTeachTempB2</value>
+  </data>
+  <data name="btnInitialTempB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnTeachTempB2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="tbTeachValueA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.Name" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="Label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tbTeachValueB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnInitialTempA3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA5.Name" xml:space="preserve">
+    <value>btnTeachTempA5</value>
+  </data>
+  <data name="tbTeachValueA4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnTeachTempB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnTeachTempB1.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="gboxA5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 232</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="btnInitialTempB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="tbTeachValueB3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label15.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnTeachTempA6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="btnInitialTempA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label14.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTeachValueB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnTeachTempA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbTeachValueB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="tbTeachValueB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="tbTeachValueA2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="gboxA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnInitialTempB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB4.Name" xml:space="preserve">
+    <value>tbTeachValueB4</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbTeachValueB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB1.Name" xml:space="preserve">
+    <value>btnInitialTempB1</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gboxA3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="tbTeachValueB1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Label13.Name" xml:space="preserve">
+    <value>Label13</value>
+  </data>
+  <data name="btnInitialTempB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="tbTeachValueA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 35</value>
+  </data>
+  <data name="Label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="btnInitialTempA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="Label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxA6.Name" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="gboxA2.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="Label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="btnTeachTempB2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnTeachTempA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnTeachTempA3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="gboxA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="gboxMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label19.Name" xml:space="preserve">
+    <value>Label19</value>
+  </data>
+  <data name="btnTeachTempB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gboxB4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="tbTeachValueA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbTeachValueA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="Label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempB3.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB2.Name" xml:space="preserve">
+    <value>btnInitialTempB2</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="btnInitialTempB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxB2.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="gboxB6.Text" xml:space="preserve">
+    <value>NO.6</value>
+  </data>
+  <data name="btnInitialTempA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label21.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="btnTeachTempA6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.Name" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA4.Name" xml:space="preserve">
+    <value>tbTeachValueA4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnInitialTempB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="tbTeachValueB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="btnTeachTempB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="btnTeachTempB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="&gt;&gt;Label14.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="&gt;&gt;Label13.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1452, 575</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempA4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnInitialTempA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="btnInitialTempB1.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;Label15.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="&gt;&gt;Label17.Name" xml:space="preserve">
+    <value>Label17</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB3.Name" xml:space="preserve">
+    <value>btnTeachTempB3</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbTeachValueA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA6.Text" xml:space="preserve">
+    <value>NO.6</value>
+  </data>
+  <data name="btnInitialTempB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="Label14.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnInitialTempB2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbTeachValueB3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="gboxB2.Text" xml:space="preserve">
+    <value>NO.2</value>
+  </data>
+  <data name="btnInitialTempB4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gboxA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnTeachTempA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempA3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 375</value>
+  </data>
+  <data name="Label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label23.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnInitialTempA5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tbTeachValueA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB6.Name" xml:space="preserve">
+    <value>btnInitialTempB6</value>
+  </data>
+  <data name="tbTeachValueB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="btnInitialTempA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="Label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="tbTeachValueA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label16.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="gboxB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;gboxA3.Name" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB3.Name" xml:space="preserve">
+    <value>tbTeachValueB3</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="&gt;&gt;Label11.Parent" xml:space="preserve">
+    <value>gboxA3</value>
+  </data>
+  <data name="Label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnTeachTempB5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnInitialTempB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA4.Name" xml:space="preserve">
+    <value>btnTeachTempA4</value>
+  </data>
+  <data name="Label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTeachValueA2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxB3.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxB4.Text" xml:space="preserve">
+    <value>NO.4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label16.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="Label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="&gt;&gt;gboxB2.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTeachValueB4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnInitialTempA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnInitialTempB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="Label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label17.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="btnInitialTempB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="btnInitialTempA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="Label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempA4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempB3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gboxMachineB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="btnTeachTempA4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="Label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gboxA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="Label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;gboxB6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbTeachValueA5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnTeachTempB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxB3.Text" xml:space="preserve">
+    <value>NO.3</value>
+  </data>
+  <data name="btnInitialTempA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA4.Text" xml:space="preserve">
+    <value>NO.4</value>
+  </data>
+  <data name="tbTeachValueB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxMachineB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbTeachValueA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnTeachTempB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="gboxB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbTeachValueA5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gboxA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 206</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="tbTeachValueB6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnTeachTempA3.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="tbTeachValueB3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="gboxMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tbTeachValueA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnTeachTempB4.Name" xml:space="preserve">
+    <value>btnTeachTempB4</value>
+  </data>
+  <data name="btnTeachTempA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.Name" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnInitialTempA1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB3.Name" xml:space="preserve">
+    <value>btnInitialTempB3</value>
+  </data>
+  <data name="btnTeachTempA2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnTeachTempA4.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnInitialTempA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gboxB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="gboxA3.Text" xml:space="preserve">
+    <value>NO.3</value>
+  </data>
+  <data name="btnInitialTempA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 39</value>
+  </data>
+  <data name="Label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB5.Text" xml:space="preserve">
+    <value>NO.5</value>
+  </data>
+  <data name="&gt;&gt;Label18.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="&gt;&gt;gboxB4.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="gboxA5.Text" xml:space="preserve">
+    <value>NO.5</value>
+  </data>
+  <data name="gboxMachineB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 13</value>
+  </data>
+  <data name="gboxA1.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="gboxB6.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.Name" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA1.Name" xml:space="preserve">
+    <value>btnTeachTempA1</value>
+  </data>
+  <data name="btnTeachTempA2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbTeachValueA3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnInitialTempB2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbTeachValueB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="&gt;&gt;Label19.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="btnTeachTempA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA3.Name" xml:space="preserve">
+    <value>btnInitialTempA3</value>
+  </data>
+  <data name="tbTeachValueA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxA6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnInitialTempA2.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;gboxA6.Parent" xml:space="preserve">
+    <value>gboxMachineA</value>
+  </data>
+  <data name="gboxB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbTeachValueA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="gboxB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnInitialTempA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;gboxA5.Name" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="gboxB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="btnTeachTempA1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnTeachTempB3.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbTeachValueA5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnTeachTempA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnTeachTempB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gboxA6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxB3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="&gt;&gt;Label24.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbTeachValueB6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbTeachValueA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="btnTeachTempA2.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnTeachTempB4.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnTeachTempB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gboxMachineB.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnInitialTempA1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tbTeachValueB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="btnInitialTempB6.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA6.Name" xml:space="preserve">
+    <value>tbTeachValueA6</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gboxB1.Text" xml:space="preserve">
+    <value>NO.1</value>
+  </data>
+  <data name="gboxA2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbTeachValueB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="gboxB5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA2.Name" xml:space="preserve">
+    <value>tbTeachValueA2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 375</value>
+  </data>
+  <data name="gboxMachineB.Text" xml:space="preserve">
+    <value>Machine B</value>
+  </data>
+  <data name="Label17.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB2.Parent" xml:space="preserve">
+    <value>gboxB2</value>
+  </data>
+  <data name="tbTeachValueB4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTeachValueA1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnTeachTempB5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gboxA4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnTeachTempB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInitialTempB2.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="gboxA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnInitialTempB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;Label11.Name" xml:space="preserve">
+    <value>Label11</value>
+  </data>
+  <data name="tbTeachValueB1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB3.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="Label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB4.Parent" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="Label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTeachValueB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="gboxMachineA.Text" xml:space="preserve">
+    <value>Machine A</value>
+  </data>
+  <data name="tbTeachValueA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA4.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;Label20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbTeachValueB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnTeachTempA6.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnTeachTempA3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="Label11.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnInitialTempB1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="gboxA1.Text" xml:space="preserve">
+    <value>NO.1</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="tbTeachValueA4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gboxB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbTeachValueA5.Parent" xml:space="preserve">
+    <value>gboxA5</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1185, 13</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempB2.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 37</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempB4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnTeachTempA6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="tbTeachValueA1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="PictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempB3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB5.Parent" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbTeachValueA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="tbTeachValueA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnTeachTempA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="btnTeachTempA1.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnTeachTempA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.Name" xml:space="preserve">
+    <value>gboxB5</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA1.Parent" xml:space="preserve">
+    <value>gboxA1</value>
+  </data>
+  <data name="tbTeachValueB5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxMachineB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gboxB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="tbTeachValueA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA6.Name" xml:space="preserve">
+    <value>btnInitialTempA6</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1288, 491</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB5.Name" xml:space="preserve">
+    <value>tbTeachValueB5</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA6.Parent" xml:space="preserve">
+    <value>gboxA6</value>
+  </data>
+  <data name="gboxB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 206</value>
+  </data>
+  <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnInitialTempA4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnTeachTempA5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="gboxA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnInitialTempA2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxB1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInitialTempA6.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 39</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Label22.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnTeachTempB1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnInitialTempB4.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxB4.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="btnTeachTempB6.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;gboxMachineB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA6.Name" xml:space="preserve">
+    <value>btnTeachTempA6</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnInitialTempB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA2.Name" xml:space="preserve">
+    <value>btnTeachTempA2</value>
+  </data>
+  <data name="tbTeachValueB2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbTeachValueA2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTeachValueB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="&gt;&gt;Label22.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tbTeachValueB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="btnInitialTempB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="Label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnInitialTempB1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempA5.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="tbTeachValueB2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tbTeachValueA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>gboxB3</value>
+  </data>
+  <data name="tbTeachValueA5.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTeachValueB4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB6.Parent" xml:space="preserve">
+    <value>gboxB6</value>
+  </data>
+  <data name="&gt;&gt;gboxA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnInitialTempA3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="gboxB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="gboxA3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 375</value>
+  </data>
+  <data name="btnTeachTempA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTeachTempA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbTeachValueB2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbTeachValueA2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Value :</value>
+  </data>
+  <data name="btnTeachTempB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnInitialTempA2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnInitialTempB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempA5.Text" xml:space="preserve">
+    <value>Initial</value>
+  </data>
+  <data name="tbTeachValueA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnTeachTempA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="btnTeachTempA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;gboxB3.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnInitialTempB6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempB5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnInitialTempA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gboxMachineB.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="Label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="gboxB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnInitialTempB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="gboxA1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 39</value>
+  </data>
+  <data name="tbTeachValueA3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempB1.Parent" xml:space="preserve">
+    <value>gboxB1</value>
+  </data>
+  <data name="gboxA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="btnTeachTempB3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempA4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxA5.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="btnTeachTempB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="Label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="tbTeachValueB6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnInitialTempA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTeachTempB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="tbTeachValueA3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label24.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="btnTeachTempB5.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label21.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxA6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.Name" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="btnInitialTempA5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnTeachTempA5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="Label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTeachTempB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxB4.Name" xml:space="preserve">
+    <value>gboxB4</value>
+  </data>
+  <data name="&gt;&gt;gboxB4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA1.Name" xml:space="preserve">
+    <value>btnInitialTempA1</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnInitialTempB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbTeachValueA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnTeachTempA5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="gboxMachineB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tbTeachValueB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gboxA5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnTeachTempB6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbTeachValueB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 35</value>
+  </data>
+  <data name="gboxA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;gboxB5.Parent" xml:space="preserve">
+    <value>gboxMachineB</value>
+  </data>
+  <data name="btnInitialTempA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnInitialTempA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 87</value>
+  </data>
+  <data name="tbTeachValueA1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnExit.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="gboxB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 375</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTeachTempB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="gboxA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 37</value>
+  </data>
+  <data name="btnTeachTempB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 87</value>
+  </data>
+  <data name="tbTeachValueA6.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calibration PID Controller</value>
+  </data>
+  <data name="btnTeachTempA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 60</value>
+  </data>
+  <data name="btnTeachTempA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tbTeachValueB4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="gboxB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 161</value>
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="gboxB4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gboxMachineB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 555</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label23.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label19.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="gboxB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="gboxB2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 39</value>
+  </data>
+  <data name="&gt;&gt;btnInitialTempA4.Parent" xml:space="preserve">
+    <value>gboxA4</value>
+  </data>
+  <data name="&gt;&gt;Label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxA2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="&gt;&gt;Label20.Name" xml:space="preserve">
+    <value>Label20</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;btnTeachTempA3.Name" xml:space="preserve">
+    <value>btnTeachTempA3</value>
+  </data>
+  <data name="gboxA3.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;tbTeachValueA2.Parent" xml:space="preserve">
+    <value>gboxA2</value>
+  </data>
+  <data name="&gt;&gt;Label11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTeachTempA1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnTeachTempA1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="tbTeachValueB4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempA4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label20.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label19.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxB1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempB6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempB4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueA2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueB2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempB3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxA3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempA2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueA3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxA6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueB3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label15.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxMachineB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxA1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxB2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempB1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label21.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxA4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label16.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempA6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueA6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempB3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueB6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueA1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueB1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempB5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxA2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label17.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxB6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="btnTeachTempB1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempA5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempA1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label10.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxB4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempA2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label22.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxMachineA.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempA3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempA1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempB2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueA5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueB5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label24.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempA5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempB4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempB5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxB5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnExit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempB2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempA6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempA4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label23.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTeachTempA3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label18.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInitialTempB6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxB3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="tbTeachValueA4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gboxA5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

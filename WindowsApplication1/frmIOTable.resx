@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DOByPass.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;AIByPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvAITable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabDOTable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AOCardType.Width" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="DOCardType.Width" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;AOByPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DOName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DIByPass.HeaderText" xml:space="preserve">
+    <value>ByPass</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dgvDITable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;tabAOTable.Name" xml:space="preserve">
+    <value>tabAOTable</value>
+  </data>
+  <data name="&gt;&gt;AOAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 1102</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="dgvDOTable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AOValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AOAddress.Width" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="dgvDITable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>791, 1040</value>
+  </data>
+  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgvDOTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 1041</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvDITable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvAOTable.Name" xml:space="preserve">
+    <value>dgvAOTable</value>
+  </data>
+  <data name="dgvAITable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;DOAddress.Name" xml:space="preserve">
+    <value>DOAddress</value>
+  </data>
+  <data name="&gt;&gt;dgvDITable.Name" xml:space="preserve">
+    <value>dgvDITable</value>
+  </data>
+  <data name="DICardType.HeaderText" xml:space="preserve">
+    <value>CardType</value>
+  </data>
+  <data name="DIByPass.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="dgvAITable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dgvAITable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabAITable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>IO Table</value>
+  </data>
+  <data name="tabAITable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt</value>
+  </data>
+  <data name="AIName.Width" type="System.Int32, mscorlib">
+    <value>144</value>
+  </data>
+  <data name="&gt;&gt;tabDITable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAITable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DIAddress.Width" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="AOValue.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="tabDOTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="tabDITable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvDITable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="AICardType.Width" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="TableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DOAddress.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;dgvDOTable.Name" xml:space="preserve">
+    <value>dgvDOTable</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="tabAITable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 1041</value>
+  </data>
+  <data name="tabAITable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="tabDITable.Text" xml:space="preserve">
+    <value>DI Table</value>
+  </data>
+  <data name="&gt;&gt;tabAOTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabDOTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;AOAddress.Name" xml:space="preserve">
+    <value>AOAddress</value>
+  </data>
+  <data name="tabAOTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvAOTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 1041</value>
+  </data>
+  <data name="dgvAITable.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="DIName.Width" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="tabDITable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDOTable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt</value>
+  </data>
+  <data name="tabAOTable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgvAITable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 1041</value>
+  </data>
+  <data name="dgvAITable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AICardType.Name" xml:space="preserve">
+    <value>AICardType</value>
+  </data>
+  <data name="&gt;&gt;DICardType.Name" xml:space="preserve">
+    <value>DICardType</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Name" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tabDOTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabDITable.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AIValue.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="dgvAOTable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;dgvDOTable.Parent" xml:space="preserve">
+    <value>tabDOTable</value>
+  </data>
+  <data name="&gt;&gt;dgvAOTable.Parent" xml:space="preserve">
+    <value>tabAOTable</value>
+  </data>
+  <data name="&gt;&gt;DOAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;DIByPass.Name" xml:space="preserve">
+    <value>DIByPass</value>
+  </data>
+  <data name="AIAddress.Width" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;AIAddress.Name" xml:space="preserve">
+    <value>AIAddress</value>
+  </data>
+  <data name="&gt;&gt;DIValue.Name" xml:space="preserve">
+    <value>DIValue</value>
+  </data>
+  <data name="&gt;&gt;AOName.Name" xml:space="preserve">
+    <value>AOName</value>
+  </data>
+  <data name="AIValue.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmIOTable</value>
+  </data>
+  <data name="DOCardType.HeaderText" xml:space="preserve">
+    <value>CardType</value>
+  </data>
+  <data name="AIName.HeaderText" xml:space="preserve">
+    <value>AIName</value>
+  </data>
+  <data name="DOName.HeaderText" xml:space="preserve">
+    <value>DOName</value>
+  </data>
+  <data name="DOName.Width" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;DICardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AOByPass.HeaderText" xml:space="preserve">
+    <value>ByPass</value>
+  </data>
+  <data name="dgvAOTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="TableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AICardType.HeaderText" xml:space="preserve">
+    <value>CardType</value>
+  </data>
+  <data name="&gt;&gt;DIAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabDOTable.Name" xml:space="preserve">
+    <value>tabDOTable</value>
+  </data>
+  <data name="&gt;&gt;DIName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAITable.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvAOTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;DIByPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>807, 1190</value>
+  </data>
+  <data name="&gt;&gt;dgvAOTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DOValue.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabDITable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DIAddress.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="dgvDOTable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabDITable.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;dgvDOTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabControl1.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabDOTable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AOName.HeaderText" xml:space="preserve">
+    <value>AOName</value>
+  </data>
+  <data name="AOByPass.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;DOValue.Name" xml:space="preserve">
+    <value>DOValue</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AIName.Name" xml:space="preserve">
+    <value>AIName</value>
+  </data>
+  <data name="DIValue.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="tabDOTable.Text" xml:space="preserve">
+    <value>DO Table</value>
+  </data>
+  <data name="TableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="tabAITable.Text" xml:space="preserve">
+    <value>AI Table</value>
+  </data>
+  <data name="tabAOTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="&gt;&gt;DOCardType.Name" xml:space="preserve">
+    <value>DOCardType</value>
+  </data>
+  <data name="AIByPass.HeaderText" xml:space="preserve">
+    <value>ByPass</value>
+  </data>
+  <data name="dgvAOTable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DIValue.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;DOByPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AOValue.HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="dgvDOTable.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="AOCardType.HeaderText" xml:space="preserve">
+    <value>CardType</value>
+  </data>
+  <data name="&gt;&gt;tabDITable.Name" xml:space="preserve">
+    <value>tabDITable</value>
+  </data>
+  <data name="&gt;&gt;tabAOTable.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabDOTable.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;AOByPass.Name" xml:space="preserve">
+    <value>AOByPass</value>
+  </data>
+  <data name="&gt;&gt;dgvDITable.Parent" xml:space="preserve">
+    <value>tabDITable</value>
+  </data>
+  <data name="DIName.HeaderText" xml:space="preserve">
+    <value>DIName</value>
+  </data>
+  <data name="&gt;&gt;dgvAITable.Parent" xml:space="preserve">
+    <value>tabAITable</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>TableLayoutPanel1</value>
+  </data>
+  <data name="dgvDOTable.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="DICardType.Width" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;dgvDITable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabAOTable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt</value>
+  </data>
+  <data name="dgvDITable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabAOTable.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 83</value>
+  </data>
+  <data name="AIByPass.Width" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="btnExit.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;DIName.Name" xml:space="preserve">
+    <value>DIName</value>
+  </data>
+  <data name="tabAOTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 1041</value>
+  </data>
+  <data name="tabDITable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>791, 1040</value>
+  </data>
+  <data name="&gt;&gt;tabAITable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;dgvAOTable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvAITable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvDOTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabAITable.Name" xml:space="preserve">
+    <value>tabAITable</value>
+  </data>
+  <data name="TableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="TabControl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnExit" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,93" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tabDITable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 43</value>
+  </data>
+  <data name="&gt;&gt;AOCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabAOTable.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="TabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 5</value>
+  </data>
+  <data name="TableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AOCardType.Name" xml:space="preserve">
+    <value>AOCardType</value>
+  </data>
+  <data name="&gt;&gt;DIValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AIAddress.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;dgvDOTable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AIValue.Name" xml:space="preserve">
+    <value>AIValue</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>799, 1087</value>
+  </data>
+  <data name="&gt;&gt;AIValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabDOTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 1041</value>
+  </data>
+  <data name="TabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AOAddress.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;tabAITable.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>807, 1190</value>
+  </data>
+  <data name="&gt;&gt;DOName.Name" xml:space="preserve">
+    <value>DOName</value>
+  </data>
+  <data name="&gt;&gt;AOName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DOByPass.HeaderText" xml:space="preserve">
+    <value>ByPass</value>
+  </data>
+  <data name="DOValue.Width" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;AOValue.Name" xml:space="preserve">
+    <value>AOValue</value>
+  </data>
+  <data name="&gt;&gt;AICardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvDITable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;dgvAITable.Name" xml:space="preserve">
+    <value>dgvAITable</value>
+  </data>
+  <data name="tabAITable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="&gt;&gt;AIByPass.Name" xml:space="preserve">
+    <value>AIByPass</value>
+  </data>
+  <data name="&gt;&gt;DOCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvDITable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvAOTable.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;DOValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DOAddress.Width" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;TableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabDITable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;DOByPass.Name" xml:space="preserve">
+    <value>DOByPass</value>
+  </data>
+  <data name="TabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tabDOTable.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabAOTable.Text" xml:space="preserve">
+    <value>AO Table</value>
+  </data>
+  <data name="AOName.Width" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="&gt;&gt;DIAddress.Name" xml:space="preserve">
+    <value>DIAddress</value>
+  </data>
+  <metadata name="DIByPass.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AOName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AIValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DIValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AIByPass.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AIName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DICardType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DOName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DOCardType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DIName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AICardType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DOByPass.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DOAddress.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AOByPass.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DOValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DIAddress.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AOValue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AOAddress.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AOCardType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AIAddress.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

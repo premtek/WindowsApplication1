@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtDesc.Text" xml:space="preserve">
+    <value>级别说明
+0：开发人员 
+1：系统管理员 
+2：管理员 
+3：工程师 
+4：操作员</value>
+  </data>
+  <data name="lblLevel.Text" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="lblPasword.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="lblID.Text" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>（保留）</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>I/O列表</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>(保留)</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>(保留)</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>硬件互锁</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>用户级别</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>输送带</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>I/O状态</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>马达控制</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>平台保护</value>
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>治具温度</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>电磁气阀连线设置</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>治具位置设置</value>
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>触发板连线设置</value>
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>输送带测试</value>
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>光源连线设置</value>
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>流量计连线设置</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>CCD连线设置</value>
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>高度传感器连线设置</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>治具温度</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>微量天平连线设置</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>语言包</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>灯塔</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>阀控制连线参数</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>測膠位置</value>
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>换胶位置</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>清胶位置</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>排胶位置</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>手动操作</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>工程模式</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>校准</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>编程</value>
+  </data>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>主选单</value>
+  </data>
+  <data name="TabPage2.Text" xml:space="preserve">
+    <value>工程模式</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Panel2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAsCAYAAAANUxr1AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAElSURBVFhH7ZdbDoMgEEVdmkvrzlwa9ZKQ4DjDPCCa
+        NnOT81NeR0ChWymlEsx+8mHA7+5Uj6AQBkUjDdQzJyKEJz9O+kE1UN80Y14hdNoP5EWV8gr1nXNoM4fy
+        YTxC0mDccoyWdbinrELSUmlLILUTYxXi3ijr2+NqaxXipt8T2lbcS1ahvjNgnZ0W8wM9JcQtG5sU6mDz
+        U0L4hqAjrjNs0lZmgdvUrewSTgiV+oZPUT+yVOgtmcZOhfrCV0ghjRTSSCGNvxZqxwl3TJhZJUTv1tJd
+        WmWFEJVpCUnNCmF5RuHaDJkVul0fSNyH9awQGIWrP2SFkLSHQleZFUKALl1IBqwSWkYKaaSQRgpppJDC
+        QYXC95hF3P65IpCauvUFwHj1TCylbF8+EbDtB2+UBwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Panel3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAYAAACMo1E1AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEVSURBVFhH7ZbRDYMwDEQZjdG6WUdLOSRX1BByvgBJ
+        ESe9jzYoebUNdEgpdUttxonXBHby4HusS6mRw6HvCS+0Ba4LR5WDmBdgCFVRkVPFDDqKHNvKHHSLo3K1
+        VTOo9kblcndlFOxTTFTOH6JCtbaVHCjmkctQzK1mruu79ajnHJWoHFL7hqCqhihyiD+QhX51Iaqc0t6Q
+        GKLKWdgW061cplYOQRVxuBfFZ0nKcoTcabmlnLUSWBv3sGup/3GWiBw2Z2+AEtQ8luTwS48SyoH9Nyua
+        k7tCyoPzfrIlx87RWXyr6OWurlaOeR6Xcq0r5hmXcn6xOY+cisn1Nm8zj5yKyeHBt1psjckhq8XW/I0c
+        5q4rUkrDB3JHHrgC+p6zAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>储存</value>
+  </data>
+  <data name="btnModify.ToolTip" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="btnDelete.ToolTip" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTExGjExMUMyMjJrNDQ0lDQ0NLIzMzO6MzMzwzQ0
+        NMszMzPTMzMz1DQ0NMszMzPDMjIyuzMzM7MzMzOXMzMzbjMzM0Y1NTUdAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuLi4LMzMzajMzM9gzMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzPdMzMzbisr
+        KwwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0YzMzM+8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz7zQ0NGMAAAAAAAAAAAAAAAAAAAAAAAAAADExMS8zMzP9MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/TExMS8AAAAAAAAAAAAAAAAAAAAAMzMzdDMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMzdAAAAAAAAAAAAAAAAAAAAAAzMzN3MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzN3AAAAAAAAAAAAAAAAAAAAADMz
+        MyMzMzP+MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zY2NiYAAAAAAAAAAAAA
+        AAAAAAAAAAAAADQ0NKgzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP4MzMz/zMz
+        M/8zMzP/MzMz/zMzM/kzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzOvAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMzMzBTMzM6UzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz8zMz
+        M5EzMzP/MzMz/zMzM/8zMzP/MzMzljMzM/QzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MjIyrCsr
+        KwYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATMzM3gzMzPuMzMz/zMzM/8zMzP/MzMz/zMz
+        M/80NDRxLi4uFjMzM/EzMzP/MzMz/zMzM/QvLy8bMjIydTMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz7jMz
+        M3wAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMw80NDSAMzMz8TMz
+        M/8zMzP/MzMz6Tk5OQkAAAAAMzMzeDMzM/8zMzP/MzMzfgAAAAAuLi4LMzMz6jMzM/8zMzP/MzMz7DQ0
+        NHs3NzcOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAtLS0RMjIyhDMzM/IyMjJ1AAAAAAAAAABAQEAINDQ0yDMzM8s5OTkJAAAAAAAAAAAzMzN3MzMz6jMz
+        M3crKysMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAANjY2EzMzMwoAAAABMzMzeDMzM9UzMzP/MzMz/zMzM9czMzN3AAAAATk5
+        OQkzMzMKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMoQzMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzN+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQ0qDMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM6YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEzMzPOMzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz0QAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzajMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMzbQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADU1
+        NR0zMzPyMzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzPzMTExHwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMjIytjMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzO4AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMzM0YzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzNLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMzMzmzMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM6EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAzMzPpMzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz7gAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALS0tETMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/NTU1GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjIuMzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/80NDQ2AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMy0zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zU1NTUAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzBTMz
+        M/ozMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP9MzMzCgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAMzMz0jMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M9oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAzMzOSMzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/NDQ0mQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAADAwMBAzMzPmMzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM+g2NjYTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzM1AzMzP+MzMz/zMzM/8zMzP/MzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP+MjIyUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADU1NTozMzPVMzMz/zMz
+        M/8zMzP/MzMz/zMzM/8zMzP/MzMz1TU1NToAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsr
+        KwYzMzNaNDQ0ijMzM7gzMzO4NDQ0ijMzM1orKysGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/gAAf/AAAA/gAAAHwAAAA8AAAAPAAAADwAAAA+AAAAfgAAAH8AAAD/wE
+        ID//DDD//8AD///wD///8A///+AH///gB///wAP//8AD//+AAf//gAH//4AA//8AAP//AAD//wAA//8A
+        AP//gAH//4AB//+AAf//wAP//+AH///wD/8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>用户级别</value>
+  </data>
+</root>

@@ -1,0 +1,3185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnBackAir.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnSaveAir.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btnSetValve2OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringe2OnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnSetSyringe2OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValveAP2.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetValveAP2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringeAP2.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetSyringeAP2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPSet2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAP2.Text" xml:space="preserve">
+    <value>閥體壓</value>
+  </data>
+  <data name="lblValveAP2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPSetUnit2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValveAPSet2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPNow2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPMax2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPNow2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPUnit2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPMax2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPMax2.Text" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="lblValveAPMax2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPNow2.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="lblValveAPNow2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPUnit2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSyringeAPSet2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAP2.Text" xml:space="preserve">
+    <value>膠管氣壓</value>
+  </data>
+  <data name="lblSyringeAP2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveAir2.Text" xml:space="preserve">
+    <value>閥2氣壓設定</value>
+  </data>
+  <data name="grpValveAir2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValve4OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringe4OnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnSetSyringe4OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPSet4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValveAP4.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetValveAP4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringeAP4.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetSyringeAP4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAP4.Text" xml:space="preserve">
+    <value>閥體壓</value>
+  </data>
+  <data name="lblValveAP4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPSetUnit4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValveAPSet4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPNow4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPMax4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPMax4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPNow4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPUnit4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPUnit4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSyringeAPSet4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAP4.Text" xml:space="preserve">
+    <value>膠管氣壓</value>
+  </data>
+  <data name="lblSyringeAP4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPMax4.Text" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="lblValveAPMax4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPNow4.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="lblValveAPNow4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveAir4.Text" xml:space="preserve">
+    <value>閥4氣壓設定</value>
+  </data>
+  <data name="grpValveAir4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValve3OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringe3OnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnSetSyringe3OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValveAP3.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetValveAP3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringeAP3.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetSyringeAP3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPSet3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAP3.Text" xml:space="preserve">
+    <value>閥體壓</value>
+  </data>
+  <data name="lblValveAP3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPSetUnit3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValveAPSet3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPNow3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPMax3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPMax3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPNow3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPUnit3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPUnit3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPMax3.Text" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="lblValveAPMax3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPNow3.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="lblValveAPNow3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSyringeAPSet3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAP3.Text" xml:space="preserve">
+    <value>膠管氣壓</value>
+  </data>
+  <data name="lblSyringeAP3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveAir3.Text" xml:space="preserve">
+    <value>閥3氣壓設定</value>
+  </data>
+  <data name="grpValveAir3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValve1OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringe1OnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnSetSyringe1OnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValveAP1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetValveAP1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSyringeAP1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetSyringeAP1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPSet1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAP1.Text" xml:space="preserve">
+    <value>閥體壓</value>
+  </data>
+  <data name="lblValveAP1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPSetUnit1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtValveAPSet1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPMax1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPNow1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAPUnit1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSyringeAPSet1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAP1.Text" xml:space="preserve">
+    <value>膠管氣壓</value>
+  </data>
+  <data name="lblSyringeAP1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPMax1.Text" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="lblValveAPMax1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPMax1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPUnit1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveAPNow1.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="lblValveAPNow1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSyringeAPNow1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveAir1.Text" xml:space="preserve">
+    <value>閥1氣壓設定</value>
+  </data>
+  <data name="grpValveAir1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabAir.Text" xml:space="preserve">
+    <value>氣壓</value>
+  </data>
+  <data name="tabAir.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbTemp1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemp.Text" xml:space="preserve">
+    <value>溫度設定檔</value>
+  </data>
+  <data name="lblTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveTemp.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value>溫度選擇</value>
+  </data>
+  <data name="GroupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPriorHeatTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label112.Text" xml:space="preserve">
+    <value>加熱穩定時間</value>
+  </data>
+  <data name="Label112.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label104.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label104.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label107.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label107.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label111.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpTime.Text" xml:space="preserve">
+    <value>穩定時間</value>
+  </data>
+  <data name="grpTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempUnLoader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempLoader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempUnLoader.Text" xml:space="preserve">
+    <value>出貨端</value>
+  </data>
+  <data name="chkTempUnLoader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempLoader.Text" xml:space="preserve">
+    <value>進貨端</value>
+  </data>
+  <data name="chkTempLoader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label45.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label45.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label80.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label80.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label101.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label103.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpLoader.Text" xml:space="preserve">
+    <value>載料</value>
+  </data>
+  <data name="grpLoader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSB6.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSB5.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSB4.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSB3.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSB2.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSB1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>修正量</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOSB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOSB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOSB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOSB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOSB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOSB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cboxHotPlateB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="cboxHotPlateB5.Text" xml:space="preserve">
+    <value>加熱板5</value>
+  </data>
+  <data name="cboxHotPlateB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlateB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="cboxHotPlateB1.Text" xml:space="preserve">
+    <value>加熱板1</value>
+  </data>
+  <data name="cboxHotPlateB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlateB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="cboxHotPlateB6.Text" xml:space="preserve">
+    <value>加熱板6</value>
+  </data>
+  <data name="cboxHotPlateB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlateB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="cboxHotPlateB2.Text" xml:space="preserve">
+    <value>加熱板2</value>
+  </data>
+  <data name="cboxHotPlateB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlateB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="cboxHotPlateB3.Text" xml:space="preserve">
+    <value>加熱板3</value>
+  </data>
+  <data name="cboxHotPlateB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlateB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 28</value>
+  </data>
+  <data name="cboxHotPlateB4.Text" xml:space="preserve">
+    <value>加熱板4</value>
+  </data>
+  <data name="cboxHotPlateB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpMachineBHotPlate.Text" xml:space="preserve">
+    <value>B機加熱器</value>
+  </data>
+  <data name="grpMachineBHotPlate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSA6.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSA5.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSA4.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSA3.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSA2.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPVOSA1.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPVOSA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>修正量</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOS1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlate1.Text" xml:space="preserve">
+    <value>加熱板1</value>
+  </data>
+  <data name="cboxHotPlate1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOS2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlate2.Text" xml:space="preserve">
+    <value>加熱板2</value>
+  </data>
+  <data name="cboxHotPlate2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOS3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOS4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlate4.Text" xml:space="preserve">
+    <value>加熱板4</value>
+  </data>
+  <data name="cboxHotPlate4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOS5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPVOS6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlate3.Text" xml:space="preserve">
+    <value>加熱板3</value>
+  </data>
+  <data name="cboxHotPlate3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlate5.Text" xml:space="preserve">
+    <value>加熱板5</value>
+  </data>
+  <data name="cboxHotPlate5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboxHotPlate6.Text" xml:space="preserve">
+    <value>加熱板6</value>
+  </data>
+  <data name="cboxHotPlate6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpMachineAHotPlate.Text" xml:space="preserve">
+    <value>A機加熱器</value>
+  </data>
+  <data name="grpMachineAHotPlate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTempDB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempSyringeBodySet4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempValveBodySet4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempNozzleSet4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempSyringeBodyNow4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempValveBodyNow4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempNozzleNow4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label92.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label92.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempNozzle4.Text" xml:space="preserve">
+    <value>出膠口</value>
+  </data>
+  <data name="chkTempNozzle4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempSyringeBody4.Text" xml:space="preserve">
+    <value>膠管</value>
+  </data>
+  <data name="chkTempSyringeBody4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label93.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="Label93.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label94.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label94.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label95.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempValveBody4.Text" xml:space="preserve">
+    <value>閥體</value>
+  </data>
+  <data name="chkTempValveBody4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label96.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label97.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveTemp4.Text" xml:space="preserve">
+    <value>閥4</value>
+  </data>
+  <data name="grpValveTemp4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstTempDB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempSyringeBodySet3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempValveBodySet3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempNozzleSet3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempSyringeBodyNow3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempValveBodyNow3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempNozzleNow3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempNozzle3.Text" xml:space="preserve">
+    <value>出膠口</value>
+  </data>
+  <data name="chkTempNozzle3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempSyringeBody3.Text" xml:space="preserve">
+    <value>膠管</value>
+  </data>
+  <data name="chkTempSyringeBody3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="Label33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempValveBody3.Text" xml:space="preserve">
+    <value>閥體</value>
+  </data>
+  <data name="chkTempValveBody3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveTemp3.Text" xml:space="preserve">
+    <value>閥3</value>
+  </data>
+  <data name="grpValveTemp3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTempDBAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="nmuTempPostStationSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempWorkStationSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempPreStationSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="Label54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label53.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempPostStationNow.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label52.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempWorkStationNow.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempPreStationNow.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempPostStation.Text" xml:space="preserve">
+    <value>保溫站</value>
+  </data>
+  <data name="chkTempPostStation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label63.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempWorkStation.Text" xml:space="preserve">
+    <value>點膠站</value>
+  </data>
+  <data name="chkTempWorkStation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label65.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempPreStation.Text" xml:space="preserve">
+    <value>預熱站</value>
+  </data>
+  <data name="chkTempPreStation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label67.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpConveyorTemp.Text" xml:space="preserve">
+    <value>傳送帶</value>
+  </data>
+  <data name="grpConveyorTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempSyringeBodySet2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempValveBodySet2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempNozzleSet2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempSyringeBodyNow2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempValveBodyNow2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempNozzleNow2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label139.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label139.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempNozzle2.Text" xml:space="preserve">
+    <value>出膠口</value>
+  </data>
+  <data name="chkTempNozzle2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempSyringeBody2.Text" xml:space="preserve">
+    <value>膠管</value>
+  </data>
+  <data name="chkTempSyringeBody2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label140.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="Label140.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label141.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label141.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label91.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempValveBody2.Text" xml:space="preserve">
+    <value>閥體</value>
+  </data>
+  <data name="chkTempValveBody2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label90.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label89.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveTemp2.Text" xml:space="preserve">
+    <value>閥2</value>
+  </data>
+  <data name="grpValveTemp2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTempDBDel.ToolTip" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="nmuTempSyringeBodySet1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempValveBodySet1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuTempNozzleSet1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempSyringeBodyNow1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label86.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label86.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempValveBodyNow1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label116.Text" xml:space="preserve">
+    <value>現在值</value>
+  </data>
+  <data name="Label116.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTempNozzleNow1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label105.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label105.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempNozzle1.Text" xml:space="preserve">
+    <value>出膠口</value>
+  </data>
+  <data name="chkTempNozzle1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempSyringeBody1.Text" xml:space="preserve">
+    <value>膠管</value>
+  </data>
+  <data name="chkTempSyringeBody1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkTempValveBody1.Text" xml:space="preserve">
+    <value>閥體</value>
+  </data>
+  <data name="chkTempValveBody1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label61.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label47.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValveTemp1.Text" xml:space="preserve">
+    <value>閥1</value>
+  </data>
+  <data name="grpValveTemp1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTempDBUpdate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVHhe7dqB
+        TcNADAXQjtARGIERGIEROgIjdARGYJSOwAiM0A2CLZXI+fx/TVqaWPhOelL1dY2NpTRpw24YhvJoWA0N
+        q6FhNTSshobV0LAaGlZDw2poWA0NW2y9mlPDO3vfXHCs6BD2HELunuMxlqKhYuvN+IuWE3vvXHCs6Bj2
+        HEPuzubmQdBQsfV1KdqyxRDczYOgoRIKtmw1BHfTIGiohGItWw7BLR4EDZVQqGXrIbhFg6ChEoq0ZBiC
+        O8fjttBQgSJKliHY1t/HZ2ioYBGhD8HcO4R4ExTFm6X/PYQ5bPUh2Eo/hE/z8mAfhtWewP4VGipYJDvs
+        X6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJPBLFruUrUFeLrF/hYYKFgnG
+        +/q1ee3QxwTuVWioYJGgD8Es/oZ3p/HW3FYfgq0+BFsph+Cf2N7YI836beFnzzU0VLBI0D8YTR+CiacD
+        Pid8hPF5p62UQ5BN/aF+dTDph9BPh7V57dDHBO5VaKhgkaAPwcTTod8s+euQP0q/Opg+BJN7CGvz2qGP
+        Cdyr0FDBIkEfgin1Q6v/L9CkUGbYv0JDxdasp8FJjB+e19BQsbX3g1+KZOY97tnfwNDwGltPhp2fGTyx
+        nltoWA0Nq6FhNTSshobV0LAaGlZDw2poWA0Naxl234seRIVqdBxGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnTempDBUpdate.ToolTip" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="grpTemp.Text" xml:space="preserve">
+    <value>溫度控制</value>
+  </data>
+  <data name="grpTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackTemp.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="tabTemperature.Text" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="tabTemperature.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackJet.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="lblValveType.Text" xml:space="preserve">
+    <value>閥類型</value>
+  </data>
+  <data name="lblValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValve1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveJet.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="cmbValve2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveParameter3.Text" xml:space="preserve">
+    <value>閥3</value>
+  </data>
+  <data name="lblValveParameter3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValve4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveParameter2.Text" xml:space="preserve">
+    <value>閥2</value>
+  </data>
+  <data name="lblValveParameter2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveParameter1.Text" xml:space="preserve">
+    <value>閥1</value>
+  </data>
+  <data name="lblValveParameter1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValve3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValveParameter4.Text" xml:space="preserve">
+    <value>閥4</value>
+  </data>
+  <data name="lblValveParameter4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox8.Text" xml:space="preserve">
+    <value>閥選擇</value>
+  </data>
+  <data name="GroupBox8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoValveOffTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoCloseTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoValveOnTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoOpenTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoStroke.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoCloseVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuPicoJetTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoCloseVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoCloseVoltage.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoCloseVoltage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoCloseVoltageUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoStroke.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbPicoJetTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoJetTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoValveOnTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoValveOnTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoValveOffTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoValveOffTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoCloseTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoCloseTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoCycleTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoStroke.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoStroke.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPicoOpenTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetPicoOpenTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxValve.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoStrokeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoFrequency.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoValveOnTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoFrequencyUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPicoCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoValveOffTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoValveOnTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPicoFrequency.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoCycleTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoCloseTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoOpenTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoValveOffTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoOpenTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoCloseTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPicoCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbPICOTouch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValveChooes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuValveAdvanJetTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuValveAdvanjetCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuValveAdvanjetRefillTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbAdvanJetTime.Text" xml:space="preserve">
+    <value>投彈時間</value>
+  </data>
+  <data name="lbAdvanJetTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbAdvanJetTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label81.Text" xml:space="preserve">
+    <value>出膠週期</value>
+  </data>
+  <data name="Label81.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label98.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38.Text" xml:space="preserve">
+    <value>補充時間</value>
+  </data>
+  <data name="Label38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label74.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbAdvanjet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstJetValve.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtJetValveName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveDBUpdate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVHhe7dqB
+        TcNADAXQjtARGIERGIEROgIjdARGYJSOwAiM0A2CLZXI+fx/TVqaWPhOelL1dY2NpTRpw24YhvJoWA0N
+        q6FhNTSshobV0LAaGlZDw2poWA0NW2y9mlPDO3vfXHCs6BD2HELunuMxlqKhYuvN+IuWE3vvXHCs6Bj2
+        HEPuzubmQdBQsfV1KdqyxRDczYOgoRIKtmw1BHfTIGiohGItWw7BLR4EDZVQqGXrIbhFg6ChEoq0ZBiC
+        O8fjttBQgSJKliHY1t/HZ2ioYBGhD8HcO4R4ExTFm6X/PYQ5bPUh2Eo/hE/z8mAfhtWewP4VGipYJDvs
+        X6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJPBLFruUrUFeLrF/hYYKFgnG
+        +/q1ee3QxwTuVWioYJGgD8Es/oZ3p/HW3FYfgq0+BFsph+Cf2N7YI836beFnzzU0VLBI0D8YTR+CiacD
+        Pid8hPF5p62UQ5BN/aF+dTDph9BPh7V57dDHBO5VaKhgkaAPwcTTod8s+euQP0q/Opg+BJN7CGvz2qGP
+        Cdyr0FDBIkEfgin1Q6v/L9CkUGbYv0JDxdasp8FJjB+e19BQsbX3g1+KZOY97tnfwNDwGltPhp2fGTyx
+        nltoWA0Nq6FhNTSshobV0LAaGlZDw2poWA0Naxl234seRIVqdBxGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnValveDBUpdate.ToolTip" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnValveDBDelete.ToolTip" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnValveDBAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="grpJet.Text" xml:space="preserve">
+    <value>閥參數</value>
+  </data>
+  <data name="grpJet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabJet.Text" xml:space="preserve">
+    <value>Jet閥</value>
+  </data>
+  <data name="tabJet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button6.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="Button7.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="Label155.Text" xml:space="preserve">
+    <value>阻擋</value>
+  </data>
+  <data name="Label155.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLeft.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACIAAAAhCAYAAAC803lsAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEgSURBVFhHzZPRDcIwFAM7AiMwAqMwAiMwApswGiMw
+        QokjJYB7pUmpeFi6n2uFrSc6jOP4F6CMAGUEKCNAGQHKCFBGgDIClttlL6jDYfl9NOCauCd21OGwXJ8y
+        QD8iLgnscFj2xweIfI0Edjgs20MDCvkaCnU4LJfzaUAhX0OhDoflfFoGCL1TQx0Oy2laBxT0fg11OCyf
+        6R0g3q6hUIfDct2Awts1FOpwWA7DMXHTb3RSP9nXUIfD8plTondQ/WxLqMNhOU3PoMlVqMNhOZ/WQedE
+        DXU4LJezNEjPaqjDYdmeT4P0LIc6HJb9oUH1KtThsFwfDdKftYzJV6EOh+V30RejT1iD8lWow2G5Tcqg
+        A3U4KCNAGQHKCFBGgPL3jMMDmp7+lZRseusAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnLeft.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRight.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACIAAAAhCAYAAAC803lsAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEtSURBVFhHzZRtDcIADEQnAQlIQAISkIAEJOAEKUhB
+        AhJGu6xJd3n7JpRLXgLvx+7SMJq2bf8ClBWgrABlBSgrQFkBygpQVoBSsRyNs3/4RrCDpGI5GG/jafio
+        XcEOkkqfu+FfnIexeRB2kFT6xFVizOZB2EFSSclXyawahB0klRS6SmbRIOwgqUjGrpKZHIQdJBWJXyWX
+        ToGDsIOkAvGCXDjHYBB2kFQg/tBctJRuEHaQVCBzP9oxXsYFO0gqkJuRC+bwAVejC3aQVCD+4Fw0xmBA
+        BDtIKhJ/cC4jcEAEO0gqkqlrTA6IYAdJJWXsGosGRLCDpJKi1/A3x/9pVwU7SCp98jVigL/Gq4MdJJU+
+        fo1dAyLYQVKxnIzdAyLYQbIClBWgrABlBSh/T9t8AKQM/raO5OkWAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnRight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="Label59.Text" xml:space="preserve">
+    <value>傳送帶速度</value>
+  </data>
+  <data name="Label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConveyorBeltSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label142.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpConveyor.Text" xml:space="preserve">
+    <value>傳送帶</value>
+  </data>
+  <data name="grpConveyor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label154.Text" xml:space="preserve">
+    <value>料盤上升</value>
+  </data>
+  <data name="Label154.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label153.Text" xml:space="preserve">
+    <value>料盤下降</value>
+  </data>
+  <data name="Label153.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label150.Text" xml:space="preserve">
+    <value>阻擋板上升</value>
+  </data>
+  <data name="Label150.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label149.Text" xml:space="preserve">
+    <value>阻擋板下降</value>
+  </data>
+  <data name="Label149.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStation3Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStation3Up.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStopper3.Text" xml:space="preserve">
+    <value>阻擋板</value>
+  </data>
+  <data name="btnStopper3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStation3.Text" xml:space="preserve">
+    <value>料盤</value>
+  </data>
+  <data name="btnStation3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStopper3Down.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStopper3Down.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStopper3Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStopper3Up.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStation3Down.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStation3Down.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox16.Text" xml:space="preserve">
+    <value>後站</value>
+  </data>
+  <data name="GroupBox16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVFhHxZYBUQNBDEVPAhIqAQlIQAISkFAHSEAC
+        EioBCUiohGNfpoH/r7nrLcNs/8wfSNjuyyW7V6Z5nu/uMjnaZXK0y+Rol8nRLpOjXSZHu0yOtge/em5+
+        az418wf1uZn8a/OhuVvKDK4F0/TY/M66DrO+qxhlBtcCFwXxtF/NCq1Md1i7FDn2MSkzuBas66V5TzEf
+        zQ8XZ0efmk3KDK4F29KNt/x5ccb/WkSKriRgj6+kzOBasF89hVxJmcG14La4BVxdxrK3ENbZ4VRmcC1Y
+        F+cBOLPWGVfvETXrKZx1eWiNGVwL1pWHLTa56NiswMrAU3Qv9lBmcC2olW3PAvh5qwNpLYLPcc2Pygyu
+        BbXYSDdjHPlK5yWl0KUZgYpunJQZXAtqJUxHoWLmFMZ4suVZBDkVnfhTETl7AGuFVOJG6HcKn499lBlc
+        C2oBzrbzJJyRnmJYn91hn4Myg2vBuniq5fwZE10CwjjS/BtAnvOgn+F31hozuBZsK+97btpjOvHzwlJm
+        cC3YJ56W+S47U5lu0BmTMoNrQb94urwZaWJ7TS+lzOAuE/dwmRztMjnaZXK0y+Rol8mxnqdvTqu5vGYX
+        +xIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Button2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGo1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVFhHxZYBUQNBDEVPAhIqAQlIQAISkFAHSEAC
+        EioBCUiohGNfpoH/r7nrLcNs/8wfSNjuyyW7V6Z5nu/uMjnaZXK0y+Rol8nRLpOjXSZHu0yOtge/em5+
+        az418wf1uZn8a/OhuVvKDK4F0/TY/M66DrO+qxhlBtcCFwXxtF/NCq1Md1i7FDn2MSkzuBas66V5TzEf
+        zQ8XZ0efmk3KDK4F29KNt/x5ccb/WkSKriRgj6+kzOBasF89hVxJmcG14La4BVxdxrK3ENbZ4VRmcC1Y
+        F+cBOLPWGVfvETXrKZx1eWiNGVwL1pWHLTa56NiswMrAU3Qv9lBmcC2olW3PAvh5qwNpLYLPcc2Pygyu
+        BbXYSDdjHPlK5yWl0KUZgYpunJQZXAtqJUxHoWLmFMZ4suVZBDkVnfhTETl7AGuFVOJG6HcKn499lBlc
+        C2oBzrbzJJyRnmJYn91hn4Myg2vBuniq5fwZE10CwjjS/BtAnvOgn+F31hozuBZsK+97btpjOvHzwlJm
+        cC3YJ56W+S47U5lu0BmTMoNrQb94urwZaWJ7TS+lzOAuE/dwmRztMjnaZXK0y+Rol8mxnqdvTqu5vGYX
+        +xIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnGo1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetStationDownPos.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetStationDownPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetStationUpPos.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetStationUpPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label148.Text" xml:space="preserve">
+    <value>阻擋板上升</value>
+  </data>
+  <data name="Label148.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label147.Text" xml:space="preserve">
+    <value>阻擋板下降</value>
+  </data>
+  <data name="Label147.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStopper2Down.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStopper2Down.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACIAAAAhCAYAAAC803lsAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAE+SURBVFhHzZWBTQJBFAUpwRIsxRIsgU4thVLOfYQh
+        n2N2bzHGdZLB3APuLY8YTtu2/Qs1XKGGK9RwhRquUMMVarhCDVeoITbe8vBLvFsHaoiNc/Or+ZGLH5L3
+        5h5n60AN8calmYv8zcFm4UPwXu1ADfFGbpgLPDpQnuPweH29daCGWNjfOO4PZAfgdVesAzXEQkrqzasp
+        sgPg/bDWgRrijlFZz/sawTpQQ9wxWqVn/eq0AzVE4ZVVHtYI1oEaovDKKg9rBOtADbHDzCpPawTrQA2x
+        w8wqT2sE60ANccBoFV0jWAdqiAM+m7W8qmsE60AN8QB+R6rdNYJ1oIZ4QH5V6yFid41gHaghTlBXGa4R
+        rAM1xAnqKsM1gnWghjhJVjlcI1gHaoiTZJX8Fx1iHajhCjVcoYYr1HCFGv692+kb/yf/J/s7xvIAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label144.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Label144.Text" xml:space="preserve">
+    <value>料盤下降</value>
+  </data>
+  <data name="Label144.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACIAAAAhCAYAAAC803lsAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAExSURBVFhHzdTbbQJBEERRQiAEh+AQyNAhOBRCcgjL
+        NNqLhuHOg/2gXdL5KWH1UJI5bdv2L2iZQcsMWmbQMoOWGbTMoCUW87Wbxm5ASyzmdzeN3YCWWEgsER8M
+        01XsBrTEQmIJHnKNYhS7AS0xSb0GLkU3dgNaYpJ6DQxXsRvQEoPYGuiuYjegJQaxNdBdxW5AS3QyWgO6
+        it2AlugkvnF91OgqdgNaQhLftD448rKK3YCWkKysgZdV7Aa0RJN31sDTKnYDWqLJO2vgaRW7AS1R5cga
+        eKxiN6AlqvTWiN+T+HcOvd+Wxyp2A1pij63BA9r0HnRfxW5AS+yp1+g9oE37oPsqdgNaooQ1Vh/QJv7m
+        p/grLnYDWqLkuzjygDbn4vhDPknLDFpm0DKDlhm0/LztdANFn/7vH0EbiQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStopper2Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStopper2Up.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label143.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Label143.Text" xml:space="preserve">
+    <value>料盤上升</value>
+  </data>
+  <data name="Label143.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStopper2.Text" xml:space="preserve">
+    <value>阻擋板</value>
+  </data>
+  <data name="btnStopper2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStation2Up.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStation2Down.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label145.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label146.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox15.Text" xml:space="preserve">
+    <value>工作站</value>
+  </data>
+  <data name="GroupBox15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label152.Text" xml:space="preserve">
+    <value>料盤上升</value>
+  </data>
+  <data name="Label152.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label151.Text" xml:space="preserve">
+    <value>料盤下降</value>
+  </data>
+  <data name="Label151.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStation1StopperUpSensor.Text" xml:space="preserve">
+    <value>阻擋板上升</value>
+  </data>
+  <data name="lblStation1StopperUpSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStation1Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStation1Up.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStation1StopperDownSensor.Text" xml:space="preserve">
+    <value>阻擋板下降</value>
+  </data>
+  <data name="lblStation1StopperDownSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStopper1Up.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStopper1Up.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStation1.Text" xml:space="preserve">
+    <value>料盤</value>
+  </data>
+  <data name="btnStation1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStation1Down.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStation1Down.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStopper1.Text" xml:space="preserve">
+    <value>阻擋板</value>
+  </data>
+  <data name="btnStopper1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palStopper1Down.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="palStopper1Down.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPrestation.Text" xml:space="preserve">
+    <value>前站</value>
+  </data>
+  <data name="grpPrestation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnHoldBack.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHoAAAA0CAYAAABFCyz4AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMjSURBVHhe7Zi/alRBFMZ9BN/BxsIiUbO7qIlbWIaF
+        gAQU7MUHCFY2eYDFykawtdBCEAsRJI0IIlil0MZCLWxExMZm9Fv3k5PrmT13Votl5vvgR3bvzN3A+d35
+        c+fYaLCx9ouxqJrjEP387PYgnbncBoPJKI23Npvh3GiYIHsm+uR0mE48GDXB+p1xurK72wyQLdENINGN
+        INGNINGNINGNINGNINGNINGNINGNINGNINGNINGNINGN8N9Erz+6lK4e3DgCrnl9VwGJdoqyCAh9+fl1
+        ygVt6OPdS9DOfP3xrfcDwkS/7yHRTlE8IOPpx4N5qX8LgtTbh3fTvXf3Z59xjXn4/rH7O8CKRnC/168L
+        I9ExS4s+/PJ2XuY0k+uNQlxDG5OTTdEfvn+a/UX6yGMkOmYp0Vbe9rNrbh8L+jD7b6Z/tdsRjdGM4EHq
+        9uvCSHRMseiLT3bm5fWl5eDD4a3BVjTaOOXjHtuvCyPRMcWiOeIwzXrtOazAvVf7R9qsaHy//mJv/i3N
+        Hizb18JIdEyxaK7NJaOZYI1GsImz17uiATd62NTZvhZGomOKRTPLFBcPB9Jdfz3RdgbIPVSMRMcUifaE
+        lJC7P3cdUzzireuAkeiYlRYNeBjTne4BI9ExKy8amzFO4dik2TZGomOKRNtXqz7vz104FfdZoy1c27HT
+        t1M4I9ExxZux3CtSH/hq1j0hi0QDTuH2eJSR6Jhi0X1ee3LwiDN6j/awp2sUy0h0TLFoK6WkwIt20H1E
+        A56ucepnJDqmWDTgNNpdM3NgNC56J+4rGvDABtL5WaJjlhJtd8Io9qKNGSSwb266LxHNvvhNLgUSHbOU
+        aGBHKYK1G6MMRcc0bUccAsm50V8iGnBTx0h0zNKiAcTx/DoXjLroXLxUNP4vRzMi0TH/JJqg8DjMwCi2
+        9BWA+9G3RBiWD96TmykWIdFOUWpEop2i1IhEO0WpEYl2ilIjEu0UpUYk2ilKjUi0U5QakWinKDUi0U5R
+        akSinaLUiEQ7RakRiXaKUiMS7RSlRpoWfermMEF2C5y+tZl2JpNm2Lpw/o/oKWSLmtlY+wl/P3S3rzCn
+        AwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnHoldBack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabConveyor.Text" xml:space="preserve">
+    <value>傳送帶</value>
+  </data>
+  <data name="tabConveyor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValveFlowRate4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowRateParameter4.Text" xml:space="preserve">
+    <value>閥4</value>
+  </data>
+  <data name="lblFlowRateParameter4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValveFlowRate3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveWeight.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="lblFlowRateParameter3.Text" xml:space="preserve">
+    <value>閥3</value>
+  </data>
+  <data name="lblFlowRateParameter3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValveFlowRate2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowRateParameter2.Text" xml:space="preserve">
+    <value>閥2</value>
+  </data>
+  <data name="lblFlowRateParameter2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValveFlowRate1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlowRateParameter1.Text" xml:space="preserve">
+    <value>閥1</value>
+  </data>
+  <data name="lblFlowRateParameter1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox10.Text" xml:space="preserve">
+    <value>天平選擇</value>
+  </data>
+  <data name="GroupBox10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWeightDB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstWeighDB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnWeightDBAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="btnWeightDBDel.ToolTip" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnWeightDBUpdate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVHhe7dqB
+        TcNADAXQjtARGIERGIEROgIjdARGYJSOwAiM0A2CLZXI+fx/TVqaWPhOelL1dY2NpTRpw24YhvJoWA0N
+        q6FhNTSshobV0LAaGlZDw2poWA0NW2y9mlPDO3vfXHCs6BD2HELunuMxlqKhYuvN+IuWE3vvXHCs6Bj2
+        HEPuzubmQdBQsfV1KdqyxRDczYOgoRIKtmw1BHfTIGiohGItWw7BLR4EDZVQqGXrIbhFg6ChEoq0ZBiC
+        O8fjttBQgSJKliHY1t/HZ2ioYBGhD8HcO4R4ExTFm6X/PYQ5bPUh2Eo/hE/z8mAfhtWewP4VGipYJDvs
+        X6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJPBLFruUrUFeLrF/hYYKFgnG
+        +/q1ee3QxwTuVWioYJGgD8Es/oZ3p/HW3FYfgq0+BFsph+Cf2N7YI836beFnzzU0VLBI0D8YTR+CiacD
+        Pid8hPF5p62UQ5BN/aF+dTDph9BPh7V57dDHBO5VaKhgkaAPwcTTod8s+euQP0q/Opg+BJN7CGvz2qGP
+        Cdyr0FDBIkEfgin1Q6v/L9CkUGbYv0JDxdasp8FJjB+e19BQsbX3g1+KZOY97tnfwNDwGltPhp2fGTyx
+        nltoWA0Nq6FhNTSshobV0LAaGlZDw2poWA0Naxl234seRIVqdBxGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnWeightDBUpdate.ToolTip" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="cbEnableWeightFunc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="cbEnableWeightFunc.Text" xml:space="preserve">
+    <value>重量回饋啟用</value>
+  </data>
+  <data name="cbEnableWeightFunc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label40.Text" xml:space="preserve">
+    <value>目標點膠重量:</value>
+  </data>
+  <data name="Label40.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>天平秤重平均數:</value>
+  </data>
+  <data name="Label31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingWeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableAverageWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 28</value>
+  </data>
+  <data name="cbEnableAverageWeight.Text" xml:space="preserve">
+    <value>重量校正反饋功能</value>
+  </data>
+  <data name="cbEnableAverageWeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingGetBalance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label62.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label51.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeightBaseRuns.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeightBaseTimes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>次數:</value>
+  </data>
+  <data name="Label44.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24.Text" xml:space="preserve">
+    <value>時間:</value>
+  </data>
+  <data name="Label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBaseOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="GroupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableAverageDot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 28</value>
+  </data>
+  <data name="cbEnableAverageDot.Text" xml:space="preserve">
+    <value>Dot 重量檢查功能</value>
+  </data>
+  <data name="cbEnableAverageDot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeightDotMax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label46.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeightDotMin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23.Text" xml:space="preserve">
+    <value>Dot重量範圍</value>
+  </data>
+  <data name="Label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageWeight.Text" xml:space="preserve">
+    <value>天平穩定時間:</value>
+  </data>
+  <data name="lblAverageWeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label79.Text" xml:space="preserve">
+    <value>Mpa</value>
+  </data>
+  <data name="Label79.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label122.Text" xml:space="preserve">
+    <value>脈衝時間:</value>
+  </data>
+  <data name="Label122.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingPressure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label129.Text" xml:space="preserve">
+    <value>打點週期:</value>
+  </data>
+  <data name="Label129.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label78.Text" xml:space="preserve">
+    <value>膠管氣壓:</value>
+  </data>
+  <data name="Label78.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAverageWeightUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeightStageStableTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingBlanceSteadyTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingPulseTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label39.Text" xml:space="preserve">
+    <value>點膠間時間延遲:</value>
+  </data>
+  <data name="Label39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>點膠重量偏差(±):</value>
+  </data>
+  <data name="Label25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label42.Text" xml:space="preserve">
+    <value>重量校準次數:</value>
+  </data>
+  <data name="Label42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value>點膠Dot數:</value>
+  </data>
+  <data name="Label41.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableProductionRunFail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 28</value>
+  </data>
+  <data name="cbEnableProductionRunFail.Text" xml:space="preserve">
+    <value>失敗時停止生產</value>
+  </data>
+  <data name="cbEnableProductionRunFail.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label70.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeightTimes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingPointNumber.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingTableSteadyTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label43.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingWaitCalibrationTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label68.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label69.Text" xml:space="preserve">
+    <value>平台穩定時間:</value>
+  </data>
+  <data name="Label69.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcWeighingTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpWeight.Text" xml:space="preserve">
+    <value>微量天平</value>
+  </data>
+  <data name="grpWeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackWeight.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="tabWeightScale.Text" xml:space="preserve">
+    <value>微量天平</value>
+  </data>
+  <data name="tabWeightScale.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button10.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="Button11.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="rdoOneShot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rdoOneShot.Text" xml:space="preserve">
+    <value>單次</value>
+  </data>
+  <data name="rdoOneShot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdoManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rdoManual.Text" xml:space="preserve">
+    <value>手動</value>
+  </data>
+  <data name="rdoManual.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label82.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerValveOpenTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label50.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label83.Text" xml:space="preserve">
+    <value>開啟時間</value>
+  </data>
+  <data name="Label83.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label60.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Label60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerRotationSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label64.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label64.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label66.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label66.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstAugerValve.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerValveName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAugerControllerUpdate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVHhe7dqB
+        TcNADAXQjtARGIERGIEROgIjdARGYJSOwAiM0A2CLZXI+fx/TVqaWPhOelL1dY2NpTRpw24YhvJoWA0N
+        q6FhNTSshobV0LAaGlZDw2poWA0NW2y9mlPDO3vfXHCs6BD2HELunuMxlqKhYuvN+IuWE3vvXHCs6Bj2
+        HEPuzubmQdBQsfV1KdqyxRDczYOgoRIKtmw1BHfTIGiohGItWw7BLR4EDZVQqGXrIbhFg6ChEoq0ZBiC
+        O8fjttBQgSJKliHY1t/HZ2ioYBGhD8HcO4R4ExTFm6X/PYQ5bPUh2Eo/hE/z8mAfhtWewP4VGipYJDvs
+        X6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJPBLFruUrUFeLrF/hYYKFgnG
+        +/q1ee3QxwTuVWioYJGgD8Es/oZ3p/HW3FYfgq0+BFsph+Cf2N7YI836beFnzzU0VLBI0D8YTR+CiacD
+        Pid8hPF5p62UQ5BN/aF+dTDph9BPh7V57dDHBO5VaKhgkaAPwcTTod8s+euQP0q/Opg+BJN7CGvz2qGP
+        Cdyr0FDBIkEfgin1Q6v/L9CkUGbYv0JDxdasp8FJjB+e19BQsbX3g1+KZOY97tnfwNDwGltPhp2fGTyx
+        nltoWA0Nq6FhNTSshobV0LAaGlZDw2poWA0Naxl234seRIVqdBxGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnAugerControllerUpdate.ToolTip" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnAugerControllerDelete.ToolTip" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnAugerControllerAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="grpAuger.Text" xml:space="preserve">
+    <value>控制參數</value>
+  </data>
+  <data name="grpAuger.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabAuger.Text" xml:space="preserve">
+    <value>螺桿閥</value>
+  </data>
+  <data name="tabAuger.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValvePaste1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPasteParameter1.Text" xml:space="preserve">
+    <value>閥1</value>
+  </data>
+  <data name="lblPasteParameter1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSavePaste.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="lblPasteParameter2.Text" xml:space="preserve">
+    <value>閥2</value>
+  </data>
+  <data name="lblPasteParameter2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValvePaste4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValvePaste2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPasteParameter4.Text" xml:space="preserve">
+    <value>閥4</value>
+  </data>
+  <data name="lblPasteParameter4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPasteParameter3.Text" xml:space="preserve">
+    <value>閥3</value>
+  </data>
+  <data name="lblPasteParameter3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbValvePaste3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox9.Text" xml:space="preserve">
+    <value>膠材選擇</value>
+  </data>
+  <data name="GroupBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label128.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPasteMinTemp.Text" xml:space="preserve">
+    <value>最低溫度</value>
+  </data>
+  <data name="chkPasteMinTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPasteMaxTemp.Text" xml:space="preserve">
+    <value>最高溫度</value>
+  </data>
+  <data name="chkPasteMaxTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPasteExpiredCount.Text" xml:space="preserve">
+    <value>使用次數</value>
+  </data>
+  <data name="chkPasteExpiredCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkPasteExpireTime.Text" xml:space="preserve">
+    <value>膠材壽命</value>
+  </data>
+  <data name="chkPasteExpireTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstPaste.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasteName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPasteDBUpdate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVHhe7dqB
+        TcNADAXQjtARGIERGIEROgIjdARGYJSOwAiM0A2CLZXI+fx/TVqaWPhOelL1dY2NpTRpw24YhvJoWA0N
+        q6FhNTSshobV0LAaGlZDw2poWA0NW2y9mlPDO3vfXHCs6BD2HELunuMxlqKhYuvN+IuWE3vvXHCs6Bj2
+        HEPuzubmQdBQsfV1KdqyxRDczYOgoRIKtmw1BHfTIGiohGItWw7BLR4EDZVQqGXrIbhFg6ChEoq0ZBiC
+        O8fjttBQgSJKliHY1t/HZ2ioYBGhD8HcO4R4ExTFm6X/PYQ5bPUh2Eo/hE/z8mAfhtWewP4VGipYJDvs
+        X6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJPBLFruUrUFeLrF/hYYKFgnG
+        +/q1ee3QxwTuVWioYJGgD8Es/oZ3p/HW3FYfgq0+BFsph+Cf2N7YI836beFnzzU0VLBI0D8YTR+CiacD
+        Pid8hPF5p62UQ5BN/aF+dTDph9BPh7V57dDHBO5VaKhgkaAPwcTTod8s+euQP0q/Opg+BJN7CGvz2qGP
+        Cdyr0FDBIkEfgin1Q6v/L9CkUGbYv0JDxdasp8FJjB+e19BQsbX3g1+KZOY97tnfwNDwGltPhp2fGTyx
+        nltoWA0Nq6FhNTSshobV0LAaGlZDw2poWA0Naxl234seRIVqdBxGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnPasteDBUpdate.ToolTip" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="btnPasteDBDelete.ToolTip" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="btnPasteDBAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="Label108.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label109.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label110.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label113.Text" xml:space="preserve">
+    <value>黏度</value>
+  </data>
+  <data name="Label113.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasteViscocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasteMinTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasteExpiredCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasteMaxTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPasteExpiredTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label118.Text" xml:space="preserve">
+    <value>單位</value>
+  </data>
+  <data name="Label118.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label119.Text" xml:space="preserve">
+    <value>設定值</value>
+  </data>
+  <data name="Label119.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPaste.Text" xml:space="preserve">
+    <value>膠材參數</value>
+  </data>
+  <data name="grpPaste.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackPaste.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="tabPaste.Text" xml:space="preserve">
+    <value>膠材</value>
+  </data>
+  <data name="tabPaste.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackPurge.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnSavePurge.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="UcPurgeDB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPurge.Text" xml:space="preserve">
+    <value>排膠</value>
+  </data>
+  <data name="tabPurge.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkByPassCCDResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 28</value>
+  </data>
+  <data name="chkByPassCCDResult.Text" xml:space="preserve">
+    <value>忽略CCD定位結果(盲打)</value>
+  </data>
+  <data name="chkByPassCCDResult.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkBypassLaserResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="chkBypassLaserResult.Text" xml:space="preserve">
+    <value>忽略測高結果</value>
+  </data>
+  <data name="chkBypassLaserResult.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkByPassRotationCorrection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="chkByPassRotationCorrection.Text" xml:space="preserve">
+    <value>忽略旋轉校正</value>
+  </data>
+  <data name="chkByPassRotationCorrection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbIsStopAlignNg.Text" xml:space="preserve">
+    <value>定位失敗停止</value>
+  </data>
+  <data name="cbIsStopAlignNg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbJustOneRun.Text" xml:space="preserve">
+    <value>單次執行</value>
+  </data>
+  <data name="cbJustOneRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>進階功能</value>
+  </data>
+  <data name="GroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label125.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcOnFlyDelayTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label124.Text" xml:space="preserve">
+    <value>延遲時間</value>
+  </data>
+  <data name="Label124.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcOnFlySpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkOnFly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 28</value>
+  </data>
+  <data name="chkOnFly.Text" xml:space="preserve">
+    <value>開啟飛拍</value>
+  </data>
+  <data name="chkOnFly.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label117.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label123.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="Label123.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpOnFlySet.Text" xml:space="preserve">
+    <value>CCD飛拍</value>
+  </data>
+  <data name="grpOnFlySet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHomeAccUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConveyorSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label114.Text" xml:space="preserve">
+    <value>傳送帶速度</value>
+  </data>
+  <data name="Label114.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpConveyorSet.Text" xml:space="preserve">
+    <value>傳送帶</value>
+  </data>
+  <data name="grpConveyorSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label127.Text" xml:space="preserve">
+    <value>點膠高度 (mm)</value>
+  </data>
+  <data name="Label127.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label121.Text" xml:space="preserve">
+    <value>Y軸偏移量 (mm)</value>
+  </data>
+  <data name="Label121.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetZ4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetX4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetZ3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetY4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetX3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetZ2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetY3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label120.Text" xml:space="preserve">
+    <value>X軸偏移量 (mm)</value>
+  </data>
+  <data name="Label120.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetZ1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetY2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetX1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve4.Text" xml:space="preserve">
+    <value>閥4</value>
+  </data>
+  <data name="lblValve4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetY1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGlueOffsetX2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve3.Text" xml:space="preserve">
+    <value>閥3</value>
+  </data>
+  <data name="lblValve3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve2.Text" xml:space="preserve">
+    <value>閥2</value>
+  </data>
+  <data name="lblValve2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve1.Text" xml:space="preserve">
+    <value>閥1</value>
+  </data>
+  <data name="lblValve1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox6.Text" xml:space="preserve">
+    <value>偏移量</value>
+  </data>
+  <data name="GroupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeadAngleDistance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLeadAngle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label99.Text" xml:space="preserve">
+    <value>半徑</value>
+  </data>
+  <data name="Label99.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label88.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="Label88.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>導角</value>
+  </data>
+  <data name="GroupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbMeasureZMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label71.Text" xml:space="preserve">
+    <value>測高裝置</value>
+  </data>
+  <data name="Label71.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbRunType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>膠量模式</value>
+  </data>
+  <data name="Label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbProductType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label100.Text" xml:space="preserve">
+    <value>產品類型</value>
+  </data>
+  <data name="Label100.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbDispMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label87.Text" xml:space="preserve">
+    <value>點膠模式</value>
+  </data>
+  <data name="Label87.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbFollowMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label84.Text" xml:space="preserve">
+    <value>測高模式</value>
+  </data>
+  <data name="Label84.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbLaserMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label85.Text" xml:space="preserve">
+    <value>銜接模式</value>
+  </data>
+  <data name="Label85.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbGPSetRunMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRunMode.Text" xml:space="preserve">
+    <value>運動模式</value>
+  </data>
+  <data name="lblRunMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpFunction.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="grpFunction.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbSearchDirection1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbSearchDirection2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbSearchDirection0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbSearchDirection3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpSearchDirection.Text" xml:space="preserve">
+    <value>搜尋方向</value>
+  </data>
+  <data name="grpSearchDirection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackRecipe.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnSaveRecipe.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="tabRecipe.Text" xml:space="preserve">
+    <value>配方</value>
+  </data>
+  <data name="tabRecipe.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackDot.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="UcDotTypeParameter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpDot.Text" xml:space="preserve">
+    <value>點</value>
+  </data>
+  <data name="grpDot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDot.Text" xml:space="preserve">
+    <value>點</value>
+  </data>
+  <data name="tabDot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackLine.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="UcLineTypeParameter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpLine.Text" xml:space="preserve">
+    <value>線</value>
+  </data>
+  <data name="grpLine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabLine.Text" xml:space="preserve">
+    <value>線</value>
+  </data>
+  <data name="tabLine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBackArc.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="UcArcTypeParameter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpArcCircle.Text" xml:space="preserve">
+    <value>圓弧</value>
+  </data>
+  <data name="grpArcCircle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>圓弧</value>
+  </data>
+  <data name="TabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabControl2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>參數清單</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

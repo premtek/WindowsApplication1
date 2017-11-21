@@ -1,0 +1,3808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnStage3Clean.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnVerticalRun.TabIndex" type="System.Int32, mscorlib">
+    <value>554</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtList.TabIndex" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosZ.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblOdffsetYText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnStage3Read.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cmbXa.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="lblCornerY.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="lblStartPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAngleText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGoEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayYCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 29</value>
+  </data>
+  <data name="lblOffsetXText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 90</value>
+  </data>
+  <data name="lblPitchHYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 86</value>
+  </data>
+  <data name="lblPitchHYText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 30</value>
+  </data>
+  <data name="lblEndPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 376</value>
+  </data>
+  <data name="&gt;&gt;lblCornerZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAngleText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BtnReRun.TabIndex" type="System.Int32, mscorlib">
+    <value>555</value>
+  </data>
+  <data name="groupStage4.TabIndex" type="System.Int32, mscorlib">
+    <value>550</value>
+  </data>
+  <data name="&gt;&gt;grpPause.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblStartPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbXa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcEndPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="lblCornerPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.Name" xml:space="preserve">
+    <value>btnSetPitch</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosXUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 40</value>
+  </data>
+  <data name="BtnReRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpArraySetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1510, 12</value>
+  </data>
+  <data name="&gt;&gt;grpSVTRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nmcEndPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 373</value>
+  </data>
+  <data name="lblCornerPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblPitchHYText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblArrayXCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStage4Clean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblAngleText.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Read.Name" xml:space="preserve">
+    <value>btnStage1Read</value>
+  </data>
+  <data name="grpAlignmentPos.Text" xml:space="preserve">
+    <value>1.Alignment Position</value>
+  </data>
+  <data name="&gt;&gt;groupStage1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPitchVYText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVY.Name" xml:space="preserve">
+    <value>nmcPitchVY</value>
+  </data>
+  <data name="lblStartPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbXa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 34</value>
+  </data>
+  <data name="lblEndPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="nmcCornerPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStage3Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 30</value>
+  </data>
+  <data name="BtnVerticalRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;grpArraySetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchVYText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 171</value>
+  </data>
+  <data name="nmcPitchVX.TabIndex" type="System.Int32, mscorlib">
+    <value>558</value>
+  </data>
+  <data name="&gt;&gt;groupStage1.Name" xml:space="preserve">
+    <value>groupStage1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="nmcStartPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="lblStageNo.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;BtnVerticalRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchVYText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcPitchHY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 33</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Clean.Parent" xml:space="preserve">
+    <value>groupStage3</value>
+  </data>
+  <data name="txtList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 96</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXUnit.Name" xml:space="preserve">
+    <value>lblPitchVXUnit</value>
+  </data>
+  <data name="lblStartPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>506</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosXUnit.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;lblCornerZ.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCornerX.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblStartPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 30</value>
+  </data>
+  <data name="btnTrainScene.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="btnStage1Read.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 17</value>
+  </data>
+  <data name="lblStageNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtStage3Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="groupStage1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnVerticalRun.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbXa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 32</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosYUnit.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblStartPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 110</value>
+  </data>
+  <data name="&gt;&gt;txtStage4Data.Parent" xml:space="preserve">
+    <value>groupStage4</value>
+  </data>
+  <data name="lblEndPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcArrayXCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 32</value>
+  </data>
+  <data name="lblCornerPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Clean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosY.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="BtnVerticalRun.Text" xml:space="preserve">
+    <value>V Run</value>
+  </data>
+  <data name="lblOffsetYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblStartPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcStartPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 72</value>
+  </data>
+  <data name="UcLightControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="&gt;&gt;lblYa.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="lblStartPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 30</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYText.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="nmcCornerPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="lblEndPosZ.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSetEndPos.TabIndex" type="System.Int32, mscorlib">
+    <value>517</value>
+  </data>
+  <data name="lblAngleText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblStartPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSetCornerPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSetCornerPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblCornerPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnVacuum.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="lblAngleText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="txtList.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpPause.TabIndex" type="System.Int32, mscorlib">
+    <value>511</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>551</value>
+  </data>
+  <data name="Label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblPitchVXText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitchHXText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCornerZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 262</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 72</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHY.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="nmcCornerPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="lblStartPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 30</value>
+  </data>
+  <data name="lblEndPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupStage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcPitchHX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPitchHXUnit.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;btnGoCornerPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchHXText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Clean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbYa.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblStartPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="&gt;&gt;NumSteadyTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupStage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;BtnVerticalRun.Name" xml:space="preserve">
+    <value>BtnVerticalRun</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetYUnit.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="nmcArrayYCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnGoEndPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetY.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAngleText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 216</value>
+  </data>
+  <data name="&gt;&gt;btnGoCornerPos.Name" xml:space="preserve">
+    <value>btnGoCornerPos</value>
+  </data>
+  <data name="btnCalibPos.TabIndex" type="System.Int32, mscorlib">
+    <value>550</value>
+  </data>
+  <data name="lblCornerZ.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOffsetX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnVacuum.Name" xml:space="preserve">
+    <value>btnVacuum</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosY.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="lblCornerZ.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="lblPitchHYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnVerticalRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 334</value>
+  </data>
+  <data name="btnStage2Read.Text" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="BtnReRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 197</value>
+  </data>
+  <data name="lblEndPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblStartPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Clean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTrainScene.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblCornerY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosZUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblStartPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>473</value>
+  </data>
+  <data name="nmcPitchHY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="groupStage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 49</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmStageVerificationNew</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupStage2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtStage1Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 30</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.Name" xml:space="preserve">
+    <value>nmcArrayXCount</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbXa.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnGoCornerPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcPitchVY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 170</value>
+  </data>
+  <data name="lblStartPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchVXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="groupStage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGoCornerPos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPitchHXText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcEndPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosX.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="groupStage1.Text" xml:space="preserve">
+    <value>Stage1</value>
+  </data>
+  <data name="&gt;&gt;btnCalibPos.Name" xml:space="preserve">
+    <value>btnCalibPos</value>
+  </data>
+  <data name="lblEndPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nmcPitchHX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 33</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Read.Name" xml:space="preserve">
+    <value>btnStage4Read</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZ.Name" xml:space="preserve">
+    <value>lblStartPosZ</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 72</value>
+  </data>
+  <data name="cmbXa.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblEndPosZ.Text" xml:space="preserve">
+    <value>End Pos Z</value>
+  </data>
+  <data name="nmcEndPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="grpArraySetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 127</value>
+  </data>
+  <data name="lblPitchVYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;NumSteadyTime.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCalibPos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibPos.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="btnStage1Read.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPause.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcCornerPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblCornerPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 265</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXText.Name" xml:space="preserve">
+    <value>lblOffsetXText</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Read.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCornerPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSetPitch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGoCornerPos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnStage2Clean.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 72</value>
+  </data>
+  <data name="txtStage4Data.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcStartPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblOdffsetYText.Name" xml:space="preserve">
+    <value>lblOdffsetYText</value>
+  </data>
+  <data name="lblEndPosY.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblArrayXCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Read.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTrainScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 33</value>
+  </data>
+  <data name="lblPitchHYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;grpArrayPos.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnCalibPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="grpGoPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcPitchVX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 33</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Clean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetCornerPos.TabIndex" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="btnStage1Read.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Clean.Name" xml:space="preserve">
+    <value>btnStage4Clean</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="lblEndPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnSetCornerPos.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblArrayXCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosY.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblXa.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStartPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitchVXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 132</value>
+  </data>
+  <data name="btnGoCornerPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCornerX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStartPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOffsetXText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCornerZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetCornerPos.ToolTip" xml:space="preserve">
+    <value>Set Corner Position</value>
+  </data>
+  <data name="lblOffsetX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCornerPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblEndPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Read.Parent" xml:space="preserve">
+    <value>groupStage3</value>
+  </data>
+  <data name="btnSetEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblAction.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="lblCornerX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Clean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStage4Clean.Text" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="lblPitchHXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetCornerPos.Name" xml:space="preserve">
+    <value>btnSetCornerPos</value>
+  </data>
+  <data name="&gt;&gt;lblAction.Name" xml:space="preserve">
+    <value>lblAction</value>
+  </data>
+  <data name="BtnHorizontalRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOffsetXText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="lblOffsetY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="lblAngleText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCornerX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPitchVYText.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="grpArraySetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblEndPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZUnit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="btnSetPitch.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblStartPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStage4Clean.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXText.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;grpPause.Name" xml:space="preserve">
+    <value>grpPause</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetYUnit.Name" xml:space="preserve">
+    <value>lblOffsetYUnit</value>
+  </data>
+  <data name="&gt;&gt;grpAlignmentPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpArrayPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStartPosX.Text" xml:space="preserve">
+    <value>Start Pos X</value>
+  </data>
+  <data name="&gt;&gt;groupStage1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVY.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="lblStartPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVX.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Read.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStage2Read.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 13</value>
+  </data>
+  <data name="lblStartPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 77</value>
+  </data>
+  <data name="lblEndPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVX.Name" xml:space="preserve">
+    <value>nmcPitchVX</value>
+  </data>
+  <data name="btnSetStartPos.ToolTip" xml:space="preserve">
+    <value>Set Start Position</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnGoStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="btnPause.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCornerY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="lblStartPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 114</value>
+  </data>
+  <data name="&gt;&gt;txtStage2Data.Parent" xml:space="preserve">
+    <value>groupStage2</value>
+  </data>
+  <data name="lblOdffsetYText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NumSteadyTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcEndPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 412</value>
+  </data>
+  <data name="grpGoPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 710</value>
+  </data>
+  <data name="btnGoCCDAlignPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;cmbXa.Name" xml:space="preserve">
+    <value>cmbXa</value>
+  </data>
+  <data name="btnPause.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.Name" xml:space="preserve">
+    <value>nmcStartPosZ</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblEndPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosZUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblStartPosX.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOffsetXText.Text" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="BtnReRun.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblXa.Name" xml:space="preserve">
+    <value>lblXa</value>
+  </data>
+  <data name="grpAlignmentPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcCornerPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoEndPos.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="lblEndPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="&gt;&gt;btnCalibPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEndPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPitchVXText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHX.Name" xml:space="preserve">
+    <value>nmcPitchHX</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.Name" xml:space="preserve">
+    <value>nmcStartPosY</value>
+  </data>
+  <data name="btnPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 87</value>
+  </data>
+  <data name="lblOffsetXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 257</value>
+  </data>
+  <data name="lblEndPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="lblAngleText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 30</value>
+  </data>
+  <data name="BtnVerticalRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 116</value>
+  </data>
+  <data name="&gt;&gt;lblCornerZ.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnGoStartPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="grpVacuum.Text" xml:space="preserve">
+    <value>Vacuum</value>
+  </data>
+  <data name="btnSetStartPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcPitchVX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcEndPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAction.Parent" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="lblCornerPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblPitchHYText.Text" xml:space="preserve">
+    <value>Pitch HY</value>
+  </data>
+  <data name="nmcStartPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 372</value>
+  </data>
+  <data name="&gt;&gt;BtnHorizontalRun.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosZ.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="&gt;&gt;BtnHorizontalRun.Name" xml:space="preserve">
+    <value>BtnHorizontalRun</value>
+  </data>
+  <data name="lblEndPosX.Text" xml:space="preserve">
+    <value>End Pos X</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 75</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="nmcCornerPosZ.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXUnit.Name" xml:space="preserve">
+    <value>lblOffsetXUnit</value>
+  </data>
+  <data name="&gt;&gt;txtList.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="nmcStartPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 111</value>
+  </data>
+  <data name="lblCornerPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchVXText.TabIndex" type="System.Int32, mscorlib">
+    <value>549</value>
+  </data>
+  <data name="lblOffsetYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnGoCCDAlignPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="nmcStartPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;txtStage1Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStartPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblPitchVXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>552</value>
+  </data>
+  <data name="nmcArrayYCount.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblYa.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcStartPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>505</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchHXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>550</value>
+  </data>
+  <data name="lblPitchVYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>553</value>
+  </data>
+  <data name="&gt;&gt;grpVacuum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblOffsetX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 87</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="BtnReRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStage4Read.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 15</value>
+  </data>
+  <data name="btnVacuum.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblPitchHXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1510, 145</value>
+  </data>
+  <data name="BtnReRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="grpArrayPos.Text" xml:space="preserve">
+    <value>2.Array Position</value>
+  </data>
+  <data name="btnPause.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcPitchHY.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCalibPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetYUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStartPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnHorizontalRun.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="BtnVerticalRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcStartPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;lblCornerZ.Name" xml:space="preserve">
+    <value>lblCornerZ</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLightControl, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosYUnit.Name" xml:space="preserve">
+    <value>lblCornerPosYUnit</value>
+  </data>
+  <data name="lblEndPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblOffsetYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnScene.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="&gt;&gt;grpVacuum.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbYa.Name" xml:space="preserve">
+    <value>cmbYa</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosY.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYText.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblCornerZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 20</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosX.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblEndPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchHYUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCalibPos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="nmcCornerPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 179</value>
+  </data>
+  <data name="lblCornerPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGoEndPos.ToolTip" xml:space="preserve">
+    <value>Move To End Position</value>
+  </data>
+  <data name="lblCornerZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="btnTrainScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>486</value>
+  </data>
+  <data name="lblEndPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="groupStage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 842</value>
+  </data>
+  <data name="btnSetCornerPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 179</value>
+  </data>
+  <data name="lblStartPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 30</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblOffsetXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 87</value>
+  </data>
+  <data name="grpArrayPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPause.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="btnStage1Read.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYUnit.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="lblStartPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblEndPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 332</value>
+  </data>
+  <data name="grpGoPos.Text" xml:space="preserve">
+    <value>Go Position</value>
+  </data>
+  <data name="lblOffsetX.TabIndex" type="System.Int32, mscorlib">
+    <value>548</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Clean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchVYText.Text" xml:space="preserve">
+    <value>Pitch VY</value>
+  </data>
+  <data name="lblCornerPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblStartPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOffsetX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcArrayYCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 71</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnSetEndPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 29</value>
+  </data>
+  <data name="lblEndPosZ.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblEndPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblPitchVYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpAlignmentPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosY.Name" xml:space="preserve">
+    <value>nmcCornerPosY</value>
+  </data>
+  <data name="lblXa.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="groupStage3.Text" xml:space="preserve">
+    <value>Stage3</value>
+  </data>
+  <data name="groupStage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcCornerPosZ.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 216</value>
+  </data>
+  <data name="nmcPitchHY.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnGoCCDAlignPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetY.Name" xml:space="preserve">
+    <value>lblOffsetY</value>
+  </data>
+  <data name="lblStartPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCornerPosXUnit.Name" xml:space="preserve">
+    <value>lblCornerPosXUnit</value>
+  </data>
+  <data name="&gt;&gt;lblOdffsetYText.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="lblStartPosY.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblStartPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>504</value>
+  </data>
+  <data name="nmcEndPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="lblCornerPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 179</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosY.Name" xml:space="preserve">
+    <value>lblEndPosY</value>
+  </data>
+  <data name="grpSVTRun.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="cmbYa.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGoStartPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetEndPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.Name" xml:space="preserve">
+    <value>nmcStartPosX</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosYUnit.Name" xml:space="preserve">
+    <value>lblEndPosYUnit</value>
+  </data>
+  <data name="btnVacuum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 29</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZ.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnGoStartPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nmcEndPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>511</value>
+  </data>
+  <data name="btnGoEndPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 402</value>
+  </data>
+  <data name="lblOffsetXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>551</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHXText.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblCornerX.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchHXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDAlignPos.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="BtnHorizontalRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.Parent" xml:space="preserve">
+    <value>grpArraySetting</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosXUnit.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="grpArrayPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 483</value>
+  </data>
+  <data name="btnStage3Clean.Text" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosYUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblPitchHXText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 40</value>
+  </data>
+  <data name="&gt;&gt;lblYa.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblPitchHXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnScene.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGoStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 100</value>
+  </data>
+  <data name="nmcPitchVY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHY.Name" xml:space="preserve">
+    <value>nmcPitchHY</value>
+  </data>
+  <data name="btnStage2Read.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitchVXText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 30</value>
+  </data>
+  <data name="&gt;&gt;lblAction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpAlignmentPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 166</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosYUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="&gt;&gt;grpArraySetting.Name" xml:space="preserve">
+    <value>grpArraySetting</value>
+  </data>
+  <data name="btnGoStartPos.ToolTip" xml:space="preserve">
+    <value>Move To Start Position</value>
+  </data>
+  <data name="lblPitchHXText.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblOdffsetYText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 30</value>
+  </data>
+  <data name="btnGoCCDAlignPos.ToolTip" xml:space="preserve">
+    <value>CCD Align Position</value>
+  </data>
+  <data name="lblStageNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 30</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZUnit.Name" xml:space="preserve">
+    <value>lblStartPosZUnit</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXText.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>541</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosXUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblStartPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcStartPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>502</value>
+  </data>
+  <data name="btnStage3Clean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayYCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.Parent" xml:space="preserve">
+    <value>grpArraySetting</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 19</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txtStage3Data.Parent" xml:space="preserve">
+    <value>groupStage3</value>
+  </data>
+  <data name="lblEndPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCornerPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>494</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>505</value>
+  </data>
+  <data name="btnGoCornerPos.ToolTip" xml:space="preserve">
+    <value>Move To Corner Position</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXUnit.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="&gt;&gt;grpVacuum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOffsetYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>552</value>
+  </data>
+  <data name="&gt;&gt;lblAngleText.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblArrayXCount.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>543</value>
+  </data>
+  <data name="lblPitchHXText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCornerPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchVXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblCornerY.Text" xml:space="preserve">
+    <value>Corner Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAlignmentPos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblEndPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYText.Name" xml:space="preserve">
+    <value>lblPitchVYText</value>
+  </data>
+  <data name="lblArrayYCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYUnit.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="lblYa.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnStage1Clean.Text" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="btnSetStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>513</value>
+  </data>
+  <data name="btnPause.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Clean.Name" xml:space="preserve">
+    <value>btnStage2Clean</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCornerPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 380</value>
+  </data>
+  <data name="lblOffsetXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="BtnHorizontalRun.TabIndex" type="System.Int32, mscorlib">
+    <value>539</value>
+  </data>
+  <data name="lblStartPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTrainScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosX.Name" xml:space="preserve">
+    <value>lblEndPosX</value>
+  </data>
+  <data name="btnStage2Read.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="nmcPitchHY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 85</value>
+  </data>
+  <data name="lblArrayYCount.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblEndPosY.Text" xml:space="preserve">
+    <value>End Pos Y</value>
+  </data>
+  <data name="txtStage2Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 30</value>
+  </data>
+  <data name="&gt;&gt;lblStageNo.Name" xml:space="preserve">
+    <value>lblStageNo</value>
+  </data>
+  <data name="&gt;&gt;lblCornerY.Name" xml:space="preserve">
+    <value>lblCornerY</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="nmcArrayYCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosXUnit.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHXText.Name" xml:space="preserve">
+    <value>lblPitchHXText</value>
+  </data>
+  <data name="&gt;&gt;lblYa.Name" xml:space="preserve">
+    <value>lblYa</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Clean.Name" xml:space="preserve">
+    <value>btnStage3Clean</value>
+  </data>
+  <data name="lblEndPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="groupStage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 49</value>
+  </data>
+  <data name="nmcArrayXCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="btnSetPitch.Text" xml:space="preserve">
+    <value>Pitch Set</value>
+  </data>
+  <data name="lblOdffsetYText.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnSetCornerPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetStartPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblOffsetXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblCornerZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="groupStage1.TabIndex" type="System.Int32, mscorlib">
+    <value>547</value>
+  </data>
+  <data name="btnStage1Read.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="nmcEndPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 332</value>
+  </data>
+  <data name="&gt;&gt;grpPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchHXText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 30</value>
+  </data>
+  <data name="nmcStartPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.Parent" xml:space="preserve">
+    <value>grpArraySetting</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCornerY.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtList.Name" xml:space="preserve">
+    <value>txtList</value>
+  </data>
+  <data name="nmcPitchVY.TabIndex" type="System.Int32, mscorlib">
+    <value>559</value>
+  </data>
+  <data name="&gt;&gt;grpArrayPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScene.Name" xml:space="preserve">
+    <value>btnScene</value>
+  </data>
+  <data name="lblXa.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCornerPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblYa.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;grpSVTRun.Name" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="lblPitchVXText.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblOffsetXText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1078, 686</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblCornerPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYa.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="nmcStartPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblOffsetY.TabIndex" type="System.Int32, mscorlib">
+    <value>549</value>
+  </data>
+  <data name="lblStartPosY.Text" xml:space="preserve">
+    <value>Start Pos Y</value>
+  </data>
+  <data name="lblStageNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPitchVXUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblCornerPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>493</value>
+  </data>
+  <data name="&gt;&gt;groupStage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Read.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;lblXa.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="btnStage4Clean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 15</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYUnit.Name" xml:space="preserve">
+    <value>lblPitchHYUnit</value>
+  </data>
+  <data name="nmcEndPosZ.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAction.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnVacuum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosX.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lblAngleText.Name" xml:space="preserve">
+    <value>lblAngleText</value>
+  </data>
+  <data name="grpArrayPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1074, 184</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>504</value>
+  </data>
+  <data name="btnSetPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetEndPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosX.Name" xml:space="preserve">
+    <value>lblStartPosX</value>
+  </data>
+  <data name="btnStage2Clean.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupStage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 49</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayXCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;groupStage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpVacuum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPitchHXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 44</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Clean.Parent" xml:space="preserve">
+    <value>groupStage1</value>
+  </data>
+  <data name="&gt;&gt;btnScene.Parent" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="btnGoCornerPos.TabIndex" type="System.Int32, mscorlib">
+    <value>516</value>
+  </data>
+  <data name="lblArrayYCount.Text" xml:space="preserve">
+    <value>Array Y Count</value>
+  </data>
+  <data name="btnCalibPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="grpSVTRun.Text" xml:space="preserve">
+    <value>5.Run</value>
+  </data>
+  <data name="grpVacuum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 113</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.Name" xml:space="preserve">
+    <value>btnSetStartPos</value>
+  </data>
+  <data name="groupStage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 49</value>
+  </data>
+  <data name="lblOffsetYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 127</value>
+  </data>
+  <data name="&gt;&gt;grpGoPos.Name" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="btnStage4Read.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetX.Name" xml:space="preserve">
+    <value>lblOffsetX</value>
+  </data>
+  <data name="btnSetEndPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.Name" xml:space="preserve">
+    <value>nmcEndPosY</value>
+  </data>
+  <data name="lblXa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 38</value>
+  </data>
+  <data name="btnScene.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCornerX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPitchVXText.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblOffsetXText.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHX.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="txtList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblEndPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYText.Name" xml:space="preserve">
+    <value>lblPitchHYText</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Read.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 33</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblEndPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupStage2.Text" xml:space="preserve">
+    <value>Stage2</value>
+  </data>
+  <data name="lblOffsetX.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnStage2Clean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOdffsetYText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;BtnReRun.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="nmcCornerPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 263</value>
+  </data>
+  <data name="txtStage1Data.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnVacuum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="nmcCornerPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="cmbYa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 32</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblEndPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 415</value>
+  </data>
+  <data name="lblCornerPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcPitchHX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 41</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblAngle.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnVerticalRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1389, 671</value>
+  </data>
+  <data name="nmcCornerPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblPitchHXText.TabIndex" type="System.Int32, mscorlib">
+    <value>542</value>
+  </data>
+  <data name="&gt;&gt;lblOdffsetYText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXText.Name" xml:space="preserve">
+    <value>lblPitchVXText</value>
+  </data>
+  <data name="btnStage3Read.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 16</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosZUnit.Name" xml:space="preserve">
+    <value>lblCornerPosZUnit</value>
+  </data>
+  <data name="lblOdffsetYText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 130</value>
+  </data>
+  <data name="lblCornerPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnTrainScene.TabIndex" type="System.Int32, mscorlib">
+    <value>508</value>
+  </data>
+  <data name="btnGoStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblXa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 24</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXText.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblYa.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupStage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 788</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.Name" xml:space="preserve">
+    <value>nmcArrayYCount</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.Name" xml:space="preserve">
+    <value>btnGoEndPos</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnSetCornerPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnTrainScene.ToolTip" xml:space="preserve">
+    <value>Set Train Scene</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetStartPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblXa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="grpVacuum.TabIndex" type="System.Int32, mscorlib">
+    <value>541</value>
+  </data>
+  <data name="groupStage3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtStage4Data.Name" xml:space="preserve">
+    <value>txtStage4Data</value>
+  </data>
+  <data name="lblAngleText.Text" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="nmcPitchVY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1576, 531</value>
+  </data>
+  <data name="&gt;&gt;grpArraySetting.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPitchHY.TabIndex" type="System.Int32, mscorlib">
+    <value>557</value>
+  </data>
+  <data name="grpAlignmentPos.TabIndex" type="System.Int32, mscorlib">
+    <value>508</value>
+  </data>
+  <data name="lblStartPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>504</value>
+  </data>
+  <data name="txtStage1Data.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnStage3Read.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStage1Data.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnStage3Clean.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetX.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="lblArrayYCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 74</value>
+  </data>
+  <data name="btnStage1Clean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="grpVacuum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1249, 670</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosX.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="groupStage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 950</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchVY.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEndPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnGoCornerPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblOffsetXText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchVYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 174</value>
+  </data>
+  <data name="lblCornerX.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="btnStage1Clean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoStartPos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="lblCornerX.Text" xml:space="preserve">
+    <value>Corner Pos X</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosY.Name" xml:space="preserve">
+    <value>lblStartPosY</value>
+  </data>
+  <data name="lblStageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 31</value>
+  </data>
+  <data name="&gt;&gt;lblXa.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblCornerY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStartPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnVacuum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnStage4Clean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="btnStage1Clean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 18</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;groupStage3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblOffsetXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupStage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnStage3Read.Name" xml:space="preserve">
+    <value>btnStage3Read</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="txtStage2Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="grpArraySetting.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblEndPosYUnit.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblPitchHYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDAlignPos.Name" xml:space="preserve">
+    <value>btnGoCCDAlignPos</value>
+  </data>
+  <data name="grpArraySetting.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="btnGoCCDAlignPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblCornerY.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;NumSteadyTime.Name" xml:space="preserve">
+    <value>NumSteadyTime</value>
+  </data>
+  <data name="&gt;&gt;grpArrayPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblStartPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHXUnit.Name" xml:space="preserve">
+    <value>lblPitchHXUnit</value>
+  </data>
+  <data name="groupStage4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCornerPosZUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPitchVXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchVXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnPause.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPitchVYText.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosXUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Read.Parent" xml:space="preserve">
+    <value>groupStage4</value>
+  </data>
+  <data name="lblCornerY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPitchVXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcCornerPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpVacuum.Name" xml:space="preserve">
+    <value>grpVacuum</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Name" xml:space="preserve">
+    <value>btnPause</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Read.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpPause.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnStage4Read.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcPitchVX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 126</value>
+  </data>
+  <data name="lblEndPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupStage2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCornerY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 221</value>
+  </data>
+  <data name="btnStage4Read.Text" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="&gt;&gt;cmbYa.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="groupStage2.TabIndex" type="System.Int32, mscorlib">
+    <value>549</value>
+  </data>
+  <data name="&gt;&gt;lblCornerX.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblCornerPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblOdffsetYText.Text" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCornerZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnGoCornerPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOdffsetYText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 24</value>
+  </data>
+  <data name="UcLightControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 211</value>
+  </data>
+  <data name="nmcCornerPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Parent" xml:space="preserve">
+    <value>grpPause</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZ.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>505</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpGoPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpArrayPos.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="lblXa.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPitchHYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>551</value>
+  </data>
+  <data name="nmcStartPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="nmcArrayXCount.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosZ.Name" xml:space="preserve">
+    <value>nmcCornerPosZ</value>
+  </data>
+  <data name="grpSVTRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosX.Name" xml:space="preserve">
+    <value>nmcCornerPosX</value>
+  </data>
+  <data name="&gt;&gt;BtnHorizontalRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.Name" xml:space="preserve">
+    <value>nmcEndPosX</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 124</value>
+  </data>
+  <data name="&gt;&gt;txtList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nmcCornerPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 222</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="&gt;&gt;nmcPitchHX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnGoCCDAlignPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 87</value>
+  </data>
+  <data name="NumSteadyTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYUnit.Name" xml:space="preserve">
+    <value>lblPitchVYUnit</value>
+  </data>
+  <data name="btnGoEndPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblYa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupStage3.TabIndex" type="System.Int32, mscorlib">
+    <value>548</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1002</value>
+  </data>
+  <data name="lblPitchVXText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 126</value>
+  </data>
+  <data name="cmbXa.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosYUnit.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnStage1Clean.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblStartPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStage4Read.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosXUnit.Name" xml:space="preserve">
+    <value>lblStartPosXUnit</value>
+  </data>
+  <data name="lblPitchVXText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcEndPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnStage4Clean.Parent" xml:space="preserve">
+    <value>groupStage4</value>
+  </data>
+  <data name="lblEndPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblArrayYCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnStage2Clean.Text" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="lblCornerX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblEndPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 414</value>
+  </data>
+  <data name="btnStage2Clean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="btnGoStartPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnVerticalRun.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.Name" xml:space="preserve">
+    <value>lblArrayXCount</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Read.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblStageNo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblCornerPosZUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="nmcCornerPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPitchVXText.Text" xml:space="preserve">
+    <value>Pitch VX</value>
+  </data>
+  <data name="lblAngle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosYUnit.Name" xml:space="preserve">
+    <value>lblStartPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.Name" xml:space="preserve">
+    <value>lblAngle</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosZ.Name" xml:space="preserve">
+    <value>nmcEndPosZ</value>
+  </data>
+  <data name="btnStage4Clean.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupStage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblEndPosYUnit.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnSetPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosY.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;txtStage3Data.Name" xml:space="preserve">
+    <value>txtStage3Data</value>
+  </data>
+  <data name="lblStartPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="nmcArrayYCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.Parent" xml:space="preserve">
+    <value>grpArraySetting</value>
+  </data>
+  <data name="lblCornerZ.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblAngle.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStage3Read.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPitchHX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblOffsetY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 127</value>
+  </data>
+  <data name="lblCornerY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpAlignmentPos.Name" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="&gt;&gt;btnScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnHorizontalRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 70</value>
+  </data>
+  <data name="btnGoEndPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCornerPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 221</value>
+  </data>
+  <data name="lblYa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Clean.Parent" xml:space="preserve">
+    <value>groupStage2</value>
+  </data>
+  <data name="txtStage2Data.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCornerPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;lblCornerX.Name" xml:space="preserve">
+    <value>lblCornerX</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayXCount.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="&gt;&gt;groupStage4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPitchVYText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>4.Steady Time</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHXText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStage3Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchVXUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStage3Clean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="nmcEndPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosX.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnGoEndPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblStageNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnVacuum.TabIndex" type="System.Int32, mscorlib">
+    <value>540</value>
+  </data>
+  <data name="btnStage1Read.Text" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="groupStage4.Text" xml:space="preserve">
+    <value>Stage4</value>
+  </data>
+  <data name="btnStage1Clean.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcPitchHY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;grpArrayPos.Name" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="btnSetEndPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 332</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="nmcCornerPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGoCCDAlignPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Read.Parent" xml:space="preserve">
+    <value>groupStage1</value>
+  </data>
+  <data name="btnGoCCDAlignPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1586, 920</value>
+  </data>
+  <data name="lblStartPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="grpAlignmentPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1074, 12</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPitchHYText.TabIndex" type="System.Int32, mscorlib">
+    <value>543</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1742, 920</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 980</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.Name" xml:space="preserve">
+    <value>btnGoStartPos</value>
+  </data>
+  <data name="lblOffsetY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPitchHYText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPitchVYText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosX.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblPitchHXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcEndPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXText.Parent" xml:space="preserve">
+    <value>grpGoPos</value>
+  </data>
+  <data name="grpArraySetting.Text" xml:space="preserve">
+    <value>3.ArraySetting</value>
+  </data>
+  <data name="btnTrainScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStage2Read.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Read.Parent" xml:space="preserve">
+    <value>groupStage2</value>
+  </data>
+  <data name="nmcPitchHX.TabIndex" type="System.Int32, mscorlib">
+    <value>556</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZUnit.Name" xml:space="preserve">
+    <value>lblEndPosZUnit</value>
+  </data>
+  <data name="nmcPitchVX.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpGoPos.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupStage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 896</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVXUnit.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="lblCornerPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpSVTRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHYText.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblOffsetYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitchHXText.Text" xml:space="preserve">
+    <value>Pitch HX</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCornerPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="btnVacuum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPitchHXText.Parent" xml:space="preserve">
+    <value>grpSVTRun</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetStartPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblEndPosX.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmbYa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 34</value>
+  </data>
+  <data name="&gt;&gt;cmbYa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPitchVYUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblPitchVYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;txtStage1Data.Parent" xml:space="preserve">
+    <value>groupStage1</value>
+  </data>
+  <data name="nmcStartPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcEndPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStage3Read.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblOffsetYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpGoPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnGoEndPos.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALOSURBVHhe5ZqL
+        TSMxFEUpYUugBEqgBEqgBEqgBEqghC2BEiiBEpAoIHtvhKXH7JmM7bEzSO9KR9o9SZzYHn93b06nU3pQ
+        ZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZTZQZgNlNlBmA2U2UGYDZS3KnXgSf8WHsIx8ijfxIh7E
+        HyrnaFBewhURrjhVuoZXcU9lHwVKQnHln4V7N1aqFz8hv6IxUC5R/CiXni+Ptxsk4h5+F6WStfhzhw4T
+        lBHlUfjxv6PXlyi3ovWJ8XsPeypQjkJx47U0xjOVMxuUI1H8ZLQMk1cqxyielx7ptT2gnIErJ0pFt/jR
+        EEqclF/iayNAOQuluSEUz0lxOX5YlrsXlLNQ3KMtQ+ML3C2VvQeUM3ElRO9e44PK3AvK2SheNWLlalmd
+        NPeA8hoo3nTFCtbwRGXtBeU1UO5D5Wqp2rC1gnI2ihug9QD2SWWNAOUsFB+9e4aBeaMyR4ByNIqXxpY9
+        AjFtS41yNIobwSdRN0Tv8jjtgIVyNoqHhbfB1RunZRkjQXlNlPOhSPiKbu0peafPjgLlkSheOXxpE1eP
+        4YemCMrfguItdvWFTi8oR/BdAfeq8aQ4fHZX3EDleu/8XfS+LVD2oKyNbf/dfso9okKrjoeSh1TdlSDJ
+        VhT3QvwR/rN7Z/ixdw2ldMJyxdl8AlG2oCyPxq78sbfH/3fKxdMnyhYUV7p82SEXpYQSO+fiuQNlC8ry
+        bsBzwPArsFqUshH7MTzpvQWULSgei2s7v/gPNd2zN6GU1cfzgMv3d8WKRy7eQ6BsRek9HfozLTQfv8Xm
+        FT3KXvyF318cf8hReFhWrU4o96LsPTH24mHpOappaUY5EqX8HwY3Sst1+xYeGh4ing/c6N3LMsrZ+AeL
+        80Qp4tb3Eq6o3z/8HIEyGyizgTIbKLOBMhsos4EyGyizgTIbKLOBMhsos4EyF6ebf+8vZVi6Kk8gAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="lblCornerY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtStage1Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Name" xml:space="preserve">
+    <value>btnTrainScene</value>
+  </data>
+  <data name="lblEndPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>473</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosZ.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.Name" xml:space="preserve">
+    <value>lblArrayYCount</value>
+  </data>
+  <data name="lblPitchVYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCornerX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 179</value>
+  </data>
+  <data name="nmcPitchVY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 33</value>
+  </data>
+  <data name="grpSVTRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTrainScene.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="&gt;&gt;btnVacuum.Parent" xml:space="preserve">
+    <value>grpVacuum</value>
+  </data>
+  <data name="&gt;&gt;lblAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStage1Data.Name" xml:space="preserve">
+    <value>txtStage1Data</value>
+  </data>
+  <data name="lblArrayYCount.TabIndex" type="System.Int32, mscorlib">
+    <value>472</value>
+  </data>
+  <data name="lblPitchHYText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblPitchHYText.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblEndPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcEndPosZ.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>542</value>
+  </data>
+  <data name="nmcCornerPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>508</value>
+  </data>
+  <data name="lblOffsetY.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nmcArrayXCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblEndPosXUnit.Name" xml:space="preserve">
+    <value>lblEndPosXUnit</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Parent" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="grpPause.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnReRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;BtnReRun.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;grpArraySetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStage2Read.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblStartPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Clean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="cmbXa.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="btnGoCornerPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 249</value>
+  </data>
+  <data name="lblPitchHYText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 81</value>
+  </data>
+  <data name="lblPitchHYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtStage4Data.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblEndPosZ.Name" xml:space="preserve">
+    <value>lblEndPosZ</value>
+  </data>
+  <data name="lblStartPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;BtnReRun.Name" xml:space="preserve">
+    <value>BtnReRun</value>
+  </data>
+  <data name="&gt;&gt;lblPitchHXUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblEndPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartPosZ.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;BtnReRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpSVTRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1510, 223</value>
+  </data>
+  <data name="&gt;&gt;NumSteadyTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpGoPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStage3Read.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="grpPause.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="NumSteadyTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosY.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1056, 681</value>
+  </data>
+  <data name="grpAlignmentPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.Name" xml:space="preserve">
+    <value>btnSetEndPos</value>
+  </data>
+  <data name="btnStage4Read.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="&gt;&gt;btnStage1Clean.Name" xml:space="preserve">
+    <value>btnStage1Clean</value>
+  </data>
+  <data name="lblArrayXCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGoCCDAlignPos.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;grpSVTRun.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbYa.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblOffsetXUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nmcStartPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="grpSVTRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 287</value>
+  </data>
+  <data name="btnCalibPos.ToolTip" xml:space="preserve">
+    <value>Move To Calibration Position</value>
+  </data>
+  <data name="&gt;&gt;btnStage4Clean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtStage3Data.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnHorizontalRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 40</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtStage2Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcPitchVX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="grpVacuum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 117</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblStartPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStage2Data.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetEndPos.ToolTip" xml:space="preserve">
+    <value>Set End Position</value>
+  </data>
+  <data name="&gt;&gt;groupStage2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStartPosZ.Text" xml:space="preserve">
+    <value>Start Pos Z</value>
+  </data>
+  <data name="nmcEndPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPitchHYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtList.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPitchHYText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEndPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCornerPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtStage4Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblOffsetYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Name" xml:space="preserve">
+    <value>UcLightControl1</value>
+  </data>
+  <data name="&gt;&gt;lblAngleText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCornerY.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="lblStartPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupStage2.Name" xml:space="preserve">
+    <value>groupStage2</value>
+  </data>
+  <data name="btnStage2Clean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 13</value>
+  </data>
+  <data name="lblArrayXCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 35</value>
+  </data>
+  <data name="&gt;&gt;txtStage3Data.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UcLightControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 710</value>
+  </data>
+  <data name="&gt;&gt;groupStage3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPitchVYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtStage2Data.Name" xml:space="preserve">
+    <value>txtStage2Data</value>
+  </data>
+  <data name="lblPitchVYText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 30</value>
+  </data>
+  <data name="BtnVerticalRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 70</value>
+  </data>
+  <data name="NumSteadyTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 27</value>
+  </data>
+  <data name="nmcArrayXCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="btnSetCornerPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblStageNo.Parent" xml:space="preserve">
+    <value>grpAlignmentPos</value>
+  </data>
+  <data name="BtnHorizontalRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblPitchVXText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblStartPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtStage4Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 30</value>
+  </data>
+  <data name="lblPitchHYText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;nmcCornerPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupStage3.Name" xml:space="preserve">
+    <value>groupStage3</value>
+  </data>
+  <data name="txtStage4Data.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtStage2Data.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblXa.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGoCornerPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblStartPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 37</value>
+  </data>
+  <data name="&gt;&gt;btnVacuum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnReRun.Text" xml:space="preserve">
+    <value>ReRun</value>
+  </data>
+  <data name="lblEndPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnReRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 70</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>StageVerification                                           </value>
+  </data>
+  <data name="&gt;&gt;lblOdffsetYText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.Parent" xml:space="preserve">
+    <value>grpArraySetting</value>
+  </data>
+  <data name="cmbYa.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAngleText.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;groupStage4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblEndPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnStage3Clean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 18</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcLightControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCornerPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayYCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblAngle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblAngleText.TabIndex" type="System.Int32, mscorlib">
+    <value>540</value>
+  </data>
+  <data name="BtnHorizontalRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStage3Read.Text" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="grpGoPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 200</value>
+  </data>
+  <data name="grpGoPos.TabIndex" type="System.Int32, mscorlib">
+    <value>506</value>
+  </data>
+  <data name="lblPitchVYText.TabIndex" type="System.Int32, mscorlib">
+    <value>548</value>
+  </data>
+  <data name="btnVacuum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="NumSteadyTime.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtStage4Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayXCount.Text" xml:space="preserve">
+    <value>Array X Count</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGoCCDAlignPos.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;groupStage4.Name" xml:space="preserve">
+    <value>groupStage4</value>
+  </data>
+  <data name="lblCornerX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 30</value>
+  </data>
+  <data name="lblOffsetY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtStage3Data.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGoCornerPos.Parent" xml:space="preserve">
+    <value>grpArrayPos</value>
+  </data>
+  <data name="nmcEndPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnHorizontalRun.Text" xml:space="preserve">
+    <value>H Run</value>
+  </data>
+  <data name="lblCornerZ.Text" xml:space="preserve">
+    <value>Corner Pos Z</value>
+  </data>
+  <data name="lblOffsetXText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcStartPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="lblStartPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblYa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 38</value>
+  </data>
+  <data name="lblOffsetXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnStage2Read.Name" xml:space="preserve">
+    <value>btnStage2Read</value>
+  </data>
+  <data name="lblAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 30</value>
+  </data>
+  <data name="lblOffsetXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

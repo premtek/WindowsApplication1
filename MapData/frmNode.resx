@@ -1,0 +1,1434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chklbBin2.Items8" xml:space="preserve">
+    <value>Bin I</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labMapPathB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="SplitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 793</value>
+  </data>
+  <data name="&gt;&gt;gbBNode1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbNotchRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Name" xml:space="preserve">
+    <value>SplitContainer3</value>
+  </data>
+  <data name="&gt;&gt;chklbStage3WorkNode.Parent" xml:space="preserve">
+    <value>gboxStage3</value>
+  </data>
+  <data name="gbANode1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 566</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1458, 840</value>
+  </data>
+  <data name="chklbBin.Items1" xml:space="preserve">
+    <value>Bin 1</value>
+  </data>
+  <data name="chklbBin2.Items9" xml:space="preserve">
+    <value>Bin J</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labMapPathB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chklbBin2.Items7" xml:space="preserve">
+    <value>Bin H</value>
+  </data>
+  <data name="DataGridView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="chklbBin2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer2</value>
+  </data>
+  <data name="SplitContainer3.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chklbBin.Items4" xml:space="preserve">
+    <value>Bin 4</value>
+  </data>
+  <data name="&gt;&gt;gboxStage4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer3.Panel1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbNotchLeft.Name" xml:space="preserve">
+    <value>rbNotchLeft</value>
+  </data>
+  <data name="&gt;&gt;tb_A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Name" xml:space="preserve">
+    <value>SplitContainer2</value>
+  </data>
+  <data name="GroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;chklbStage2WorkNode.Name" xml:space="preserve">
+    <value>chklbStage2WorkNode</value>
+  </data>
+  <data name="&gt;&gt;tb_A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chklbBin2.Items2" xml:space="preserve">
+    <value>Bin C</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labMapPathB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="tb_B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1051, 801</value>
+  </data>
+  <data name="&gt;&gt;rbNotchRight.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbANode1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_B.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnOpenMapA.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chklbStage4WorkNode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DataGridView2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="gbBNode1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gboxStage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 63</value>
+  </data>
+  <data name="chklbBin.Items9" xml:space="preserve">
+    <value>Bin 9</value>
+  </data>
+  <data name="btnExit.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbNotchLeft.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="picBNode1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SplitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;chklbStage3WorkNode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbBin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 284</value>
+  </data>
+  <data name="&gt;&gt;tb_A.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="labMapPathB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapB.Parent" xml:space="preserve">
+    <value>SplitContainer3.Panel1</value>
+  </data>
+  <data name="TabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNotchLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>429</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="&gt;&gt;labMapPathB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picANode1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="labMapPathB.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;labMapPathA.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="SplitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tb_A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tb_A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;labMapPathB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tb_A.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbBNode1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tb_B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapA.Name" xml:space="preserve">
+    <value>btnOpenMapA</value>
+  </data>
+  <data name="&gt;&gt;gboxStage4.Parent" xml:space="preserve">
+    <value>SplitContainer3.Panel1</value>
+  </data>
+  <data name="labMapPathB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gboxStage4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chklbStage2WorkNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 116</value>
+  </data>
+  <data name="&gt;&gt;gboxStage3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SplitContainer3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbBin.Items7" xml:space="preserve">
+    <value>Bin 7</value>
+  </data>
+  <data name="&gt;&gt;gboxStage1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chklbStage4WorkNode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="tb_B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="&gt;&gt;rbNotchBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chklbStage2WorkNode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOpenMapB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 49</value>
+  </data>
+  <data name="&gt;&gt;gboxStage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DataGridView2.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="rbNotchBottom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gboxStage3.Name" xml:space="preserve">
+    <value>gboxStage3</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="DataGridView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 97</value>
+  </data>
+  <data name="gbANode1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="picBNode1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chklbStage2WorkNode.Parent" xml:space="preserve">
+    <value>gboxStage2</value>
+  </data>
+  <data name="picBNode1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;gboxStage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 756</value>
+  </data>
+  <data name="gbBNode1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="picBNode1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="&gt;&gt;picBNode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picBNode1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1059, 840</value>
+  </data>
+  <data name="&gt;&gt;rbNotchBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbNotchRight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SplitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;chklbBin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbNotchTop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picANode1.Name" xml:space="preserve">
+    <value>picANode1</value>
+  </data>
+  <data name="SplitContainer3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labMapPathB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklbStage1WorkNode.Parent" xml:space="preserve">
+    <value>gboxStage1</value>
+  </data>
+  <data name="gbANode1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="SplitContainer3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="rbNotchBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 159</value>
+  </data>
+  <data name="&gt;&gt;chklbStage1WorkNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbBin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tb_A.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 384</value>
+  </data>
+  <data name="chklbBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbNotchRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 96</value>
+  </data>
+  <data name="SplitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>223</value>
+  </data>
+  <data name="btnOpenMapA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gbBNode1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chklbBin.Items3" xml:space="preserve">
+    <value>Bin 3</value>
+  </data>
+  <data name="&gt;&gt;gbANode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer3</value>
+  </data>
+  <data name="gboxStage3.Text" xml:space="preserve">
+    <value>Stage 3</value>
+  </data>
+  <data name="&gt;&gt;picBNode1.Parent" xml:space="preserve">
+    <value>gbBNode1</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labMapPathA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="gboxStage1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="picANode1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labMapPathA.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOpenMapB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="gboxStage2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="chklbBin2.Items14" xml:space="preserve">
+    <value>Bin O</value>
+  </data>
+  <data name="SplitContainer2.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gboxStage2.Name" xml:space="preserve">
+    <value>gboxStage2</value>
+  </data>
+  <data name="gbANode1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="chklbBin2.Items19" xml:space="preserve">
+    <value>Bin T</value>
+  </data>
+  <data name="&gt;&gt;gbANode1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer3</value>
+  </data>
+  <data name="chklbBin2.Items15" xml:space="preserve">
+    <value>Bin P</value>
+  </data>
+  <data name="&gt;&gt;chklbStage4WorkNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbBin2.Items17" xml:space="preserve">
+    <value>Bin R</value>
+  </data>
+  <data name="chklbBin2.Items16" xml:space="preserve">
+    <value>Bin Q</value>
+  </data>
+  <data name="chklbBin2.Items11" xml:space="preserve">
+    <value>Bin L</value>
+  </data>
+  <data name="chklbBin2.Items10" xml:space="preserve">
+    <value>Bin K</value>
+  </data>
+  <data name="chklbBin2.Items13" xml:space="preserve">
+    <value>Bin N</value>
+  </data>
+  <data name="chklbBin2.Items12" xml:space="preserve">
+    <value>Bin M</value>
+  </data>
+  <data name="&gt;&gt;gbANode1.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;rbNotchBottom.Name" xml:space="preserve">
+    <value>rbNotchBottom</value>
+  </data>
+  <data name="chklbStage4WorkNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 116</value>
+  </data>
+  <data name="rbNotchTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="&gt;&gt;gboxStage3.Parent" xml:space="preserve">
+    <value>SplitContainer3.Panel1</value>
+  </data>
+  <data name="labMapPathA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;gboxStage1.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="chklbBin2.Items24" xml:space="preserve">
+    <value>Bin Y</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chklbBin2.Items21" xml:space="preserve">
+    <value>Bin V</value>
+  </data>
+  <data name="chklbBin2.Items20" xml:space="preserve">
+    <value>Bin U</value>
+  </data>
+  <data name="chklbBin2.Items23" xml:space="preserve">
+    <value>Bin X</value>
+  </data>
+  <data name="chklbBin.Items8" xml:space="preserve">
+    <value>Bin 8</value>
+  </data>
+  <data name="&gt;&gt;rbNotchTop.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gboxStage4.Text" xml:space="preserve">
+    <value>Stage 4</value>
+  </data>
+  <data name="gboxStage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbBin2.Items" xml:space="preserve">
+    <value>Bin A</value>
+  </data>
+  <data name="&gt;&gt;rbNotchBottom.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="btnSave.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel2.Name" xml:space="preserve">
+    <value>SplitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;rbNotchTop.Name" xml:space="preserve">
+    <value>rbNotchTop</value>
+  </data>
+  <data name="&gt;&gt;rbNotchTop.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="&gt;&gt;picANode1.Parent" xml:space="preserve">
+    <value>gbANode1</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapB.Name" xml:space="preserve">
+    <value>btnOpenMapB</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_B.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;gboxStage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gbBNode1.Text" xml:space="preserve">
+    <value>X:0,Y:0</value>
+  </data>
+  <data name="&gt;&gt;rbNotchTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;chklbStage3WorkNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbStage1WorkNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 116</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklbBin.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnOpenMapA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;labMapPathB.Name" xml:space="preserve">
+    <value>labMapPathB</value>
+  </data>
+  <data name="&gt;&gt;gboxStage2.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNotchBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="chklbBin2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 760</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gboxStage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 152</value>
+  </data>
+  <data name="chklbBin2.Items22" xml:space="preserve">
+    <value>Bin W</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 13</value>
+  </data>
+  <data name="gboxStage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 63</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tb_B.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chklbBin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 42</value>
+  </data>
+  <data name="rbNotchBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>428</value>
+  </data>
+  <data name="SplitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labMapPathA.Name" xml:space="preserve">
+    <value>labMapPathA</value>
+  </data>
+  <data name="SplitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picANode1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 534</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="chklbStage3WorkNode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 116</value>
+  </data>
+  <data name="picBNode1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1039, 534</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="&gt;&gt;gbBNode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklbBin2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_A.Name" xml:space="preserve">
+    <value>tb_A</value>
+  </data>
+  <data name="btnOpenMapA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 49</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Bin Not Works</value>
+  </data>
+  <data name="gboxStage4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labMapPathA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="rbNotchRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="SplitContainer3.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="chklbBin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="rbNotchTop.TabIndex" type="System.Int32, mscorlib">
+    <value>427</value>
+  </data>
+  <data name="chklbBin2.Items1" xml:space="preserve">
+    <value>Bin B</value>
+  </data>
+  <data name="gboxStage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 152</value>
+  </data>
+  <data name="picANode1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gbANode1.Text" xml:space="preserve">
+    <value>X:0,Y:0</value>
+  </data>
+  <data name="btnExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="SplitContainer3.SplitterDistance" type="System.Int32, mscorlib">
+    <value>223</value>
+  </data>
+  <data name="chklbStage3WorkNode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Bin Not Works</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapA.Parent" xml:space="preserve">
+    <value>SplitContainer2.Panel1</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 364</value>
+  </data>
+  <data name="chklbBin2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picBNode1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="SplitContainer2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="gboxStage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="gbANode1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gboxStage2.Text" xml:space="preserve">
+    <value>Stage 2</value>
+  </data>
+  <data name="chklbBin.Items6" xml:space="preserve">
+    <value>Bin 6</value>
+  </data>
+  <data name="SplitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gboxStage3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="btnOpenMapB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOpenMapA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbNotchLeft.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 812</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmNode</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gboxStage1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;chklbStage4WorkNode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chklbBin2.Items3" xml:space="preserve">
+    <value>Bin D</value>
+  </data>
+  <data name="SplitContainer1.Panel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 21.75pt</value>
+  </data>
+  <data name="rbNotchLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 96</value>
+  </data>
+  <data name="gboxStage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 152</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklbStage2WorkNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbBin2.Items18" xml:space="preserve">
+    <value>Bin S</value>
+  </data>
+  <data name="chklbStage2WorkNode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labMapPathB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="&gt;&gt;chklbStage1WorkNode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rbNotchRight.TabIndex" type="System.Int32, mscorlib">
+    <value>426</value>
+  </data>
+  <data name="gboxStage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenMapA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbBin2.Items4" xml:space="preserve">
+    <value>Bin E</value>
+  </data>
+  <data name="GroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tb_B.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="btnOpenMapA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labMapPathA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;DataGridView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer2</value>
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>Notch</value>
+  </data>
+  <data name="gboxStage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 63</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1059, 840</value>
+  </data>
+  <data name="&gt;&gt;gbBNode1.Name" xml:space="preserve">
+    <value>gbBNode1</value>
+  </data>
+  <data name="picANode1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chklbBin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxStage1.Text" xml:space="preserve">
+    <value>Stage 1</value>
+  </data>
+  <data name="chklbBin2.Items5" xml:space="preserve">
+    <value>Bin F</value>
+  </data>
+  <data name="gboxStage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 63</value>
+  </data>
+  <data name="GroupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gboxStage2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chklbBin2.Items25" xml:space="preserve">
+    <value>Bin Z</value>
+  </data>
+  <data name="chklbStage3WorkNode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picANode1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;rbNotchLeft.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SplitContainer3.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbStage1WorkNode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="gboxStage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbBin.Items2" xml:space="preserve">
+    <value>Bin 2</value>
+  </data>
+  <data name="GroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 189</value>
+  </data>
+  <data name="chklbBin2.Items6" xml:space="preserve">
+    <value>Bin G</value>
+  </data>
+  <data name="&gt;&gt;picBNode1.Name" xml:space="preserve">
+    <value>picBNode1</value>
+  </data>
+  <data name="tb_A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1051, 801</value>
+  </data>
+  <data name="gboxStage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 152</value>
+  </data>
+  <data name="SplitContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="gbBNode1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 566</value>
+  </data>
+  <data name="&gt;&gt;chklbStage1WorkNode.Name" xml:space="preserve">
+    <value>chklbStage1WorkNode</value>
+  </data>
+  <data name="&gt;&gt;gbANode1.Name" xml:space="preserve">
+    <value>gbANode1</value>
+  </data>
+  <data name="btnOpenMapB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;labMapPathA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbStage4WorkNode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbNotchLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labMapPathA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="DataGridView2.TabIndex" type="System.Int32, mscorlib">
+    <value>425</value>
+  </data>
+  <data name="SplitContainer2.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklbBin2.Name" xml:space="preserve">
+    <value>chklbBin2</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="SplitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picANode1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="labMapPathA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Panel1.Name" xml:space="preserve">
+    <value>SplitContainer1.Panel1</value>
+  </data>
+  <data name="btnOpenMapB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chklbStage3WorkNode.Name" xml:space="preserve">
+    <value>chklbStage3WorkNode</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="chklbBin2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnOpenMapA.Text" xml:space="preserve">
+    <value>Map Data</value>
+  </data>
+  <data name="&gt;&gt;chklbBin2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="labMapPathA.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;rbNotchRight.Name" xml:space="preserve">
+    <value>rbNotchRight</value>
+  </data>
+  <data name="SplitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SplitContainer2.Parent" xml:space="preserve">
+    <value>tb_A</value>
+  </data>
+  <data name="tb_B.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gboxStage3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="SplitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SplitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>1059</value>
+  </data>
+  <data name="&gt;&gt;gbBNode1.Parent" xml:space="preserve">
+    <value>SplitContainer3.Panel2</value>
+  </data>
+  <data name="&gt;&gt;DataGridView2.Name" xml:space="preserve">
+    <value>DataGridView2</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>SplitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chklbStage2WorkNode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DataGridView2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_B.Name" xml:space="preserve">
+    <value>tb_B</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;gboxStage1.Name" xml:space="preserve">
+    <value>gboxStage1</value>
+  </data>
+  <data name="btnSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="btnOpenMapB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picANode1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbBin.Items5" xml:space="preserve">
+    <value>Bin 5</value>
+  </data>
+  <data name="GroupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbBin.Items" xml:space="preserve">
+    <value>Bin 0</value>
+  </data>
+  <data name="SplitContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1045, 793</value>
+  </data>
+  <data name="&gt;&gt;rbNotchRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SplitContainer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;picANode1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gboxStage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbBin2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 42</value>
+  </data>
+  <data name="DataGridView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 55</value>
+  </data>
+  <data name="&gt;&gt;chklbStage4WorkNode.Parent" xml:space="preserve">
+    <value>gboxStage4</value>
+  </data>
+  <data name="tb_A.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SplitContainer2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 667</value>
+  </data>
+  <data name="rbNotchTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 34</value>
+  </data>
+  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="rbNotchTop.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chklbStage3WorkNode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chklbStage2WorkNode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="chklbStage1WorkNode.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tb_B.Text" xml:space="preserve">
+    <value>Machine B</value>
+  </data>
+  <data name="&gt;&gt;gboxStage4.Name" xml:space="preserve">
+    <value>gboxStage4</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer1.Name" xml:space="preserve">
+    <value>SplitContainer1</value>
+  </data>
+  <data name="&gt;&gt;chklbBin.Name" xml:space="preserve">
+    <value>chklbBin</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SplitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1458, 840</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Parent" xml:space="preserve">
+    <value>tb_B</value>
+  </data>
+  <data name="rbNotchLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="&gt;&gt;tb_B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklbStage4WorkNode.Name" xml:space="preserve">
+    <value>chklbStage4WorkNode</value>
+  </data>
+  <data name="&gt;&gt;gboxStage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbNotchRight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;chklbBin2.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;labMapPathB.Parent" xml:space="preserve">
+    <value>SplitContainer3.Panel1</value>
+  </data>
+  <data name="rbNotchBottom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbNotchLeft.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenMapB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbBNode1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbStage1WorkNode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenMapB.Text" xml:space="preserve">
+    <value>Map Data</value>
+  </data>
+  <data name="tb_A.Text" xml:space="preserve">
+    <value>Machine A</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Name" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="&gt;&gt;SplitContainer3.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

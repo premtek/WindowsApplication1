@@ -1,0 +1,3486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnMove3D.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnAlign.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="btnNodeDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mnuStepDelete.Name" xml:space="preserve">
+    <value>mnuStepDelete</value>
+  </data>
+  <data name="btnStepUp.TabIndex" type="System.Int32, mscorlib">
+    <value>381</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 556</value>
+  </data>
+  <data name="btnUnload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnRoundDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuNodePaste.Name" xml:space="preserve">
+    <value>mnuNodePaste</value>
+  </data>
+  <data name="btnMove3D.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblPatternEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuRunCCDRun.Name" xml:space="preserve">
+    <value>mnuRunCCDRun</value>
+  </data>
+  <data name="btnRoundAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundMoveDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSaveRecipe.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="grpStep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;mnuStepCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuFileOpen.Text" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="TabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 757</value>
+  </data>
+  <data name="&gt;&gt;btnCircle.Name" xml:space="preserve">
+    <value>btnCircle</value>
+  </data>
+  <data name="btnNodeDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnRoundUp.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Name" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;btnHeight.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="btnExtendOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;SFDSaveRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkNodeConnect.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;mnuBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundAdd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAddArray.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRoundDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDelete.Name" xml:space="preserve">
+    <value>btnRoundDelete</value>
+  </data>
+  <data name="&gt;&gt;btnPatternDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuRotae180.Name" xml:space="preserve">
+    <value>mnuRotae180</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="treePattern.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;mnuStepAdd.Name" xml:space="preserve">
+    <value>mnuStepAdd</value>
+  </data>
+  <data name="btnArc.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;mnuBalance.Name" xml:space="preserve">
+    <value>mnuBalance</value>
+  </data>
+  <data name="chkNodeConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="mnuFileImport.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="&gt;&gt;btnStepDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 757</value>
+  </data>
+  <data name="&gt;&gt;picPcsSingleGraph.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPatternDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>468</value>
+  </data>
+  <data name="&gt;&gt;btnLoadB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStepUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1340, 29</value>
+  </data>
+  <data name="lblPatternEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 4</value>
+  </data>
+  <data name="&gt;&gt;btnContiEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuLoadA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoadRecipe.ToolTip" xml:space="preserve">
+    <value>Open Recipe</value>
+  </data>
+  <data name="mnuNode.Text" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="lblFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="&gt;&gt;btnMachineBBalance.Name" xml:space="preserve">
+    <value>btnMachineBBalance</value>
+  </data>
+  <data name="lblPatternEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnMachineBBalance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnUnloadB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnLine3D.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lstPatternID.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnNodeAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLoadB.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <data name="btnNodeAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoadRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblPatternEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuFileExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblOthers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuRotae.Name" xml:space="preserve">
+    <value>mnuRotae</value>
+  </data>
+  <data name="btnCCDRun.ToolTip" xml:space="preserve">
+    <value>video run</value>
+  </data>
+  <data name="btnRoundDown.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lstRoundNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="chkNodeConnect.Text" xml:space="preserve">
+    <value>NodeConnect</value>
+  </data>
+  <data name="btnSaveRecipe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="btnCCDRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuPark.Text" xml:space="preserve">
+    <value>Park</value>
+  </data>
+  <data name="btnAddArray.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRecipe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRoundLoopEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 4</value>
+  </data>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>CCD</value>
+  </data>
+  <data name="btnNodeMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1528, 416</value>
+  </data>
+  <data name="mnuNodeFIDs.Text" xml:space="preserve">
+    <value>FIDs</value>
+  </data>
+  <data name="&gt;&gt;mnuFileSaveAs.Name" xml:space="preserve">
+    <value>mnuFileSaveAs</value>
+  </data>
+  <data name="btnLine3D.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;dgvStep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnMachineABalance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMachineBBalance.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblFile.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="&gt;&gt;btnWait.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="TabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDots3D.Name" xml:space="preserve">
+    <value>btnDots3D</value>
+  </data>
+  <data name="btnMachineABalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnAddArray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLoadB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnDots3D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lstRoundNo.Name" xml:space="preserve">
+    <value>lstRoundNo</value>
+  </data>
+  <data name="grpStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>759, 788</value>
+  </data>
+  <data name="&gt;&gt;btnDryRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnUnloadB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnLoadB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 416</value>
+  </data>
+  <data name="btnUnload.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternPaste.Name" xml:space="preserve">
+    <value>mnuPatternPaste</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCreateRecipe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mnuPatternCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;btnUnload.Name" xml:space="preserve">
+    <value>btnUnload</value>
+  </data>
+  <data name="&gt;&gt;lblPatternEditor.Name" xml:space="preserve">
+    <value>lblPatternEditor</value>
+  </data>
+  <data name="mnuStepCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;btnNodeDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnWait.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRecipe.Name" xml:space="preserve">
+    <value>btnLoadRecipe</value>
+  </data>
+  <data name="&gt;&gt;btnPark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMove3D.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMachineBBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStepBasicEdit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mnuRoundMoveUp.Text" xml:space="preserve">
+    <value>MoveUp</value>
+  </data>
+  <data name="btnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 416</value>
+  </data>
+  <data name="btnLoadRecipe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="mnuRoundMoveDown.Text" xml:space="preserve">
+    <value>MoveDown</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundCopy.Name" xml:space="preserve">
+    <value>mnuRoundCopy</value>
+  </data>
+  <data name="btnArc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmRecipe04</value>
+  </data>
+  <data name="btnStepDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStepBasicEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>403</value>
+  </data>
+  <data name="btnNodeAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVGhD7Zpr
+        UeRAFIWpUYAEJKwEJCABCUhYCUhAAhKQgAQkrIPwnapNVc+t00m/Mkt19sf3Y05u30fSr3TmblmWU2HF
+        mbHiSC6Xyz08wgv8NjzBg2t7BFbsRQWACvyEpZA/8AZPzucorNgKyepJvoMrqIYveHYxerFiLSSnbqun
+        45LvQYU/upitWLEGJQTqji7hFSWuJx/H7yt8gGuT8upit2DFUkjkOSSWoiJV1O6EhI16iHxtFa9r9659
+        DVYsgeC5YvW0m8cfbTXh5QrXJNhVtBX3IGiuWI3j7qcg8KPlyg2VT2dfihW3IOCvkMDK8FkVn4rllrY3
+        Z1+CFXMQSGNNYzMmUFQsdleTlrOJYKeYruim9dqKOQiiRGPgF2friG3j9RzYalzH7q3f1cPHig6cK2ga
+        ULw72xyxfby+BfZa/q7aQ1EvSbGiA+dxY1F9h0N7JG+XgzbdOVgxIqd/nafBqu9uaI/k7XLQxvWyqsnS
+        ihE5DUGaxk/wgeTttqBdfMpVy5QVIyZI07IQfCB5uy1o55bF4ptvxQgO41LUtCQEH0jebg/aNudjxRSc
+        afymzpG97R4D/cQeVzyfWDEFZ3E5aN7aBT9I3m4P2sb9QPHyaMUUnMWCP3auDyeNl4l5ldMWVkzZc26u
+        DyeNl4n5v+AcVkzZc26uDyeNl4l5aMHTT1rnWpYEDg/ZeED19lTQ7riNh8DhqK1lPKuqPoKlzU22lqNe
+        HkYUfJOXh1Gvh10FY3+b10OB43hnq58y9r0Fd+dgRQeORxzxNBeMrY5t07biuCMeoQAhoKg5xGsqGLvb
+        H+IJBYCeY9rqgrFRzH9zTCsIdJ6D+BUCnudTywqBz/MxbYXguaKFxromuTk+l66QhN6mXNdLUfHug7iG
+        wFaRKz/jg/gKCekJxU3BCHSjqjYne1ixFZLTrDr/n1oiJKuJZ/6/LTkoQN1d43zeP6b9ZKw4M1acGSvO
+        jBXnZbn7BnBoxwNwkSEpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="TabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="&gt;&gt;mnuNodePaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuRun.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuMAP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnWait.TabIndex" type="System.Int32, mscorlib">
+    <value>415</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundUp.ToolTip" xml:space="preserve">
+    <value>Round Up</value>
+  </data>
+  <data name="&gt;&gt;mnuProcessTime.Name" xml:space="preserve">
+    <value>mnuProcessTime</value>
+  </data>
+  <data name="btnMachineBBalance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnUnloadB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoad.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternRename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnWait.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPatternEditor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnNodeAdd.ToolTip" xml:space="preserve">
+    <value>Add New Node At Selected Parent Node</value>
+  </data>
+  <data name="btnPark.ToolTip" xml:space="preserve">
+    <value>Move to Park Position</value>
+  </data>
+  <data name="lstRoundNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 124</value>
+  </data>
+  <data name="btnCircle.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;dgvStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuOthers.Text" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="&gt;&gt;btnCCDRun.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="lblNodeEditor.Text" xml:space="preserve">
+    <value>3.Node Editor</value>
+  </data>
+  <data name="&gt;&gt;lstRoundNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainMenu1.Name" xml:space="preserve">
+    <value>MainMenu1</value>
+  </data>
+  <data name="btnContiEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>415</value>
+  </data>
+  <data name="btnBack.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExtendOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnPark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStepEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 24</value>
+  </data>
+  <data name="&gt;&gt;mnuStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNodeAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundUp.TabIndex" type="System.Int32, mscorlib">
+    <value>419</value>
+  </data>
+  <data name="lblRoundLoopEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStepDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>378</value>
+  </data>
+  <data name="btnLock.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnNodeDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 99</value>
+  </data>
+  <data name="TabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="btnRoundDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuRun.Name" xml:space="preserve">
+    <value>mnuRun</value>
+  </data>
+  <data name="&gt;&gt;btnMove3D.Name" xml:space="preserve">
+    <value>btnMove3D</value>
+  </data>
+  <data name="&gt;&gt;btnLock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExtendOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnPark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1528, 346</value>
+  </data>
+  <data name="&gt;&gt;btnArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStepUp.Name" xml:space="preserve">
+    <value>btnStepUp</value>
+  </data>
+  <data name="btnUnload.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="btnRoundDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnContiStart.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuUnloadA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoadB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRoundDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="btnRoundDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;lblRoundLoopEditor.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="btnNodeDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnLock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="btnPause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Parent" xml:space="preserve">
+    <value>tabView</value>
+  </data>
+  <data name="btnRoundDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="mnuProcessTime.Text" xml:space="preserve">
+    <value>SetProcessTime</value>
+  </data>
+  <data name="btnContiStart.ToolTip" xml:space="preserve">
+    <value>start a continuous dispensing</value>
+  </data>
+  <data name="btnMachineABalance.ToolTip" xml:space="preserve">
+    <value>Setup Balance</value>
+  </data>
+  <data name="btnStepDown.ToolTip" xml:space="preserve">
+    <value>Move Step Down</value>
+  </data>
+  <data name="lblStepEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMove3D.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="&gt;&gt;lblOthers.Name" xml:space="preserve">
+    <value>lblOthers</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblOthers.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="grpStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 176</value>
+  </data>
+  <data name="btnExtendOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1528, 169</value>
+  </data>
+  <data name="mnuStepParameter.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="&gt;&gt;btnStepBasicEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mnuFileCreate.Text" xml:space="preserve">
+    <value>Create File</value>
+  </data>
+  <data name="btnPark.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;TabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnRoundAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Name" xml:space="preserve">
+    <value>btnLoad</value>
+  </data>
+  <data name="btnStepUp.ToolTip" xml:space="preserve">
+    <value>Move Step Up</value>
+  </data>
+  <data name="btnPatternDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnLock.ToolTip" xml:space="preserve">
+    <value>Recipe Unlock/Lock</value>
+  </data>
+  <data name="&gt;&gt;mnuRunRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuRotae180.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuStep.Name" xml:space="preserve">
+    <value>mnuStep</value>
+  </data>
+  <data name="chkNodeConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 28</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDown.Name" xml:space="preserve">
+    <value>btnRoundDown</value>
+  </data>
+  <data name="btnStepDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnRoundUp.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="btnRoundDelete.ToolTip" xml:space="preserve">
+    <value>Delete Selected Round</value>
+  </data>
+  <data name="btnPatternDelete.ToolTip" xml:space="preserve">
+    <value>Delete Selected Pattern</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRecipe.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="btnCircle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuRunRun.Name" xml:space="preserve">
+    <value>mnuRunRun</value>
+  </data>
+  <data name="btnLoadRecipe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternCopy.Name" xml:space="preserve">
+    <value>mnuPatternCopy</value>
+  </data>
+  <data name="&gt;&gt;grpStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnContiEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnPatternAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>383</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRoundUp.Name" xml:space="preserve">
+    <value>btnRoundUp</value>
+  </data>
+  <data name="btnStepUp.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRecipe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAlignUnlock.ToolTip" xml:space="preserve">
+    <value>Need Alignment,Before Edit Path.</value>
+  </data>
+  <data name="btnPark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDryRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnMove3D.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;mnuFileSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnNodeDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnPause.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dgvStep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;mnuPattern.Name" xml:space="preserve">
+    <value>mnuPattern</value>
+  </data>
+  <data name="&gt;&gt;btnNodeAdd.Name" xml:space="preserve">
+    <value>btnNodeAdd</value>
+  </data>
+  <data name="btnLoadRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 29</value>
+  </data>
+  <data name="btnStepDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mnuRunCCDRun.Text" xml:space="preserve">
+    <value>CCDRun</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;btnContiStart.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnCCDRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 626</value>
+  </data>
+  <data name="btnArray.ToolTip" xml:space="preserve">
+    <value>Setup Pattern Array</value>
+  </data>
+  <data name="btnArc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 99</value>
+  </data>
+  <data name="UcDisplay1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Name" xml:space="preserve">
+    <value>btnRun</value>
+  </data>
+  <data name="btnStepUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDown.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="btnUnloadB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 486</value>
+  </data>
+  <data name="btnNodeAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="mnuRunDryRun.Text" xml:space="preserve">
+    <value>DryRun</value>
+  </data>
+  <data name="btnUnloadB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAlignUnlock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;btnStepDown.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="treePattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btnRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnWait.Name" xml:space="preserve">
+    <value>btnWait</value>
+  </data>
+  <data name="btnLoad.ToolTip" xml:space="preserve">
+    <value>Load Material to Machine-A</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRecipe.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnPatternDelete.Name" xml:space="preserve">
+    <value>btnPatternDelete</value>
+  </data>
+  <data name="mnuFileExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="btnCircle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeHeight.Name" xml:space="preserve">
+    <value>mnuNodeHeight</value>
+  </data>
+  <data name="btnAlign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnLine3D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStepDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnDots3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnPause.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnWait.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDelete.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="lstRoundNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSelect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuPark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <data name="btnRoundDown.ToolTip" xml:space="preserve">
+    <value>Round Down</value>
+  </data>
+  <data name="btnUnloadB.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <data name="lstPatternID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 29</value>
+  </data>
+  <data name="&gt;&gt;btnHeight.Name" xml:space="preserve">
+    <value>btnHeight</value>
+  </data>
+  <data name="btnNodeMap.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnContiEnd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 751</value>
+  </data>
+  <data name="&gt;&gt;btnRoundUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStepBasicEdit.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundMoveUp.Name" xml:space="preserve">
+    <value>mnuRoundMoveUp</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCCDRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;mnuProcessTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeDelete.ToolTip" xml:space="preserve">
+    <value>Delete Selected Node From TreeNode</value>
+  </data>
+  <data name="&gt;&gt;mnuFileOpen.Name" xml:space="preserve">
+    <value>mnuFileOpen</value>
+  </data>
+  <data name="mnuStepAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;mnuRunDryRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuRoundCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;btnHeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRoundAdd.Name" xml:space="preserve">
+    <value>btnRoundAdd</value>
+  </data>
+  <data name="mnuUnloadA.Text" xml:space="preserve">
+    <value>UnloadA</value>
+  </data>
+  <data name="&gt;&gt;btnStepDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRecipe.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnStepDelete.ToolTip" xml:space="preserve">
+    <value>Delete Selected Step</value>
+  </data>
+  <data name="btnLock.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnContiEnd.Name" xml:space="preserve">
+    <value>btnContiEnd</value>
+  </data>
+  <data name="TabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>714, 757</value>
+  </data>
+  <data name="btnNodeDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnWait.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnUnloadB.Name" xml:space="preserve">
+    <value>btnUnloadB</value>
+  </data>
+  <data name="&gt;&gt;mnuRunPause.Name" xml:space="preserve">
+    <value>mnuRunPause</value>
+  </data>
+  <data name="btnCircle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuNode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundDelete.Name" xml:space="preserve">
+    <value>mnuRoundDelete</value>
+  </data>
+  <data name="btnExtendOn.TabIndex" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="&gt;&gt;lblFile.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;TabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAddArray.ToolTip" xml:space="preserve">
+    <value>Add Array</value>
+  </data>
+  <data name="btnAlignUnlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;mnuStepAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuFileCreate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLine3D.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnCreateRecipe.ToolTip" xml:space="preserve">
+    <value>Create New Recipe</value>
+  </data>
+  <data name="btnUnloadB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblOthers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDryRun.ToolTip" xml:space="preserve">
+    <value>run without dispensing</value>
+  </data>
+  <data name="btnLine3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnLine3D.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="&gt;&gt;TabPage3.Parent" xml:space="preserve">
+    <value>tabView</value>
+  </data>
+  <data name="btnAlignUnlock.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblOthers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1524, 322</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuMirrorY.Name" xml:space="preserve">
+    <value>mnuMirrorY</value>
+  </data>
+  <data name="mnuUnloadB.Text" xml:space="preserve">
+    <value>UnloadB</value>
+  </data>
+  <data name="&gt;&gt;btnInspect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mnuStepMoveDown.Text" xml:space="preserve">
+    <value>MoveDown</value>
+  </data>
+  <data name="&gt;&gt;btnCircle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStepBasicEdit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAlignUnlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 99</value>
+  </data>
+  <data name="btnPatternAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;MenuItem25.Name" xml:space="preserve">
+    <value>MenuItem25</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>722, 16</value>
+  </data>
+  <data name="&gt;&gt;btnLine3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPatternEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 24</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnNodeAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnStepDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;lblFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUnload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnPause.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="btnSelect.ToolTip" xml:space="preserve">
+    <value>Select Valve for dispensing</value>
+  </data>
+  <data name="&gt;&gt;btnStepDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPatternEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="&gt;&gt;MenuItem25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUnloadB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="mnuMAP.Text" xml:space="preserve">
+    <value>MAP</value>
+  </data>
+  <data name="btnCircle.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnStepBasicEdit.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnStepDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="MenuItem21.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="TabPage3.Text" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="lblNodeEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 4</value>
+  </data>
+  <data name="btnNodeAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeDelete.Name" xml:space="preserve">
+    <value>mnuNodeDelete</value>
+  </data>
+  <data name="btnRoundAdd.ToolTip" xml:space="preserve">
+    <value>Add/Create Round for Dispensing Loop</value>
+  </data>
+  <data name="btnWait.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 99</value>
+  </data>
+  <data name="btnLoadB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRun.ToolTip" xml:space="preserve">
+    <value>run first artcile</value>
+  </data>
+  <data name="dgvStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="&gt;&gt;mnuFileExport.Name" xml:space="preserve">
+    <value>mnuFileExport</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 715</value>
+  </data>
+  <data name="lblFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblOthers.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnExtendOn.ToolTip" xml:space="preserve">
+    <value>open extension path function</value>
+  </data>
+  <data name="mnuFileSave.Text" xml:space="preserve">
+    <value>Save File</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOff.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblNodeEditor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRoundDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnAlign.ToolTip" xml:space="preserve">
+    <value>Setup Fiducial Position and AOI Scene</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUnload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDryRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnHeight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnNodeMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnUnload.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TabPage2.Text" xml:space="preserve">
+    <value>TreeView</value>
+  </data>
+  <data name="&gt;&gt;lblStepEditor.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnLock.Name" xml:space="preserve">
+    <value>btnLock</value>
+  </data>
+  <data name="btnPatternAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnHeight.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lblOthers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>722, 794</value>
+  </data>
+  <data name="&gt;&gt;btnArray.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mnuStepMoveUp.Text" xml:space="preserve">
+    <value>MoveUp</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFile.Text" xml:space="preserve">
+    <value>1.File</value>
+  </data>
+  <data name="btnPatternAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 29</value>
+  </data>
+  <data name="btnContiStart.Text" xml:space="preserve">
+    <value>Conti. Start</value>
+  </data>
+  <data name="btnRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnLoadRecipe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="mnuPatternDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnInspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>11, 8, 11, 8</value>
+  </data>
+  <data name="btnWait.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;OFDLoadRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuRoundDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundPaste.Name" xml:space="preserve">
+    <value>mnuRoundPaste</value>
+  </data>
+  <data name="btnRoundAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1020, 29</value>
+  </data>
+  <data name="btnHeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeArray.Name" xml:space="preserve">
+    <value>mnuNodeArray</value>
+  </data>
+  <data name="&gt;&gt;mnuPattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuStepCopy.Name" xml:space="preserve">
+    <value>mnuStepCopy</value>
+  </data>
+  <data name="btnPark.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="btnRoundDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1020, 99</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserImport.Name" xml:space="preserve">
+    <value>FolderBrowserImport</value>
+  </data>
+  <data name="btnPatternDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnStepBasicEdit.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lstRoundNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>890, 29</value>
+  </data>
+  <data name="&gt;&gt;btnContiEnd.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnLock.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="mnuRoundPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAlign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStepDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnMachineABalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPatternEditor.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;mnuStepMoveDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPatternAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuItem25.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;mnuFileOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treePattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>708, 751</value>
+  </data>
+  <data name="btnSelect.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternAdd.Name" xml:space="preserve">
+    <value>mnuPatternAdd</value>
+  </data>
+  <data name="btnCCDRun.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnDryRun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnPatternAdd.Name" xml:space="preserve">
+    <value>btnPatternAdd</value>
+  </data>
+  <data name="btnSaveRecipe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundMoveDown.Name" xml:space="preserve">
+    <value>mnuRoundMoveDown</value>
+  </data>
+  <data name="&gt;&gt;mnuOthers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblOthers.Text" xml:space="preserve">
+    <value>6. Others</value>
+  </data>
+  <data name="&gt;&gt;mnuMAP.Name" xml:space="preserve">
+    <value>mnuMAP</value>
+  </data>
+  <data name="btnUnload.ToolTip" xml:space="preserve">
+    <value>Unload Material from Machine-A</value>
+  </data>
+  <data name="btnRoundDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnLock.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblNodeEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="&gt;&gt;btnRoundAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLine3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;tabView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPause.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMachineBBalance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblNodeEditor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnPatternAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCCDRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHeight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lstRoundNo.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="btnLoadB.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lblRoundLoopEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSaveRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 99</value>
+  </data>
+  <data name="btnNodeMap.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNodeConnect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuFileImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeFIDs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRoundLoopEditor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;treePattern.Name" xml:space="preserve">
+    <value>treePattern</value>
+  </data>
+  <data name="&gt;&gt;mnuRunCCDRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMachineABalance.Name" xml:space="preserve">
+    <value>btnMachineABalance</value>
+  </data>
+  <data name="btnDryRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 626</value>
+  </data>
+  <data name="&gt;&gt;lstPatternID.Name" xml:space="preserve">
+    <value>lstPatternID</value>
+  </data>
+  <data name="&gt;&gt;btnPatternDelete.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="btnMachineABalance.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnRoundDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnPatternAdd.ToolTip" xml:space="preserve">
+    <value>Add/Create New Pattern</value>
+  </data>
+  <data name="&gt;&gt;chkNodeConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="lblFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;grpStep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAlignUnlock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnAlignUnlock.Name" xml:space="preserve">
+    <value>btnAlignUnlock</value>
+  </data>
+  <data name="lblRoundLoopEditor.Text" xml:space="preserve">
+    <value>4.Round/Loop Editor</value>
+  </data>
+  <data name="&gt;&gt;btnStepUp.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnStepBasicEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnArc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPatternAdd.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnMachineBBalance.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lblNodeEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 24</value>
+  </data>
+  <data name="btnUnload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuStepDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOthers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 24</value>
+  </data>
+  <data name="&gt;&gt;btnLoadRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStepEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1257, 6</value>
+  </data>
+  <data name="&gt;&gt;btnNodeAdd.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnLine3D.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lblFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;mnuRotae.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRoundLoopEditor.Name" xml:space="preserve">
+    <value>lblRoundLoopEditor</value>
+  </data>
+  <data name="btnPatternAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnExtendOff.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStepUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnNodeMap.Name" xml:space="preserve">
+    <value>btnNodeMap</value>
+  </data>
+  <data name="btnLine3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1528, 99</value>
+  </data>
+  <data name="btnInspect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDryRun.TabIndex" type="System.Int32, mscorlib">
+    <value>386</value>
+  </data>
+  <data name="&gt;&gt;btnStepBasicEdit.Name" xml:space="preserve">
+    <value>btnStepBasicEdit</value>
+  </data>
+  <data name="&gt;&gt;btnContiStart.Name" xml:space="preserve">
+    <value>btnContiStart</value>
+  </data>
+  <data name="btnUnloadB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnStepBasicEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuPatternPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="&gt;&gt;btnContiStart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDots3D.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mnuPatternRename.Text" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="btnLock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnStepDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnRoundUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnMachineBBalance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContiStart.TabIndex" type="System.Int32, mscorlib">
+    <value>415</value>
+  </data>
+  <data name="&gt;&gt;dgvStep.Parent" xml:space="preserve">
+    <value>grpStep</value>
+  </data>
+  <data name="&gt;&gt;mnuNode.Name" xml:space="preserve">
+    <value>mnuNode</value>
+  </data>
+  <data name="btnCreateRecipe.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnArray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAlign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblStepEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="btnStepDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnPatternDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnExtendOff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnExtendOff.Text" xml:space="preserve">
+    <value>Extend Off</value>
+  </data>
+  <data name="btnDryRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnInspect.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAlign.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnMove3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnArc.ToolTip" xml:space="preserve">
+    <value>dispensing an arc</value>
+  </data>
+  <data name="btnStepDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMachineBBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 346</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLock.TabIndex" type="System.Int32, mscorlib">
+    <value>416</value>
+  </data>
+  <data name="&gt;&gt;lstPatternID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundMoveUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuStepParameter.Name" xml:space="preserve">
+    <value>mnuStepParameter</value>
+  </data>
+  <data name="btnArray.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;mnuFileImport.Name" xml:space="preserve">
+    <value>mnuFileImport</value>
+  </data>
+  <data name="&gt;&gt;MenuItem36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDryRun.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnContiEnd.ToolTip" xml:space="preserve">
+    <value>stop a continuous dispensing</value>
+  </data>
+  <data name="btnContiEnd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnDots3D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuRotae180.Text" xml:space="preserve">
+    <value>1. Rotate 180°</value>
+  </data>
+  <data name="btnPause.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnRoundAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>423</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnuMirrorX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCreateRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>416</value>
+  </data>
+  <data name="lblPatternEditor.Text" xml:space="preserve">
+    <value>2.Pattern Editor</value>
+  </data>
+  <data name="&gt;&gt;picPcsSingleGraph.Parent" xml:space="preserve">
+    <value>TabPage3</value>
+  </data>
+  <data name="btnCreateRecipe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSaveRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>416</value>
+  </data>
+  <data name="btnRoundAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnExtendOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 169</value>
+  </data>
+  <data name="mnuRunRun.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="dgvStep.TabIndex" type="System.Int32, mscorlib">
+    <value>404</value>
+  </data>
+  <data name="btnCircle.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="btnRoundDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1090, 99</value>
+  </data>
+  <data name="btnRoundAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="TabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnArc.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="btnDots3D.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnArc.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Recipe</value>
+  </data>
+  <data name="&gt;&gt;tabView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnExtendOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnStepUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvStep.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="mnuRunPause.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="btnMachineABalance.TabIndex" type="System.Int32, mscorlib">
+    <value>394</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeAdd.Name" xml:space="preserve">
+    <value>mnuNodeAdd</value>
+  </data>
+  <data name="mnuPatternAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="mnuBalance.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="btnMachineBBalance.ToolTip" xml:space="preserve">
+    <value>Setup Balance</value>
+  </data>
+  <data name="btnMove3D.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 29</value>
+  </data>
+  <data name="mnuPattern.Text" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="btnUnload.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnPark.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnPatternAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnUnload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStepBasicEdit.ToolTip" xml:space="preserve">
+    <value>Process Parameter List</value>
+  </data>
+  <data name="&gt;&gt;btnNodeMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mnuRotae.Text" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="lblRoundLoopEditor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternRename.Name" xml:space="preserve">
+    <value>mnuPatternRename</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRecipe.Name" xml:space="preserve">
+    <value>btnSaveRecipe</value>
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPause.Name" xml:space="preserve">
+    <value>btnPause</value>
+  </data>
+  <data name="&gt;&gt;btnNodeDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOthers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnNodeMap.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnRun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExtendOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnContiStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabView.TabIndex" type="System.Int32, mscorlib">
+    <value>469</value>
+  </data>
+  <data name="&gt;&gt;btnAlignUnlock.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAlignUnlock.TabIndex" type="System.Int32, mscorlib">
+    <value>485</value>
+  </data>
+  <data name="btnMachineBBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnContiStart.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="treePattern.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnLoadB.Name" xml:space="preserve">
+    <value>btnLoadB</value>
+  </data>
+  <data name="btnHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAlignUnlock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOff.Name" xml:space="preserve">
+    <value>btnExtendOff</value>
+  </data>
+  <data name="&gt;&gt;chkNodeConnect.Name" xml:space="preserve">
+    <value>chkNodeConnect</value>
+  </data>
+  <data name="&gt;&gt;mnuOthers.Name" xml:space="preserve">
+    <value>mnuOthers</value>
+  </data>
+  <data name="btnLoadB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuRunDryRun.Name" xml:space="preserve">
+    <value>mnuRunDryRun</value>
+  </data>
+  <data name="&gt;&gt;grpStep.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="btnMachineABalance.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnExtendOff.ToolTip" xml:space="preserve">
+    <value>close extension path function</value>
+  </data>
+  <data name="btnUnloadB.ToolTip" xml:space="preserve">
+    <value>Unload Material from Machine-B</value>
+  </data>
+  <data name="&gt;&gt;mnuFileSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCreateRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 29</value>
+  </data>
+  <data name="&gt;&gt;btnNodeAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnArray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblNodeEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCCDRun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblStepEditor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRecipe.Name" xml:space="preserve">
+    <value>btnCreateRecipe</value>
+  </data>
+  <data name="mnuLoadB.Text" xml:space="preserve">
+    <value>LoadB</value>
+  </data>
+  <data name="mnuRound.Text" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="btnStepDown.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="mnuNodeHeight.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="btnDots3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;picPcsSingleGraph.Name" xml:space="preserve">
+    <value>picPcsSingleGraph</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLock.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnInspect.ToolTip" xml:space="preserve">
+    <value>Setup Inspection After Dispensing</value>
+  </data>
+  <data name="btnSelect.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblStepEditor.Name" xml:space="preserve">
+    <value>lblStepEditor</value>
+  </data>
+  <data name="&gt;&gt;btnPause.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="btnCreateRecipe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnSaveRecipe.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContiEnd.Text" xml:space="preserve">
+    <value>Conti. End</value>
+  </data>
+  <data name="mnuStepPaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="&gt;&gt;btnContiEnd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnArray.TabIndex" type="System.Int32, mscorlib">
+    <value>416</value>
+  </data>
+  <data name="&gt;&gt;btnSaveRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSaveRecipe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnHeight.ToolTip" xml:space="preserve">
+    <value>Setup Hight Sensor Position</value>
+  </data>
+  <data name="btnLoadB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLine3D.Name" xml:space="preserve">
+    <value>btnLine3D</value>
+  </data>
+  <data name="btnNodeAdd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnExtendOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnUnload.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnStepUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnCircle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 29</value>
+  </data>
+  <data name="btnCCDRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="btnNodeMap.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="btnArray.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnPatternDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnMachineBBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="btnDots3D.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="&gt;&gt;mnuUnloadB.Name" xml:space="preserve">
+    <value>mnuUnloadB</value>
+  </data>
+  <data name="&gt;&gt;btnPause.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnLoadB.ToolTip" xml:space="preserve">
+    <value>Load Material to Machine-B</value>
+  </data>
+  <data name="lblOthers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPark.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnPatternDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>378</value>
+  </data>
+  <data name="btnLoad.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContiEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 239</value>
+  </data>
+  <data name="btnPark.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="TabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuNodeCopy.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStepEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoadRecipe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStepBasicEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dgvStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>753, 763</value>
+  </data>
+  <data name="btnArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnArc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHeight.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnContiStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnExtendOn.Text" xml:space="preserve">
+    <value>Extend On</value>
+  </data>
+  <data name="btnPark.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuPark.Name" xml:space="preserve">
+    <value>mnuPark</value>
+  </data>
+  <data name="lblRoundLoopEditor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnMachineABalance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1528, 29</value>
+  </data>
+  <data name="btnInspect.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="mnuNodeArray.Text" xml:space="preserve">
+    <value>Array</value>
+  </data>
+  <data name="mnuRoundAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnNodeMap.ToolTip" xml:space="preserve">
+    <value>Show Pattern Array Map</value>
+  </data>
+  <data name="&gt;&gt;btnLoadB.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblNodeEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpStep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblStepEditor.Text" xml:space="preserve">
+    <value>5.Step/Path Editor</value>
+  </data>
+  <data name="mnuNodePaste.Text" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeMap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCDRun.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="btnPatternAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAddArray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStepUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnAddArray.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnWait.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="MenuItem36.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="btnStepDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="mnuLoadA.Text" xml:space="preserve">
+    <value>LoadA</value>
+  </data>
+  <data name="&gt;&gt;btnStepDown.Name" xml:space="preserve">
+    <value>btnStepDown</value>
+  </data>
+  <data name="grpStep.TabIndex" type="System.Int32, mscorlib">
+    <value>405</value>
+  </data>
+  <data name="btnLoad.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuStepPaste.Name" xml:space="preserve">
+    <value>mnuStepPaste</value>
+  </data>
+  <data name="btnAlign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnWait.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnExtendOff.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="mnuStep.Text" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="&gt;&gt;tabView.Name" xml:space="preserve">
+    <value>tabView</value>
+  </data>
+  <data name="&gt;&gt;lblNodeEditor.Name" xml:space="preserve">
+    <value>lblNodeEditor</value>
+  </data>
+  <data name="&gt;&gt;btnStepDelete.Name" xml:space="preserve">
+    <value>btnStepDelete</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.Name" xml:space="preserve">
+    <value>btnAlign</value>
+  </data>
+  <data name="btnPatternDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStepDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 29</value>
+  </data>
+  <data name="btnMove3D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnCircle.ToolTip" xml:space="preserve">
+    <value>dispensing a circle</value>
+  </data>
+  <data name="&gt;&gt;mnuFile.Name" xml:space="preserve">
+    <value>mnuFile</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="&gt;&gt;btnContiStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;treePattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lstRoundNo.TabIndex" type="System.Int32, mscorlib">
+    <value>426</value>
+  </data>
+  <data name="&gt;&gt;SFDSaveRecipe.Name" xml:space="preserve">
+    <value>SFDSaveRecipe</value>
+  </data>
+  <data name="&gt;&gt;btnCreateRecipe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpStep.Text" xml:space="preserve">
+    <value>Recipe</value>
+  </data>
+  <data name="&gt;&gt;btnArray.Name" xml:space="preserve">
+    <value>btnArray</value>
+  </data>
+  <data name="btnArc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnUnloadB.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnMove3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 169</value>
+  </data>
+  <data name="btnInspect.TabIndex" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="&gt;&gt;chkNodeConnect.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnStepDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExtendOff.TabIndex" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="&gt;&gt;btnUnloadB.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MainMenu1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSaveRecipe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnDryRun.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="mnuFileSaveAs.Text" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="lstPatternID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 124</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeCopy.Name" xml:space="preserve">
+    <value>mnuNodeCopy</value>
+  </data>
+  <data name="&gt;&gt;btnDryRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnMachineABalance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnDots3D.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnLoad.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tabView.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 971</value>
+  </data>
+  <data name="&gt;&gt;mnuStepPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lstPatternID.TabIndex" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="&gt;&gt;btnNodeDelete.Name" xml:space="preserve">
+    <value>btnNodeDelete</value>
+  </data>
+  <data name="mnuMirrorX.Text" xml:space="preserve">
+    <value>2. MirrorX</value>
+  </data>
+  <data name="btnSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblRoundLoopEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="btnMove3D.ToolTip" xml:space="preserve">
+    <value>Move Valve to target Position</value>
+  </data>
+  <data name="btnLoadRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>416</value>
+  </data>
+  <data name="btnRoundDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;mnuStepMoveUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstRoundNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;treePattern.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="&gt;&gt;btnAddArray.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnNodeMap.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnDryRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLine3D.ToolTip" xml:space="preserve">
+    <value>dispensing a line</value>
+  </data>
+  <data name="&gt;&gt;mnuFileSave.Name" xml:space="preserve">
+    <value>mnuFileSave</value>
+  </data>
+  <data name="btnArray.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 4</value>
+  </data>
+  <data name="&gt;&gt;btnRoundAdd.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="btnStepUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundAdd.Name" xml:space="preserve">
+    <value>mnuRoundAdd</value>
+  </data>
+  <data name="btnContiStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnPatternAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStepDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;MenuItem21.Name" xml:space="preserve">
+    <value>MenuItem21</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternDelete.Name" xml:space="preserve">
+    <value>mnuPatternDelete</value>
+  </data>
+  <data name="btnCreateRecipe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="&gt;&gt;btnInspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPatternEditor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;btnPark.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="btnAlign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 29</value>
+  </data>
+  <data name="btnStepDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1340, 99</value>
+  </data>
+  <data name="btnInspect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnArc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnPatternDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRun.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="btnInspect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="treePattern.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstPatternID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnMove3D.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRoundUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMachineABalance.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Parent" xml:space="preserve">
+    <value>tabView</value>
+  </data>
+  <data name="btnPause.ToolTip" xml:space="preserve">
+    <value>pause a first article run</value>
+  </data>
+  <data name="&gt;&gt;picPcsSingleGraph.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLoadRecipe.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnInspect.Name" xml:space="preserve">
+    <value>btnInspect</value>
+  </data>
+  <data name="lblNodeEditor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnRoundAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="tabView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="btnRoundUp.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mnuMirrorY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStepUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnRoundDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDots3D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 29</value>
+  </data>
+  <data name="btnStepDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Name" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="chkNodeConnect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStepUp.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnRoundDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="picPcsSingleGraph.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuStepMoveDown.Name" xml:space="preserve">
+    <value>mnuStepMoveDown</value>
+  </data>
+  <data name="&gt;&gt;btnCircle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAddArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 239</value>
+  </data>
+  <data name="&gt;&gt;btnAddArray.Name" xml:space="preserve">
+    <value>btnAddArray</value>
+  </data>
+  <data name="&gt;&gt;btnDots3D.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mnuLoadB.Name" xml:space="preserve">
+    <value>mnuLoadB</value>
+  </data>
+  <data name="btnExtendOn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAlignUnlock.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="picPcsSingleGraph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picPcsSingleGraph.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnPatternAdd.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnStepBasicEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 99</value>
+  </data>
+  <data name="&gt;&gt;mnuUnloadA.Name" xml:space="preserve">
+    <value>mnuUnloadA</value>
+  </data>
+  <data name="&gt;&gt;TabPage3.Name" xml:space="preserve">
+    <value>TabPage3</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSaveRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lstPatternID.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="btnRoundDown.TabIndex" type="System.Int32, mscorlib">
+    <value>418</value>
+  </data>
+  <data name="btnDots3D.ToolTip" xml:space="preserve">
+    <value>move valve to target position and drop a dot</value>
+  </data>
+  <data name="btnLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="mnuNodeAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblStepEditor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lstPatternID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 33</value>
+  </data>
+  <data name="btnNodeDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMachineABalance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCCDRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblStepEditor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnExtendOn.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnAlignUnlock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPark.Name" xml:space="preserve">
+    <value>btnPark</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1724, 908</value>
+  </data>
+  <data name="btnCCDRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSelect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblRoundLoopEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnStepDown.TabIndex" type="System.Int32, mscorlib">
+    <value>382</value>
+  </data>
+  <data name="&gt;&gt;btnExtendOn.Name" xml:space="preserve">
+    <value>btnExtendOn</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Name" xml:space="preserve">
+    <value>btnSelect</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAlignUnlock.Text" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="&gt;&gt;grpStep.Name" xml:space="preserve">
+    <value>grpStep</value>
+  </data>
+  <data name="&gt;&gt;mnuNodeFIDs.Name" xml:space="preserve">
+    <value>mnuNodeFIDs</value>
+  </data>
+  <data name="picPcsSingleGraph.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuStepParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFile.Name" xml:space="preserve">
+    <value>lblFile</value>
+  </data>
+  <data name="btnPause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1668, 556</value>
+  </data>
+  <data name="btnMachineBBalance.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnContiStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1528, 239</value>
+  </data>
+  <data name="btnContiStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lstPatternID.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnPatternDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnLoadB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnWait.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;mnuStepMoveUp.Name" xml:space="preserve">
+    <value>mnuStepMoveUp</value>
+  </data>
+  <data name="mnuMirrorY.Text" xml:space="preserve">
+    <value>3. MirrorY</value>
+  </data>
+  <data name="&gt;&gt;dgvStep.Name" xml:space="preserve">
+    <value>dgvStep</value>
+  </data>
+  <data name="btnArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 99</value>
+  </data>
+  <data name="&gt;&gt;btnNodeMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuStepDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;lblNodeEditor.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;MenuItem36.Name" xml:space="preserve">
+    <value>MenuItem36</value>
+  </data>
+  <data name="lstRoundNo.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;mnuRound.Name" xml:space="preserve">
+    <value>mnuRound</value>
+  </data>
+  <data name="&gt;&gt;mnuUnloadB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnContiEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnCircle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnContiEnd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnStepDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuExit.Name" xml:space="preserve">
+    <value>mnuExit</value>
+  </data>
+  <data name="lblPatternEditor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnMachineABalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 346</value>
+  </data>
+  <data name="&gt;&gt;mnuFileCreate.Name" xml:space="preserve">
+    <value>mnuFileCreate</value>
+  </data>
+  <data name="lblStepEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAlignUnlock.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;OFDLoadRecipe.Name" xml:space="preserve">
+    <value>OFDLoadRecipe</value>
+  </data>
+  <data name="btnWait.ToolTip" xml:space="preserve">
+    <value>wait time for process</value>
+  </data>
+  <data name="treePattern.TabIndex" type="System.Int32, mscorlib">
+    <value>427</value>
+  </data>
+  <data name="&gt;&gt;btnLock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkNodeConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 99</value>
+  </data>
+  <data name="&gt;&gt;mnuRunPause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;treePattern.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnRoundDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;mnuLoadA.Name" xml:space="preserve">
+    <value>mnuLoadA</value>
+  </data>
+  <data name="btnSaveRecipe.ToolTip" xml:space="preserve">
+    <value>Recipe Save As File</value>
+  </data>
+  <data name="chkNodeConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 175</value>
+  </data>
+  <data name="&gt;&gt;btnArc.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnLoad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNodeAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNodeAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 29</value>
+  </data>
+  <data name="btnPatternDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 99</value>
+  </data>
+  <data name="&gt;&gt;btnInspect.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnInspect.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnAlignUnlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuLoadB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOthers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="btnInspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>781, 29</value>
+  </data>
+  <data name="mnuNodeDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>412</value>
+  </data>
+  <data name="picPcsSingleGraph.Size" type="System.Drawing.Size, System.Drawing">
+    <value>711, 760</value>
+  </data>
+  <data name="&gt;&gt;btnCCDRun.Name" xml:space="preserve">
+    <value>btnCCDRun</value>
+  </data>
+  <data name="&gt;&gt;btnCircle.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnArc.Name" xml:space="preserve">
+    <value>btnArc</value>
+  </data>
+  <data name="btnExtendOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 11.25pt, style=Bold</value>
+  </data>
+  <data name="btnStepBasicEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRoundUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1090, 29</value>
+  </data>
+  <data name="btnRoundAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVGhD7Zpr
+        UeRAFIWpUYAEJKwEJCABCUhYCUhAAhKQgAQkrIPwnapNVc+t00m/Mkt19sf3Y05u30fSr3TmblmWU2HF
+        mbHiSC6Xyz08wgv8NjzBg2t7BFbsRQWACvyEpZA/8AZPzucorNgKyepJvoMrqIYveHYxerFiLSSnbqun
+        45LvQYU/upitWLEGJQTqji7hFSWuJx/H7yt8gGuT8upit2DFUkjkOSSWoiJV1O6EhI16iHxtFa9r9659
+        DVYsgeC5YvW0m8cfbTXh5QrXJNhVtBX3IGiuWI3j7qcg8KPlyg2VT2dfihW3IOCvkMDK8FkVn4rllrY3
+        Z1+CFXMQSGNNYzMmUFQsdleTlrOJYKeYruim9dqKOQiiRGPgF2friG3j9RzYalzH7q3f1cPHig6cK2ga
+        ULw72xyxfby+BfZa/q7aQ1EvSbGiA+dxY1F9h0N7JG+XgzbdOVgxIqd/nafBqu9uaI/k7XLQxvWyqsnS
+        ihE5DUGaxk/wgeTttqBdfMpVy5QVIyZI07IQfCB5uy1o55bF4ptvxQgO41LUtCQEH0jebg/aNudjxRSc
+        afymzpG97R4D/cQeVzyfWDEFZ3E5aN7aBT9I3m4P2sb9QPHyaMUUnMWCP3auDyeNl4l5ldMWVkzZc26u
+        DyeNl4n5v+AcVkzZc26uDyeNl4l5aMHTT1rnWpYEDg/ZeED19lTQ7riNh8DhqK1lPKuqPoKlzU22lqNe
+        HkYUfJOXh1Gvh10FY3+b10OB43hnq58y9r0Fd+dgRQeORxzxNBeMrY5t07biuCMeoQAhoKg5xGsqGLvb
+        H+IJBYCeY9rqgrFRzH9zTCsIdJ6D+BUCnudTywqBz/MxbYXguaKFxromuTk+l66QhN6mXNdLUfHug7iG
+        wFaRKz/jg/gKCekJxU3BCHSjqjYne1ixFZLTrDr/n1oiJKuJZ/6/LTkoQN1d43zeP6b9ZKw4M1acGSvO
+        jBXnZbn7BnBoxwNwkSEpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="mnuRun.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="btnArc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnDryRun.Name" xml:space="preserve">
+    <value>btnDryRun</value>
+  </data>
+  <data name="chkNodeConnect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNodeEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="&gt;&gt;mnuPatternPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCreateRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnNodeDelete.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnRoundAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnDots3D.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnRoundUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mnuMirrorX.Name" xml:space="preserve">
+    <value>mnuMirrorX</value>
+  </data>
+  <data name="&gt;&gt;btnArray.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="lblRoundLoopEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 24</value>
+  </data>
+  <data name="btnAlign.TabIndex" type="System.Int32, mscorlib">
+    <value>417</value>
+  </data>
+  <data name="btnRun.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnLine3D.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnRoundDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="btnUnload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1598, 486</value>
+  </data>
+  <data name="btnMove3D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnStepDelete.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="btnRun.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="btnContiEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mnuRound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowserExport.Name" xml:space="preserve">
+    <value>FolderBrowserExport</value>
+  </data>
+  <data name="lblFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPause.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;mnuRoundAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnNodeMap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <metadata name="btnCCDRun.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPark.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>444, 17</value>
+  </metadata>
+  <metadata name="lstPatternID.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMove3D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnInspect.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnUnload.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStepDelete.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnWait.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRoundDelete.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPause.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRoundUp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblNodeEditor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkNodeConnect.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="OFDLoadRecipe.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="btnAlign.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnContiEnd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMachineABalance.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FolderBrowserImport.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>760, 17</value>
+  </metadata>
+  <metadata name="TabPage1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="picPcsSingleGraph.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRoundDown.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRoundAdd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnDots3D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnArc.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TabPage3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnExtendOn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="SFDSaveRecipe.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>303, 17</value>
+  </metadata>
+  <metadata name="tabView.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCreateRecipe.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnExtendOff.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcStatusBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnArray.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>668, 17</value>
+  </metadata>
+  <metadata name="btnHeight.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>566, 17</value>
+  </metadata>
+  <metadata name="btnContiStart.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnAlignUnlock.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnNodeDelete.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStepDown.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPatternDelete.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSaveRecipe.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLoad.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPatternAdd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <metadata name="btnRun.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpStep.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnNodeMap.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnBack.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLoadB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnNodeAdd.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLoadRecipe.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lstRoundNo.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblFile.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnDryRun.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLine3D.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvStep.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="TabPage2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblRoundLoopEditor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPatternEditor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnMachineBBalance.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStepUp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="FolderBrowserExport.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>935, 17</value>
+  </metadata>
+  <metadata name="lblOthers.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSelect.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnStepBasicEdit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="treePattern.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLock.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCircle.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblStepEditor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnAddArray.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnUnloadB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcDisplay1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

@@ -1,0 +1,1261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSetupAxis1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 110</value>
+  </data>
+  <data name="btnSetupAxis0.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="tabMotor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis23.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis16.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetupAxis10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis1.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis3.Name" xml:space="preserve">
+    <value>btnSetupAxis3</value>
+  </data>
+  <data name="btnSetupAxis22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetupAxis8.Name" xml:space="preserve">
+    <value>btnSetupAxis8</value>
+  </data>
+  <data name="btnSetupAxis8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 110</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSetupAxis17.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis21.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSetupAxis15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis24.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis2.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 697</value>
+  </data>
+  <data name="btnSetupAxis3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 410</value>
+  </data>
+  <data name="tabMotor.Text" xml:space="preserve">
+    <value>Manual(Motor)</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis23.Name" xml:space="preserve">
+    <value>btnSetupAxis23</value>
+  </data>
+  <data name="btnSetupAxis3.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnSetupAxis0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis18.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 413</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis12.Name" xml:space="preserve">
+    <value>btnSetupAxis12</value>
+  </data>
+  <data name="btnSetupAxis15.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis15.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 310</value>
+  </data>
+  <data name="btnSetupAxis24.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="TabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabMotor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Motor Control</value>
+  </data>
+  <data name="btnSetupAxis4.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis9.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis0.Name" xml:space="preserve">
+    <value>btnSetupAxis0</value>
+  </data>
+  <data name="btnSetupAxis2.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="btnSetupAxis6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis19.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis5.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis18.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis7.Name" xml:space="preserve">
+    <value>btnSetupAxis7</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis17.Name" xml:space="preserve">
+    <value>btnSetupAxis17</value>
+  </data>
+  <data name="&gt;&gt;tabMotor.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis2.Name" xml:space="preserve">
+    <value>btnSetupAxis2</value>
+  </data>
+  <data name="btnSetupAxis13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis6.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis16.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnSetupAxis8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSetupAxis12.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis23.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis10.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnSetupAxis14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis4.Name" xml:space="preserve">
+    <value>btnSetupAxis4</value>
+  </data>
+  <data name="btnSetupAxis3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1188, 621</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis8.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis8.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnSetupAxis22.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis8.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis15.Name" xml:space="preserve">
+    <value>btnSetupAxis15</value>
+  </data>
+  <data name="tabMotor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSetupAxis19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 210</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis5.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="tabMotor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 582</value>
+  </data>
+  <data name="btnSetupAxis20.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis14.Name" xml:space="preserve">
+    <value>btnSetupAxis14</value>
+  </data>
+  <data name="btnSetupAxis9.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis6.Name" xml:space="preserve">
+    <value>btnSetupAxis6</value>
+  </data>
+  <data name="btnSetupAxis12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis16.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 210</value>
+  </data>
+  <data name="btnSetupAxis17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetupAxis22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>930, 210</value>
+  </data>
+  <data name="btnSetupAxis11.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnSetupAxis22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis6.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis21.Name" xml:space="preserve">
+    <value>btnSetupAxis21</value>
+  </data>
+  <data name="btnSetupAxis21.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis20.Name" xml:space="preserve">
+    <value>btnSetupAxis20</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis12.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis9.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis11.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AOrv6wDq7+tR6u/r2+rv6//q7+vq6u/re+rv6wMREhEAEBAQABAQEAAQEBAAEBAQABAQ
+        EAAQEBAAEBAQABAQEAAQEBAA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA////AP///wD///8A6u/rP6quq/9BQkH/JCUk/zQ2NP+Kjov/5uvnpurv6wMSEhIAEBEQABAR
+        EAAQERAAEBEQABAREAAQERAAEBEQABAREADq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wD///8A////AP///wCtsK3QJCUk/yAgIP8aGxr/HR4d/yUmJf9rbWv/5uvnpurv
+        6wMSEhIAEBEQABAREAAQERAAEBEQABAREAAQERAAEBEQAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAP///wD///8A////AE9RT/glJiX/NDY0rRYWFgMaGxpdJSYl/ykq
+        Kf9rbmz/5uvno+rv6wMSEhIAERERABEREQAREREAERERABEREQAREREA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA////AP///wD///8AMTIy9iYnJv+1ubbB6u/rNurv
+        64EvMC//Kywr/yorKv9ucW7/5uvno+rv6wMSExIAERIRABESEQAREhEAERIRABESEQDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wD///8A////AP///wAtLS3FJCUk/2Nm
+        ZP/BxcL/iIuJ/yssK/8sLSz/LC0s/yssK/9vcW//5uvno+rv6wMTExMAEhISABISEgASEhIAEhISAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAP///wD///8A////ABUW
+        FTkfIB/7Jicm/ywtLP8tLi3/LS4t/y0uLf8tLi3/LS4t/ywtLP9vcnD/5uvno+rv6wMTFBMAEhISABIS
+        EgASEhIA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA////AP//
+        /wD///8A6u/rABcXF04hISH7KCko/y4uLv8vMC//LzAv/y8wL/8vMC//LzAv/y4vLv9xc3H/5uvno+rv
+        6wMUFRQAExMTABMTEwDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wD///8A////AP///wDq7+sAFBQUABcYF04hIiH7KSop/y4vLv8wMTD/MDEw/zAxMP8wMTD/MDEw/y8w
+        L/9xdHL/5uvnoOrv6wMVFRUAExQTAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAP///wD///8A////AOrv6wAUFBQAFBUUABgYGE4iIyL7Kisq/y8wL/8xMjH/MTIx/zEy
+        Mf8xMjH/MTIx/zAxMP90dnT/5uvnoOrv6wMVFRUA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA////AP///wD///8A6u/rABQUFAAUFBQAFRUVABgZGE4jIyP7Kywr/zAx
+        MP8yMzL/MjMy/zIzMv8yMzL/MjMy/zEyMf90d3X/5uvnoOrv6wPq7+sA6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wD///8A////AP///wDq7+sAFRUVABUVFQAVFRUAFRYVABka
+        GU4kJST7LC0s/zIzMv80NTT/NDU0/zQ1NP80NTT/NDU0/zM0M/91eHb/5uvnoOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAP///wD///8A////AOrv6wAVFhUAFRYVABUW
+        FQAVFhUAFhYWABoaGk4lJSX7LS4t/zM0M/81NjX/NTY1/zU2Nf81NjX/NTY1/zQ1NP92eXb/6u/rwOrv
+        69jq7+v/6u/r/+rv697q7+uf6u/rPOrv6wDq7+sA6u/rAOrv6wDq7+sA////AP///wD///8A6u/rABYW
+        FgAWFhYAFhYWABYWFgAWFhYAFxcXABsbG04mJib7LzAv/zU2Nf83ODf/Nzg3/zc4N/83ODf/Nzg3/zc4
+        N/9iZGP/UlNS/zc4N/83ODf/TU9N/3l6ef++wr//6u/rrurv6wzq7+sA6u/rAOrv6wD///8A////AP//
+        /wDq7+sAFhcWABYXFgAWFxYAFhcWABYXFgAWFxYAFxcXABsbG04mJyb7MDEw/zY3Nv84OTj/ODk4/zg5
+        OP84OTj/ODk4/zg5OP84OTj/ODk4/zg5OP84OTj/ODk4/zc4N/9ucG7/4OTg1Orv6w/q7+sA6u/rAP//
+        /wD///8A////AOrv6wAXFxcAFxcXABcXFwAXFxcAFxcXABcXFwAXFxcAFxgXABscG04nKCf7MTEx/zc4
+        N/85Ojn/OTo5/zk6Of85Ojn/OTo5/zk6Of85Ojn/OTo5/zk6Of85Ojn/OTo5/zk6Of9VV1X/2t/bturv
+        6wDq7+sA////AP///wD///8A6u/rABgYGAAYGBgAGBgYABgYGAAYGBgAGBgYABgYGAAYGBgAGBkYABwd
+        HE4pKin7NDU0/zo7Ov87PDv/Ozw7/zs8O/87PDv/Ozw7/zs8O/87PDv/Ozw7/zs8O/87PDv/Ozw7/zo7
+        Ov9sbWz/6u/rSOrv6wD///8A////AP///wDq7+sAGBgYABgYGAAYGBgAGBgYABgYGAAYGBgAGBgYABgY
+        GAAYGBgAGRkZACAhIEsyMzL9Ojs6/zw9PP88PTz/PD08/zo7Ov81NjX/MzQz/zM0M/8zNDP/MzQz/zU2
+        Nf85Ojn/PD08/zk6Of+mqabH6u/rAP///wD///8A////AOrv6wAZGRkAGRkZABkZGQAZGRkAGRkZABkZ
+        GQAZGRkAGRkZABkZGQAZGRkAICEgAG5wbu08PTz/Pj8+/z4/Pv8+Pz7/Nzg3/ykqKf8iIyL/IiMi/yIj
+        Iv8jIyP/KCgo/zM0M/88PTz/PT49/2hqaPrq7+sA////AP///wD///8A6u/rABkaGQAZGhkAGRoZABka
+        GQAZGhkAGRoZABkaGQAZGhkAGRoZABkaGQAiIiIAVFVU+z4/Pv8/QD//P0A//z9AP/82Njb/IyMjA+rv
+        6wDq7+sA6u/rAOrv6wAdHR0SLS4t7Tc3N/8+Pz7/QUFB/+rv6wn///8A////AP///wDq7+sAGhoaABoa
+        GgAaGhoAGhoaABoaGgAaGhoAGhoaABoaGgAaGhoAGhoaACIjIgBCREL+P0A//0BBQP9AQUD/QEFA/zY3
+        Nv/q7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wAgICBCLjAu/jo7Ov82Nzb/nJ+dF////wD///8A////AOrv
+        6wAaGxoAGhsaABobGgAaGxoAGhsaABobGgAaGxoAGhsaABobGgAaGxoAIiIiAD4+PvtAQUD/QkNC/0JD
+        Qv9CQ0L/ODk4/+rv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wApKimKMjMy/zIzMv8jJCMP////AP//
+        /wD///8A6u/rABsbGwAbGxsAGxsbABsbGwAbGxsAGxsbABsbGwAbGxsAGxsbABsbGwAgICAARkdG6D4/
+        Pv9DREP/Q0RD/0NEQ/85Ojn/6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAB0eHQYtLS3QMDIw+Orv
+        6wD///8A////AP///wDq7+sAGxwbABscGwAbHBsAGxwbABscGwAbHBsAGxwbABscGwAbHBsAGxwbAB0e
+        HQA9Pz2bOTo5/0NEQ/9ERUT/REVE/z09Pf/q7+se6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAB4e
+        HiEhISGh6u/rAP///wD///8A////AOrv6wAcHBwAHBwcABwcHAAcHBwAHBwcABwcHAAcHBwAHBwcABwc
+        HAAcHBwAHBwcACIiIiQyMzL8Pj8+/0RFRP9FRkX/REVE/9LX0+Lq7+sb6u/rAOrv6wDq7+sA6u/rAOrv
+        6wDq7+sA6u/rABwcHAbq7+sA////AP///wD///8A6u/rABwcHAAcHBwAHBwcABwcHAAcHBwAHBwcABwc
+        HAAcHBwAHBwcABwcHAAcHBwAHR4dACcoJ4szNDP/Pj8+/0RFRP9FRkX/WFlY/9TZ1d/q7+sb6u/rAOrv
+        6wDq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wD///8A////AP///wDq7+sAHB0cABwdHAAcHRwAHB0cABwd
+        HAAcHRwAHB0cABwdHAAcHRwAHB0cABwdHAAcHRwAHh8eAyUlJaswMTD/Ozw7/0FCQf9ERUT/Wlta/9TZ
+        1dzq7+sY6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA6u/rAP///wD///8A////AOrv6wAcHRwAHB0cABwd
+        HAAcHRwAHB0cABwdHAAcHRwAHB0cABwdHAAcHRwAHB0cABwdHAAcHRwAHh4eACIiImYrLCv1MjIy/zg4
+        OP87PDv/UlRT/9DU0a3q7+sG6u/rAOrv6wDq7+sA6u/rAOrv6wDq7+sA////AP///wD///8A6u/rAB0d
+        HQAdHR0AHR0dAB0dHQAdHR0AHR0dAB0dHQAdHR0AHR0dAB0dHQAdHR0AHR0dAB0dHQAdHR0AHR0dAB8f
+        HyEiIyKHJSYlzCcoJ/knJyf/IyMjpR8fHwbq7+sA6u/rAOrv6wDq7+sA6u/rAOrv6wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A/////4H///8A////AH///wA///8AH///AA///wAH//+AA///wAH//+AA
+        ///wAH//+AB///wAAP/+AAA//wAAH/+AAB//wAAP/+AAD//wAA//8B4H//A/B//wP4f/8D+P//Afz//w
+        D+//+Af///gD///+Af///wH///////////8=
+</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis10.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1041, 636</value>
+  </data>
+  <data name="btnSetupAxis8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 310</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis11.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnSetupAxis14.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 110</value>
+  </data>
+  <data name="btnSetupAxis18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>930, 110</value>
+  </data>
+  <data name="btnSetupAxis14.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;tabMotor.Name" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 310</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis12.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 413</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis16.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnSetupAxis23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis22.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis16.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis13.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis15.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnSetupAxis23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>930, 310</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis2.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis22.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis21.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 10</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis20.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis13.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnSetupAxis20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>930, 10</value>
+  </data>
+  <data name="btnSetupAxis11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 110</value>
+  </data>
+  <data name="btnSetupAxis12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis12.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis18.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis19.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSetupAxis4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis0.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis0.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis18.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnSetupAxis5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis7.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetupAxis8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSetupAxis5.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis15.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis14.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis16.Name" xml:space="preserve">
+    <value>btnSetupAxis16</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis1.Name" xml:space="preserve">
+    <value>btnSetupAxis1</value>
+  </data>
+  <data name="btnSetupAxis23.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>新細明體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="tabMotor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 210</value>
+  </data>
+  <data name="btnSetupAxis6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis14.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnSetupAxis5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="btnSetupAxis23.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis3.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis9.Name" xml:space="preserve">
+    <value>btnSetupAxis9</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis10.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis19.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnSetupAxis11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmManual</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnSetupAxis18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 310</value>
+  </data>
+  <data name="btnSetupAxis19.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis13.Name" xml:space="preserve">
+    <value>btnSetupAxis13</value>
+  </data>
+  <data name="btnSetupAxis4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 410</value>
+  </data>
+  <data name="btnSetupAxis20.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis15.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis22.Name" xml:space="preserve">
+    <value>btnSetupAxis22</value>
+  </data>
+  <data name="btnSetupAxis8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis4.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSetupAxis16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis5.Name" xml:space="preserve">
+    <value>btnSetupAxis5</value>
+  </data>
+  <data name="btnSetupAxis24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis20.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnSetupAxis9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 10</value>
+  </data>
+  <data name="btnSetupAxis18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis24.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis10.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis17.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnSetupAxis13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnSetupAxis13.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis17.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis17.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis19.Name" xml:space="preserve">
+    <value>btnSetupAxis19</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis1.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis0.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis11.Name" xml:space="preserve">
+    <value>btnSetupAxis11</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis18.Name" xml:space="preserve">
+    <value>btnSetupAxis18</value>
+  </data>
+  <data name="btnSetupAxis13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis19.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis10.Name" xml:space="preserve">
+    <value>btnSetupAxis10</value>
+  </data>
+  <data name="btnSetupAxis19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>930, 413</value>
+  </data>
+  <data name="tabMotor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="btnSetupAxis18.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;tabMotor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetupAxis7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetupAxis2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnSetupAxis22.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnSetupAxis10.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis3.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis0.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis21.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnSetupAxis23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis22.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetupAxis11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="btnSetupAxis2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis20.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis24.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnSetupAxis17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabMotor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 35</value>
+  </data>
+  <data name="btnSetupAxis7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1203, 718</value>
+  </data>
+  <data name="btnSetupAxis17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis17.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis24.Name" xml:space="preserve">
+    <value>btnSetupAxis24</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis0.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1042, 14</value>
+  </data>
+  <data name="btnSetupAxis10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 210</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnSetupAxis1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis24.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis1.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnSetupAxis6.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSetupAxis14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis4.Parent" xml:space="preserve">
+    <value>tabMotor</value>
+  </data>
+  <data name="btnSetupAxis11.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis12.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis13.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis7.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSetupAxis10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 10</value>
+  </data>
+  <data name="btnSetupAxis20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="btnSetupAxis5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetupAxis0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetupAxis14.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetupAxis11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetupAxis20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetupAxis7.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetupAxis13.Text" xml:space="preserve">
+    <value>######</value>
+  </data>
+  <data name="btnSetupAxis10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetupAxis13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetupAxis3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetupAxis17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 100</value>
+  </data>
+  <data name="btnSetupAxis1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>89</value>
+  </metadata>
+</root>

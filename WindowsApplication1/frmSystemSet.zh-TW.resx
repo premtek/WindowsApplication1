@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cboxMapDataModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCleanMachine.Text" xml:space="preserve">
+    <value>清膠機構</value>
+  </data>
+  <data name="lblCleanMachine.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCleanDevice.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblContinueRun.Text" xml:space="preserve">
+    <value>接續流程</value>
+  </data>
+  <data name="lblContinueRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnContinueRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnManualMap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label28.Text" xml:space="preserve">
+    <value>手動Map</value>
+  </data>
+  <data name="Label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPassLUL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>進退料</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Mapping資料</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConveyor.Text" xml:space="preserve">
+    <value>傳送帶</value>
+  </data>
+  <data name="lblConveyor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDisableConveyor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbFunction.Text" xml:space="preserve">
+    <value>功能設定</value>
+  </data>
+  <data name="gpbFunction.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPreviousPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve4CTUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve2CTUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve3CTUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValve1CTUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>閥4</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAugerValveCTThreshold.ToolTip" xml:space="preserve">
+    <value>螺桿閥過電流保護設定</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>閥3</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScrewValveNo2CTThreshold.Text" xml:space="preserve">
+    <value>閥2</value>
+  </data>
+  <data name="lblScrewValveNo2CTThreshold.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerValveCTThreshold3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScrewValveNo1CTThreshold.Text" xml:space="preserve">
+    <value>閥1</value>
+  </data>
+  <data name="lblScrewValveNo1CTThreshold.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerValveCTThreshold4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerValveCTThreshold1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAugerValveCTThreshold2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbAugerValveCTThreshold.Text" xml:space="preserve">
+    <value>螺桿閥過電流保護</value>
+  </data>
+  <data name="gpbAugerValveCTThreshold.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveMachineType.ToolTip" xml:space="preserve">
+    <value>儲存機台型號</value>
+  </data>
+  <data name="cboMachineType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMachineType.Text" xml:space="preserve">
+    <value>機台型號</value>
+  </data>
+  <data name="lblMachineType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>機台型號</value>
+  </data>
+  <data name="GroupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="cboConveyorModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblConveyorModel.Text" xml:space="preserve">
+    <value>傳送帶模式</value>
+  </data>
+  <data name="lblConveyorModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboCCDOnFly.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDOnFly.Text" xml:space="preserve">
+    <value>CCD飛拍</value>
+  </data>
+  <data name="lblCCDOnFly.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboMultiDispense.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMultiDispense.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboZHeightDevice.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label27.Text" xml:space="preserve">
+    <value>測高設備</value>
+  </data>
+  <data name="Label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnMechanismModule.ToolTip" xml:space="preserve">
+    <value>設定機構</value>
+  </data>
+  <data name="lblCCDModuleType.Text" xml:space="preserve">
+    <value>CCD 固定方式</value>
+  </data>
+  <data name="lblCCDModuleType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboCCDModuleType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStageUseValveCount.Text" xml:space="preserve">
+    <value>閥 /平台 </value>
+  </data>
+  <data name="lblStageUseValveCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboStageUseValveCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbMechanismSoftware.Text" xml:space="preserve">
+    <value>機構配置</value>
+  </data>
+  <data name="gpbMechanismSoftware.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo4ValveTypeModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ComboBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo3ValveTypeModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo2ValveTypeModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo1ValveTypeModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo4ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispenserNo4ValveType.Text" xml:space="preserve">
+    <value>閥4型號</value>
+  </data>
+  <data name="lblDispenserNo4ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo3ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispenserNo3ValveType.Text" xml:space="preserve">
+    <value>閥3型號</value>
+  </data>
+  <data name="lblDispenserNo3ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo2ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispenserNo2ValveType.Text" xml:space="preserve">
+    <value>閥2型號</value>
+  </data>
+  <data name="lblDispenserNo2ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboDispenserNo1ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDispenserNo1ValveType.Text" xml:space="preserve">
+    <value>閥1型號</value>
+  </data>
+  <data name="lblDispenserNo1ValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveType.ToolTip" xml:space="preserve">
+    <value>設定閥型號</value>
+  </data>
+  <data name="gpbValveType.Text" xml:space="preserve">
+    <value>閥型號</value>
+  </data>
+  <data name="gpbValveType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabMechanismModule.Text" xml:space="preserve">
+    <value>機構設定</value>
+  </data>
+  <data name="tabMechanismModule.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMapDataPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBack3.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="rdbTorr.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbBar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbPsi.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbKg.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbMPa.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetAirPressureUnit.ToolTip" xml:space="preserve">
+    <value>設定空壓單位</value>
+  </data>
+  <data name="grpAirPressureUnit.Text" xml:space="preserve">
+    <value>氣壓單位</value>
+  </data>
+  <data name="grpAirPressureUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbInch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbmm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetPositionUnit.ToolTip" xml:space="preserve">
+    <value>設定移動單位</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>機台設定</value>
+  </data>
+  <data name="GroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>存檔方式</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbCCDImageSaveMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCCDImagePath.ToolTip" xml:space="preserve">
+    <value>載入CCD照片路徑</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>檔案路徑</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCCDImageFolderPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveImage.ToolTip" xml:space="preserve">
+    <value>設定存檔方式</value>
+  </data>
+  <data name="grpCCDImage.Text" xml:space="preserve">
+    <value>CCD影像設定</value>
+  </data>
+  <data name="grpCCDImage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLogPath.ToolTip" xml:space="preserve">
+    <value>載入日誌路徑</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Log路徑</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>設備名稱</value>
+  </data>
+  <data name="Label29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLogPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMachineID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetMachine.ToolTip" xml:space="preserve">
+    <value>設定設備名稱</value>
+  </data>
+  <data name="GroupBox3.Text" xml:space="preserve">
+    <value>功能設定</value>
+  </data>
+  <data name="GroupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLanguageType.Text" xml:space="preserve">
+    <value>語言(Language)</value>
+  </data>
+  <data name="lblLanguageType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveLanguage.ToolTip" xml:space="preserve">
+    <value>設定語言</value>
+  </data>
+  <data name="cboLanguageType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>語言設定</value>
+  </data>
+  <data name="GroupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabBasicFunction.Text" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="tabBasicFunction.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPathMultiple.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>安全倍數</value>
+  </data>
+  <data name="Label31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox8.Text" xml:space="preserve">
+    <value>延伸路徑</value>
+  </data>
+  <data name="GroupBox8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label34.Text" xml:space="preserve">
+    <value>最大點膠速度</value>
+  </data>
+  <data name="Label34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label32.Text" xml:space="preserve">
+    <value>最大跨元件速度</value>
+  </data>
+  <data name="Label32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaxDispVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaxCrossDevieVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaxCrossStepVelocity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>最大跨步驟速度</value>
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetVelocity.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Label35.Text" xml:space="preserve">
+    <value>等速段時間</value>
+  </data>
+  <data name="Label35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConstVelocityTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>振動抑制</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetCvDirection.ToolTip" xml:space="preserve">
+    <value>設定傳送帶方向</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rbtnUnloadReversal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnUnloadReversal.Text" xml:space="preserve">
+    <value>反轉</value>
+  </data>
+  <data name="rbtnUnloadReversal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnUnloadForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnUnloadForward.Text" xml:space="preserve">
+    <value>正轉</value>
+  </data>
+  <data name="rbtnUnloadForward.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value>退料</value>
+  </data>
+  <data name="GroupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnLoadReversal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnLoadReversal.Text" xml:space="preserve">
+    <value>反轉</value>
+  </data>
+  <data name="rbtnLoadReversal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnLoadForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="rbtnLoadForward.Text" xml:space="preserve">
+    <value>正轉</value>
+  </data>
+  <data name="rbtnLoadForward.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox6.Text" xml:space="preserve">
+    <value>進料</value>
+  </data>
+  <data name="GroupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpConveyor.Text" xml:space="preserve">
+    <value>輸送帶</value>
+  </data>
+  <data name="grpConveyor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label38.Text" xml:space="preserve">
+    <value>觸發板估算距離</value>
+  </data>
+  <data name="Label38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPrecisionTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemperatureToleranceUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemperatureTolerance.Text" xml:space="preserve">
+    <value>溫度</value>
+  </data>
+  <data name="lblTemperatureTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTemperatureTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPressureToleranceUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPressureTolerance.Text" xml:space="preserve">
+    <value>壓力</value>
+  </data>
+  <data name="lblPressureTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPressureTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTriggerToleranceUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMotionToleranceUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTolerance.ToolTip" xml:space="preserve">
+    <value>設定容許誤差</value>
+  </data>
+  <data name="lblTirggerTolerance.Text" xml:space="preserve">
+    <value>觸發板</value>
+  </data>
+  <data name="lblTirggerTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMotionTolerance.Text" xml:space="preserve">
+    <value>運動</value>
+  </data>
+  <data name="lblMotionTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMotionTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTirggerTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbTolerance.Text" xml:space="preserve">
+    <value>容許誤差</value>
+  </data>
+  <data name="gpbTolerance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb2.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="rb2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb3.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="rb3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb4.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="rb4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rb1.Text" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="rb1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>移動到校正位置</value>
+  </data>
+  <data name="lbTiltStage4.Text" xml:space="preserve">
+    <value>平台4</value>
+  </data>
+  <data name="lbTiltStage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTiltStage3.Text" xml:space="preserve">
+    <value>平台3</value>
+  </data>
+  <data name="lbTiltStage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTiltStage2.Text" xml:space="preserve">
+    <value>平台2</value>
+  </data>
+  <data name="lbTiltStage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTiltStage1.Text" xml:space="preserve">
+    <value>平台1</value>
+  </data>
+  <data name="lbTiltStage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetTilt.ToolTip" xml:space="preserve">
+    <value>設定 Tilt</value>
+  </data>
+  <data name="cboB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpTiltSet.Text" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="gpTiltSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labCorrectionmg4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCorrectionWeightLower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labCorrectionmg3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCorrectionWeightUpper.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labWeightLower.Text" xml:space="preserve">
+    <value>最小重量</value>
+  </data>
+  <data name="labWeightLower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labWeightUpper.Text" xml:space="preserve">
+    <value>最大重量</value>
+  </data>
+  <data name="labWeightUpper.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labCorrectionmg2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCorrectionLSL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labCorrectionmg1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCorrectionUSL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labCorrectionLSL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCorrectionSet.ToolTip" xml:space="preserve">
+    <value>補正設定</value>
+  </data>
+  <data name="labCorrectionUSL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labCorrection.Text" xml:space="preserve">
+    <value>重試次數:</value>
+  </data>
+  <data name="labCorrection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCorrectionSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCorrection.Text" xml:space="preserve">
+    <value>補正.</value>
+  </data>
+  <data name="cbCorrection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbNonCorrection.Text" xml:space="preserve">
+    <value>非補正.</value>
+  </data>
+  <data name="cbNonCorrection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnWeightSet.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnWeightSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWeighingSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableBWeightMeasure.Text" xml:space="preserve">
+    <value>B機天平重量提醒</value>
+  </data>
+  <data name="cbEnableBWeightMeasure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCleanWeightB.Text" xml:space="preserve">
+    <value>B 機清除計數</value>
+  </data>
+  <data name="btnCleanWeightB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWeightmeasurementB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableAWeightMeasure.Text" xml:space="preserve">
+    <value>A機天平重量提醒</value>
+  </data>
+  <data name="cbEnableAWeightMeasure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCleanWeightA.Text" xml:space="preserve">
+    <value>A 機清除計數</value>
+  </data>
+  <data name="btnCleanWeightA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWeightmeasurementA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpWeight.Text" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="grpWeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label26.Text" xml:space="preserve">
+    <value>加熱穩定時間</value>
+  </data>
+  <data name="Label26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcPriorHeatTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcSensorTimeOut.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>感測器逾時</value>
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16.Text" xml:space="preserve">
+    <value>測高穩定時間</value>
+  </data>
+  <data name="Label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcLaserStableTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>定位穩定時間</value>
+  </data>
+  <data name="Label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetTime.ToolTip" xml:space="preserve">
+    <value>設定穩定時間</value>
+  </data>
+  <data name="nmcCCDStableTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpStableTime.Text" xml:space="preserve">
+    <value>時間設定</value>
+  </data>
+  <data name="grpStableTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEnableInitialHotPlate.Text" xml:space="preserve">
+    <value>初始化加熱保持</value>
+  </data>
+  <data name="cbEnableInitialHotPlate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcMinHotplateTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>加熱平台最小溫度</value>
+  </data>
+  <data name="Label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcMaxHotplateTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>加熱平台最大溫度</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcMaxValveTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>閥最大溫度</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetSafeTemp.ToolTip" xml:space="preserve">
+    <value>設定安全溫度</value>
+  </data>
+  <data name="nmcSafeTemperature.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSafeOpenDoor.Text" xml:space="preserve">
+    <value>可開門溫度</value>
+  </data>
+  <data name="lblSafeOpenDoor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpSafeTemperature.Text" xml:space="preserve">
+    <value>安全溫度</value>
+  </data>
+  <data name="grpSafeTemperature.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIsReset.Text" xml:space="preserve">
+    <value>系統啟動重新計時</value>
+  </data>
+  <data name="chkIsReset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGlueDetector4.Text" xml:space="preserve">
+    <value>膠量檢知4</value>
+  </data>
+  <data name="lblGlueDetector4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGlueDetector3.Text" xml:space="preserve">
+    <value>膠量檢知3</value>
+  </data>
+  <data name="lblGlueDetector3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGlueDetector2.Text" xml:space="preserve">
+    <value>膠量檢知2</value>
+  </data>
+  <data name="lblGlueDetector2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGlueDetector1.Text" xml:space="preserve">
+    <value>膠量檢知1</value>
+  </data>
+  <data name="lblGlueDetector1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBypassDetectGlueNo4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBypassDetectGlueNo3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBypassDetectGlueNo2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBypassDetectGlueNo1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbDetectGlue.Text" xml:space="preserve">
+    <value>膠量檢測</value>
+  </data>
+  <data name="gpbDetectGlue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBack2.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="tabCommonFunction.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="tabCommonFunction.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabCharge.Text" xml:space="preserve">
+    <value>付費功能</value>
+  </data>
+  <data name="tabCharge.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>系統設定</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

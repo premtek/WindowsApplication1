@@ -1,0 +1,1152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblArrayYPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 177</value>
+  </data>
+  <data name="lblArrayYPitch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblArrayYPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="nmcStartPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="lblArrayXPitch.Text" xml:space="preserve">
+    <value>Array X Pitch</value>
+  </data>
+  <data name="btnSetStartPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcArrayYCount.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;grpArray.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblArrayPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.Name" xml:space="preserve">
+    <value>nmcEndPosY</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcArrayXPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYPitch.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="nmcArrayXPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 77</value>
+  </data>
+  <data name="nmcEndPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 230</value>
+  </data>
+  <data name="lblArrayXPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>471</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblArrayYCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 127</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="nmcStartPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblArrayYPitch.Text" xml:space="preserve">
+    <value>Array Y Pitch</value>
+  </data>
+  <data name="grpArray.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="nmcArrayYPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="lblArrayPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="lblArrayYCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpArray.Name" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 180</value>
+  </data>
+  <data name="nmcArrayYPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>End Pos X</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="btnGoEndPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="grpArray.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblArrayXCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSetStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 30</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcArrayYCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblArrayXCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nmcArrayXPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="btnSetStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.Name" xml:space="preserve">
+    <value>btnSetStartPos</value>
+  </data>
+  <data name="btnGoEndPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 250</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 230</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblArrayXPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcArrayXPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.Name" xml:space="preserve">
+    <value>btnGoStartPos</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosXUnit.Name" xml:space="preserve">
+    <value>lblArrayPosXUnit</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.Name" xml:space="preserve">
+    <value>nmcStartPosZ</value>
+  </data>
+  <data name="lblArrayXPitch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="lblArrayPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYPitch.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="lblArrayYPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcStartPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetPitch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnSetStartPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="btnSetPitch.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcStartPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblArrayPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 80</value>
+  </data>
+  <data name="nmcStartPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 80</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXPitch.Name" xml:space="preserve">
+    <value>nmcArrayXPitch</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="nmcStartPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;grpArray.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>486</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.Name" xml:space="preserve">
+    <value>nmcArrayYCount</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="lblArrayPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblArrayPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="lblArrayXPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYPitch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblArrayPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnSetPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 77</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosYUnit.Name" xml:space="preserve">
+    <value>lblArrayPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXPitch.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nmcArrayYCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 127</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblArrayPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 180</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGoStartPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXPitch.Name" xml:space="preserve">
+    <value>lblArrayXPitch</value>
+  </data>
+  <data name="nmcStartPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 177</value>
+  </data>
+  <data name="nmcArrayYPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 177</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosY.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpArray.Text" xml:space="preserve">
+    <value>Array</value>
+  </data>
+  <data name="nmcArrayXCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="btnGoEndPos.ToolTip" xml:space="preserve">
+    <value>Move To End Position</value>
+  </data>
+  <data name="lblArrayYCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.Name" xml:space="preserve">
+    <value>btnSetEndPos</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcEndPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcArrayYCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetEndPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.Name" xml:space="preserve">
+    <value>nmcStartPosX</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnSetPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblArrayXCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 27</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="btnSetPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnGoStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nmcStartPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblArrayPosX.Text" xml:space="preserve">
+    <value>Start Pos X</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="nmcEndPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="btnSetStartPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosY.Name" xml:space="preserve">
+    <value>lblArrayPosY</value>
+  </data>
+  <data name="&gt;&gt;btnSetStartPos.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblArrayPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnGoEndPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblArrayPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGoStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="nmcArrayXCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblArrayYCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="nmcStartPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosXUnit.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="nmcEndPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblArrayPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="btnGoStartPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="btnGoStartPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblArrayPosY.Text" xml:space="preserve">
+    <value>Start Pos Y</value>
+  </data>
+  <data name="lblArrayPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayXPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 77</value>
+  </data>
+  <data name="nmcEndPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 180</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.Name" xml:space="preserve">
+    <value>nmcArrayXCount</value>
+  </data>
+  <data name="btnGoEndPos.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosYUnit.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblArrayPosXUnit.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcStartPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblArrayXCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcArrayYPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetPitch.Name" xml:space="preserve">
+    <value>btnSetPitch</value>
+  </data>
+  <data name="nmcArrayYCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcEndPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 130</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.Name" xml:space="preserve">
+    <value>lblArrayYCount</value>
+  </data>
+  <data name="btnSetPitch.Text" xml:space="preserve">
+    <value>Pitch Set</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXPitch.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="lblArrayPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="lblArrayPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYPitch.Name" xml:space="preserve">
+    <value>nmcArrayYPitch</value>
+  </data>
+  <data name="btnSetEndPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 180</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcArrayXCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>577, 27</value>
+  </data>
+  <data name="btnGoEndPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayYPitch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>End Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYPitch.Name" xml:space="preserve">
+    <value>lblArrayYPitch</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="nmcStartPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcArrayXPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblArrayYCount.TabIndex" type="System.Int32, mscorlib">
+    <value>472</value>
+  </data>
+  <data name="btnGoStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 100</value>
+  </data>
+  <data name="lblArrayPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="nmcStartPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="btnGoEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblArrayPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="&gt;&gt;btnGoStartPos.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnSetStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>485</value>
+  </data>
+  <data name="nmcArrayYPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblArrayXCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblArrayPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblArrayYCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="btnSetEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXPitch.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 230</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosY.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucLevelArray</value>
+  </data>
+  <data name="btnGoStartPos.ToolTip" xml:space="preserve">
+    <value>Move To Start Position</value>
+  </data>
+  <data name="nmcEndPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetEndPos.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="lblArrayPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 30</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblArrayYCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYCount.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="lblArrayYCount.Text" xml:space="preserve">
+    <value>Array Y Count</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetStartPos.ToolTip" xml:space="preserve">
+    <value>Set Start Position</value>
+  </data>
+  <data name="grpArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="nmcEndPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcStartPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="nmcEndPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="lblArrayXCount.Text" xml:space="preserve">
+    <value>Array X Count</value>
+  </data>
+  <data name="btnSetEndPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="lblArrayXCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosX.Name" xml:space="preserve">
+    <value>lblArrayPosX</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>829, 328</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.Name" xml:space="preserve">
+    <value>lblArrayXCount</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="lblArrayXPitch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcStartPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="grpArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>829, 328</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Start Pos Z</value>
+  </data>
+  <data name="lblArrayPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayXCount.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="nmcArrayXCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosYUnit.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="nmcStartPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 130</value>
+  </data>
+  <data name="lblArrayYCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosX.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>697, 77</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>473</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosX.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosY.Name" xml:space="preserve">
+    <value>nmcStartPosY</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="grpArray.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArrayPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="nmcArrayXCount.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="lblArrayYPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcEndPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;nmcStartPosZ.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="lblArrayPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="btnGoStartPos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="grpArray.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArrayPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXPitch.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;lblArrayPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArrayXCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblArrayXPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 30</value>
+  </data>
+  <data name="btnGoEndPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetEndPos.ToolTip" xml:space="preserve">
+    <value>Set End Position</value>
+  </data>
+  <data name="btnSetEndPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblArrayYPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>470</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnGoEndPos.Name" xml:space="preserve">
+    <value>btnGoEndPos</value>
+  </data>
+  <data name="&gt;&gt;nmcArrayYPitch.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="lblArrayXCount.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="btnSetEndPos.TabIndex" type="System.Int32, mscorlib">
+    <value>484</value>
+  </data>
+  <data name="&gt;&gt;btnSetPitch.Parent" xml:space="preserve">
+    <value>grpArray</value>
+  </data>
+  <data name="&gt;&gt;nmcEndPosX.Name" xml:space="preserve">
+    <value>nmcEndPosX</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

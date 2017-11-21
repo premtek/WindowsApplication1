@@ -1,0 +1,759 @@
+﻿'Eason 20170109 Ticket:100010 , Add Dot Line Recipe Parameter
+Imports ProjectRecipe
+Imports ProjectCore
+
+
+''' <summary>
+''' Dot Parameter Class
+''' </summary>
+''' <remarks></remarks>
+Public Class ucDotTypeParameter
+
+#Region "Enum"
+
+    ''' <summary>
+    ''' Min : only Data show
+    ''' Total : have IO Save/Update/Del/Select 
+    ''' </summary>
+    ''' <remarks></remarks>
+    Public Enum ShowType As Integer
+        Min
+        Total
+    End Enum
+
+#End Region
+
+#Region "Const"
+
+    Private sizeCol0Width As Integer = 328
+
+    Private sizeCol1Width As Integer = 76
+
+    Private FileExtension As String = ".ddb"
+
+    Private FilePath As String = Application.StartupPath & "\Database\DotValue\"
+
+#End Region
+
+#Region "Private Var"
+
+    Private mlstDotValueSelectedItem As String = ""
+
+    Private mOutLink_DotValueDB As New Dictionary(Of String, CDotTypeParameter)
+
+    Private mNowShowData As CDotTypeParameter = Nothing
+
+    Private mShowType As ShowType = ShowType.Total
+
+    Dim TipType As New ToolTip()
+
+#End Region
+
+#Region "Private Function"
+
+    Private Function fnGetDotValueDbFileName(sName As String) As String
+        Return FilePath & sName & FileExtension
+    End Function
+
+    Private Sub fnBeginInvokeTextBackColor(ByVal usContorl As Control, ByVal cColor As Color)
+        '20170929 Toby_ Add 判斷
+        If (Not IsNothing(Parent)) Then
+            Me.BeginInvoke(Sub()
+                               usContorl.BackColor = cColor
+                           End Sub)
+        End If
+    End Sub
+
+    Private Sub fnSetupToolTip()
+
+        TipType = New ToolTip()
+        TipType.Active = True  '取得或設定值，指出工具提示目前是否在作用中。
+        TipType.AutomaticDelay = 200  '取得或設定工具提示的自動延遲。
+        TipType.AutoPopDelay = 20000    '取得或設定當指標靜止於含指定工具提示文字的控制項上時，工具提示保持可見的時間。
+        TipType.BackColor = Color.Black   '取得或設定工具提示的背景色彩。
+        'TipType.CanRaiseEvents = True  '取得值，指出元件是否能引發事件。 (繼承自 Component)。
+        'TipType.Container = AcceptButton   '取得包含 Component 的 IContainer。 (繼承自 Component)。
+        'TipType.CreateParams()    '基礎架構。取得工具提示視窗的建立參數。
+        'TipType.DesignMode()  '取得值，指出 Component 目前是否處於設計模式。 (繼承自 Component)。
+        'TipType.Events()  '取得附加在這個 Component 上的事件處理常式清單。 (繼承自 Component)。
+        TipType.ForeColor = Color.Lime   '取得或設定工具提示的前景色彩。
+        TipType.InitialDelay = 1    '取得或設定在工具提示出現之前，所經過的時間。
+        TipType.IsBalloon = True   '取得或設定值，指出工具提示是否應該使用汽球樣式的視窗。
+        TipType.OwnerDraw = True   '取得或設定值，指出要由作業系統繪製工具提示或是由您提供的程式碼繪製。
+        TipType.ReshowDelay = 1 '(取得或設定當指標從某個控制項移動到另一個控制項時, 在後續工具提示視窗出現之前, 必須經)
+        TipType.ShowAlways = True  '取得或設定值，指出即使父控制項為非現用時，是否也會顯示工具提示視窗。
+        'TipType.Site    '取得或設定 Component 的 ISite。 (繼承自 Component)。
+        TipType.StripAmpersands = True '取得或設定值，以便判斷連字號 (&) 字元的處理方式。
+        'TipType.Tag '取得或設定物件，其中含有與 ToolTip 關聯之程式設計人員提供的資料。
+        TipType.ToolTipIcon = ToolTipIcon.Info '取得或設定值，以便定義要顯示在工具提示文字旁的圖示類型。
+        TipType.ToolTipTitle = "Format"  '取得或設定工具提示視窗的標題。
+        TipType.UseAnimation = True    '取得或設定值，以便判斷顯示工具提示時是否應該使用動畫效果。
+        TipType.UseFading = True   '取得或設定值，以便判斷顯示工具提示時是否應該使用淡出效果。
+        TipType.IsBalloon = True '取得或設定值，指出工具提示是否應該使用汽球樣式的視窗。
+
+        TipType.SetToolTip(textDotSettlingTime, "Value : >= 0 ")
+        TipType.SetToolTip(textDotDownSpeed, "Value : > 10 ")
+        TipType.SetToolTip(textDotDownAcc, "Value : > 0 ")
+        TipType.SetToolTip(textDotDispenseGap, "Value : + , - , 0 ")
+
+        TipType.SetToolTip(textDotValveOnTime, "Value : > 0 ")
+        TipType.SetToolTip(textDotNumberOfShots, "Value : > 0 ")
+        TipType.SetToolTip(textDotMultiShotDelta, "Value : >= 0 ")
+
+        TipType.SetToolTip(textDotDwellTime, "Value : >= 0 ")
+        TipType.SetToolTip(textDotRetractDistance, "Value : >= 0 ")
+        TipType.SetToolTip(textDotRetractSpeed, "Value : > 10 ")
+        TipType.SetToolTip(textDotRetractAcc, "Value : > 0 ")
+        TipType.SetToolTip(textDotSuckBack, "Value : >= 0 ")
+
+    End Sub
+
+    Private Function fnCheckDotTextboxData() As Boolean
+
+        Dim DataCheck As Boolean = True
+        'Pre- Dispense -------------------------------------------------------------------
+        'Settling Time : >= 0
+        If (IsNumeric(textDotSettlingTime.Text) AndAlso Val(textDotSettlingTime.Text) >= 0) Then
+            fnBeginInvokeTextBackColor(textDotSettlingTime, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotSettlingTime, Color.Yellow)
+            DataCheck = False
+        End If
+        'Down Speed : > 10
+        If (IsNumeric(textDotDownSpeed.Text) AndAlso Val(textDotDownSpeed.Text) > 10) Then
+            fnBeginInvokeTextBackColor(textDotDownSpeed, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotDownSpeed, Color.Yellow)
+            DataCheck = False
+        End If
+        'Down Acc : > 0
+        If (IsNumeric(textDotDownAcc.Text) AndAlso Val(textDotDownAcc.Text) > 0) Then
+            fnBeginInvokeTextBackColor(textDotDownAcc, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotDownAcc, Color.Yellow)
+            DataCheck = False
+        End If
+        'Dispense Gap : +- 
+        If (IsNumeric(textDotDispenseGap.Text)) Then
+            fnBeginInvokeTextBackColor(textDotDispenseGap, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotDispenseGap, Color.Yellow)
+            DataCheck = False
+        End If
+        'During- Dispense -------------------------------------------------------------------
+        'Valve On Time : > 0
+        If (IsNumeric(textDotValveOnTime.Text) AndAlso Val(textDotValveOnTime.Text) > 0) Then
+            fnBeginInvokeTextBackColor(textDotValveOnTime, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotValveOnTime, Color.Yellow)
+            DataCheck = False
+        End If
+        'Number of Shot : > 0
+        If (IsNumeric(textDotNumberOfShots.Text) AndAlso Val(textDotNumberOfShots.Text) > 0) Then
+            fnBeginInvokeTextBackColor(textDotNumberOfShots, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotNumberOfShots, Color.Yellow)
+            DataCheck = False
+        End If
+        'Multi-shot : >= 0
+        If (IsNumeric(textDotMultiShotDelta.Text) AndAlso Val(textDotMultiShotDelta.Text) >= 0) Then
+            fnBeginInvokeTextBackColor(textDotMultiShotDelta, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotMultiShotDelta, Color.Yellow)
+            DataCheck = False
+        End If
+        'Post- Dispense -------------------------------------------------------------------
+        'Dwell Time : > 0  textDotDwellTime
+        If (IsNumeric(textDotDwellTime.Text) AndAlso Val(textDotDwellTime.Text) >= 0) Then
+            fnBeginInvokeTextBackColor(textDotDwellTime, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotDwellTime, Color.Yellow)
+            DataCheck = False
+        End If
+        'Retract Distance : > 0 textDotRetractDistance
+        If (IsNumeric(textDotRetractDistance.Text) AndAlso Val(textDotRetractDistance.Text) >= 0) Then
+            fnBeginInvokeTextBackColor(textDotRetractDistance, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotRetractDistance, Color.Yellow)
+            DataCheck = False
+        End If
+        'Retract Speed : > 10 textDotRetractSpeed
+        If (IsNumeric(textDotRetractSpeed.Text) AndAlso Val(textDotRetractSpeed.Text) > 10) Then
+            fnBeginInvokeTextBackColor(textDotRetractSpeed, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotRetractSpeed, Color.Yellow)
+            DataCheck = False
+        End If
+        'Retract Acc : > 0 textDotRetractAcc
+        If (IsNumeric(textDotRetractAcc.Text) AndAlso Val(textDotRetractAcc.Text) > 0) Then
+            fnBeginInvokeTextBackColor(textDotRetractAcc, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotRetractAcc, Color.Yellow)
+            DataCheck = False
+        End If
+        'Retract SuckBack : >= 0 textDotSuckBack
+        If (IsNumeric(textDotSuckBack.Text) AndAlso Val(textDotSuckBack.Text) >= 0) Then
+            fnBeginInvokeTextBackColor(textDotSuckBack, System.Drawing.SystemColors.Window)
+        Else
+            fnBeginInvokeTextBackColor(textDotSuckBack, Color.Yellow)
+            DataCheck = False
+        End If
+        '========================================================================================
+        'Below old 
+        'If (Not IsNumeric(textDotSettlingTime.Text) Or Val(textDotSettlingTime.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotSettlingTime, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotSettlingTime, System.Drawing.SystemColors.Window)
+        'End If
+        'Down Speed : Can't set 0
+        'If (Not IsNumeric(textDotDownSpeed.Text) Or Val(textDotDownSpeed.Text) <= 0) Then
+        '    fnBeginInvokeTextBackColor(textDotDownSpeed, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotDownSpeed, System.Drawing.SystemColors.Window)
+        'End If
+        'Down Acc : Can't set 0
+        'If (Not IsNumeric(textDotDownAcc.Text) Or Val(textDotDownAcc.Text) <= 0) Then
+        '    fnBeginInvokeTextBackColor(textDotDownAcc, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotDownAcc, System.Drawing.SystemColors.Window)
+        'End If
+        'Dispense Gap : can set 0
+        'If (Not IsNumeric(textDotDispenseGap.Text) Or Val(textDotDispenseGap.Text) <= 0) Then
+        'If (Not IsNumeric(textDotDispenseGap.Text) Or Val(textDotDispenseGap.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotDispenseGap, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotDispenseGap, System.Drawing.SystemColors.Window)
+        'End If
+        'During- Dispense -------------------------------------------------------------------
+        'Valve On Time : can set 0
+        'If (Not IsNumeric(textDotValveOnTime.Text) Or Val(textDotValveOnTime.Text) <= 0) Then
+        'If (Not IsNumeric(textDotValveOnTime.Text) Or Val(textDotValveOnTime.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotValveOnTime, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotValveOnTime, System.Drawing.SystemColors.Window)
+        'End If
+        'Number of Shot : can't set 0
+        'If (Not IsNumeric(textDotNumberOfShots.Text) Or Val(textDotNumberOfShots.Text) <= 0) Then
+        '    fnBeginInvokeTextBackColor(textDotNumberOfShots, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotNumberOfShots, System.Drawing.SystemColors.Window)
+        'End If
+        'Multi-shot : can set 0
+        'If (Not IsNumeric(textDotMultiShotDelta.Text) Or Val(textDotMultiShotDelta.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotMultiShotDelta, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotMultiShotDelta, System.Drawing.SystemColors.Window)
+        'End If
+        'Post- Dispense -------------------------------------------------------------------
+        'Dwell Time : can set 0
+        'If (Not IsNumeric(textDotDwellTime.Text) Or Val(textDotDwellTime.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotDwellTime, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotDwellTime, System.Drawing.SystemColors.Window)
+        'End If
+        ''Retract Distance : can set 0
+        'If (Not IsNumeric(textDotRetractDistance.Text) Or Val(textDotRetractDistance.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotRetractDistance, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotRetractDistance, System.Drawing.SystemColors.Window)
+        'End If
+        ''Retract Speed : can't set 0
+        'If (Not IsNumeric(textDotRetractSpeed.Text) Or Val(textDotRetractSpeed.Text) <= 0) Then
+        '    fnBeginInvokeTextBackColor(textDotRetractSpeed, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotRetractSpeed, System.Drawing.SystemColors.Window)
+        'End If
+        ''Retract Acc : can't set 0
+        'If (Not IsNumeric(textDotRetractAcc.Text) Or Val(textDotRetractAcc.Text) <= 0) Then
+        '    fnBeginInvokeTextBackColor(textDotRetractAcc, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotRetractAcc, System.Drawing.SystemColors.Window)
+        'End If
+        ''Retract SuckBack : can set 0
+        'If (Not IsNumeric(textDotSuckBack.Text) Or Val(textDotSuckBack.Text) < 0) Then
+        '    fnBeginInvokeTextBackColor(textDotSuckBack, Color.Yellow)
+        '    DataCheck = False
+        'Else
+        '    fnBeginInvokeTextBackColor(textDotSuckBack, System.Drawing.SystemColors.Window)
+        'End If
+        '-----------------------------------------------------------------------------------------------
+        Return DataCheck
+
+    End Function
+
+    Private Function GetDotValveDB(ByRef dotValveParam As CDotTypeParameter) As Boolean
+
+        If (fnCheckDotTextboxData() = True) Then
+
+            dotValveParam.Name = txtDotDB.Text
+
+            dotValveParam.PreSettlingTime = Val(textDotSettlingTime.Text)
+            dotValveParam.PreDownSpeed = Val(textDotDownSpeed.Text)
+            dotValveParam.PreDownAcc = Val(textDotDownAcc.Text)
+            dotValveParam.PreDispenseGap = Val(textDotDispenseGap.Text)
+
+            dotValveParam.DuringValveOnTime = Val(textDotValveOnTime.Text)
+            dotValveParam.DuringNumberOfShots = Val(textDotNumberOfShots.Text)
+            dotValveParam.DuringMultiShotDelta = Val(textDotMultiShotDelta.Text)
+
+            dotValveParam.PostDwellTime = Val(textDotDwellTime.Text)
+            dotValveParam.PostRetractDistance = Val(textDotRetractDistance.Text)
+            dotValveParam.PostRetractSpeed = Val(textDotRetractSpeed.Text)
+            dotValveParam.PostRetractAcc = Val(textDotRetractAcc.Text)
+            dotValveParam.PostSuckBack = Val(textDotSuckBack.Text)
+        Else
+            Return False
+        End If
+
+        Return True
+
+    End Function
+
+    Private Sub ShowDotValue(ByVal dotValveParam As CDotTypeParameter)
+        '20170929 Toby_ Add 判斷
+        If (Not IsNothing(Parent)) Then
+            Me.BeginInvoke(Sub()
+                               txtDotDB.Text = dotValveParam.Name
+                               textDotSettlingTime.Text = dotValveParam.PreSettlingTime
+                               textDotDownSpeed.Text = dotValveParam.PreDownSpeed
+                               textDotDownAcc.Text = dotValveParam.PreDownAcc
+                               textDotDispenseGap.Text = dotValveParam.PreDispenseGap
+
+                               textDotValveOnTime.Text = dotValveParam.DuringValveOnTime
+                               textDotNumberOfShots.Text = dotValveParam.DuringNumberOfShots
+                               textDotMultiShotDelta.Text = dotValveParam.DuringMultiShotDelta
+
+                               textDotDwellTime.Text = dotValveParam.PostDwellTime
+                               textDotRetractDistance.Text = dotValveParam.PostRetractDistance
+                               textDotRetractSpeed.Text = dotValveParam.PostRetractSpeed
+                               textDotRetractAcc.Text = dotValveParam.PostRetractAcc
+                               textDotSuckBack.Text = dotValveParam.PostSuckBack
+                           End Sub)
+        End If
+    End Sub
+
+#End Region
+
+#Region "Public Function , Property"
+    ''' <summary>
+    ''' Select Recipe Name 
+    ''' </summary>
+    ''' <value></value>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Public Property SelectItemName As String
+        Set(value As String)
+            mlstDotValueSelectedItem = value
+
+        End Set
+        Get
+            Return mlstDotValueSelectedItem
+        End Get
+    End Property
+
+    ''' <summary>
+    ''' Link Global Data
+    ''' </summary>
+    ''' <param name="OutLink_DotValueDB"></param>
+    ''' <remarks></remarks>
+    Public Sub SetupDataLink(OutLink_DotValueDB As Dictionary(Of String, CDotTypeParameter))
+        mOutLink_DotValueDB = OutLink_DotValueDB
+    End Sub
+
+    Public ReadOnly Property NowData As CDotTypeParameter
+        Get
+            Return mNowShowData
+        End Get
+        'Set(value As CDotTypeParameter)
+        '    _NowShowData = value
+        'End Set
+    End Property
+
+    ''' <summary>
+    ''' Min : only Data show
+    ''' Total : have IO Save/Update/Del/Select 
+    ''' </summary>
+    ''' <value></value>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Public Property Type As ShowType
+
+        Set(value As ShowType)
+            mShowType = value
+            Select Case mShowType
+
+                Case ShowType.Min
+                    TableLayoutPanel1.ColumnStyles(0).Width = 0
+                    TableLayoutPanel1.ColumnStyles(1).Width = 0
+                    TableLayoutPanel1.RowStyles(3).Height = 0
+                Case ShowType.Total
+                    TableLayoutPanel1.ColumnStyles(0).Width = sizeCol0Width
+                    TableLayoutPanel1.ColumnStyles(1).Width = sizeCol1Width
+                    TableLayoutPanel1.RowStyles(3).Height = 30
+                Case Else
+                    TableLayoutPanel1.ColumnStyles(0).Width = sizeCol0Width
+                    TableLayoutPanel1.ColumnStyles(1).Width = sizeCol1Width
+                    TableLayoutPanel1.RowStyles(3).Height = 30
+
+            End Select
+
+
+            Me.Refresh()
+        End Set
+        Get
+            Return mShowType
+        End Get
+
+    End Property
+    ''' <summary>
+    ''' lst 資造更新
+    ''' </summary>
+    ''' <remarks></remarks>
+    Public Sub DotValveDB_Update(Optional selectName As String = "")
+        '20170929 Toby_ Add 判斷
+        If (Not IsNothing(Parent)) Then
+            Me.BeginInvoke(Sub()
+                               lstDotDB.Items.Clear()
+                               For i As Integer = 0 To mOutLink_DotValueDB.Count - 1
+                                   lstDotDB.Items.Add(mOutLink_DotValueDB.Keys(i))
+                               Next
+                               If (selectName <> "") Then
+                                   For Each item As Object In lstDotDB.Items
+                                       If (item.ToString = selectName) Then
+                                           lstDotDB.SelectedItem = item
+                                           Exit For
+                                       End If
+                                   Next
+                               End If
+                           End Sub)
+        End If
+    End Sub
+#End Region
+    Public RecipeEdit As CRecipe
+
+#Region "UserControl Event"
+
+    Private Sub btnDotDBAdd_Click(sender As Object, e As EventArgs) Handles btnDotDBAdd.Click
+        Dim newDotName As String
+
+        newDotName = txtDotDB.Text.Trim
+        '沒有輸入任何資料
+        If newDotName = "" Then
+            txtDotDB.BackColor = Color.Yellow
+            txtDotDB.Refresh() ''Soni / 2017.05.10
+            System.Threading.Thread.Sleep(300)
+            txtDotDB.BackColor = System.Drawing.SystemColors.Window
+            txtDotDB.Refresh() ''Soni / 2017.05.10
+            Exit Sub
+        End If
+        '非正確的命名規則
+        If IsillegalFileName(newDotName) = True Then
+            '檔案名稱錯誤
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000058))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000058), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        End If
+        '名稱已經存在
+
+        If mOutLink_DotValueDB.ContainsKey(newDotName) Then
+            If MsgBox("Dot Valve Data already Exists, Overwrite?", MsgBoxStyle.YesNo + MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground) = vbNo Then
+                Exit Sub
+            End If
+        End If
+
+        Dim DotParaBuffer As New CDotTypeParameter(newDotName)
+
+        If (GetDotValveDB(DotParaBuffer) = True) Then
+            DotParaBuffer.Save(fnGetDotValueDbFileName(newDotName))
+            If (mOutLink_DotValueDB.ContainsKey(newDotName)) Then
+                mOutLink_DotValueDB(newDotName) = DotParaBuffer
+            Else
+                mOutLink_DotValueDB.Add(newDotName, DotParaBuffer)
+            End If
+            mNowShowData = DotParaBuffer
+        Else
+            '資錯格式錯誤
+            gSyslog.Save(gMsgHandler.GetMessage(Warn_3000059))
+            MsgBox(gMsgHandler.GetMessage(Warn_3000059), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            Exit Sub
+        End If
+        mlstDotValueSelectedItem = newDotName
+        Call DotValveDB_Update(newDotName)
+    End Sub
+
+    Private Sub btnDotDBUpdate_Click(sender As Object, e As EventArgs) Handles btnDotDBUpdate.Click
+        Dim selectDotName As String
+        Dim IsfindRecipe As Boolean
+
+        If (txtDotDB.Text <> "") Then
+            For Each item As Object In lstDotDB.Items
+                If (item.ToString = txtDotDB.Text) Then
+                    IsfindRecipe = True
+                    lstDotDB.SelectedItem = item
+                    Exit For
+                End If
+            Next
+        End If
+
+        If (IsfindRecipe = False) Then
+            lstDotDB.BackColor = Color.Yellow
+            lstDotDB.Refresh() ''Soni / 2017.05.10
+            System.Threading.Thread.Sleep(300)
+            lstDotDB.BackColor = Color.White
+            lstDotDB.Refresh() ''Soni / 2017.05.10
+            Exit Sub
+        End If
+        ''沒有選取
+        'If lstDotDB.SelectedIndex < 0 Then
+        '    lstDotDB.BackColor = Color.Yellow
+        '    Application.DoEvents()
+        '    System.Threading.Thread.Sleep(300)
+        '    lstDotDB.BackColor = Color.White
+        '    Exit Sub
+        'End If
+
+        selectDotName = lstDotDB.SelectedItem.ToString
+        mlstDotValueSelectedItem = selectDotName
+        If mOutLink_DotValueDB.ContainsKey(selectDotName) = True Then
+
+            Dim DotParaBuffer As New CDotTypeParameter(selectDotName)
+            If (GetDotValveDB(DotParaBuffer) = True) Then
+                DotParaBuffer.Save(fnGetDotValueDbFileName(selectDotName))
+                mOutLink_DotValueDB(selectDotName) = DotParaBuffer
+                mNowShowData = DotParaBuffer
+            Else
+                '資錯格式錯誤
+                gSyslog.Save(gMsgHandler.GetMessage(Warn_3000059))
+                MsgBox(gMsgHandler.GetMessage(Warn_3000059), MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground)
+            End If
+
+        End If
+    End Sub
+
+    Private Sub btnDotDBDel_Click(sender As Object, e As EventArgs) Handles btnDotDBDel.Click
+        Dim selectDotName As String
+        Dim filename As String
+
+        '沒有選取
+        If lstDotDB.SelectedIndex < 0 Then
+            lstDotDB.BackColor = Color.Yellow
+            lstDotDB.Refresh() ''Soni / 2017.05.10
+            System.Threading.Thread.Sleep(300)
+            lstDotDB.BackColor = Color.White
+            lstDotDB.Refresh() ''Soni / 2017.05.10
+            Exit Sub
+        End If
+
+        'jimmy 20170713
+        selectDotName = lstDotDB.SelectedItem.ToString
+        Dim mPatternName As String = ""
+        filename = fnGetDotValueDbFileName(selectDotName)
+        For mPatterNo = 0 To RecipeEdit.PatternCount - 1
+            mPatternName = RecipeEdit.Pattern.Keys(mPatterNo)
+            If RecipeEdit.Pattern(mPatternName).RoundCount > 0 Then
+                For mRoundNo = 0 To RecipeEdit.Pattern(mPatternName).RoundCount - 1
+                    For mStepNo = 0 To RecipeEdit.Pattern(mPatternName).Round(mRoundNo).StepCount - 1
+                        If RecipeEdit.Pattern(mPatternName).Round(mRoundNo).CStep(mStepNo).Dots3D.DotParameterName = selectDotName Then
+
+                            MessageBox.Show("Operation could not be completed")
+                            Exit Sub
+                        End If
+
+                    Next
+                Next
+            End If
+        Next
+
+        If MsgBox("Are You Sure to Delete?", MsgBoxStyle.YesNo + MsgBoxStyle.SystemModal + MsgBoxStyle.MsgBoxSetForeground) <> MsgBoxResult.Yes Then 'Soni + 2017.04.26 刪除前確認
+            Exit Sub
+        End If
+
+        Try
+            If System.IO.File.Exists(filename) Then
+                System.IO.File.Delete(filename)
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Exception Error :" & ex.ToString)
+        Finally
+        End Try
+
+        If mOutLink_DotValueDB.ContainsKey(lstDotDB.SelectedItem) = True Then
+            mOutLink_DotValueDB.Remove(lstDotDB.SelectedItem)
+            Call DotValveDB_Update()
+            Call ShowDotValue(New CDotTypeParameter(""))
+            mlstDotValueSelectedItem = ""
+            mNowShowData = Nothing
+        End If
+        If Not mOutLink_DotValueDB.ContainsKey("Default") Then 'Soni + 2017.04.26 預設檔重建
+            mOutLink_DotValueDB.Add("Default", New CDotTypeParameter("Default"))
+            mOutLink_DotValueDB("Default").Save(fnGetDotValueDbFileName("Default"))
+            Call DotValveDB_Update()
+        End If
+    End Sub
+
+    Private Sub lstDotDB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstDotDB.SelectedIndexChanged
+        If lstDotDB.SelectedIndex < 0 Then
+            lstDotDB.BackColor = Color.Yellow
+            lstDotDB.Refresh() ''Soni / 2017.05.10
+            System.Threading.Thread.Sleep(300)
+            lstDotDB.BackColor = Color.White
+            lstDotDB.Refresh() ''Soni / 2017.05.10
+            Exit Sub
+        End If
+        txtDotDB.Text = lstDotDB.SelectedItem
+        mlstDotValueSelectedItem = lstDotDB.SelectedItem
+        Dim DotParaBuffer As New CDotTypeParameter(txtDotDB.Text)
+        DotParaBuffer.Load(fnGetDotValueDbFileName(txtDotDB.Text))
+        Call ShowDotValue(DotParaBuffer)
+        mNowShowData = DotParaBuffer
+    End Sub
+
+    Private Sub fnAddDotValueEvent()
+
+        AddHandler textDotSettlingTime.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotDownSpeed.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotDownAcc.TextChanged, AddressOf textDotValue_TextChanged
+
+        AddHandler textDotValveOnTime.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotDispenseGap.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotNumberOfShots.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotMultiShotDelta.TextChanged, AddressOf textDotValue_TextChanged
+
+        AddHandler textDotDwellTime.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotRetractDistance.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotRetractSpeed.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotRetractAcc.TextChanged, AddressOf textDotValue_TextChanged
+        AddHandler textDotSuckBack.TextChanged, AddressOf textDotValue_TextChanged
+
+    End Sub
+
+    Private Sub textDotValue_TextChanged(sender As Object, e As EventArgs)
+
+        If mlstDotValueSelectedItem = "" Then
+            Exit Sub
+        End If
+
+        If mOutLink_DotValueDB.ContainsKey(mlstDotValueSelectedItem) = True Then
+            Dim ChangeColor As Color = Color.Red
+            With mOutLink_DotValueDB(mlstDotValueSelectedItem)
+
+                If .PreSettlingTime = Val(textDotSettlingTime.Text) Then
+                    textDotSettlingTime.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotSettlingTime.BackColor = ChangeColor
+                End If
+
+                If .PreDownSpeed = Val(textDotDownSpeed.Text) Then
+                    textDotDownSpeed.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotDownSpeed.BackColor = ChangeColor
+                End If
+
+                If .PreDownAcc = Val(textDotDownAcc.Text) Then
+                    textDotDownAcc.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotDownAcc.BackColor = ChangeColor
+                End If
+
+                If .DuringValveOnTime = Val(textDotValveOnTime.Text) Then
+                    textDotValveOnTime.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotValveOnTime.BackColor = ChangeColor
+                End If
+
+                If .PreDispenseGap = Val(textDotDispenseGap.Text) Then
+                    textDotDispenseGap.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotDispenseGap.BackColor = ChangeColor
+                End If
+
+                If .DuringNumberOfShots = Val(textDotNumberOfShots.Text) Then
+                    textDotNumberOfShots.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotNumberOfShots.BackColor = ChangeColor
+                End If
+
+                If .DuringMultiShotDelta = Val(textDotMultiShotDelta.Text) Then
+                    textDotMultiShotDelta.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotMultiShotDelta.BackColor = ChangeColor
+                End If
+
+                If .PostDwellTime = Val(textDotDwellTime.Text) Then
+                    textDotDwellTime.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotDwellTime.BackColor = ChangeColor
+                End If
+
+                If .PostRetractDistance = Val(textDotRetractDistance.Text) Then
+                    textDotRetractDistance.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotRetractDistance.BackColor = ChangeColor
+                End If
+
+                If .PostRetractSpeed = Val(textDotRetractSpeed.Text) Then
+                    textDotRetractSpeed.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotRetractSpeed.BackColor = ChangeColor
+                End If
+
+                If .PostRetractAcc = Val(textDotRetractAcc.Text) Then
+                    textDotRetractAcc.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotRetractAcc.BackColor = ChangeColor
+                End If
+
+                If .PostSuckBack = Val(textDotSuckBack.Text) Then
+                    textDotSuckBack.BackColor = System.Drawing.SystemColors.Window
+                Else
+                    textDotSuckBack.BackColor = ChangeColor
+                End If
+
+            End With
+        End If
+    End Sub
+
+    Private Sub ucDotTypeParameter_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        fnAddDotValueEvent()
+        fnSetupToolTip()
+        If (Not SelectItemName = "") Then
+            Dim DotParaBuffer As New CDotTypeParameter(mlstDotValueSelectedItem)
+            DotParaBuffer.Load(fnGetDotValueDbFileName(mlstDotValueSelectedItem))
+            ShowDotValue(DotParaBuffer)
+            mNowShowData = DotParaBuffer
+        End If
+    End Sub
+
+    Private Sub btSetDefaultValue_Click(sender As Object, e As EventArgs) Handles btSetDefaultValue.Click
+
+        textDotSettlingTime.Text = "0"
+        textDotDownSpeed.Text = "100"
+        textDotDownAcc.Text = "2940"
+        textDotDispenseGap.Text = "2"
+        textDotValveOnTime.Text = "10"
+        textDotNumberOfShots.Text = "1"
+        textDotMultiShotDelta.Text = "0"
+        textDotDwellTime.Text = "0"
+        textDotRetractDistance.Text = "0"
+        textDotRetractSpeed.Text = "100"
+        textDotRetractAcc.Text = "2940"
+        textDotSuckBack.Text = "0"
+        textDotValue_TextChanged(sender, e)
+    End Sub
+
+
+#End Region
+
+
+End Class

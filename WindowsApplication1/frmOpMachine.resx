@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLockAllMachineA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnLockAllMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnLockAllMachineA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLockAllMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 210</value>
+  </data>
+  <data name="btnLockAllMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLockAllMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLockAllMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="btnLockAllMachineA.Text" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="btnLockAllMachineA.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnLockAllMachineA.Name" xml:space="preserve">
+    <value>btnLockAllMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnLockAllMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLockAllMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLockAllMachineA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBackStartAllMachineA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnBackStartAllMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnBackStartAllMachineA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBackStartAllMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 280</value>
+  </data>
+  <data name="btnBackStartAllMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnBackStartAllMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnBackStartAllMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="btnBackStartAllMachineA.Text" xml:space="preserve">
+    <value>Back to Dispense Pos.</value>
+  </data>
+  <data name="btnBackStartAllMachineA.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnBackStartAllMachineA.Name" xml:space="preserve">
+    <value>btnBackStartAllMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnBackStartAllMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBackStartAllMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBackStartAllMachineA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnValve2Weight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValve2Weight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValve2Weight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValve2Weight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 420</value>
+  </data>
+  <data name="btnValve2Weight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnValve2Weight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnValve2Weight.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="btnValve2Weight.Text" xml:space="preserve">
+    <value>Valve2 Weight</value>
+  </data>
+  <data name="btnValve2Weight.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Weight.Name" xml:space="preserve">
+    <value>btnValve2Weight</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Weight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Weight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValve2Weight.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnValve1Weight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnValve1Weight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValve1Weight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValve1Weight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 350</value>
+  </data>
+  <data name="btnValve1Weight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnValve1Weight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnValve1Weight.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="btnValve1Weight.Text" xml:space="preserve">
+    <value>Valve1 Weight</value>
+  </data>
+  <data name="btnValve1Weight.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Weight.Name" xml:space="preserve">
+    <value>btnValve1Weight</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Weight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Weight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Weight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnExchangePosAllMachineA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGnSURBVFhHxZYBUcQwEEUrAQlIQAISkHASTgIOkIAE
+        JCABCUg4CWXfDR/2lk2y12PSP/Mmbdr8/mzS6y3ruu5O2jmbtHM2aeds0s7Z/B4sy5vBQYVHo6VrfA4x
+        xLu7yHHkw9D1Z6Ml7i379EJk4sG6fqCjIV+JTEdD148xxL2hlJkUApOeqj6vnMQQSNXIpMG9/SBVfGi7
+        ISIPxpYQEe8zDEHrocS9EOwDv08qPsMQmXohToa/VvEZhvB8GqNKUAXde2dUfG4K8WTwhnDuUTVYmn8J
+        kUmDswdEKj7DELSCmVFiDW5VQrA0mQ9sXg7Y5RXNtCVEpnIIbvD45Xj5bluwQfWz3fOh7YaIxDKqn4cx
+        xtN6O+Cq5aDkgoFIg+lTNQiRqeIzDMENQl9NDcYQ+ZJHVXzO43ohIjxYgxWCmbH+lD+q4jMMwc0eFEMg
+        Nlqmis8whNbPS/vAh2ip4tMMoZSU2RvoAwWZcVTF5zyZLATib5c30EDOOa6q5QM/Pq0QyBuorVQgKvrA
+        xUR6IVCcyVZ5nz+VHIVADOLLd6vwSSdyEWJP0s65rMsXTYrvPojQ4HQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 140</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.Text" xml:space="preserve">
+    <value>Park</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnExchangePosAllMachineA.ToolTip" xml:space="preserve">
+    <value>Move To Park Position</value>
+  </data>
+  <data name="&gt;&gt;btnExchangePosAllMachineA.Name" xml:space="preserve">
+    <value>btnExchangePosAllMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnExchangePosAllMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExchangePosAllMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnExchangePosAllMachineA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnStartAllMachineA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStartAllMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnStartAllMachineA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFSSURBVFhHxZbRbcJAEESvBEpICSmBElJCSkgJ6YAS
+        KCElpBRKoARnd2AjMbNn++zjGOlJ6PExI8GdXaZpejmpHE0qR5PK0eSylMOdp0T6WECWcjSuxrfRfYz0
+        sYC8jfAPjo/5NLpF+lhAPo4ILsaHsTvSxwIyHxH8Gv795kgfC8j5EYGPeTOaI30sINeNCM5G0xjpYwHZ
+        NsJpOknSxwKyfUTgY76M2UgfC8jtIwI/SdVjLX0sIPePCNKTJH0sIPuNCHzMu4FIHwvI/iMCP0kH6WMB
+        +ZwR/zeu9LGA7DtCnj3SxwKyz4jq3SF9LCD3j8Bvb6SRPhaQ20f8GItXuPSxgGwf0fRklT4WkOtH+D9+
+        dXlE+lhALo+YvZaXIn0sIOsjmp6WtUgfC8h8xMno8tIrfSwgH0c0v7QsRfpYQN5G7H6XrEX6WLyCVI4m
+        laNJ5Vim8geO6srSOdahaAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnStartAllMachineA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStartAllMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnStartAllMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnStartAllMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnStartAllMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="btnStartAllMachineA.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnStartAllMachineA.ToolTip" xml:space="preserve">
+    <value>Machine Start</value>
+  </data>
+  <data name="&gt;&gt;btnStartAllMachineA.Name" xml:space="preserve">
+    <value>btnStartAllMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnStartAllMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartAllMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStartAllMachineA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnPauseAllMachineA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnPauseAllMachineA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnPauseAllMachineA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAB6SURBVFhH7ZfBDYAwDMQyAiMwSkdj89AI+XfpM3wu
+        kiXkpqq/RGb+jpTTSDmNlhHXZh2o827UPtzyPSm/C/XRUefdqH145HtSOgLpCKQjkI5AOgLpCKQjkI5A
+        OgLpCKQjkI5A7j+lunCgzrtR+7Dke0pOI+U0Us6S8QKrovfBzSX7TwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnPauseAllMachineA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPauseAllMachineA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 70</value>
+  </data>
+  <data name="btnPauseAllMachineA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnPauseAllMachineA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnPauseAllMachineA.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="btnPauseAllMachineA.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnPauseAllMachineA.ToolTip" xml:space="preserve">
+    <value>Machine Pause</value>
+  </data>
+  <data name="&gt;&gt;btnPauseAllMachineA.Name" xml:space="preserve">
+    <value>btnPauseAllMachineA</value>
+  </data>
+  <data name="&gt;&gt;btnPauseAllMachineA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPauseAllMachineA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPauseAllMachineA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnValve1Purge.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnValve1Purge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValve1Purge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnValve1Purge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 490</value>
+  </data>
+  <data name="btnValve1Purge.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnValve1Purge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="btnValve1Purge.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="btnValve1Purge.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnValve1Purge.ToolTip" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Purge.Name" xml:space="preserve">
+    <value>btnValve1Purge</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Purge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Purge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnValve1Purge.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>170, 560</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>frmUIViewerPauseMotor</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOpMachine</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

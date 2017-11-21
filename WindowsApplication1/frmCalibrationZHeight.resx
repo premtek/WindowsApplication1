@@ -1,0 +1,2169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblValvePosY.Name" xml:space="preserve">
+    <value>lblValvePosY</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLaserSensor.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSetValvePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtLaserValueZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnRemoveKey.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTiltSet.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtLaserPosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtLaserValueZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gbTiltSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1448, 70</value>
+  </data>
+  <data name="lblValvePosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 128</value>
+  </data>
+  <data name="grpLaserPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 260</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValvePosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTiltValvePosB.TabIndex" type="System.Int32, mscorlib">
+    <value>420</value>
+  </data>
+  <data name="btnGoTiltPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 105</value>
+  </data>
+  <data name="&gt;&gt;btnGoTiltPos.Parent" xml:space="preserve">
+    <value>gbTiltSet</value>
+  </data>
+  <data name="lblExposureTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAutoZFind.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lblLaserSensorUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="txtValvePosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnGoLaserPinPos.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;palLTC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>516</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="lbDegree.Text" xml:space="preserve">
+    <value>Angle(°)</value>
+  </data>
+  <data name="&gt;&gt;btnSetTiltPos.Name" xml:space="preserve">
+    <value>btnSetTiltPos</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZFind.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLaserPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAutoZFind.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnGoLaserPinPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 106</value>
+  </data>
+  <data name="txtLaserPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLaserPosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;palLTC.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblLTC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="lblExposureTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 24</value>
+  </data>
+  <data name="txtTiltValvePosB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValvePos.TabIndex" type="System.Int32, mscorlib">
+    <value>407</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.Name" xml:space="preserve">
+    <value>txtLaserPosX</value>
+  </data>
+  <data name="&gt;&gt;btnSetValve1Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtValvePosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetLaserPinPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValvePosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="txtLaserPosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblValvePosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbConvertTiltAngle.Text" xml:space="preserve">
+    <value>Degree</value>
+  </data>
+  <data name="btnGo2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZFind.Name" xml:space="preserve">
+    <value>btnAutoZFind</value>
+  </data>
+  <data name="lblValvePosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSetValvePosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserSensor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="lblLaserPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtLaserValueZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="nmcExposure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblLaserPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="grpValvePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 336</value>
+  </data>
+  <data name="lblValvePosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcExposure.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="txtLaserPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnGoTiltPos.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="grpValvePos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.Name" xml:space="preserve">
+    <value>txtLaserPosY</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="lblLaserPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calibration Z Height</value>
+  </data>
+  <data name="lblValvePosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosYUnit.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosY.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblLaserPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpLaserPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 70</value>
+  </data>
+  <data name="&gt;&gt;lblLaserSensor.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="&gt;&gt;grpLaserPos.Name" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="&gt;&gt;palLTC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpLaserPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosXUnit.Name" xml:space="preserve">
+    <value>lblValvePosXUnit</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLTC.Text" xml:space="preserve">
+    <value>LTC</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZUnit.Name" xml:space="preserve">
+    <value>lblValvePosZUnit</value>
+  </data>
+  <data name="lblLaserPosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosYUnit.Name" xml:space="preserve">
+    <value>lblValvePosYUnit</value>
+  </data>
+  <data name="lblLTC.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;grpLaserPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;palLTC.Name" xml:space="preserve">
+    <value>palLTC</value>
+  </data>
+  <data name="lblValvePosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbConvertTiltAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>534</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserPinPos.Name" xml:space="preserve">
+    <value>btnSetLaserPinPos</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZFind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTiltValvePosB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValvePosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveToHightPrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtLaserPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosUUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtValvePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtValvePosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtLaserValueZ.Name" xml:space="preserve">
+    <value>txtLaserValueZ</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosZ.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblLaserPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcExposure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtLaserPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="txtTiltValvePosB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 32</value>
+  </data>
+  <data name="nmcExposure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 33</value>
+  </data>
+  <data name="&gt;&gt;lbConvertTiltAngle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtLaserValueZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="btnSetLaserPinPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGo2.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Parent" xml:space="preserve">
+    <value>gbTiltSet</value>
+  </data>
+  <data name="txtValvePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLaserPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetValvePosX.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="lblLaserPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="&gt;&gt;btnLaserSensor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtLaserPosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnLaserSensor.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblLTC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cboB.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnGoLaserPinPos.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>556, 16</value>
+  </data>
+  <data name="gbTiltSet.Text" xml:space="preserve">
+    <value>Tilt Position</value>
+  </data>
+  <data name="txtValvePosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnSetLaserPinPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblValvePosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblLaserSensor.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblValvePosY.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtValvePosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lbDegree.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Name" xml:space="preserve">
+    <value>lblLaserPosXUnit</value>
+  </data>
+  <data name="lblLTC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="palLTC.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbDegree.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnValveToHightNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblLTC.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="lblTiltValvePosB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosX.Name" xml:space="preserve">
+    <value>lblValvePosX</value>
+  </data>
+  <data name="txtLaserPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 129</value>
+  </data>
+  <data name="palLTC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 220</value>
+  </data>
+  <data name="lblLTC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoTiltPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLaserPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnGoTiltPos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.Name" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="txtValvePosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosX.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblLaserPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtLaserValueZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnGoLaserPinPos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRemoveKey.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightNext.Name" xml:space="preserve">
+    <value>btnValveToHightNext</value>
+  </data>
+  <data name="lblLaserSensorUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbConvertTiltAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1591, 23</value>
+  </data>
+  <data name="lblValvePosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>404</value>
+  </data>
+  <data name="lblLaserSensor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="&gt;&gt;lbDegree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosUUnit.Parent" xml:space="preserve">
+    <value>gbTiltSet</value>
+  </data>
+  <data name="&gt;&gt;lbDegree.Name" xml:space="preserve">
+    <value>lbDegree</value>
+  </data>
+  <data name="btnSetLaserPinPos.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosXUnit.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtValvePosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="txtLaserPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 79</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="nmcExposure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpLaserPos.Text" xml:space="preserve">
+    <value>Height Reader Position</value>
+  </data>
+  <data name="txtLaserPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblValvePosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnValveToHightNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtLaserValueZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 199</value>
+  </data>
+  <data name="&gt;&gt;lblLTC.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblValvePosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="&gt;&gt;gbTiltSet.Name" xml:space="preserve">
+    <value>gbTiltSet</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblLaserSensor.Name" xml:space="preserve">
+    <value>lblLaserSensor</value>
+  </data>
+  <data name="&gt;&gt;btnLaserSensor.Name" xml:space="preserve">
+    <value>btnLaserSensor</value>
+  </data>
+  <data name="lblLaserSensor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblLTC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDegree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValvePosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="palLTC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLaserPinPos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblLaserPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtValvePosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lblValvePosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosZ.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSetValvePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Name" xml:space="preserve">
+    <value>lblLaserPosY</value>
+  </data>
+  <data name="btnAutoZFind.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1582, 956</value>
+  </data>
+  <data name="lblValvePosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>407</value>
+  </data>
+  <data name="lblLaserPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lblValvePosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbDegree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1399, 23</value>
+  </data>
+  <data name="lblValvePosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZ.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="txtLaserPosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblValvePosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="btnAutoZFind.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcLightControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>493</value>
+  </data>
+  <data name="btnSetLaserPinPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 30</value>
+  </data>
+  <data name="lblLaserPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Name" xml:space="preserve">
+    <value>lblExposureTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserPinPos.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosUUnit.Name" xml:space="preserve">
+    <value>lblTiltValvePosUUnit</value>
+  </data>
+  <data name="txtValvePosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnValveToHightPrev.ToolTip" xml:space="preserve">
+    <value>取消並離開</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValvePosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="btnLaserSensor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtLaserPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;gbTiltSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcLightControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTiltValvePosB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblLaserSensorUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>406</value>
+  </data>
+  <data name="lblLaserPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="txtLaserPosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblLaserPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 83</value>
+  </data>
+  <data name="&gt;&gt;btnGoLaserPinPos.Name" xml:space="preserve">
+    <value>btnGoLaserPinPos</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Name" xml:space="preserve">
+    <value>btnGo2</value>
+  </data>
+  <data name="lbDegree.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="&gt;&gt;lblLaserSensorUnit.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="btnGoLaserPinPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnLaserSensor.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="lblLaserPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnAutoZFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 60</value>
+  </data>
+  <data name="&gt;&gt;cboB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSetTiltPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblValvePosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserPinPos.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="lblLaserPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lbDegree.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnRemoveKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="txtValvePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblValvePosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gbTiltSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLaserPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="lbConvertTiltAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 24</value>
+  </data>
+  <data name="lblLaserPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lbConvertTiltAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLaserSensor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="grpValvePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 260</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGoLaserPinPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="palLTC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 35</value>
+  </data>
+  <data name="&gt;&gt;btnSetTiltPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveToHightNext.TabIndex" type="System.Int32, mscorlib">
+    <value>531</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosX.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosX.Name" xml:space="preserve">
+    <value>txtValvePosX</value>
+  </data>
+  <data name="lblLaserSensorUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Name" xml:space="preserve">
+    <value>UcLightControl1</value>
+  </data>
+  <data name="txtValvePosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 370</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDegree.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblExposureTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 29</value>
+  </data>
+  <data name="btnRemoveKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1724, 23</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1448, 273</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Name" xml:space="preserve">
+    <value>lblLaserPosZUnit</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbConvertTiltAngle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboB.TabIndex" type="System.Int32, mscorlib">
+    <value>517</value>
+  </data>
+  <data name="btnValveToHightPrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosY.Name" xml:space="preserve">
+    <value>txtValvePosY</value>
+  </data>
+  <data name="lblValvePosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblValvePosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSetTiltPos.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnAutoZFind.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnValveToHightNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserSensorUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblValvePosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnLaserSensor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 180</value>
+  </data>
+  <data name="lblValvePosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnGoLaserPinPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="cboB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosUUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1738, 956</value>
+  </data>
+  <data name="lblExposureTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 31</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Exposure Time</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveToHightNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1426, 956</value>
+  </data>
+  <data name="grpLaserPos.TabIndex" type="System.Int32, mscorlib">
+    <value>463</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveKey.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblLaserPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtLaserPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtValvePosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 79</value>
+  </data>
+  <data name="lblLaserPosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbTiltSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 188</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="cboB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLaserPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 29</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosY.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblValvePosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Name" xml:space="preserve">
+    <value>lblLaserPosZ</value>
+  </data>
+  <data name="lbConvertTiltAngle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetTiltPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTiltValvePosB.Text" xml:space="preserve">
+    <value>Valve Pos B</value>
+  </data>
+  <data name="btnSetTiltPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtValvePosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveKey.Name" xml:space="preserve">
+    <value>btnRemoveKey</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 67</value>
+  </data>
+  <data name="lbConvertTiltAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserSensor.Text" xml:space="preserve">
+    <value>Height Reader</value>
+  </data>
+  <data name="lblLaserPosYUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLaserValueZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTiltValvePosB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetValve1Z.Name" xml:space="preserve">
+    <value>btnSetValve1Z</value>
+  </data>
+  <data name="lblLaserSensor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 200</value>
+  </data>
+  <data name="txtLaserPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="btnSetValve1Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 181</value>
+  </data>
+  <data name="UcLightControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 785</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>419</value>
+  </data>
+  <data name="txtLaserPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>413</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 771</value>
+  </data>
+  <data name="btnGo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 107</value>
+  </data>
+  <data name="lblLaserPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblValvePosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtValvePosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;grpLaserPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSetValve1Z.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 133</value>
+  </data>
+  <data name="btnValveToHightNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="GroupBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnValveToHightPrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="lblLaserPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="lblLaserPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpValvePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetValve1Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtLaserPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnGo2.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosZ.Name" xml:space="preserve">
+    <value>txtValvePosZ</value>
+  </data>
+  <data name="lblLaserSensorUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 205</value>
+  </data>
+  <data name="lblValvePosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValvePosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnSetValvePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 33</value>
+  </data>
+  <data name="txtValvePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <data name="lblLaserPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 33</value>
+  </data>
+  <data name="gbTiltSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserPinPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTiltValvePosB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblValvePosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnLaserSensor.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.Name" xml:space="preserve">
+    <value>txtLaserPosZ</value>
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLaserValueZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;grpLaserPos.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblLaserPosXUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLaserValueZ.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZUnit.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="txtLaserPosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnValveToHightNext.ToolTip" xml:space="preserve">
+    <value>取消並離開</value>
+  </data>
+  <data name="btnSetTiltPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 29</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLaserPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="btnGoTiltPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblLTC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTiltValvePosB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 33</value>
+  </data>
+  <data name="btnValveToHightPrev.Text" xml:space="preserve">
+    <value>Prev.</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosB.Name" xml:space="preserve">
+    <value>lblTiltValvePosB</value>
+  </data>
+  <data name="btnValveToHightPrev.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnSetValve1Z.TabIndex" type="System.Int32, mscorlib">
+    <value>409</value>
+  </data>
+  <data name="lblValvePosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 80</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnAutoZFind.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnAutoZFind.Text" xml:space="preserve">
+    <value>Auto Find Z</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>391</value>
+  </data>
+  <data name="lbConvertTiltAngle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblLaserPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblExposureTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValvePosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationZHeight</value>
+  </data>
+  <data name="btnSetValvePosX.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="txtValvePosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="lblExposureTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLaserSensor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValvePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="grpLaserPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbConvertTiltAngle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetTiltPos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Name" xml:space="preserve">
+    <value>lblLaserPosX</value>
+  </data>
+  <data name="lblLaserPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightPrev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtLaserValueZ.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="lblLaserPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnGoTiltPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosYUnit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGoTiltPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="cboB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 32</value>
+  </data>
+  <data name="txtTiltValvePosB.TabIndex" type="System.Int32, mscorlib">
+    <value>421</value>
+  </data>
+  <data name="cboB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1491, 20</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosB.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSetValvePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 34</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightPrev.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblLTC.Name" xml:space="preserve">
+    <value>lblLTC</value>
+  </data>
+  <data name="lblLaserPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="gbTiltSet.TabIndex" type="System.Int32, mscorlib">
+    <value>520</value>
+  </data>
+  <data name="&gt;&gt;cboB.Name" xml:space="preserve">
+    <value>cboB</value>
+  </data>
+  <data name="lblValvePosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblExposureTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="lblLaserSensor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnRemoveKey.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValvePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lblValvePosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtLaserPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnGo2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Name" xml:space="preserve">
+    <value>nmcExposure</value>
+  </data>
+  <data name="grpValvePos.Text" xml:space="preserve">
+    <value>Valve Pin Position</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnGo2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtValvePosY.TabIndex" type="System.Int32, mscorlib">
+    <value>412</value>
+  </data>
+  <data name="txtLaserPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lbDegree.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnLaserSensor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosXUnit.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblValvePosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 30</value>
+  </data>
+  <data name="btnGoLaserPinPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnRemoveKey.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 1594</value>
+  </data>
+  <data name="btnAutoZFind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1043, 618</value>
+  </data>
+  <data name="&gt;&gt;cboB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValvePosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnRemoveKey.TabIndex" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+  <data name="lblTiltValvePosUUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetValve1Z.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblLTC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 220</value>
+  </data>
+  <data name="lblLaserPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="lblLaserPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblLaserPosZUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnGoTiltPos.Name" xml:space="preserve">
+    <value>btnGoTiltPos</value>
+  </data>
+  <data name="btnValveToHightNext.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosY.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnGoLaserPinPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lbDegree.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValvePosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="UcLightControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 186</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosZ.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLightControl, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblLaserPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnValveToHightNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lbConvertTiltAngle.Name" xml:space="preserve">
+    <value>lbConvertTiltAngle</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 1038</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnRemoveKey.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetValve1Z.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGoLaserPinPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLaserSensor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnRemoveKey.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZ.Name" xml:space="preserve">
+    <value>lblValvePosZ</value>
+  </data>
+  <data name="btnSetLaserPinPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblLaserSensorUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValvePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtValvePosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtLaserPosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="gbTiltSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValvePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtValvePosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblLaserPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightPrev.Name" xml:space="preserve">
+    <value>btnValveToHightPrev</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 785</value>
+  </data>
+  <data name="txtLaserPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblTiltValvePosB.Parent" xml:space="preserve">
+    <value>gbTiltSet</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtLaserPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserSensor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lbDegree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValvePosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAutoZFind.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAutoZFind.TabIndex" type="System.Int32, mscorlib">
+    <value>462</value>
+  </data>
+  <data name="lblTiltValvePosB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnValveToHightPrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 956</value>
+  </data>
+  <data name="&gt;&gt;lblLaserSensorUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>394</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePosX.Name" xml:space="preserve">
+    <value>btnSetValvePosX</value>
+  </data>
+  <data name="lblValvePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Name" xml:space="preserve">
+    <value>lblLaserPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosY.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="txtValvePosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblValvePosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnRemoveKey.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetValve1Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>521</value>
+  </data>
+  <data name="btnValveToHightPrev.TabIndex" type="System.Int32, mscorlib">
+    <value>530</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="txtValvePosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 127</value>
+  </data>
+  <data name="btnValveToHightPrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtLaserPosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblExposureTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtTiltValvePosB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnSetTiltPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Name" xml:space="preserve">
+    <value>txtTiltValvePosB</value>
+  </data>
+  <data name="&gt;&gt;btnSetTiltPos.Parent" xml:space="preserve">
+    <value>gbTiltSet</value>
+  </data>
+  <data name="&gt;&gt;lblLaserSensorUnit.Name" xml:space="preserve">
+    <value>lblLaserSensorUnit</value>
+  </data>
+  <data name="&gt;&gt;btnGoTiltPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="txtValvePosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetValve1Z.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnValveToHightPrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGoTiltPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;lbConvertTiltAngle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblValvePosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSetTiltPos.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="lblLaserPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;txtValvePosX.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="lblValvePosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblValvePosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 128</value>
+  </data>
+  <data name="&gt;&gt;btnSetTiltPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="palLTC.TabIndex" type="System.Int32, mscorlib">
+    <value>414</value>
+  </data>
+  <data name="lblLaserSensorUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtLaserValueZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetValve1Z.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;lblLaserSensorUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValvePosZ.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Parent" xml:space="preserve">
+    <value>grpLaserPos</value>
+  </data>
+  <data name="lblLaserSensor.TabIndex" type="System.Int32, mscorlib">
+    <value>403</value>
+  </data>
+  <metadata name="UcDisplay1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gbTiltSet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtTiltValvePosB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbDegree.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpValvePos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveToHightNext.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcStatusBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSetValvePosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnGoTiltPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLTC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserSensorUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnOK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtLaserPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblValvePosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblValvePosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTiltValvePosUUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>112, 17</value>
+  </metadata>
+  <metadata name="btnSetLaserPinPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcExposure.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTiltValvePosB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtLaserPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcJoyStick1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="txtLaserPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cboB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lbConvertTiltAngle.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcLightControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>71</value>
+  </metadata>
+  <metadata name="lblValvePosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="GroupBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSetValve1Z.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblValvePosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnLaserSensor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtLaserValueZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSetTiltPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnGoLaserPinPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRemoveKey.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnValveToHightPrev.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnAutoZFind.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtValvePosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtValvePosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCancel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblExposureTimeUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserSensor.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="palLTC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnGo2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblValvePosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtValvePosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblValvePosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpLaserPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

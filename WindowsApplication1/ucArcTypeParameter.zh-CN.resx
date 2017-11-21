@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnArcDBUpdate.ToolTip" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnArcDBAdd.ToolTip" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textArcPreDownSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 36</value>
+  </data>
+  <data name="textArcPreDownSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPreDownSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 34</value>
+  </data>
+  <data name="lbArcPreDownSpeed.Text" xml:space="preserve">
+    <value>下降速度</value>
+  </data>
+  <data name="textArcPreMoveDelayFactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 1</value>
+  </data>
+  <data name="textArcPreMoveDelayFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPreMoveDelayFactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 34</value>
+  </data>
+  <data name="lbArcPreMoveDelayFactor.Text" xml:space="preserve">
+    <value>移动前延迟时间</value>
+  </data>
+  <data name="lbArcPreDispenseGapUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 107</value>
+  </data>
+  <data name="lbArcPreDispenseGapUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 32</value>
+  </data>
+  <data name="textArcPreDispenseGap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 106</value>
+  </data>
+  <data name="textArcPreDispenseGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPreMoveDelayFactorUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 2</value>
+  </data>
+  <data name="lbArcPreMoveDelayFactorUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 32</value>
+  </data>
+  <data name="lbArcPreDispenseGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 34</value>
+  </data>
+  <data name="lbArcPreDispenseGap.Text" xml:space="preserve">
+    <value>点胶间隙</value>
+  </data>
+  <data name="lbArcPreDownSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 37</value>
+  </data>
+  <data name="lbArcPreDownSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 32</value>
+  </data>
+  <data name="textArcPreDownAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 71</value>
+  </data>
+  <data name="textArcPreDownAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPreDownAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 34</value>
+  </data>
+  <data name="lbArcPreDownAcc.Text" xml:space="preserve">
+    <value>下降加速度</value>
+  </data>
+  <data name="lbArcPreDownAccUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 72</value>
+  </data>
+  <data name="lbArcPreDownAccUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 32</value>
+  </data>
+  <data name="grpPreArcDispense.Text" xml:space="preserve">
+    <value>点胶前</value>
+  </data>
+  <data name="textArcDuringSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 1</value>
+  </data>
+  <data name="textArcDuringSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcDuringSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 1</value>
+  </data>
+  <data name="lbArcDuringSpeed.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="lbArcDuringSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 2</value>
+  </data>
+  <data name="lbArcDuringSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 1</value>
+  </data>
+  <data name="textArcDuringShutOffDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 2</value>
+  </data>
+  <data name="textArcDuringShutOffDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcDuringShutOffDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 34</value>
+  </data>
+  <data name="lbArcDuringShutOffDistance.Text" xml:space="preserve">
+    <value>关闭距离</value>
+  </data>
+  <data name="lbArcDuringShutOffDistanceUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 3</value>
+  </data>
+  <data name="lbArcDuringShutOffDistanceUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 32</value>
+  </data>
+  <data name="grpDuringArcDispense.Text" xml:space="preserve">
+    <value>点胶中</value>
+  </data>
+  <data name="lbArcPostSuckBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 38</value>
+  </data>
+  <data name="lbArcPostSuckBack.Text" xml:space="preserve">
+    <value>真空回吸时间</value>
+  </data>
+  <data name="lbArcPostDwell.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostDwell.Text" xml:space="preserve">
+    <value>停留时间</value>
+  </data>
+  <data name="lbArcPostRetractAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostRetractAcc.Text" xml:space="preserve">
+    <value>返回加速度</value>
+  </data>
+  <data name="lbArcPostRetractSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostRetractSpeed.Text" xml:space="preserve">
+    <value>返回速度</value>
+  </data>
+  <data name="textArcPostBacktrackLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 69</value>
+  </data>
+  <data name="textArcPostBacktrackLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPostBacktrackLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostBacktrackLength.Text" xml:space="preserve">
+    <value>拉回长度</value>
+  </data>
+  <data name="textArcPostBacktrackGap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 35</value>
+  </data>
+  <data name="textArcPostBacktrackGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPostBacktrackGap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostBacktrackGap.Text" xml:space="preserve">
+    <value>拉回间隙</value>
+  </data>
+  <data name="textArcPostSuckBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 239</value>
+  </data>
+  <data name="textArcPostSuckBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPostSuckBackUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 240</value>
+  </data>
+  <data name="lbArcPostSuckBackUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 36</value>
+  </data>
+  <data name="lbArcPostBacktrackGapUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 36</value>
+  </data>
+  <data name="lbArcPostBacktrackGapUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="lbArcPostBacktrackLengthUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 70</value>
+  </data>
+  <data name="lbArcPostBacktrackLengthUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="lbArcPostDwellUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 2</value>
+  </data>
+  <data name="lbArcPostDwellUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="textArcPostBacktrackSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 103</value>
+  </data>
+  <data name="textArcPostBacktrackSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="textArcPostDwell.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 1</value>
+  </data>
+  <data name="textArcPostDwell.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPostBacktrackSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostBacktrackSpeed.Text" xml:space="preserve">
+    <value>拉回速度</value>
+  </data>
+  <data name="lbArcPostBacktrackSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 104</value>
+  </data>
+  <data name="lbArcPostBacktrackSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="lbArcPostRetractDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="lbArcPostRetractDistance.Text" xml:space="preserve">
+    <value>返回距离</value>
+  </data>
+  <data name="textArcPostRetractDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 137</value>
+  </data>
+  <data name="textArcPostRetractDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="textArcPostRetractSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 171</value>
+  </data>
+  <data name="textArcPostRetractSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="lbArcPostRetractDistanceUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 138</value>
+  </data>
+  <data name="lbArcPostRetractDistanceUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="lbArcPostRetractSpeedUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 172</value>
+  </data>
+  <data name="lbArcPostRetractSpeedUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="lbArcPostRetractAccUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 206</value>
+  </data>
+  <data name="lbArcPostRetractAccUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 31</value>
+  </data>
+  <data name="textArcPostRetractAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 205</value>
+  </data>
+  <data name="textArcPostRetractAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="grpPostArcDispense.Text" xml:space="preserve">
+    <value>点胶后</value>
+  </data>
+  <data name="btSetDefaultValue.Text" xml:space="preserve">
+    <value>默认值</value>
+  </data>
+</root>

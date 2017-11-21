@@ -1,0 +1,1124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txtSendIP.Name" xml:space="preserve">
+    <value>txtSendIP</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 31</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRecieveIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;palOmron.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="txtRecievePort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectCCD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtRecieveIP.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="&gt;&gt;txtSendIP.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 20</value>
+  </data>
+  <data name="lblSendPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbTriggerType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtSendIP.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Video Formats</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="lblSelectCCD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtRecieveIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 33</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="&gt;&gt;palCongex.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="palCongex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 1</value>
+  </data>
+  <data name="lblFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 75</value>
+  </data>
+  <data name="&gt;&gt;txtRecievePort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="palOmron.TabIndex" type="System.Int32, mscorlib">
+    <value>485</value>
+  </data>
+  <data name="btn_Run.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 175</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="txtSendPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblRecievePort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="palOmron.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="lblRecieveIP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="CogDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="txtSendPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 33</value>
+  </data>
+  <data name="&gt;&gt;lblSendIP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="palCongex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 490</value>
+  </data>
+  <data name="&gt;&gt;CogDisplay1.Name" xml:space="preserve">
+    <value>CogDisplay1</value>
+  </data>
+  <data name="lblSelectCCD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtRecieveIP.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="cmbCCD_SN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectCCD.Text" xml:space="preserve">
+    <value>Select CCD</value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CCD Connection</value>
+  </data>
+  <data name="&gt;&gt;lblRecievePort.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblRecieveIP.Text" xml:space="preserve">
+    <value>Recieve IP</value>
+  </data>
+  <data name="txtSendIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbCCDType.Name" xml:space="preserve">
+    <value>cmbCCDType</value>
+  </data>
+  <data name="txtRecievePort.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="cmbVideoType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>482</value>
+  </data>
+  <data name="&gt;&gt;lblRecievePort.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Run.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="palCongex.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCCDNo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 126</value>
+  </data>
+  <data name="Label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbCCD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 19</value>
+  </data>
+  <data name="&gt;&gt;cmbTriggerType.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="&gt;&gt;lblSendPort.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbCCDType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSendIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;lblSelectCCD.Name" xml:space="preserve">
+    <value>lblSelectCCD</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbVideoType.TabIndex" type="System.Int32, mscorlib">
+    <value>502</value>
+  </data>
+  <data name="lblRecieveIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 116</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="&gt;&gt;txtSendPort.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="lblFileName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_Run.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;palCongex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtSendIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSendPort.Name" xml:space="preserve">
+    <value>lblSendPort</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD_SN.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="cmbVideoType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 223</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD.Name" xml:space="preserve">
+    <value>cmbCCD</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="lblSelectCCD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCCDType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;palCongex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSendIP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblSendIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="&gt;&gt;txtRecievePort.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="&gt;&gt;palOmron.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="palCongex.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;btn_Run.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSendPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 53</value>
+  </data>
+  <data name="&gt;&gt;txtSendPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRecievePort.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="&gt;&gt;txtRecieveIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="CogDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 338</value>
+  </data>
+  <data name="lblSendIP.TabIndex" type="System.Int32, mscorlib">
+    <value>478</value>
+  </data>
+  <data name="palOmron.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 133</value>
+  </data>
+  <data name="cmbCCD.TabIndex" type="System.Int32, mscorlib">
+    <value>469</value>
+  </data>
+  <data name="lblRecieveIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 52</value>
+  </data>
+  <data name="cmbVideoType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 32</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;lblSelectCCD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="palCongex.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="txtSendPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 61</value>
+  </data>
+  <data name="&gt;&gt;cmbCCDType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="palOmron.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblSendPort.TabIndex" type="System.Int32, mscorlib">
+    <value>477</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="palOmron.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 273</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 80</value>
+  </data>
+  <data name="lblSendIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 3</value>
+  </data>
+  <data name="&gt;&gt;lblRecievePort.Name" xml:space="preserve">
+    <value>lblRecievePort</value>
+  </data>
+  <data name="&gt;&gt;txtRecieveIP.Name" xml:space="preserve">
+    <value>txtRecieveIP</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 223</value>
+  </data>
+  <data name="&gt;&gt;lblRecieveIP.Name" xml:space="preserve">
+    <value>lblRecieveIP</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD_SN.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Short File Name</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD_SN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 646</value>
+  </data>
+  <data name="Label8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CogDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;lblSendPort.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbTriggerType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSendPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 57</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;txtRecieveIP.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmbTriggerType.Name" xml:space="preserve">
+    <value>cmbTriggerType</value>
+  </data>
+  <data name="txtRecievePort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblSendIP.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="lblRecievePort.Text" xml:space="preserve">
+    <value>Recieve Port</value>
+  </data>
+  <data name="cmbCCDType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSendIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 33</value>
+  </data>
+  <data name="lblRecieveIP.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="lblRecievePort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDNo.TabIndex" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="btn_Run.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="Label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblSelectCCD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>501</value>
+  </data>
+  <data name="&gt;&gt;palOmron.Name" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="cmbTriggerType.TabIndex" type="System.Int32, mscorlib">
+    <value>494</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSelectCCD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="cmbCCD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbTriggerType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;palCongex.Name" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSendPort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecievePort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="cmbCCDType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoType.Name" xml:space="preserve">
+    <value>cmbVideoType</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="btn_Run.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbTriggerType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 32</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 32</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="cmbCCD_SN.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblSendPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoType.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="lblRecieveIP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="cmbCCD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblCCDNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtRecieveIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtSendIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 4</value>
+  </data>
+  <data name="lblSendIP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblRecieveIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Trigger Type</value>
+  </data>
+  <data name="btn_Run.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 52</value>
+  </data>
+  <data name="lblCCDNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 43</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbTriggerType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecievePort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 37</value>
+  </data>
+  <data name="lblSendPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSetCCDConnection</value>
+  </data>
+  <data name="&gt;&gt;CogDisplay1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Name" xml:space="preserve">
+    <value>lblFileName</value>
+  </data>
+  <data name="lblFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 41</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>503</value>
+  </data>
+  <data name="&gt;&gt;lblCCDNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CogDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbCCD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 32</value>
+  </data>
+  <data name="cmbCCDType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 76</value>
+  </data>
+  <data name="txtRecievePort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 33</value>
+  </data>
+  <data name="cmbCCD_SN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 32</value>
+  </data>
+  <data name="cmbCCDType.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtSendIP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtRecievePort.Name" xml:space="preserve">
+    <value>txtRecievePort</value>
+  </data>
+  <data name="&gt;&gt;txtSendPort.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;CogDisplay1.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="&gt;&gt;cmbTriggerType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CogDisplay1.Type" xml:space="preserve">
+    <value>Cognex.VisionPro.Display.CogDisplay, Cognex.VisionPro.Display.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505</value>
+  </data>
+  <data name="CogDisplay1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtwAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAKIAAAAAAQAA2BMAAEQLAAATAAoKZAALAP//CwD//wsA//8DAAAAAAADAAEA
+        AAAFAAAAAAAAAAAABQAAAAAAAAAAAAUAAAAAAAAA8D8TAAAAwAALAP//CwD//xMAAIAAAAMAAwAAAAsA
+        //8LAAAAAAAAAAAA4D8AAAAAAADgPwAAAAAAAOA/AAAAAAAA4D8BAAAAAQAAAAsA//8LAAAACwAAAAsA
+        //8L
+</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Software Type</value>
+  </data>
+  <data name="txtRecieveIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblSelectCCD.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 31</value>
+  </data>
+  <data name="cmbTriggerType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 127</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 25</value>
+  </data>
+  <data name="&gt;&gt;txtSendPort.Name" xml:space="preserve">
+    <value>txtSendPort</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtSendIP.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="lblSendPort.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmbVideoType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="cmbCCDType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="CogDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 109</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 36</value>
+  </data>
+  <data name="Label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSendIP.Text" xml:space="preserve">
+    <value>Send IP</value>
+  </data>
+  <data name="lblRecievePort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btn_Run.Name" xml:space="preserve">
+    <value>btn_Run</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 35</value>
+  </data>
+  <data name="cmbCCD_SN.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>839, 646</value>
+  </data>
+  <data name="lblSendPort.Text" xml:space="preserve">
+    <value>Send Port</value>
+  </data>
+  <data name="btn_Run.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbCCD_SN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 175</value>
+  </data>
+  <data name="lblFileName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSelectCCD.TabIndex" type="System.Int32, mscorlib">
+    <value>470</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCCDNo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;palOmron.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblRecieveIP.Parent" xml:space="preserve">
+    <value>palOmron</value>
+  </data>
+  <data name="&gt;&gt;cmbVideoType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>506</value>
+  </data>
+  <data name="lblSendIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 44</value>
+  </data>
+  <data name="&gt;&gt;lblRecieveIP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbCCDType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 32</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecievePort.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmbVideoType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="btn_Run.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 338</value>
+  </data>
+  <data name="lblCCDNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 728</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 31</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cmbCCD_SN.Name" xml:space="preserve">
+    <value>cmbCCD_SN</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 76</value>
+  </data>
+  <data name="&gt;&gt;lblSendIP.Name" xml:space="preserve">
+    <value>lblSendIP</value>
+  </data>
+  <data name="&gt;&gt;lblCCDNo.Parent" xml:space="preserve">
+    <value>palCongex</value>
+  </data>
+  <data name="lblCCDNo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="palCongex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 25</value>
+  </data>
+  <data name="txtSendPort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRecievePort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 180</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtRecieveIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 116</value>
+  </data>
+  <data name="txtSendPort.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="cmbCCD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtRecieveIP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblSendIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="lblSendIP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSendPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtRecievePort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>CCDNo</value>
+  </data>
+  <data name="lblSelectCCD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 29</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="lblRecieveIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtRecievePort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Run.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="&gt;&gt;lblCCDNo.Name" xml:space="preserve">
+    <value>lblCCDNo</value>
+  </data>
+  <data name="lblRecievePort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 181</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

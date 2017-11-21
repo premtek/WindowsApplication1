@@ -1,0 +1,1279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtSceneName.Text" xml:space="preserve">
+    <value>TB_Calib0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSetValvePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 35</value>
+  </data>
+  <data name="&gt;&gt;txtCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label50.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="lblPitch.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="&gt;&gt;Label52.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label60.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label48.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtSceneName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetValvePos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 39</value>
+  </data>
+  <data name="Label53.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label50.Name" xml:space="preserve">
+    <value>Label50</value>
+  </data>
+  <data name="Label50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label52.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Name" xml:space="preserve">
+    <value>lblPitch</value>
+  </data>
+  <data name="Label51.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Label54.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="txtTeachCCD1Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtTeachDispenser1Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 105</value>
+  </data>
+  <data name="Label52.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="Label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 107</value>
+  </data>
+  <data name="&gt;&gt;Label51.Name" xml:space="preserve">
+    <value>Label51</value>
+  </data>
+  <data name="grpValvePos.TabIndex" type="System.Int32, mscorlib">
+    <value>408</value>
+  </data>
+  <data name="&gt;&gt;txtSceneName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label49.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCount.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Y.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Label58.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtTeachCCD1Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="lblCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 32</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnGo2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label59.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="txtPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCount.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Y.Name" xml:space="preserve">
+    <value>txtTeachDispenser1Y</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label58.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;Label59.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtTeachCCD1X.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="txtTeachDispenser1X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="grpValvePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 191</value>
+  </data>
+  <data name="Label60.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="Label49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpValvePos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpCCDPos.Text" xml:space="preserve">
+    <value>CCD Pos</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SetAutoCalibration</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Y.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;Label57.Name" xml:space="preserve">
+    <value>Label57</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnGo2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVFhHxZYBUQNBDEVPAhIqAQlIQAISkFAHSEAC
+        EioBCUiohGNfpoH/r7nrLcNs/8wfSNjuyyW7V6Z5nu/uMjnaZXK0y+Rol8nRLpOjXSZHu0yOtge/em5+
+        az418wf1uZn8a/OhuVvKDK4F0/TY/M66DrO+qxhlBtcCFwXxtF/NCq1Md1i7FDn2MSkzuBas66V5TzEf
+        zQ8XZ0efmk3KDK4F29KNt/x5ccb/WkSKriRgj6+kzOBasF89hVxJmcG14La4BVxdxrK3ENbZ4VRmcC1Y
+        F+cBOLPWGVfvETXrKZx1eWiNGVwL1pWHLTa56NiswMrAU3Qv9lBmcC2olW3PAvh5qwNpLYLPcc2Pygyu
+        BbXYSDdjHPlK5yWl0KUZgYpunJQZXAtqJUxHoWLmFMZ4suVZBDkVnfhTETl7AGuFVOJG6HcKn499lBlc
+        C2oBzrbzJJyRnmJYn91hn4Myg2vBuniq5fwZE10CwjjS/BtAnvOgn+F31hozuBZsK+97btpjOvHzwlJm
+        cC3YJ56W+S47U5lu0BmTMoNrQb94urwZaWJ7TS+lzOAuE/dwmRztMjnaZXK0y+Rol8mxnqdvTqu5vGYX
+        +xIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label59.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;Label52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnGo1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>409</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1X.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="btnSetCcdPos.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnGo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 84</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Z.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblScene.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValvePos.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="Label60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 92</value>
+  </data>
+  <data name="Label59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label57.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 42</value>
+  </data>
+  <data name="txtSceneName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 32</value>
+  </data>
+  <data name="&gt;&gt;Label48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1X.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Z.Name" xml:space="preserve">
+    <value>txtTeachDispenser1Z</value>
+  </data>
+  <data name="&gt;&gt;lblCount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnGo2.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label48.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label58.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Z.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="txtTeachCCD1Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label52.Name" xml:space="preserve">
+    <value>Label52</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1X.Name" xml:space="preserve">
+    <value>txtTeachCCD1X</value>
+  </data>
+  <data name="txtCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Label49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 99</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="txtCount.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label60.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;txtCount.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label59.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.Name" xml:space="preserve">
+    <value>btnGo1</value>
+  </data>
+  <data name="txtCount.TabIndex" type="System.Int32, mscorlib">
+    <value>406</value>
+  </data>
+  <data name="Label54.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGo2.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="Label52.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTeachCCD1Z.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label53.Name" xml:space="preserve">
+    <value>Label53</value>
+  </data>
+  <data name="Label55.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 369</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label48.Name" xml:space="preserve">
+    <value>Label48</value>
+  </data>
+  <data name="txtTeachDispenser1Y.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSceneName.TabIndex" type="System.Int32, mscorlib">
+    <value>404</value>
+  </data>
+  <data name="&gt;&gt;Label54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSceneName.Name" xml:space="preserve">
+    <value>txtSceneName</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 76</value>
+  </data>
+  <data name="Label48.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSetCcdPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label58.Name" xml:space="preserve">
+    <value>Label58</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.Name" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;Label49.Name" xml:space="preserve">
+    <value>Label49</value>
+  </data>
+  <data name="Label52.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="btnSetValvePos.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.Name" xml:space="preserve">
+    <value>btnSetCcdPos</value>
+  </data>
+  <data name="Label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 92</value>
+  </data>
+  <data name="Label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 398</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;Label49.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtSceneName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 30</value>
+  </data>
+  <data name="lblCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 366</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtTeachCCD1Z.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 89</value>
+  </data>
+  <data name="Label58.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePos.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label59.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtSceneName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Name" xml:space="preserve">
+    <value>lblScene</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGo1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label57.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 870</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtTeachCCD1X.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTeachDispenser1Z.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="Label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 24</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="Label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtTeachCCD1Y.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label55.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtTeachCCD1X.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGo2.Name" xml:space="preserve">
+    <value>btnGo2</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTeachCCD1Y.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1Y.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCount.Text" xml:space="preserve">
+    <value>Auto Retry Count</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Name" xml:space="preserve">
+    <value>lblCount</value>
+  </data>
+  <data name="Label48.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="&gt;&gt;btnGo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label49.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Y.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="grpCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 151</value>
+  </data>
+  <data name="txtTeachCCD1Y.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;Label50.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="grpValvePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 172</value>
+  </data>
+  <data name="&gt;&gt;Label48.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSetCcdPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;txtSceneName.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnGo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="Label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="txtTeachCCD1X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 23</value>
+  </data>
+  <data name="btnSetCcdPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 24</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 493</value>
+  </data>
+  <data name="txtPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 400</value>
+  </data>
+  <data name="lblScene.Text" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="&gt;&gt;Label49.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="lblPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 398</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 366</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Label55.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1X.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSetValvePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Auto Calibration Parameter</value>
+  </data>
+  <data name="Label48.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="Label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="lblPitch.Text" xml:space="preserve">
+    <value>Auto Calib. Pitch</value>
+  </data>
+  <data name="txtTeachCCD1Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 56</value>
+  </data>
+  <data name="Label55.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="Label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePos.Name" xml:space="preserve">
+    <value>btnSetValvePos</value>
+  </data>
+  <data name="btnSetValvePos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 76</value>
+  </data>
+  <data name="Label58.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 475</value>
+  </data>
+  <data name="lblScene.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblCount.TabIndex" type="System.Int32, mscorlib">
+    <value>403</value>
+  </data>
+  <data name="txtTeachCCD1Z.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label57.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="txtCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 30</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCcdPos.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtSceneName.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Label54.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Z.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="Label60.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTeachDispenser1Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 72</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSetAutoCalibration</value>
+  </data>
+  <data name="txtTeachDispenser1X.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpValvePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 430</value>
+  </data>
+  <data name="Label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 26</value>
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1Y.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetCcdPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 60</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 59</value>
+  </data>
+  <data name="&gt;&gt;lblCount.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="Label50.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label60.Name" xml:space="preserve">
+    <value>Label60</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="Label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Y.Name" xml:space="preserve">
+    <value>txtTeachCCD1Y</value>
+  </data>
+  <data name="Label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.Name" xml:space="preserve">
+    <value>txtPitch</value>
+  </data>
+  <data name="txtCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label50.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label55.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="grpValvePos.Text" xml:space="preserve">
+    <value>Valve Pos</value>
+  </data>
+  <data name="&gt;&gt;Label53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetValvePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label59.Name" xml:space="preserve">
+    <value>Label59</value>
+  </data>
+  <data name="btnGo1.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;Label57.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="grpCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtTeachDispenser1Z.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Y.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtTeachDispenser1Z.TabIndex" type="System.Int32, mscorlib">
+    <value>137</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1X.Name" xml:space="preserve">
+    <value>txtTeachDispenser1X</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="Label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 42</value>
+  </data>
+  <data name="btnGo2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblPitch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCount.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtTeachDispenser1X.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="&gt;&gt;Label50.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label59.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="Label51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1Z.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTeachDispenser1Y.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnSetCcdPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 23</value>
+  </data>
+  <data name="Label53.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="txtPitch.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnGo1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVFhHxZYBUQNBDEVPAhIqAQlIQAISkFAHSEAC
+        EioBCUiohGNfpoH/r7nrLcNs/8wfSNjuyyW7V6Z5nu/uMjnaZXK0y+Rol8nRLpOjXSZHu0yOtge/em5+
+        az418wf1uZn8a/OhuVvKDK4F0/TY/M66DrO+qxhlBtcCFwXxtF/NCq1Md1i7FDn2MSkzuBas66V5TzEf
+        zQ8XZ0efmk3KDK4F29KNt/x5ccb/WkSKriRgj6+kzOBasF89hVxJmcG14La4BVxdxrK3ENbZ4VRmcC1Y
+        F+cBOLPWGVfvETXrKZx1eWiNGVwL1pWHLTa56NiswMrAU3Qv9lBmcC2olW3PAvh5qwNpLYLPcc2Pygyu
+        BbXYSDdjHPlK5yWl0KUZgYpunJQZXAtqJUxHoWLmFMZ4suVZBDkVnfhTETl7AGuFVOJG6HcKn499lBlc
+        C2oBzrbzJJyRnmJYn91hn4Myg2vBuniq5fwZE10CwjjS/BtAnvOgn+F31hozuBZsK+97btpjOvHzwlJm
+        cC3YJ56W+S47U5lu0BmTMoNrQb94urwZaWJ7TS+lzOAuE/dwmRztMjnaZXK0y+Rol8mxnqdvTqu5vGYX
+        +xIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Z.Name" xml:space="preserve">
+    <value>txtTeachCCD1Z</value>
+  </data>
+  <data name="&gt;&gt;Label60.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label51.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>409</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTeachDispenser1Z.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtSceneName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 432</value>
+  </data>
+  <data name="txtPitch.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Label54.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;Label53.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="txtTeachCCD1X.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="grpCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="Label54.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;Label51.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCount.Name" xml:space="preserve">
+    <value>txtCount</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>329, 952</value>
+  </data>
+  <data name="lblPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 32</value>
+  </data>
+  <data name="Label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 108</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtTeachCCD1X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="&gt;&gt;btnSetCcdPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="grpCCDPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1X.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="&gt;&gt;Label57.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtTeachDispenser1X.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpValvePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 32</value>
+  </data>
+  <data name="Label53.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="txtPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>405</value>
+  </data>
+  <data name="lblScene.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="Label57.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label49.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="Label58.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="&gt;&gt;txtTeachCCD1Z.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnGo1.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="Label58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtPitch.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label51.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label55.Name" xml:space="preserve">
+    <value>Label55</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>407</value>
+  </data>
+  <data name="&gt;&gt;Label53.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="Label48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label54.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtTeachCCD1Z.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="txtSceneName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>410</value>
+  </data>
+  <data name="&gt;&gt;Label60.Parent" xml:space="preserve">
+    <value>grpValvePos</value>
+  </data>
+  <data name="&gt;&gt;lblScene.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 59</value>
+  </data>
+  <data name="Label50.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Name" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="txtTeachCCD1Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 33</value>
+  </data>
+  <data name="lblScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label51.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label53.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label54.Name" xml:space="preserve">
+    <value>Label54</value>
+  </data>
+  <data name="&gt;&gt;txtTeachDispenser1X.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSetValvePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

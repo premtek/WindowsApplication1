@@ -1,0 +1,2746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;picCylinderDownB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbVacuumB.Items" xml:space="preserve">
+    <value>Vacuum 1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnCylinderDownB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="chklockBNo6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 34</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA3.Name" xml:space="preserve">
+    <value>picCylinderDownA3</value>
+  </data>
+  <data name="btnCylinderUpA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklbVacuumA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 172</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chklockANo1.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="&gt;&gt;GroupBox27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 61</value>
+  </data>
+  <data name="picCylinderUpA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="btnCylinderUpA6.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="btnCylinderUpA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderUpB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="chklbVacuumA.Items3" xml:space="preserve">
+    <value>Vacuum 4</value>
+  </data>
+  <data name="&gt;&gt;chklockANo4.Name" xml:space="preserve">
+    <value>chklockANo4</value>
+  </data>
+  <data name="picCylinderUpA2.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="GroupBox19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picCylinderUpA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB3.Name" xml:space="preserve">
+    <value>picCylinderDownB3</value>
+  </data>
+  <data name="GroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderUpB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="picCylinderUpB1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderDownA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="&gt;&gt;timer_CheckStatus.Name" xml:space="preserve">
+    <value>timer_CheckStatus</value>
+  </data>
+  <data name="btnSetVacuumB.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnCylinderDownA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="btnCylinderUpB6.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="btnCylinderUpB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="chklockANo1.Text" xml:space="preserve">
+    <value>LockANo1</value>
+  </data>
+  <data name="&gt;&gt;chklockANo5.Name" xml:space="preserve">
+    <value>chklockANo5</value>
+  </data>
+  <data name="picCylinderUpA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockANo4.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderUpA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="btnCylinderDownA3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox19.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="picCylinderDownA2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB1.Parent" xml:space="preserve">
+    <value>GroupBox13</value>
+  </data>
+  <data name="btnCylinderDownA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderUpA5.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="btnCylinderUpB6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chklockBNo3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 213</value>
+  </data>
+  <data name="GroupBox29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>527, 35</value>
+  </data>
+  <data name="btnCylinderDownB5.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="chklbVacuumB.Items2" xml:space="preserve">
+    <value>Vacuum 3</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picCylinderDownB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderDownA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="picCylinderDownA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderUpB2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="chklockANo5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownB4.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;GroupBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetVacuumA.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picCylinderDownA2.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="btnExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB4.Parent" xml:space="preserve">
+    <value>GroupBox9</value>
+  </data>
+  <data name="picCylinderUpB3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="btnCylinderDownB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="GroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox11.Text" xml:space="preserve">
+    <value>NO.2</value>
+  </data>
+  <data name="btnCylinderDownA3.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA4.Parent" xml:space="preserve">
+    <value>GroupBox25</value>
+  </data>
+  <data name="picCylinderUpB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklockANo1.Name" xml:space="preserve">
+    <value>chklockANo1</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderUpA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="picCylinderDownA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>721, 581</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox23.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="btnCylinderDownA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="chklockBNo4.Text" xml:space="preserve">
+    <value>LockBNo4</value>
+  </data>
+  <data name="chklockANo3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 295</value>
+  </data>
+  <data name="picCylinderUpA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;chklockANo6.Name" xml:space="preserve">
+    <value>chklockANo6</value>
+  </data>
+  <data name="picCylinderDownB1.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCylinderDownA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="btnCylinderDownA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetVacuumB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 218</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumA.Name" xml:space="preserve">
+    <value>btnSetVacuumA</value>
+  </data>
+  <data name="&gt;&gt;GroupBox29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownB3.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="btnCylinderUpA2.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockBNo3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo1.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="btnCylinderDownA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA4.Parent" xml:space="preserve">
+    <value>GroupBox25</value>
+  </data>
+  <data name="GroupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chklockANo1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSetKit</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo3.Name" xml:space="preserve">
+    <value>chklockBNo3</value>
+  </data>
+  <data name="btnCylinderDownB6.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="picCylinderUpA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB4.Name" xml:space="preserve">
+    <value>picCylinderUpB4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbVacuumB.Items3" xml:space="preserve">
+    <value>Vacuum 4</value>
+  </data>
+  <data name="chklockANo4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>719, 581</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumB.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderUpA3.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="btnCylinderDownA6.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA5.Parent" xml:space="preserve">
+    <value>GroupBox21</value>
+  </data>
+  <data name="btnExit.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnCylinderUpA3.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="chklockBNo6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="chklockBNo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 398</value>
+  </data>
+  <data name="picCylinderDownA3.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="chklockANo2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB5.Name" xml:space="preserve">
+    <value>picCylinderUpB5</value>
+  </data>
+  <data name="btnCylinderUpA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="GroupBox27.Text" xml:space="preserve">
+    <value>NO.6</value>
+  </data>
+  <data name="picCylinderUpA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="btnCylinderDownB2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chklockBNo2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="btnCylinderUpB2.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB6.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCylinderUpA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="btnCylinderDownA4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA5.Parent" xml:space="preserve">
+    <value>GroupBox21</value>
+  </data>
+  <data name="&gt;&gt;chklockANo2.Name" xml:space="preserve">
+    <value>chklockANo2</value>
+  </data>
+  <data name="chklbVacuumB.Items4" xml:space="preserve">
+    <value>Vacuum 5</value>
+  </data>
+  <data name="chklockBNo1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklockANo3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chklockBNo2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCylinderDownB1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA6.Name" xml:space="preserve">
+    <value>picCylinderDownA6</value>
+  </data>
+  <data name="btnCylinderUpB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="btnCylinderDownB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="picCylinderUpA2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA3.Parent" xml:space="preserve">
+    <value>GroupBox19</value>
+  </data>
+  <data name="&gt;&gt;GroupBox25.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="btnCylinderDownA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderUpB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockANo2.Text" xml:space="preserve">
+    <value>LockANo2</value>
+  </data>
+  <data name="btnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA2.Name" xml:space="preserve">
+    <value>picCylinderDownA2</value>
+  </data>
+  <data name="btnCylinderUpA4.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB6.Name" xml:space="preserve">
+    <value>btnCylinderDownB6</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Name" xml:space="preserve">
+    <value>ImageList1</value>
+  </data>
+  <data name="picCylinderDownA4.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="GroupBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 61</value>
+  </data>
+  <data name="picCylinderUpA4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB6.Name" xml:space="preserve">
+    <value>picCylinderDownB6</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA1.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="picCylinderDownA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="chklockANo1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA2.Parent" xml:space="preserve">
+    <value>GroupBox23</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB2.Name" xml:space="preserve">
+    <value>picCylinderDownB2</value>
+  </data>
+  <data name="btnCylinderDownA1.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockBNo4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA6.Parent" xml:space="preserve">
+    <value>GroupBox27</value>
+  </data>
+  <data name="picCylinderDownA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB6.Name" xml:space="preserve">
+    <value>picCylinderUpB6</value>
+  </data>
+  <data name="GroupBox21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownB4.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="GroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 12</value>
+  </data>
+  <data name="chklockANo3.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="chklbVacuumB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chklockBNo4.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="&gt;&gt;GroupBox27.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="GroupBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 247</value>
+  </data>
+  <data name="btnCylinderUpB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;chklockANo3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderUpB4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox17.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;GroupBox25.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chklockBNo6.Text" xml:space="preserve">
+    <value>LockBNo6</value>
+  </data>
+  <data name="btnCylinderUpA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="picCylinderDownA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="picCylinderUpA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB5.Parent" xml:space="preserve">
+    <value>GroupBox17</value>
+  </data>
+  <data name="GroupBox25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBox7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GroupBox27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="chklockBNo5.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="btnCylinderUpB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="btnCylinderDownA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="btnSetVacuumA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="picCylinderDownA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA1.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="chklockBNo1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chklockANo2.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="btnCylinderDownB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderUpB1.Name" xml:space="preserve">
+    <value>picCylinderUpB1</value>
+  </data>
+  <data name="chklockBNo1.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="picCylinderDownA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="picCylinderUpB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA1.Name" xml:space="preserve">
+    <value>btnCylinderDownA1</value>
+  </data>
+  <data name="GroupBox17.Text" xml:space="preserve">
+    <value>NO.5</value>
+  </data>
+  <data name="btnCylinderDownB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA6.Parent" xml:space="preserve">
+    <value>GroupBox27</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA2.Parent" xml:space="preserve">
+    <value>GroupBox23</value>
+  </data>
+  <data name="chklbVacuumB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 172</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 295</value>
+  </data>
+  <data name="btnCylinderDownA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Set Chuck Kit</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picCylinderDownA6.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="btnCylinderDownB3.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="btnCylinderUpA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="picCylinderDownA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpA1.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB3.Name" xml:space="preserve">
+    <value>picCylinderUpB3</value>
+  </data>
+  <data name="chklockANo4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA3.Parent" xml:space="preserve">
+    <value>GroupBox19</value>
+  </data>
+  <data name="btnCylinderDownB5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="picCylinderUpA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 434</value>
+  </data>
+  <data name="picCylinderUpB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="picCylinderDownB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockBNo3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GroupBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="picCylinderUpB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumB.Name" xml:space="preserve">
+    <value>btnSetVacuumB</value>
+  </data>
+  <data name="btnCylinderUpB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox17.Name" xml:space="preserve">
+    <value>GroupBox17</value>
+  </data>
+  <data name="btnCylinderUpA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="btnCylinderUpB1.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="picCylinderUpB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="btnCylinderUpB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderUpB4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderDownB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB3.Parent" xml:space="preserve">
+    <value>GroupBox15</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picCylinderDownA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="btnCylinderUpB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderUpB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderUpA4.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="&gt;&gt;GroupBox11.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="picCylinderUpB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picCylinderDownB5.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="btnCylinderUpA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderUpB5.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="picCylinderUpA1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="&gt;&gt;GroupBox25.Name" xml:space="preserve">
+    <value>GroupBox25</value>
+  </data>
+  <data name="chklockANo4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCylinderDownA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderDownA4.Parent" xml:space="preserve">
+    <value>GroupBox25</value>
+  </data>
+  <data name="chklockANo4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox13.Text" xml:space="preserve">
+    <value>NO.1</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GroupBox15.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="btnCylinderUpB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA2.Parent" xml:space="preserve">
+    <value>GroupBox23</value>
+  </data>
+  <data name="GroupBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="GroupBox25.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="chklockANo1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB2.Name" xml:space="preserve">
+    <value>picCylinderUpB2</value>
+  </data>
+  <data name="GroupBox23.Text" xml:space="preserve">
+    <value>NO.2</value>
+  </data>
+  <data name="btnCylinderUpB2.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockANo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 398</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picCylinderUpB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA6.Parent" xml:space="preserve">
+    <value>GroupBox27</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA5.Parent" xml:space="preserve">
+    <value>GroupBox21</value>
+  </data>
+  <data name="btnSetVacuumB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 66</value>
+  </data>
+  <data name="&gt;&gt;GroupBox21.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="chklbVacuumA.Items2" xml:space="preserve">
+    <value>Vacuum 3</value>
+  </data>
+  <data name="chklockBNo5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCylinderUpA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCylinderUpB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="chklbVacuumB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderDownB2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox11.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GroupBox11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA4.Parent" xml:space="preserve">
+    <value>GroupBox25</value>
+  </data>
+  <data name="picCylinderDownA3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderUpB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo4.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="picCylinderUpA3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderUpB6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chklockBNo3.Text" xml:space="preserve">
+    <value>LockBNo3</value>
+  </data>
+  <data name="GroupBox27.TabIndex" type="System.Int32, mscorlib">
+    <value>186</value>
+  </data>
+  <data name="picCylinderUpA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownB3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1470, 685</value>
+  </data>
+  <data name="btnCylinderDownA4.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA3.Name" xml:space="preserve">
+    <value>btnCylinderDownA3</value>
+  </data>
+  <data name="chklbVacuumB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox15.Text" xml:space="preserve">
+    <value>NO.3</value>
+  </data>
+  <data name="picCylinderDownA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chklockANo4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo5.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="chklockBNo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="btnCylinderDownA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderUpA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA4.Name" xml:space="preserve">
+    <value>picCylinderUpA4</value>
+  </data>
+  <data name="picCylinderUpB6.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="&gt;&gt;GroupBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="picCylinderDownA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownA3.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox25.Text" xml:space="preserve">
+    <value>NO.4</value>
+  </data>
+  <data name="btnSetVacuumA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 66</value>
+  </data>
+  <data name="&gt;&gt;chklockANo5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownA2.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="btnCylinderUpA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="GroupBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="chklockBNo1.Text" xml:space="preserve">
+    <value>LockBNo1</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA5.Name" xml:space="preserve">
+    <value>picCylinderUpA5</value>
+  </data>
+  <data name="btnCylinderUpA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="&gt;&gt;GroupBox23.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbVacuumB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 38</value>
+  </data>
+  <data name="GroupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="btnCylinderDownA2.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumA.Parent" xml:space="preserve">
+    <value>GroupBox29</value>
+  </data>
+  <data name="btnCylinderUpA2.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="btnCylinderUpB3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA1.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB2.Parent" xml:space="preserve">
+    <value>GroupBox11</value>
+  </data>
+  <data name="btnCylinderUpB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="GroupBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="GroupBox23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chklockANo4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chklockANo6.Text" xml:space="preserve">
+    <value>LockANo6</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB4.Parent" xml:space="preserve">
+    <value>GroupBox9</value>
+  </data>
+  <data name="&gt;&gt;chklockANo5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="chklockANo5.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="picCylinderDownB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetVacuumB.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="btnCylinderDownA5.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="&gt;&gt;chklockANo5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCylinderDownA2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderUpA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GroupBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA6.Parent" xml:space="preserve">
+    <value>GroupBox27</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB1.Parent" xml:space="preserve">
+    <value>GroupBox13</value>
+  </data>
+  <data name="&gt;&gt;GroupBox17.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="btnCylinderUpA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockANo3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chklbVacuumA.Items" xml:space="preserve">
+    <value>Vacuum 1</value>
+  </data>
+  <data name="GroupBox27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA1.Name" xml:space="preserve">
+    <value>picCylinderUpA1</value>
+  </data>
+  <data name="picCylinderDownB2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownA1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB6.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo6.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="&gt;&gt;chklockANo1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderUpB1.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA6.Name" xml:space="preserve">
+    <value>picCylinderUpA6</value>
+  </data>
+  <data name="chklockBNo6.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumA.Name" xml:space="preserve">
+    <value>chklbVacuumA</value>
+  </data>
+  <data name="chklockANo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="btnCylinderUpA1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderDownB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB5.Name" xml:space="preserve">
+    <value>btnCylinderDownB5</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklbVacuumA.Items4" xml:space="preserve">
+    <value>Vacuum 5</value>
+  </data>
+  <data name="GroupBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 61</value>
+  </data>
+  <data name="btnCylinderUpA4.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="&gt;&gt;chklockANo6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB1.Name" xml:space="preserve">
+    <value>btnCylinderDownB1</value>
+  </data>
+  <data name="GroupBox21.Text" xml:space="preserve">
+    <value>NO.5</value>
+  </data>
+  <data name="btnCylinderDownB1.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="btnCylinderDownA1.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="picCylinderUpA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="picCylinderDownA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="&gt;&gt;ImageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox29.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="picCylinderUpA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpB3.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="chklockBNo5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="&gt;&gt;GroupBox15.Name" xml:space="preserve">
+    <value>GroupBox15</value>
+  </data>
+  <data name="GroupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="btnCylinderUpB1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderDownA4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA5.Parent" xml:space="preserve">
+    <value>GroupBox21</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo2.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderDownA1.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderDownB4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 247</value>
+  </data>
+  <data name="chklockANo6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 35</value>
+  </data>
+  <data name="GroupBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="&gt;&gt;chklockANo6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chklockBNo5.Text" xml:space="preserve">
+    <value>LockBNo5</value>
+  </data>
+  <data name="btnCylinderUpA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownB6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chklockBNo4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA2.Name" xml:space="preserve">
+    <value>picCylinderUpA2</value>
+  </data>
+  <data name="btnCylinderUpA5.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB2.Parent" xml:space="preserve">
+    <value>GroupBox11</value>
+  </data>
+  <data name="picCylinderDownB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="chklockANo6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB2.Name" xml:space="preserve">
+    <value>btnCylinderDownB2</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockANo2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA3.Name" xml:space="preserve">
+    <value>btnCylinderUpA3</value>
+  </data>
+  <data name="btnCylinderUpB2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCylinderDownB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="chklbVacuumA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderUpB5.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="picCylinderUpB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;chklockANo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA6.Name" xml:space="preserve">
+    <value>btnCylinderUpA6</value>
+  </data>
+  <data name="btnSetVacuumB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderUpA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="btnCylinderDownA5.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA2.Name" xml:space="preserve">
+    <value>btnCylinderDownA2</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockANo6.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="picCylinderDownA6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderUpB4.Text" xml:space="preserve">
+    <value>Cylinder Up</value>
+  </data>
+  <data name="chklockANo5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 35</value>
+  </data>
+  <data name="picCylinderDownB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;GroupBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockBNo2.Text" xml:space="preserve">
+    <value>LockBNo2</value>
+  </data>
+  <data name="chklockANo3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picCylinderDownB6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB6.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="GroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 434</value>
+  </data>
+  <data name="btnCylinderDownA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB1.Parent" xml:space="preserve">
+    <value>GroupBox13</value>
+  </data>
+  <data name="&gt;&gt;timer_CheckStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockANo5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="btnCylinderUpA5.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;chklockANo2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox19.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB3.Name" xml:space="preserve">
+    <value>btnCylinderUpB3</value>
+  </data>
+  <data name="&gt;&gt;GroupBox11.Name" xml:space="preserve">
+    <value>GroupBox11</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox23.Name" xml:space="preserve">
+    <value>GroupBox23</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderUpA6.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA3.Parent" xml:space="preserve">
+    <value>GroupBox19</value>
+  </data>
+  <data name="btnCylinderUpB6.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;GroupBox27.Name" xml:space="preserve">
+    <value>GroupBox27</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB3.Name" xml:space="preserve">
+    <value>btnCylinderDownB3</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;GroupBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderUpB4.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="picCylinderDownB2.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="btnCylinderUpB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA2.Name" xml:space="preserve">
+    <value>btnCylinderUpA2</value>
+  </data>
+  <data name="picCylinderUpB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklockBNo4.Name" xml:space="preserve">
+    <value>chklockBNo4</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 35</value>
+  </data>
+  <data name="GroupBox9.Text" xml:space="preserve">
+    <value>NO.4</value>
+  </data>
+  <data name="chklockANo1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCylinderUpB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA1.Name" xml:space="preserve">
+    <value>picCylinderDownA1</value>
+  </data>
+  <data name="btnCylinderUpA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderDownB3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderUpA1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA5.Name" xml:space="preserve">
+    <value>btnCylinderUpA5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo5.Name" xml:space="preserve">
+    <value>chklockBNo5</value>
+  </data>
+  <data name="btnSetVacuumA.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="chklockANo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumA.Parent" xml:space="preserve">
+    <value>GroupBox29</value>
+  </data>
+  <data name="btnCylinderUpB3.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;GroupBox15.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCylinderDownB4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBox13.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="picCylinderUpB1.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="&gt;&gt;GroupBox29.Name" xml:space="preserve">
+    <value>GroupBox29</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB2.Parent" xml:space="preserve">
+    <value>GroupBox11</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA4.Name" xml:space="preserve">
+    <value>btnCylinderUpA4</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetVacuumA.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnCylinderDownA6.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="GroupBox29.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.Name" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="chklockBNo2.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="GroupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderUpA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA4.Name" xml:space="preserve">
+    <value>picCylinderDownA4</value>
+  </data>
+  <data name="&gt;&gt;chklockANo3.Name" xml:space="preserve">
+    <value>chklockANo3</value>
+  </data>
+  <data name="picCylinderUpB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="GroupBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB5.Parent" xml:space="preserve">
+    <value>GroupBox17</value>
+  </data>
+  <data name="picCylinderUpB5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockANo4.Text" xml:space="preserve">
+    <value>LockANo4</value>
+  </data>
+  <data name="chklockBNo5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderDownB4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCylinderUpA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockBNo3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox27.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GroupBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 434</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB6.Parent" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB4.Name" xml:space="preserve">
+    <value>picCylinderDownB4</value>
+  </data>
+  <data name="btnSetVacuumB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="picCylinderDownB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA5.Name" xml:space="preserve">
+    <value>btnCylinderDownA5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB4.Parent" xml:space="preserve">
+    <value>GroupBox9</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockBNo6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderUpA3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderUpA6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA2.Parent" xml:space="preserve">
+    <value>GroupBox23</value>
+  </data>
+  <data name="chklockBNo5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 34</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA1.Name" xml:space="preserve">
+    <value>btnCylinderUpA1</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo1.Name" xml:space="preserve">
+    <value>chklockBNo1</value>
+  </data>
+  <data name="GroupBox15.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="btnCylinderDownB2.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="btnCylinderDownB3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB6.Name" xml:space="preserve">
+    <value>btnCylinderUpB6</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chklockANo4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 215</value>
+  </data>
+  <data name="GroupBox25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 247</value>
+  </data>
+  <data name="picCylinderDownB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="btnCylinderDownB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="chklbVacuumA.Items5" xml:space="preserve">
+    <value>Vacuum 6</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockANo5.Text" xml:space="preserve">
+    <value>LockANo5</value>
+  </data>
+  <data name="btnCylinderUpA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderUpB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="GroupBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockANo3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Name" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="btnCylinderUpA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetVacuumA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="picCylinderUpB6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklockANo4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="picCylinderDownB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="GroupBox15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderUpA3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCylinderDownB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB1.Parent" xml:space="preserve">
+    <value>GroupBox13</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB5.Parent" xml:space="preserve">
+    <value>GroupBox17</value>
+  </data>
+  <data name="btnCylinderUpB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="btnCylinderDownB5.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="picCylinderDownA5.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="chklockANo6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picCylinderDownB4.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="GroupBox17.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="btnCylinderUpA1.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo3.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="btnCylinderDownA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="&gt;&gt;GroupBox19.Name" xml:space="preserve">
+    <value>GroupBox19</value>
+  </data>
+  <data name="picCylinderDownB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB3.Parent" xml:space="preserve">
+    <value>GroupBox15</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Machine A Hot Plate</value>
+  </data>
+  <data name="chklockANo3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 211</value>
+  </data>
+  <data name="btnSetVacuumB.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picCylinderDownA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB4.Parent" xml:space="preserve">
+    <value>GroupBox9</value>
+  </data>
+  <data name="GroupBox27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockBNo5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="picCylinderDownA4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB3.Parent" xml:space="preserve">
+    <value>GroupBox15</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Vacuum</value>
+  </data>
+  <data name="btnCylinderDownB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1306, 601</value>
+  </data>
+  <data name="picCylinderDownA2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderUpB2.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox7.Text" xml:space="preserve">
+    <value>NO.6</value>
+  </data>
+  <data name="btnCylinderUpA1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chklbVacuumB.Items5" xml:space="preserve">
+    <value>Vacuum 6</value>
+  </data>
+  <data name="btnCylinderUpB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo2.Name" xml:space="preserve">
+    <value>chklockBNo2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="GroupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 434</value>
+  </data>
+  <data name="chklockBNo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 30</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCylinderDownB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox21.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <data name="picCylinderDownB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockBNo4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderDownB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderDownA1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ImageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACM
+        DAAAAk1TRnQBSQFMAgEBAgEAAVABAQFYAQEBHAEAARwBAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABcAMAARwDAAEBAQABCAUAAUABDBgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP/CgAB/wHzAbwEkwEH
+        AfMB/xIAAf8B8wEIAe8C7QH3AbwB8wH/SAAB/wG8AW4CAQMfAwEBbgG8AfQOAAH/AbwBcggnAXIBvAH0
+        RAAB/wHwAW4CAQcfAwEBRQEHAf8KAAH/AfABcgInBQIFJwFJAbwB/0EAAf8BkwMBBh8HAQEcAf8IAAH/
+        Ae8QJwHtAf8/AAH/AZMEAQcfBwEBkwH/BgAB/wHvECcBIQEnAe0B/z0AAf8BkwMBCx8EAQEeAQEBkwH/
+        BAAB/wHvEicCIQHtAf88AAHxAgEOHwYBAbwEAAHxBScIAgcnASEBJwEIOwAB/wFuAQEFHwYgBh8EAQFF
+        AfQCAAH/AXIDJwwCBScCIQFJAfQ6AAHxAQEEHwEgAkYHIAUfBAEBvAH/AQAB8QMnAwIDTwgCBScBIQEn
+        AQgB/zgAAf8BkwMfAekFRgcgBB8EAQFuAv8B7QInAgIGTwEtBwIGJwFyAf84AAH0AUUCHwHpB0YHIAQf
+        BAEB8wH0AUkCJwECCE8CLQYCBicB8zgAAfECHwHpAUYBbwdGByADHwQBAQcB8QInAQIBTwFyCE8CLQYC
+        BScBBzgAAQcCHwFGAm8DFwFGAkcCRgcgAx8DAQGTAQcCJwFPA5cDVQVPAi0FAgUnAfc4AAGTAR8B6QRv
+        AhcFRwFGBiADHwMBAZMB9wEnAQIFlwVVA08CLQUCBCcB7TgAAZMBHwFGAZMBFgFvAuMCFwVHAUYFIAMf
+        AwEBkwHvAScBTwGYBZcFVQNPAi0EAgQnAe04AAG8AR8BRgGTAhYD4wIXBUcBRgUgAh8DAQGTAQgBJwFP
+        ApgFlwVVA08BLQQCBCcB7zgAAfMBHwFGAZMDFgPjAhcERwJGBCACHwMBAbwB8gEnAXIDmAWXBFUETwQC
+        BCcBCDgAAf8BRQFGAZQBkwMWA+MCFwNHA0YDIAIfAwEB8wH0AUkBcgSYBZcEVQRPAwIEJwHzOAAB/wGT
+        AUYCkwGUAxYD4wIXAkcERgEgAx8CAQFuAv8BmAFPBZgFlwNVBE8DAgMnAXIB/zkAAfMBRQGTA5QDFgPj
+        AxcDRgIgAx8CAQHwAgAB8wFPBpgFlwJVBE8CAgQnAfA6AAH/Am8BGgOUAxYD4wIXA0YCIAIfAgEBbgH/
+        AgAB/wFyAZcBCAWYBZcBVQNPAwIDJwFyAf87AAHzAUYBlAEaA5QDFgPjARcDRgEgAx8CAQHwBAAB8wFP
+        AZgBCAWYBZcBVQJPAwIDJwHwPQABvAFGAhoDlAMWAeMDbwFGASADHwIBAZMB/wUAAQgBTwIIBZgFlwFP
+        AwIDJwHvAf8+AAEHAUYBlAEaA5QEFgFvAUYBIAQfAQEBkwH/BwABBwFPAZgBCAWYA5cBTwMCAycB7wH/
+        QAABBwFGAW8BkwOUAZMBFgFvAUYBIAQfAQEBkwH/CQABBwFPAZcGmAGXAU8DAgMnAe8B/0IAAfMBbwZG
+        AekFHwFuAfAB/wsAAfMBcgJPAnICTwQCAicBcgHxAf9EAAH/AfMBkwFFBh8BRQGTAfEB/w4AAf8B8wGY
+        AU8BJwQCAScBSQHtAfEB/0gAAv8B8wG8ApMBBwHxAfQB/xIAAv8B8gEIAe8BmAEHAfEB9AH/QQABQgFN
+        AT4HAAE+AwABKAMAAXADAAEcAwABAQEAAQEFAAHAAQEWAAP/AQAB/wGAAR8B/wH4AQEB/wkAAf4BAAEH
+        Af8B4AEAAX8JAAH4AQABAQH/AYABAAEfCQAB8AIAAf8CAAEPCQAB4AIAAX4CAAEHCQABwAIAATwCAAED
+        CQABwAIAATwCAAEDCQABgAIAARgCAAEBCQABgAIAAQisAAGAAgABGAIAAQEJAAGAAgABGAIAAQEJAAHA
+        AgABPAIAAQMJAAHgAgABPgIAAQMJAAHwAgABfwIAAQcJAAH4AgAB/wGAAQABDwkAAfwBAAEBAf8BwAEA
+        AR8JAAH+AQABBwH/AeABAAF/CQAB/wGAAR8B/wH4AQEB/x8ACw==
+</value>
+  </data>
+  <data name="btnCylinderUpA6.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;GroupBox9.Name" xml:space="preserve">
+    <value>GroupBox9</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox9.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="picCylinderUpB5.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="picCylinderUpA5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpA6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>Machine B Hot Plate</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA1.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB4.Name" xml:space="preserve">
+    <value>btnCylinderUpB4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox21.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="GroupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 247</value>
+  </data>
+  <data name="btnCylinderDownB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderUpB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="GroupBox13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="GroupBox23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupBox9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB3.Parent" xml:space="preserve">
+    <value>GroupBox15</value>
+  </data>
+  <data name="&gt;&gt;chklockANo1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderUpA2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>NO.1</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox29.Text" xml:space="preserve">
+    <value>Vacuum</value>
+  </data>
+  <data name="picCylinderUpB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="picCylinderUpA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;GroupBox17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picCylinderDownB1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownA6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderUpB5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderUpA3.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;chklockANo6.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chklockANo2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpA3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBox21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderUpB2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox19.Text" xml:space="preserve">
+    <value>NO.3</value>
+  </data>
+  <data name="btnCylinderDownB4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderDownB6.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA5.Name" xml:space="preserve">
+    <value>picCylinderDownA5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB2.Name" xml:space="preserve">
+    <value>btnCylinderUpB2</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB5.Parent" xml:space="preserve">
+    <value>GroupBox17</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chklbVacuumA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picCylinderUpB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 39</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chklockANo5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chklbVacuumA.Items1" xml:space="preserve">
+    <value>Vacuum 2</value>
+  </data>
+  <data name="picCylinderUpB4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chklockBNo6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;picCylinderDownB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderUpA1.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="btnCylinderUpA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderDownB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB5.Name" xml:space="preserve">
+    <value>picCylinderDownB5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA4.Name" xml:space="preserve">
+    <value>btnCylinderDownA4</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="picCylinderUpA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderUpA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderDownB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownB1.Name" xml:space="preserve">
+    <value>picCylinderDownB1</value>
+  </data>
+  <data name="chklockBNo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 398</value>
+  </data>
+  <data name="btnCylinderDownB2.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="btnCylinderUpB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCylinderDownB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockBNo6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetVacuumA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 218</value>
+  </data>
+  <data name="btnCylinderDownB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="&gt;&gt;GroupBox7.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB2.Parent" xml:space="preserve">
+    <value>GroupBox11</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpA3.Name" xml:space="preserve">
+    <value>picCylinderUpA3</value>
+  </data>
+  <data name="picCylinderUpB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="btnCylinderUpB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox9.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chklbVacuumA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 38</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCylinderDownB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 80</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picCylinderDownA6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;GroupBox13.Name" xml:space="preserve">
+    <value>GroupBox13</value>
+  </data>
+  <data name="btnCylinderUpB4.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB5.Name" xml:space="preserve">
+    <value>btnCylinderUpB5</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpB1.Name" xml:space="preserve">
+    <value>btnCylinderUpB1</value>
+  </data>
+  <data name="chklockBNo3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chklockBNo4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 211</value>
+  </data>
+  <data name="chklockANo6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 30</value>
+  </data>
+  <data name="&gt;&gt;GroupBox29.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;chklockANo2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="GroupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 61</value>
+  </data>
+  <data name="btnCylinderUpB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="btnCylinderDownA4.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="btnCylinderUpB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 33</value>
+  </data>
+  <data name="chklockBNo1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCylinderUpA4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GroupBox19.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GroupBox21.Name" xml:space="preserve">
+    <value>GroupBox21</value>
+  </data>
+  <data name="GroupBox7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="&gt;&gt;chklockBNo6.Name" xml:space="preserve">
+    <value>chklockBNo6</value>
+  </data>
+  <data name="chklbVacuumB.Items1" xml:space="preserve">
+    <value>Vacuum 2</value>
+  </data>
+  <data name="&gt;&gt;chklockANo3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picCylinderDownB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCylinderUpA4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picCylinderUpA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
+  <data name="&gt;&gt;chklbVacuumB.Name" xml:space="preserve">
+    <value>chklbVacuumB</value>
+  </data>
+  <data name="picCylinderDownB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 86</value>
+  </data>
+  <data name="chklbVacuumA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GroupBox13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderDownB4.Name" xml:space="preserve">
+    <value>btnCylinderDownB4</value>
+  </data>
+  <data name="btnCylinderDownA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chklockANo6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chklockBNo4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownB6.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="GroupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>187</value>
+  </data>
+  <data name="picCylinderDownB5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;chklockBNo3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="chklockANo5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="picCylinderDownA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="btnCylinderUpB2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCylinderDownA6.Name" xml:space="preserve">
+    <value>btnCylinderDownA6</value>
+  </data>
+  <data name="chklockBNo3.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="chklockBNo2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox23.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnCylinderDownB1.Text" xml:space="preserve">
+    <value>Cylinder Down</value>
+  </data>
+  <data name="picCylinderDownB5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCylinderDownB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picCylinderDownA3.Parent" xml:space="preserve">
+    <value>GroupBox19</value>
+  </data>
+  <data name="picCylinderDownB3.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="GroupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 134</value>
+  </data>
+  <data name="btnCylinderDownA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 41</value>
+  </data>
+  <data name="chklockANo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 398</value>
+  </data>
+  <data name="&gt;&gt;GroupBox7.Name" xml:space="preserve">
+    <value>GroupBox7</value>
+  </data>
+  <data name="&gt;&gt;GroupBox13.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="picCylinderUpB3.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="&gt;&gt;picCylinderUpB6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnSetVacuumB.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>188</value>
+  </data>
+  <data name="btnCylinderUpB1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chklockANo3.Text" xml:space="preserve">
+    <value>LockANo3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ImageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>248, 17</value>
+  </metadata>
+  <metadata name="timer_CheckStatus.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>363, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>58</value>
+  </metadata>
+</root>

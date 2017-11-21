@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="nmuOnRuns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 130</value>
+  </data>
+  <data name="nmuOnRuns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="nmuOnRuns.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;nmuOnRuns.Name" xml:space="preserve">
+    <value>nmuOnRuns</value>
+  </data>
+  <data name="&gt;&gt;nmuOnRuns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmuOnRuns.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;nmuOnRuns.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nmuOnTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 80</value>
+  </data>
+  <data name="nmuOnTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 33</value>
+  </data>
+  <data name="nmuOnTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;nmuOnTimer.Name" xml:space="preserve">
+    <value>nmuOnTimer</value>
+  </data>
+  <data name="&gt;&gt;nmuOnTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmuOnTimer.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;nmuOnTimer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblRuns.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblRuns.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblRuns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 130</value>
+  </data>
+  <data name="lblRuns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 29</value>
+  </data>
+  <data name="lblRuns.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lblRuns.Text" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="lblRuns.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblRuns.Name" xml:space="preserve">
+    <value>lblRuns</value>
+  </data>
+  <data name="&gt;&gt;lblRuns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRuns.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;lblRuns.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTimer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblTimer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 80</value>
+  </data>
+  <data name="lblTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 29</value>
+  </data>
+  <data name="lblTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="lblTimer.Text" xml:space="preserve">
+    <value>Timer</value>
+  </data>
+  <data name="lblTimer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.Name" xml:space="preserve">
+    <value>lblTimer</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;lblTimer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 30</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 29</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Run Type</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cboRunType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cboRunType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 29</value>
+  </data>
+  <data name="cboRunType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 32</value>
+  </data>
+  <data name="cboRunType.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;cboRunType.Name" xml:space="preserve">
+    <value>cboRunType</value>
+  </data>
+  <data name="&gt;&gt;cboRunType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboRunType.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;cboRunType.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkJettingPurge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkJettingPurge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkJettingPurge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkJettingPurge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 264</value>
+  </data>
+  <data name="chkJettingPurge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 28</value>
+  </data>
+  <data name="chkJettingPurge.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="chkJettingPurge.Text" xml:space="preserve">
+    <value>JettingPurge</value>
+  </data>
+  <data name="chkJettingPurge.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkJettingPurge.Name" xml:space="preserve">
+    <value>chkJettingPurge</value>
+  </data>
+  <data name="&gt;&gt;chkJettingPurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkJettingPurge.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;chkJettingPurge.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkPreDispenePurge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPreDispenePurge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkPreDispenePurge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkPreDispenePurge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 192</value>
+  </data>
+  <data name="chkPreDispenePurge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 28</value>
+  </data>
+  <data name="chkPreDispenePurge.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="chkPreDispenePurge.Text" xml:space="preserve">
+    <value>Pre-Dispene Purge</value>
+  </data>
+  <data name="&gt;&gt;chkPreDispenePurge.Name" xml:space="preserve">
+    <value>chkPreDispenePurge</value>
+  </data>
+  <data name="&gt;&gt;chkPreDispenePurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkPreDispenePurge.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;chkPreDispenePurge.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblCleanType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCleanType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 229</value>
+  </data>
+  <data name="lblCleanType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 29</value>
+  </data>
+  <data name="lblCleanType.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="lblCleanType.Text" xml:space="preserve">
+    <value>Clean Type</value>
+  </data>
+  <data name="lblCleanType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCleanType.Name" xml:space="preserve">
+    <value>lblCleanType</value>
+  </data>
+  <data name="&gt;&gt;lblCleanType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCleanType.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;lblCleanType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cboCleanType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cboCleanType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 226</value>
+  </data>
+  <data name="cboCleanType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 32</value>
+  </data>
+  <data name="cboCleanType.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;cboCleanType.Name" xml:space="preserve">
+    <value>cboCleanType</value>
+  </data>
+  <data name="&gt;&gt;cboCleanType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboCleanType.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;cboCleanType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label82.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 130</value>
+  </data>
+  <data name="Label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="Label82.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="Label82.Text" xml:space="preserve">
+    <value>strips</value>
+  </data>
+  <data name="Label82.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label82.Name" xml:space="preserve">
+    <value>Label82</value>
+  </data>
+  <data name="&gt;&gt;Label82.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label82.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;Label82.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 80</value>
+  </data>
+  <data name="Label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="Label50.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="Label50.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label50.Name" xml:space="preserve">
+    <value>Label50</value>
+  </data>
+  <data name="&gt;&gt;Label50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label50.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;Label50.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lstItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lstItem.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lstItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 62</value>
+  </data>
+  <data name="lstItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 220</value>
+  </data>
+  <data name="lstItem.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;lstItem.Name" xml:space="preserve">
+    <value>lstItem</value>
+  </data>
+  <data name="&gt;&gt;lstItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstItem.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;lstItem.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 33</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnUpdate.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVHhe7dqB
+        TcNADAXQjtARGIERGIEROgIjdARGYJSOwAiM0A2CLZXI+fx/TVqaWPhOelL1dY2NpTRpw24YhvJoWA0N
+        q6FhNTSshobV0LAaGlZDw2poWA0NW2y9mlPDO3vfXHCs6BD2HELunuMxlqKhYuvN+IuWE3vvXHCs6Bj2
+        HEPuzubmQdBQsfV1KdqyxRDczYOgoRIKtmw1BHfTIGiohGItWw7BLR4EDZVQqGXrIbhFg6ChEoq0ZBiC
+        O8fjttBQgSJKliHY1t/HZ2ioYBGhD8HcO4R4ExTFm6X/PYQ5bPUh2Eo/hE/z8mAfhtWewP4VGipYJDvs
+        X6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJDvsX6GhgkWyw/4VGipYJPBLFruUrUFeLrF/hYYKFgnG
+        +/q1ee3QxwTuVWioYJGgD8Es/oZ3p/HW3FYfgq0+BFsph+Cf2N7YI836beFnzzU0VLBI0D8YTR+CiacD
+        Pid8hPF5p62UQ5BN/aF+dTDph9BPh7V57dDHBO5VaKhgkaAPwcTTod8s+euQP0q/Opg+BJN7CGvz2qGP
+        Cdyr0FDBIkEfgin1Q6v/L9CkUGbYv0JDxdasp8FJjB+e19BQsbX3g1+KZOY97tnfwNDwGltPhp2fGTyx
+        nltoWA0Nq6FhNTSshobV0LAaGlZDw2poWA0Naxl234seRIVqdBxGAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUpdate.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 100</value>
+  </data>
+  <data name="btnUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnUpdate.ToolTip" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve">
+    <value>btnUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 170</value>
+  </data>
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnDelete.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 30</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnAdd.ToolTip" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="grpAuger.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpAuger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="grpAuger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>924, 347</value>
+  </data>
+  <data name="grpAuger.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="grpAuger.Text" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="&gt;&gt;grpAuger.Name" xml:space="preserve">
+    <value>grpAuger</value>
+  </data>
+  <data name="&gt;&gt;grpAuger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpAuger.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpAuger.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblValve4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValve4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValve4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 184</value>
+  </data>
+  <data name="lblValve4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="lblValve4.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="lblValve4.Text" xml:space="preserve">
+    <value>Valve4</value>
+  </data>
+  <data name="&gt;&gt;lblValve4.Name" xml:space="preserve">
+    <value>lblValve4</value>
+  </data>
+  <data name="&gt;&gt;lblValve4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValve4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblValve4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblValve3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValve3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValve3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 134</value>
+  </data>
+  <data name="lblValve3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="lblValve3.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="lblValve3.Text" xml:space="preserve">
+    <value>Valve3</value>
+  </data>
+  <data name="&gt;&gt;lblValve3.Name" xml:space="preserve">
+    <value>lblValve3</value>
+  </data>
+  <data name="&gt;&gt;lblValve3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValve3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblValve3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblValve2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValve2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValve2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 84</value>
+  </data>
+  <data name="lblValve2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="lblValve2.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="lblValve2.Text" xml:space="preserve">
+    <value>Valve2</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.Name" xml:space="preserve">
+    <value>lblValve2</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblValve2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblValve1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValve1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblValve1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 34</value>
+  </data>
+  <data name="lblValve1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="lblValve1.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="lblValve1.Text" xml:space="preserve">
+    <value>Valve1</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.Name" xml:space="preserve">
+    <value>lblValve1</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblValve1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbValvePurge4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbValvePurge4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 184</value>
+  </data>
+  <data name="cmbValvePurge4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 32</value>
+  </data>
+  <data name="cmbValvePurge4.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge4.Name" xml:space="preserve">
+    <value>cmbValvePurge4</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbValvePurge3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbValvePurge3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 134</value>
+  </data>
+  <data name="cmbValvePurge3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 32</value>
+  </data>
+  <data name="cmbValvePurge3.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge3.Name" xml:space="preserve">
+    <value>cmbValvePurge3</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbValvePurge2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbValvePurge2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 82</value>
+  </data>
+  <data name="cmbValvePurge2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 32</value>
+  </data>
+  <data name="cmbValvePurge2.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge2.Name" xml:space="preserve">
+    <value>cmbValvePurge2</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbValvePurge1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbValvePurge1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 34</value>
+  </data>
+  <data name="cmbValvePurge1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 32</value>
+  </data>
+  <data name="cmbValvePurge1.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge1.Name" xml:space="preserve">
+    <value>cmbValvePurge1</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbValvePurge1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 5</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 347</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Purge Chose</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1383, 377</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucPurgeDB</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

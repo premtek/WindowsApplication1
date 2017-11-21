@@ -1,0 +1,3523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLaserPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblCCDPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblCCDPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>423</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblPurge3PosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtCalibrationPurgeAlign2PosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Name" xml:space="preserve">
+    <value>btnTrainScene</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>543</value>
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 216</value>
+  </data>
+  <data name="lblPurge2PosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnPurge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 40</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCCDPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="lblCCDPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPurgePrev.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nmcExposure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 29</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoCCDPos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeGoCCDPos</value>
+  </data>
+  <data name="lblCCDPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosZ.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.Text" xml:space="preserve">
+    <value>Align2 Pos X</value>
+  </data>
+  <data name="lblPurge2PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign1PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge3PosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 535</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblPurge1PosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>547</value>
+  </data>
+  <data name="&gt;&gt;Label92.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblPurge3PosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblPurge1PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosX.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign3PosX</value>
+  </data>
+  <data name="lblPurge3PosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetCcdPos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeSetCcdPos</value>
+  </data>
+  <data name="lblPurge1PosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>528</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoCCDPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCCDPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblCycleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblPurge2PosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTime.Name" xml:space="preserve">
+    <value>lblCycleTime</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosZ.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeCCDPosZ</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label92.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge3PosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>551</value>
+  </data>
+  <data name="gpTiltMove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge3PosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 435</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Valve Pos B</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 511</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>530</value>
+  </data>
+  <data name="lblLaserPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="btnTrainScene.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoPos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeGoPos</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosX.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcDispenserNo1PurgeTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="Label92.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcExposure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcLightControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>505</value>
+  </data>
+  <data name="lblLaserPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="btnPurgeNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1426, 956</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblExposureTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblCycleTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosYUnit.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosZ.Name" xml:space="preserve">
+    <value>lblPurgeAlign2PosZ</value>
+  </data>
+  <data name="lblLaserPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 5</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 67</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>553</value>
+  </data>
+  <data name="lblCCDPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPurgeVacuumOnOff.TabIndex" type="System.Int32, mscorlib">
+    <value>464</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeNext.Name" xml:space="preserve">
+    <value>btnPurgeNext</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblScene.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblPurge1PosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblPurgeTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoPos.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.Text" xml:space="preserve">
+    <value>Align1 Pos Z</value>
+  </data>
+  <data name="lblLaserPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label19.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="palVacuumReady.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 33</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosZ.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign1Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPurgeVacuumOnOff.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="lblPurge2PosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.Name" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblLaserPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnTrainScene.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnPurgeNext.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeTime.Name" xml:space="preserve">
+    <value>lblPurgeTime</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Name" xml:space="preserve">
+    <value>lblLaserPosY</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gpbPurge.Text" xml:space="preserve">
+    <value>Purge Parameter</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationPurge</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 130</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblLaserPosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Name" xml:space="preserve">
+    <value>lblCCDPosZ</value>
+  </data>
+  <data name="lblSceneSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="UcLightControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 781</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 435</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTime.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="gpbPurge.TabIndex" type="System.Int32, mscorlib">
+    <value>506</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeVacuumOnOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeVacuumOnOff.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="lblPurgeVacuum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosXUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Name" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPurge3PosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="&gt;&gt;btnPurge.Name" xml:space="preserve">
+    <value>btnPurge</value>
+  </data>
+  <data name="grpHeightSensorPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>906, 323</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosZ.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnPurgeNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCycleTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 380</value>
+  </data>
+  <data name="lblPurge1PosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetCcdPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 328</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.Name" xml:space="preserve">
+    <value>btnGoTilt</value>
+  </data>
+  <data name="lblPurgeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="grpCCDPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcDispenserNo1PurgeTime.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign3Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosZ.Name" xml:space="preserve">
+    <value>lblPurgeAlign1PosZ</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosYUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Name" xml:space="preserve">
+    <value>lblCCDPosXUnit</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="grpPurgeAlignPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblScene.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnPurge.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 435</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeOK.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtTiltValvePosB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge3PosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>550</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosZ.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnPurgeVacuumOnOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 131</value>
+  </data>
+  <data name="lblPurge1PosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>526</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosX.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>552</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblLaserPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 116</value>
+  </data>
+  <data name="lblCCDPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPurge3PosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 435</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeOK.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeOK</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosX.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblLaserPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblLaserPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>503</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="grpPurgeAlignPos.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="lblCycleTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPurgePrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnPurgePrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblPurge2PosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>539</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 278</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Name" xml:space="preserve">
+    <value>nmcExposure</value>
+  </data>
+  <data name="palVacuumReady.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 31</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosXUnit.Name" xml:space="preserve">
+    <value>lblPurge3PosXUnit</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>533</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosZ.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign3PosZ</value>
+  </data>
+  <data name="Label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign2Pos.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="lblCCDPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblSceneSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosY.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign1PosY</value>
+  </data>
+  <data name="grpPurgeAlignPos.Text" xml:space="preserve">
+    <value>Purge Align Position</value>
+  </data>
+  <data name="lblPurge1PosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnPurgeNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblExposureTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 110</value>
+  </data>
+  <data name="lblPurge1PosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign3Pos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign3Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetCcdPos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCCDPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="lblCCDPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>544</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign1PosX.Text" xml:space="preserve">
+    <value>Align1 Pos X</value>
+  </data>
+  <data name="grpCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 194</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>540</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 31</value>
+  </data>
+  <data name="lblPurgeTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign1Pos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeGoAlign1Pos</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge3PosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblCCDPosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="lblPurge2PosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPurge2PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAlign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeVacuum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurgeVacuum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 142</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Name" xml:space="preserve">
+    <value>lblLaserPosZUnit</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosY.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblPurge3PosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosXUnit.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.Name" xml:space="preserve">
+    <value>btnAlign</value>
+  </data>
+  <data name="lblLaserPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnPurgeVacuumOnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpHeightSensorPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 200</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosZUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>536</value>
+  </data>
+  <data name="lblLaserPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblCCDPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>970, 20</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcJettingValveNo1CycleTime.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;nmcJettingValveNo1CycleTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign1Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPurgePrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetPurgePos.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;btnPurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Name" xml:space="preserve">
+    <value>lblScene</value>
+  </data>
+  <data name="lblLaserPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblCCDPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 130</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosY.Name" xml:space="preserve">
+    <value>lblPurgeAlign1PosY</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="lblPurge2PosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 278</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 781</value>
+  </data>
+  <data name="&gt;&gt;nmcDispenserNo1PurgeTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>534</value>
+  </data>
+  <data name="gpTiltMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>906, 5</value>
+  </data>
+  <data name="lblLaserPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblLaserPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblPurgeVacuum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="Label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosY.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign3PosY</value>
+  </data>
+  <data name="btnPurge.TabIndex" type="System.Int32, mscorlib">
+    <value>463</value>
+  </data>
+  <data name="&gt;&gt;Label19.Name" xml:space="preserve">
+    <value>Label19</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosY.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLightControl, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>546</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 485</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign2Pos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeSetAlign2Pos</value>
+  </data>
+  <data name="Label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosZ.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign2PosZ</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 216</value>
+  </data>
+  <data name="btnCalibrationPurgeGoPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Name" xml:space="preserve">
+    <value>lblExposureTimeUnit</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblLaserPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 130</value>
+  </data>
+  <data name="btnTrainScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAlign.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblPurge3PosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblScene.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="lblPurge1PosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 216</value>
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 80</value>
+  </data>
+  <data name="lblPurge1PosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>527</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.Text" xml:space="preserve">
+    <value>Align1 Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosXUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblCycleTime.Text" xml:space="preserve">
+    <value>Valve Cycle Time</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblCCDPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>556</value>
+  </data>
+  <data name="btnAlign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPurge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLaserPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnPurge.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="lblLaserPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Name" xml:space="preserve">
+    <value>lblLaserPosZ</value>
+  </data>
+  <data name="lblExposureTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosZ.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 1038</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosX.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblCCDPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.Text" xml:space="preserve">
+    <value>Align3 Pos Y</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeVacuum.Name" xml:space="preserve">
+    <value>lblPurgeVacuum</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign3Pos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;nmcDispenserNo1PurgeTime.Name" xml:space="preserve">
+    <value>nmcDispenserNo1PurgeTime</value>
+  </data>
+  <data name="lblPurge1PosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeVacuumOnOff.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosY.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>541</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 378</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblCCDPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosZ.Name" xml:space="preserve">
+    <value>lblPurgeAlign3PosZ</value>
+  </data>
+  <data name="grpPurgeAlignPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1345, 5</value>
+  </data>
+  <data name="lblLaserPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 116</value>
+  </data>
+  <data name="&gt;&gt;grpPurgeAlignPos.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPurgeVacuumOnOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 50</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosX.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;gpbPurge.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnAlign.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label92.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="grpHeightSensorPos.Text" xml:space="preserve">
+    <value>Purge Position</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 15</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>532</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.Text" xml:space="preserve">
+    <value>Align3 Pos Z</value>
+  </data>
+  <data name="grpCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>501</value>
+  </data>
+  <data name="lblPurge3PosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblExposureTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="Label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label92.Name" xml:space="preserve">
+    <value>Label92</value>
+  </data>
+  <data name="lblLaserPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1582, 956</value>
+  </data>
+  <data name="lblExposureTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 31</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPurge2PosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblCCDPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosX.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblPurge2PosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>538</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="lblCCDPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>399</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosXUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnPurgePrev.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblCCDPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosX.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="gpbPurge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 781</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign1Pos.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosZUnit.Name" xml:space="preserve">
+    <value>lblPurge1PosZUnit</value>
+  </data>
+  <data name="UcLightControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;grpPurgeAlignPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosY.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPurge3PosZUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign1Pos.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnGoTilt.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpPurgeAlignPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge3PosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;grpPurgeAlignPos.Name" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="Label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.Text" xml:space="preserve">
+    <value>Align3 Pos X</value>
+  </data>
+  <data name="lblLaserPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcExposure.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Name" xml:space="preserve">
+    <value>lblCCDPosZUnit</value>
+  </data>
+  <data name="Label92.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosYUnit.Name" xml:space="preserve">
+    <value>lblPurge3PosYUnit</value>
+  </data>
+  <data name="nmcDispenserNo1PurgeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosZ.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign1PosZ</value>
+  </data>
+  <data name="lblCycleTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSceneSet.TabIndex" type="System.Int32, mscorlib">
+    <value>511</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosYUnit.Name" xml:space="preserve">
+    <value>lblPurge1PosYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosY.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnPurge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnAlign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>524</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosZ.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosY.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="lblPurge2PosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 378</value>
+  </data>
+  <data name="Label19.Text" xml:space="preserve">
+    <value>secs</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosY.Name" xml:space="preserve">
+    <value>txtCalibrationPurgePosY</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>555</value>
+  </data>
+  <data name="btnAlign.Text" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 34</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetPurgePos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="lblCCDPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="btnPurge.ToolTip" xml:space="preserve">
+    <value>Purge</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosZ.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGoTilt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>542</value>
+  </data>
+  <data name="lblPurge3PosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosX.Name" xml:space="preserve">
+    <value>txtCalibrationPurgePosX</value>
+  </data>
+  <data name="lblCCDPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPurge2PosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblPurgeVacuum.Text" xml:space="preserve">
+    <value>Purge Vacuum</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosX.Name" xml:space="preserve">
+    <value>lblPurgeAlign2PosX</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblCCDPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="btnGoTilt.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="gpbPurge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>454, 187</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign2Pos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeGoAlign2Pos</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblPurge1PosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnPurge.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoPos.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="btnAlign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="&gt;&gt;btnPurgePrev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCCDPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblCCDPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCCDPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosY.Name" xml:space="preserve">
+    <value>lblPurgeAlign3PosY</value>
+  </data>
+  <data name="lblLaserPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAlign.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtTiltValvePosB.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign2Pos.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnAlign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="nmcExposure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnPurge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 70</value>
+  </data>
+  <data name="Label92.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 535</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPurge2PosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>537</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 34</value>
+  </data>
+  <data name="lblPurge2PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetPurgePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosZ.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnPurgePrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign3Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge1PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosZUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="nmcExposure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 535</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosX.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Label92.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosXUnit.Name" xml:space="preserve">
+    <value>lblPurge1PosXUnit</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Name" xml:space="preserve">
+    <value>lblCCDPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;gpbPurge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPurge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nmcJettingValveNo1CycleTime.Name" xml:space="preserve">
+    <value>nmcJettingValveNo1CycleTime</value>
+  </data>
+  <data name="lblLaserPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnTrainScene.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="&gt;&gt;Label19.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="lblPurge1PosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 166</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gpTiltMove.Text" xml:space="preserve">
+    <value>Tilt Position</value>
+  </data>
+  <data name="btnTrainScene.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;palVacuumReady.Name" xml:space="preserve">
+    <value>palVacuumReady</value>
+  </data>
+  <data name="lblPurge1PosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign3Pos.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgePosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>906, 524</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosZ.Name" xml:space="preserve">
+    <value>txtCalibrationPurgePosZ</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign3Pos.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblPurge1PosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosZUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 278</value>
+  </data>
+  <data name="lblPurge3PosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 485</value>
+  </data>
+  <data name="lblCCDPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosX.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;palVacuumReady.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge1PosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosXUnit.Name" xml:space="preserve">
+    <value>lblPurge2PosXUnit</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Name" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeGoPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>535</value>
+  </data>
+  <data name="&gt;&gt;gpbPurge.Name" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosY.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="nmcJettingValveNo1CycleTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="palVacuumReady.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeTime.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosZ.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="txtTiltValvePosB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblPurge3PosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 278</value>
+  </data>
+  <data name="lblCCDPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtTiltValvePosB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 80</value>
+  </data>
+  <data name="Label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign1Pos.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblLaserPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosZ.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign2Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurgeAlign3PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>548</value>
+  </data>
+  <data name="lblScene.Text" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcDispenserNo1PurgeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 130</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="btnPurgePrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 956</value>
+  </data>
+  <data name="UcLightControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 186</value>
+  </data>
+  <data name="nmcExposure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoTilt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label92.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gpbPurge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPurge1PosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblPurge2PosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeCancel.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeCancel</value>
+  </data>
+  <data name="Label92.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblPurge3PosYUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosY.Name" xml:space="preserve">
+    <value>lblPurgeAlign2PosY</value>
+  </data>
+  <data name="&gt;&gt;palVacuumReady.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosXUnit.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblPurgeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="btnCalibrationPurgeGoCCDPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetPurgePos.Name" xml:space="preserve">
+    <value>btnCalibrationSetPurgePos</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 80</value>
+  </data>
+  <data name="Label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="lblPurgeTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosX.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Name" xml:space="preserve">
+    <value>lblLaserPosXUnit</value>
+  </data>
+  <data name="btnCalibrationPurgeGoPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcDispenserNo1PurgeTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosX.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeCCDPosX</value>
+  </data>
+  <data name="lblCCDPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="lblPurge3PosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 485</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoCCDPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblLaserPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign3Pos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeSetAlign3Pos</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 1167</value>
+  </data>
+  <data name="nmcDispenserNo1PurgeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="nmcDispenserNo1PurgeTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycleTime.TabIndex" type="System.Int32, mscorlib">
+    <value>132</value>
+  </data>
+  <data name="lblCCDPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="lblPurge1PosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblPurge3PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1738, 956</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 328</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosX.Name" xml:space="preserve">
+    <value>lblPurgeAlign3PosX</value>
+  </data>
+  <data name="btnPurgeNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosYUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="nmcExposure.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblExposureTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosX.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnCalibrationPurgeGoPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge2PosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gpTiltMove.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeCancel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpPurgeAlignPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 659</value>
+  </data>
+  <data name="lblPurge1PosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 116</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLaserPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetCcdPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblLaserPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLaserPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblCCDPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="btnPurgeNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Exposure Time</value>
+  </data>
+  <data name="grpHeightSensorPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosYUnit.Name" xml:space="preserve">
+    <value>lblPurge2PosYUnit</value>
+  </data>
+  <data name="lblLaserPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="&gt;&gt;palVacuumReady.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCCDPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="lblLaserPosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gpbPurge.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPurgeVacuumOnOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.TabIndex" type="System.Int32, mscorlib">
+    <value>502</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeTime.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="btnPurgeNext.TabIndex" type="System.Int32, mscorlib">
+    <value>535</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign1Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 186</value>
+  </data>
+  <data name="btnPurge.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 33</value>
+  </data>
+  <data name="lblSceneSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurge3PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign2PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnPurgePrev.Name" xml:space="preserve">
+    <value>btnPurgePrev</value>
+  </data>
+  <data name="lblPurge3PosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>549</value>
+  </data>
+  <data name="btnTrainScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeVacuum.Parent" xml:space="preserve">
+    <value>gpbPurge</value>
+  </data>
+  <data name="btnCalibrationPurgeGoPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblScene.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblLaserPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGoTilt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPurgeAlign2PosZ.Text" xml:space="preserve">
+    <value>Align2 Pos Z</value>
+  </data>
+  <data name="lblCCDPosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationPurgeSetCcdPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCalibrationPurgeCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblPurge2PosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosY.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Name" xml:space="preserve">
+    <value>lblSceneSet</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblLaserPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeVacuumOnOff.Name" xml:space="preserve">
+    <value>btnPurgeVacuumOnOff</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>523</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblSceneSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTrainScene.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosZUnit.Name" xml:space="preserve">
+    <value>lblPurge2PosZUnit</value>
+  </data>
+  <data name="btnTrainScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 26</value>
+  </data>
+  <data name="lblPurge2PosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblCCDPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="btnAlign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 584</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosZUnit.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblCCDPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblLaserPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;lblScene.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lblPurge2PosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAlign.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCCDPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="palVacuumReady.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 134</value>
+  </data>
+  <data name="btnPurgePrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPurge3PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationPurgeSetAlign2Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosYUnit.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblExposureTimeUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPurge2PosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblPurgeAlign3PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="gpTiltMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 109</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Name" xml:space="preserve">
+    <value>lblLaserPosYUnit</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgePosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 378</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosZ.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign2Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosZUnit.Name" xml:space="preserve">
+    <value>lblPurge3PosZUnit</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblPurgeVacuum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign3Pos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="gpbPurge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblPurgeAlign1PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>525</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign1PosX.Name" xml:space="preserve">
+    <value>lblPurgeAlign1PosX</value>
+  </data>
+  <data name="lblCCDPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPurgeAlign3PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblPurgeTime.Text" xml:space="preserve">
+    <value>Valve Purge Time</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosY.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeCCDPosY</value>
+  </data>
+  <data name="Label92.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosYUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationPurgeGoPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 106</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 116</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 771</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosZ.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnAlign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btnPurgePrev.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblExposureTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 24</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Name" xml:space="preserve">
+    <value>lblLaserPosX</value>
+  </data>
+  <data name="btnGoTilt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 25</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;lblPurge2PosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge1PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgeAlign2PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurge3PosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign3Pos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeGoAlign3Pos</value>
+  </data>
+  <data name="btnCalibrationPurgeSetAlign1Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>529</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosX.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign2PosX</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign3PosY.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grpHeightSensorPos.TabIndex" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeCCDPosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPurge2PosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnPurgeNext.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="grpCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="grpCCDPos.Text" xml:space="preserve">
+    <value>CCD Position</value>
+  </data>
+  <data name="lblPurgeAlign1PosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>531</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosY.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPurgeAlign2PosY.Text" xml:space="preserve">
+    <value>Align2 Pos Y</value>
+  </data>
+  <data name="btnTrainScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblPurgeTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgePosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Name" xml:space="preserve">
+    <value>UcLightControl1</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 166</value>
+  </data>
+  <data name="lblPurgeAlign2PosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Name" xml:space="preserve">
+    <value>lblCCDPosX</value>
+  </data>
+  <data name="gpTiltMove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationPurgeGoAlign2Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 354</value>
+  </data>
+  <data name="lblPurge2PosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="Label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeVacuum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSceneSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 48</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign1PosX.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign1PosX</value>
+  </data>
+  <data name="txtCalibrationPurgeCCDPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnPurgePrev.TabIndex" type="System.Int32, mscorlib">
+    <value>534</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblPurge3PosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="grpPurgeAlignPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="lblPurge1PosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCycleTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosZUnit.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnCalibrationSetPurgePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 30</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign2Pos.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblPurge2PosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosY.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Name" xml:space="preserve">
+    <value>lblCCDPosY</value>
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>504</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcJettingValveNo1CycleTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPurge1PosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Purge Position</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblPurge1PosXUnit.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="btnPurgeNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblPurge2PosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 328</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtTiltValvePosB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 31</value>
+  </data>
+  <data name="&gt;&gt;lblPurge3PosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnPurgePrev.Text" xml:space="preserve">
+    <value>Prev.</value>
+  </data>
+  <data name="lblCCDPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Label19.TabIndex" type="System.Int32, mscorlib">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationPurgeAlign2PosY.Name" xml:space="preserve">
+    <value>txtCalibrationPurgeAlign2PosY</value>
+  </data>
+  <data name="lblPurgeAlign1PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 166</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>906, 122</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeGoAlign2Pos.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign1Pos.Name" xml:space="preserve">
+    <value>btnCalibrationPurgeSetAlign1Pos</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblCCDPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblPurgeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="lblScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="btnCalibrationPurgeOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationPurgePosY.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="lblCCDPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="btnAlign.TabIndex" type="System.Int32, mscorlib">
+    <value>545</value>
+  </data>
+  <data name="lblCCDPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosY.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblPurgeAlign3PosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign2PosX.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="&gt;&gt;lblPurgeAlign3PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpHeightSensorPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnPurgeNext.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationPurgePosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationPurgeSetAlign1Pos.Parent" xml:space="preserve">
+    <value>grpPurgeAlignPos</value>
+  </data>
+  <data name="lblPurge1PosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Name" xml:space="preserve">
+    <value>txtTiltValvePosB</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign3PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>554</value>
+  </data>
+  <data name="lblExposureTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="txtCalibrationPurgeAlign1PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <metadata name="UcLightControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeVacuum.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPurge.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label19.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign3PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeSetCcdPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge1PosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gpTiltMove.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeSetAlign1Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign2PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign2PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPurgeNext.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnAlign.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign3PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign1PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblExposureTimeUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationSetPurgePos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeCancel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeGoAlign2Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeCCDPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign3PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="lblCCDPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge2PosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblSceneSet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcStatusBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPurgePrev.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge3PosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign3PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeSetAlign2Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign2PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label92.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
+  <metadata name="lblPurgeAlign1PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeTime.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign3PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeSetAlign3Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeGoAlign1Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign3PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeGoCCDPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>36</value>
+  </metadata>
+  <metadata name="palVacuumReady.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge3PosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeGoAlign3Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign1PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign2PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcJoyStick1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpHeightSensorPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcDispenserNo1PurgeTime.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge1PosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcJettingValveNo1CycleTime.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgePosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge1PosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnGoTilt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCycleTime.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTrainScene.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="GroupBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgePosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gpbPurge.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge2PosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpCCDPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign1PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign1PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign1PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtTiltValvePosB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeCCDPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeCCDPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblScene.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnPurgeVacuumOnOff.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge2PosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurge3PosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpPurgeAlignPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgePosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeGoPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcExposure.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblPurgeAlign2PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationPurgeAlign2PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationPurgeOK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcDisplay1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

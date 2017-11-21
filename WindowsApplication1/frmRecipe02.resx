@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnLevelAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVGhD7Zpr
+        UeRAFIWpUYAEJKwEJCABCUhYCUhAAhKQgAQkrIPwnapNVc+t00m/Mkt19sf3Y05u30fSr3TmblmWU2HF
+        mbHiSC6Xyz08wgv8NjzBg2t7BFbsRQWACvyEpZA/8AZPzucorNgKyepJvoMrqIYveHYxerFiLSSnbqun
+        45LvQYU/upitWLEGJQTqji7hFSWuJx/H7yt8gGuT8upit2DFUkjkOSSWoiJV1O6EhI16iHxtFa9r9659
+        DVYsgeC5YvW0m8cfbTXh5QrXJNhVtBX3IGiuWI3j7qcg8KPlyg2VT2dfihW3IOCvkMDK8FkVn4rllrY3
+        Z1+CFXMQSGNNYzMmUFQsdleTlrOJYKeYruim9dqKOQiiRGPgF2friG3j9RzYalzH7q3f1cPHig6cK2ga
+        ULw72xyxfby+BfZa/q7aQ1EvSbGiA+dxY1F9h0N7JG+XgzbdOVgxIqd/nafBqu9uaI/k7XLQxvWyqsnS
+        ihE5DUGaxk/wgeTttqBdfMpVy5QVIyZI07IQfCB5uy1o55bF4ptvxQgO41LUtCQEH0jebg/aNudjxRSc
+        afymzpG97R4D/cQeVzyfWDEFZ3E5aN7aBT9I3m4P2sb9QPHyaMUUnMWCP3auDyeNl4l5ldMWVkzZc26u
+        DyeNl4n5v+AcVkzZc26uDyeNl4l5aMHTT1rnWpYEDg/ZeED19lTQ7riNh8DhqK1lPKuqPoKlzU22lqNe
+        HkYUfJOXh1Gvh10FY3+b10OB43hnq58y9r0Fd+dgRQeORxzxNBeMrY5t07biuCMeoQAhoKg5xGsqGLvb
+        H+IJBYCeY9rqgrFRzH9zTCsIdJ6D+BUCnudTywqBz/MxbYXguaKFxromuTk+l66QhN6mXNdLUfHug7iG
+        wFaRKz/jg/gKCekJxU3BCHSjqjYne1ixFZLTrDr/n1oiJKuJZ/6/LTkoQN1d43zeP6b9ZKw4M1acGSvO
+        jBXnZbn7BnBoxwNwkSEpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLevelAdd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnLevelAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="btnLevelAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLevelAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 31</value>
+  </data>
+  <data name="btnLevelAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLevelAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 69</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLevelAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>508</value>
+  </data>
+  <data name="btnLevelAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnLevelAdd.ToolTip" xml:space="preserve">
+    <value>Add New Node At Selected Parent Node</value>
+  </data>
+  <data name="&gt;&gt;btnLevelAdd.Name" xml:space="preserve">
+    <value>btnLevelAdd</value>
+  </data>
+  <data name="&gt;&gt;btnLevelAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLevelAdd.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;btnLevelAdd.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnLevelDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnLevelDelete.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnLevelDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="btnLevelDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLevelDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 31</value>
+  </data>
+  <data name="btnLevelDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLevelDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 69</value>
+  </data>
+  <data name="btnLevelDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="btnLevelDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnLevelDelete.ToolTip" xml:space="preserve">
+    <value>Delete Selected Node From TreeNode</value>
+  </data>
+  <data name="&gt;&gt;btnLevelDelete.Name" xml:space="preserve">
+    <value>btnLevelDelete</value>
+  </data>
+  <data name="&gt;&gt;btnLevelDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLevelDelete.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;btnLevelDelete.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1738, 959</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1582, 960</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 5</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="cmbLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
+  <data name="cmbLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>505</value>
+  </data>
+  <data name="&gt;&gt;cmbLevel.Name" xml:space="preserve">
+    <value>cmbLevel</value>
+  </data>
+  <data name="&gt;&gt;cmbLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbLevel.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;cmbLevel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="nmcStartLocY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcStartLocY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 94</value>
+  </data>
+  <data name="nmcStartLocY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 33</value>
+  </data>
+  <data name="nmcStartLocY.TabIndex" type="System.Int32, mscorlib">
+    <value>525</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocY.Name" xml:space="preserve">
+    <value>nmcStartLocY</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocY.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocY.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nmcStartLocX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcStartLocX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 44</value>
+  </data>
+  <data name="nmcStartLocX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 33</value>
+  </data>
+  <data name="nmcStartLocX.TabIndex" type="System.Int32, mscorlib">
+    <value>526</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocX.Name" xml:space="preserve">
+    <value>nmcStartLocX</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocX.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;nmcStartLocX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblStartLocX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblStartLocX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartLocX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 44</value>
+  </data>
+  <data name="lblStartLocX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 30</value>
+  </data>
+  <data name="lblStartLocX.TabIndex" type="System.Int32, mscorlib">
+    <value>523</value>
+  </data>
+  <data name="lblStartLocX.Text" xml:space="preserve">
+    <value>Start Location X</value>
+  </data>
+  <data name="lblStartLocX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocX.Name" xml:space="preserve">
+    <value>lblStartLocX</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocX.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblStartLocY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblStartLocY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStartLocY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>587, 94</value>
+  </data>
+  <data name="lblStartLocY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="lblStartLocY.TabIndex" type="System.Int32, mscorlib">
+    <value>524</value>
+  </data>
+  <data name="lblStartLocY.Text" xml:space="preserve">
+    <value>Start Location Y</value>
+  </data>
+  <data name="lblStartLocY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocY.Name" xml:space="preserve">
+    <value>lblStartLocY</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocY.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;lblStartLocY.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UcLevelNonArray1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 152</value>
+  </data>
+  <data name="UcLevelNonArray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>827, 187</value>
+  </data>
+  <data name="UcLevelNonArray1.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="UcLevelNonArray1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UcLevelNonArray1.Name" xml:space="preserve">
+    <value>UcLevelNonArray1</value>
+  </data>
+  <data name="&gt;&gt;UcLevelNonArray1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLevelNonArray, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcLevelNonArray1.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;UcLevelNonArray1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="UcLevelArray1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 152</value>
+  </data>
+  <data name="UcLevelArray1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="UcLevelArray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 328</value>
+  </data>
+  <data name="UcLevelArray1.TabIndex" type="System.Int32, mscorlib">
+    <value>511</value>
+  </data>
+  <data name="UcLevelArray1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UcLevelArray1.Name" xml:space="preserve">
+    <value>UcLevelArray1</value>
+  </data>
+  <data name="&gt;&gt;UcLevelArray1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLevelArray, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcLevelArray1.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;UcLevelArray1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnNonArray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNonArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 104</value>
+  </data>
+  <data name="btnNonArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 38</value>
+  </data>
+  <data name="btnNonArray.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="btnNonArray.Text" xml:space="preserve">
+    <value>NonArray</value>
+  </data>
+  <data name="&gt;&gt;btnNonArray.Name" xml:space="preserve">
+    <value>btnNonArray</value>
+  </data>
+  <data name="&gt;&gt;btnNonArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNonArray.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;btnNonArray.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnArray.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnArray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="btnArray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 38</value>
+  </data>
+  <data name="btnArray.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="btnArray.Text" xml:space="preserve">
+    <value>Array</value>
+  </data>
+  <data name="&gt;&gt;btnArray.Name" xml:space="preserve">
+    <value>btnArray</value>
+  </data>
+  <data name="&gt;&gt;btnArray.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnArray.Parent" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;btnArray.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="grpLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1041, 9</value>
+  </data>
+  <data name="grpLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 555</value>
+  </data>
+  <data name="grpLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="grpLevel.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.Name" xml:space="preserve">
+    <value>grpLevel</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpLevel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="picMap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="picMap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 31</value>
+  </data>
+  <data name="picMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 346</value>
+  </data>
+  <data name="picMap.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picMap.Name" xml:space="preserve">
+    <value>picMap</value>
+  </data>
+  <data name="&gt;&gt;picMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picMap.Parent" xml:space="preserve">
+    <value>grpMAP</value>
+  </data>
+  <data name="&gt;&gt;picMap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpMAP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="grpMAP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1319, 570</value>
+  </data>
+  <data name="grpMAP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 380</value>
+  </data>
+  <data name="grpMAP.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="grpMAP.Text" xml:space="preserve">
+    <value>MAP</value>
+  </data>
+  <data name="&gt;&gt;grpMAP.Name" xml:space="preserve">
+    <value>grpMAP</value>
+  </data>
+  <data name="&gt;&gt;grpMAP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpMAP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpMAP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 1010</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 20</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>504</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="UcLightControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 787</value>
+  </data>
+  <data name="UcLightControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 199</value>
+  </data>
+  <data name="UcLightControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>503</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Name" xml:space="preserve">
+    <value>UcLightControl1</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLightControl, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ucJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1041, 570</value>
+  </data>
+  <data name="ucJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 369</value>
+  </data>
+  <data name="ucJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>371</value>
+  </data>
+  <data name="&gt;&gt;ucJoyStick1.Name" xml:space="preserve">
+    <value>ucJoyStick1</value>
+  </data>
+  <data name="&gt;&gt;ucJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ucJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ucJoyStick1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="UcDisplay1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1028, 771</value>
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnMultiArryMove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnMultiArryMove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMultiArryMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 787</value>
+  </data>
+  <data name="btnMultiArryMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 59</value>
+  </data>
+  <data name="btnMultiArryMove.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="btnMultiArryMove.Text" xml:space="preserve">
+    <value>ArrayMove</value>
+  </data>
+  <data name="&gt;&gt;btnMultiArryMove.Name" xml:space="preserve">
+    <value>btnMultiArryMove</value>
+  </data>
+  <data name="&gt;&gt;btnMultiArryMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMultiArryMove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnMultiArryMove.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnWaferMapFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt, style=Bold</value>
+  </data>
+  <data name="btnWaferMapFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>862, 787</value>
+  </data>
+  <data name="btnWaferMapFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 38</value>
+  </data>
+  <data name="btnWaferMapFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnWaferMapFilter.Text" xml:space="preserve">
+    <value>Wafer Map Filter</value>
+  </data>
+  <data name="&gt;&gt;btnWaferMapFilter.Name" xml:space="preserve">
+    <value>btnWaferMapFilter</value>
+  </data>
+  <data name="&gt;&gt;btnWaferMapFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWaferMapFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnWaferMapFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>Yno.</value>
+  </data>
+  <data name="Label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>grpIndex</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Xno.</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>grpIndex</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbArrayY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbArrayY.Items" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbArrayY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 80</value>
+  </data>
+  <data name="cmbArrayY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 32</value>
+  </data>
+  <data name="cmbArrayY.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayY.Name" xml:space="preserve">
+    <value>cmbArrayY</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayY.Parent" xml:space="preserve">
+    <value>grpIndex</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayY.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbArrayX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="cmbArrayX.Items" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbArrayX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="cmbArrayX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 32</value>
+  </data>
+  <data name="cmbArrayX.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayX.Name" xml:space="preserve">
+    <value>cmbArrayX</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayX.Parent" xml:space="preserve">
+    <value>grpIndex</value>
+  </data>
+  <data name="&gt;&gt;cmbArrayX.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpIndex.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>834, 847</value>
+  </data>
+  <data name="grpIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 125</value>
+  </data>
+  <data name="grpIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>513</value>
+  </data>
+  <data name="grpIndex.Text" xml:space="preserve">
+    <value>Align Index</value>
+  </data>
+  <data name="&gt;&gt;grpIndex.Name" xml:space="preserve">
+    <value>grpIndex</value>
+  </data>
+  <data name="&gt;&gt;grpIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpIndex.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpIndex.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>57</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 1041</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA/5mZmf93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3
+        d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/9mZmb/d3d3/2ZmZv9mZmb/ZmZm/0RE
+        RP9ERET/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/0RERP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/ZmZm/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf9mZmb/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP/MzMz/mZmZ/5mZmf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+ZmZn/mZmZ/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/5mZmf+ZmZn/ZmZm/wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP/MZmb//5mZ//+Zmf//zMz//5mZ///MzP//////AAAA/5mZ
+        mf+ZmZn/AAAA/8xmZv//mZn//5mZ///MzP//mZn//8zM//////8AAAD/mZmZ/5mZmf93d3f/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm///M
+        zP8AAAD/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xmZv/MZmb//8zM/wAAAP+ZmZn/mZmZ/3d3
+        d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xm
+        Zv/MZmb//5mZ/wAAAP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xmZv/MZmb/zGZm/8xmZv//mZn/AAAA/5mZ
+        mf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xm
+        Zv/MZmb/zGZm/8xmZv//zMz/AAAA/5mZmf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm///M
+        zP8AAAD/mZmZ/5mZmf93d3f/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/2Yz
+        M//MZmb/zGZm/8xmZv/MZmb/zGZm//+Zmf8AAAD/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xm
+        Zv/MZmb//5mZ/wAAAP+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZ
+        mf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xmZv/MZmb//5mZ/wAAAP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xm
+        Zv/MZmb/zGZm/8xmZv//mZn/AAAA/5mZmf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zM
+        zP+ZmZn/mZmZ/wAAAP8iIiL/ZjMz/2YzM/9mMzP/ZjMz/2YzM//MZmb/AAAA/5mZmf+ZmZn/AAAA/yIi
+        Iv9mMzP/ZjMz/2YzM/9mMzP/ZjMz/8xmZv8AAAD/mZmZ/5mZmf93d3f/AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAD/zMzM/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/mZmZ/5mZ
+        mf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAA
+        AAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/d3d3/wAA
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf93d3f/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/mZmZ/5mZmf/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/5mZ
+        mf+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf8AAAD/zGZm//+Z
+        mf//mZn//8zM//+Zmf//zMz//////wAAAP+ZmZn/mZmZ/3d3d/8AAAD/AAAA/wAAAP8AAAD/MzMz/1VV
+        Vf93d3f/mZmZ/5mZmf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAA
+        AP9mMzP/zGZm/8xmZv/MZmb/zGZm/8xmZv//zMz/AAAA/5mZmf+ZmZn/d3d3/3d3d/93d3f/d3d3/3d3
+        d/93d3f/d3d3/3d3d/+ZmZn/mZmZ/5mZmf93d3f/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/zMzM/5mZ
+        mf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm//+Zmf8AAAD/mZmZ/5mZmf/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/zMzM/5mZmf+ZmZn/mZmZ/3d3d/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AP/MzMz/mZmZ/5mZmf8AAAD/ZjMz/8xmZv/MZmb/zGZm/8xmZv/MZmb//8zM/wAAAP+ZmZn/mZmZ/3d3
+        d/8AAAD/AAAA/wAAAP8AAAD/MzMz/1VVVf93d3f/mZmZ/5mZmf+ZmZn/d3d3/wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP9mMzP/zGZm/8xmZv/MZmb/zGZm/8xmZv//mZn/AAAA/5mZ
+        mf+ZmZn/d3d3/3d3d/93d3f/d3d3/3d3d/93d3f/d3d3/3d3d/+ZmZn/mZmZ/5mZmf93d3f/AAAA/wAA
+        AP8AAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/AAAA/2YzM//MZmb/zGZm/8xmZv/MZmb/zGZm//+Z
+        mf8AAAD/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/3d3d/93d3f/d3d3/3d3
+        d/8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAP/MzMz/mZmZ/5mZmf8AAAD/IiIi/2YzM/9mMzP/ZjMz/2Yz
+        M/9mMzP/zGZm/wAAAP+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/yIiIv8AAAD/AAAAAAAAAAAAAAAAAAAA/8zMzP+ZmZn/mZmZ/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/2Yz
+        M/8iIiL/IiIi/yIiIv8iIiL/IiIi/wAAAP8AAAAAAAAAAAAAAAAAAAD/zMzM/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf8AAAD/zGZm/2YzM/9mMzP/ZjMz/2YzM/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAP/u7u7/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/wAAAP/MZmb/ZjMz/2YzM/9mMzP/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
+        //+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZmf+ZmZn/mZmZ/5mZ
+        mf+ZmZn/mZmZ/5mZmf+ZmZn/AAAA/8xmZv9mMzP/ZjMz/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAD////////////u7u7/7u7u/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zM
+        zP/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP8AAAD/zGZm/2YzM/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//+Zmf//mZn/AAAA/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA4AAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AA
+        AAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAHAAAABwAAAAcAA
+        AAHAAAADwAAAB8AAAA/AAAAf4AAAP///+H8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Array</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmRecipe02</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

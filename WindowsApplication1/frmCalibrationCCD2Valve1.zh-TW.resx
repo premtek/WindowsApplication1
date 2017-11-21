@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Pin Z軸</value>
+  </data>
+  <data name="btnGetLaser.Text" xml:space="preserve">
+    <value>取值</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>感測器讀值</value>
+  </data>
+  <data name="btnGoValve1Pos.ToolTip" xml:space="preserve">
+    <value>移動到閥校正位置</value>
+  </data>
+  <data name="btnSetValvePos.ToolTip" xml:space="preserve">
+    <value>設定閥校正位置</value>
+  </data>
+  <data name="lblAxisZ2.Text" xml:space="preserve">
+    <value>Z軸</value>
+  </data>
+  <data name="lblAxisY2.Text" xml:space="preserve">
+    <value>Y軸</value>
+  </data>
+  <data name="lblAxisX2.Text" xml:space="preserve">
+    <value>X軸</value>
+  </data>
+  <data name="grpValvePos.Text" xml:space="preserve">
+    <value>閥校正位置</value>
+  </data>
+  <data name="grpCCDPos.Text" xml:space="preserve">
+    <value>CCD校正位置</value>
+  </data>
+  <data name="btnGoCCDPos.ToolTip" xml:space="preserve">
+    <value>移動到CCD校正位置</value>
+  </data>
+  <data name="btnSetCcdPos.ToolTip" xml:space="preserve">
+    <value>設定CCD校正位置</value>
+  </data>
+  <data name="lblAxisZ.Text" xml:space="preserve">
+    <value>Z軸</value>
+  </data>
+  <data name="lblAxisY.Text" xml:space="preserve">
+    <value>Y軸</value>
+  </data>
+  <data name="lblAxisX.Text" xml:space="preserve">
+    <value>X軸</value>
+  </data>
+  <data name="btnValve1SyringePressureOnOff.Text" xml:space="preserve">
+    <value>閥膠管氣壓-開啟</value>
+  </data>
+  <data name="btnSetSyringePressure.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="lblDispenserNo1EPRegulator.Text" xml:space="preserve">
+    <value>氣壓</value>
+  </data>
+  <data name="btnValve1On.Text" xml:space="preserve">
+    <value>閥1打點</value>
+  </data>
+  <data name="btnAutoCalibration.Text" xml:space="preserve">
+    <value>自動校正</value>
+  </data>
+  <data name="grpValveCalibration.Text" xml:space="preserve">
+    <value>閥校正參數</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnALign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnALign.Text" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>移動到CCD校正位置</value>
+  </data>
+  <data name="btnSetTiltPos.ToolTip" xml:space="preserve">
+    <value>設定CCD校正位置</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btnCCDToValveNext.Text" xml:space="preserve">
+    <value>下頁</value>
+  </data>
+  <data name="btnTrainValveScene.ToolTip" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btCalibrationValveParameter.ToolTip" xml:space="preserve">
+    <value>檢查</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>曝光時間</value>
+  </data>
+  <data name="btnRemoveKey.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="lbDegree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 24</value>
+  </data>
+  <data name="lbDegree.Text" xml:space="preserve">
+    <value>角度(°)</value>
+  </data>
+  <data name="gbTiltSet.Text" xml:space="preserve">
+    <value>Tilt校正位置</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>B閥位置</value>
+  </data>
+  <data name="lblScene.Text" xml:space="preserve">
+    <value>場景</value>
+  </data>
+  <data name="GroupBox3.Text" xml:space="preserve">
+    <value>閥場景訓練</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 24</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Y偏移量</value>
+  </data>
+  <data name="lblOffsetXText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="lblOffsetXText.Text" xml:space="preserve">
+    <value>X偏移量</value>
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>閥校正參數</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>CCD穩定時間</value>
+  </data>
+  <data name="btnSetSyringe1OnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnSetAirPressure.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>氣壓</value>
+  </data>
+  <data name="lblCount.Text" xml:space="preserve">
+    <value>自動重試次數</value>
+  </data>
+  <data name="lblPitch.Text" xml:space="preserve">
+    <value>自動校正間距</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 1162</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAATz8dAF1BAABPQB4AUUEeAFRDHwBVRB8Aa0wFAHNQAAB1UQAAeVQAAH1XAAB+WAAAeFgQAFZF
+        IABmUiQAaVQhAGpWJwBuWCMAYlArAGxYKwBtWS0AclolAHZdJwB4XiUAfGEmAHxhKQB6Yi0AgVoAAINc
+        AgCFXQAAgFsFAIhfAACAXAoAimAAAI1iAACKYQQAh2IPAJFlAACUZwAAkWYEAJZoAACWagUAmWoAAJts
+        AACdbQAAm24JAJxvCgCfcgwAiWUTAI9tHgCRahIAkG0cAJlzHgCgbwAAonEAAKRyAACndAAAonIEAKh1
+        AACteAAAoHMNAKJ1DwCwewAAsnwBALR+AgCzfgUAtH8GAKN3EwCkdxAAp3kRAKV5FQCrfRUAgGUqAIVq
+        KwCEaS0AiW0uAJp2JACcdyQAl3csAIZtNQCJbTAAjnExAJN0MgCTdjQAl3k2AJh5NQCbfDUAnX03AJx+
+        OQClfiQAh3BAAJB3QgCUe0EAlHtGAJl+QAC2gAYAtoEIALeDDQC4gwgAuYQKALuGDAC+iQ4AroAXAK+B
+        GAC6hhAAvYkRAL6KFAC/jBYAsYQcAL6MGQCegDsAqoEkALOHIgCziCYApIM6AKuKPgC1kT8Au5Q7AMGN
+        FQDCjhkAw5AaAMOQHQDEkR0Ay5cfAMaUIQDIliIAyZclAMmYJgDKmSgAzJsqAM+dKgDOnS0A0J0nAM+f
+        MQDEmz8A0J8wANCgMgDWozAA1aQzANKjNgDVpToA1qg9ANuqOgCbgEEAnYFBAJyCRgCghEIAoYVFAKWH
+        RgCsikAAr41AAKuMRACmi08AsY5CALOQQACzkEQAtJJGALqVQAC8lkAAsZJMALeWTQC6l0oAuZhMAL2a
+        TAC+nEwAo41cAKyQUAC0mVwAs5tkALykcADAmUAAx59CAMGdTADEn0wAwJ9YAMyjRQDNpEcAx6JNAMii
+        SgDIo04AyqVPANepQADarEQA0ahKANSsTQDbrkkA3rBFANywSgDFoVEAzahVAMGhWgDQq1YA0q5cANiw
+        UgDds1MA3LNVAOKyQwDhtE0A4bZSAOS5VQDgt1kA5btbAMKkYQDHqmcAxalpAMisbQDXs2IA1LFkANi1
+        ZQDYtWgA27hpAN26aADcumwA3b11AOa+YQDov2IA4L5yAOjAZQDnwWoA6cJrAOXCcwDqxXMA68h3AOXE
+        egDryXsAtbCpALeyrAC9uLIAuri2AL25tgC8urgAv727AM25iwDszIMA7M6IAO3QjQDu05MA8NWXAPDV
+        mADx2KAA892sAMfFwwDJx8YAy8rIAM3MygDX1dQA49/aAOTh3ADo5N8A6ebhAOno5ADq6ukA7OzrAO3t
+        7AD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAqQ8OBgYFBQUFBQQEBAQEBAQBAQMDAwMDAwMRqgAAAJMVXJKTk5OTkZGTkZGRkZCQ
+        kJCQkF9fX19fXlsTXwDLG5haKiknJycnJyYmJiYmIyMjIyMjIyIgIiAkTZIUABmUcCwsLCsrKyspKSkp
+        JycnJyYmJiYmIyYjIyMjTl5KGJ06NjY2Ni0tLS0sLCwrKysrKykpKScnJycmJiYolRAZnzg4ODgcpTc3
+        NjY2Ni0Moy0sLCwrKysKoSspKSmXEkmrPDs7OyCtOTk5ODg4NxykNzY2NjYtLQujLCwsK5sWSoc/PDw8
+        Iq48Ozs8KQkJAlAJCCM4ODg3HKQ2Ni02dRdRrGFhYEMjtEA8PDwK5Ojo5+XiCjs7OTkerTg4ODieGlKx
+        amtpaSi+YmFhQiH29fTz8vUKPDw8PCCuOzs7O59JVLh5e3p6KsFsa2pqM/n+/f389x1AQD8/I7Q8Pzw8
+        q0tWuXyCgYAv0X19e3tuR0QfoD49YmRkY2MmtUFBP0CHUVjCg4yJhj3VhIKBgH9+fS/Pe3l4d3d3airA
+        ZWRkYKxSb8SLjo6ORdmNjImJiIiEMNOBgH9+bTExB10lJUZmsFRzyY+8vLpH4Le2to6NjY1F2YmIhIgy
+        5Ojo5uXjMXm4VXTKu7Nvbw2mV1ervLu3t0bgjo6NjU/29fTz8vU0fLlZmtjGk+bo5+bm42/Ix8bGSOq8
+        uru7c/r+/f38+E6Fwm+a2siZ9vX08/L1lNfKyspo68jHxsa8q58zzXZ2jorDc5za16j7/v79/Pmn3Nza
+        2m3s19fKysrIyGjqxsa7j8mWnNza4c7ONenMzN7f3t7ece7c3Nra2NjXbezKysjFyJyd3Nzq7Oxy8evq
+        6urq4eFx8N/e3t7e3Nxt7trYysbKnZ3d3Ovu7u3t7ezs7Ovr6+rq6urh4eHf39/e3tzXxtqdotXe6uzu
+        7+7u7e3t7ezs7Ovr6+rq6uHh4d/e3MrK0qXWv+rh4eHq6urq4erh4d/f39/e3t7e3Nzc2tfK2N2vAAC9
+        v9ne3+Hf4eHf39/f39/f3t7e3t7e3t7e3NvUv9AAAADWpaKioqKioqKioqKioqKioqKioqKioqKioqXW
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP//////////wAAAA4AAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAcAA
+        AAP/////////////////////
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CCD與閥1校正</value>
+  </data>
+</root>

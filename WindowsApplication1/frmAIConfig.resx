@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpAIConfig.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblUMin.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="txtVmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVMax.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblUnit2.Text" xml:space="preserve">
+    <value>(UU)</value>
+  </data>
+  <data name="&gt;&gt;lblCardType.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblUMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="lblUMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="txtName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblCardType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtUmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.Name" xml:space="preserve">
+    <value>lblAddress</value>
+  </data>
+  <data name="lblVMin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblUnit2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtVmin.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="grpAIConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 5</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>367</value>
+  </data>
+  <data name="lblVUnit2.Text" xml:space="preserve">
+    <value>Volt.</value>
+  </data>
+  <data name="lblUnit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="&gt;&gt;txtUmin.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 169</value>
+  </data>
+  <data name="chkByPass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtUmin.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="txtVmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 33</value>
+  </data>
+  <data name="&gt;&gt;lblItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblVUnit2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 24</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblVMax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 109</value>
+  </data>
+  <data name="&gt;&gt;txtUmax.Name" xml:space="preserve">
+    <value>txtUmax</value>
+  </data>
+  <data name="txtVmax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtUmin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblItem.Name" xml:space="preserve">
+    <value>lblItem</value>
+  </data>
+  <data name="lblVUnit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 236</value>
+  </data>
+  <data name="&gt;&gt;chkByPass.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblVMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 169</value>
+  </data>
+  <data name="lblItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit.Name" xml:space="preserve">
+    <value>lblVUnit</value>
+  </data>
+  <data name="txtUmax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>360</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit2.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblUnit2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 295</value>
+  </data>
+  <data name="lblCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="lblVMin.Text" xml:space="preserve">
+    <value>Vmin.</value>
+  </data>
+  <data name="&gt;&gt;lblVMax.Name" xml:space="preserve">
+    <value>lblVMax</value>
+  </data>
+  <data name="lblAddress.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 33</value>
+  </data>
+  <data name="lblVMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 236</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAIConfig</value>
+  </data>
+  <data name="lblUMin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 227</value>
+  </data>
+  <data name="lblVMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtVmin.Name" xml:space="preserve">
+    <value>txtVmin</value>
+  </data>
+  <data name="&gt;&gt;txtVmax.Name" xml:space="preserve">
+    <value>txtVmax</value>
+  </data>
+  <data name="lblAddress.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="&gt;&gt;lblUMax.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="txtVmax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 160</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;txtUmin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkByPass.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtVmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>486</value>
+  </data>
+  <data name="lblItem.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpAIConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 374</value>
+  </data>
+  <data name="&gt;&gt;lblVMin.Name" xml:space="preserve">
+    <value>lblVMin</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCardType.Text" xml:space="preserve">
+    <value>CardType</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbCardType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblUMax.Name" xml:space="preserve">
+    <value>lblUMax</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblUMin.Text" xml:space="preserve">
+    <value>Umin.</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 385</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="&gt;&gt;txtVmax.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtVmax.Text" xml:space="preserve">
+    <value>5.00</value>
+  </data>
+  <data name="chkByPass.Text" xml:space="preserve">
+    <value>ByPass</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="txtUmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 227</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblVUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>369</value>
+  </data>
+  <data name="txtAddress.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtUmax.Text" xml:space="preserve">
+    <value>5.00</value>
+  </data>
+  <data name="lblAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtUmax.TabIndex" type="System.Int32, mscorlib">
+    <value>365</value>
+  </data>
+  <data name="chkByPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 67</value>
+  </data>
+  <data name="lblItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 43</value>
+  </data>
+  <data name="txtUmax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 160</value>
+  </data>
+  <data name="lblUMin.TabIndex" type="System.Int32, mscorlib">
+    <value>362</value>
+  </data>
+  <data name="chkByPass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblVMax.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblVUnit2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="&gt;&gt;lblVMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUMin.Name" xml:space="preserve">
+    <value>lblUMin</value>
+  </data>
+  <data name="lblVMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUnit2.TabIndex" type="System.Int32, mscorlib">
+    <value>368</value>
+  </data>
+  <data name="lblItem.TabIndex" type="System.Int32, mscorlib">
+    <value>357</value>
+  </data>
+  <data name="lblCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 65</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="lblCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 24</value>
+  </data>
+  <data name="grpAIConfig.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkByPass.Name" xml:space="preserve">
+    <value>chkByPass</value>
+  </data>
+  <data name="txtVmax.TabIndex" type="System.Int32, mscorlib">
+    <value>363</value>
+  </data>
+  <data name="&gt;&gt;lblCardType.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblCardType.Name" xml:space="preserve">
+    <value>lblCardType</value>
+  </data>
+  <data name="lblUMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 169</value>
+  </data>
+  <data name="lblUMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblVMin.TabIndex" type="System.Int32, mscorlib">
+    <value>360</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblUMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVMax.TabIndex" type="System.Int32, mscorlib">
+    <value>359</value>
+  </data>
+  <data name="grpAIConfig.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 24</value>
+  </data>
+  <data name="lblVUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblUnit2.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblUMax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblItem.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cmbCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 61</value>
+  </data>
+  <data name="txtVmin.TabIndex" type="System.Int32, mscorlib">
+    <value>364</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbCardType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblCardType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVUnit2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblUMax.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="txtUmax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtVmax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="&gt;&gt;grpAIConfig.Name" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="&gt;&gt;grpAIConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkByPass.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AIConfig</value>
+  </data>
+  <data name="&gt;&gt;chkByPass.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="&gt;&gt;txtUmin.Name" xml:space="preserve">
+    <value>txtUmin</value>
+  </data>
+  <data name="&gt;&gt;txtUmax.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="&gt;&gt;lblVMin.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblVUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbCardType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUMax.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblUnit2.Name" xml:space="preserve">
+    <value>lblUnit2</value>
+  </data>
+  <data name="txtName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;txtUmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkByPass.TabIndex" type="System.Int32, mscorlib">
+    <value>371</value>
+  </data>
+  <data name="txtVmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtAddress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblVUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtAddress.Text" xml:space="preserve">
+    <value>0-00</value>
+  </data>
+  <data name="lblVUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 169</value>
+  </data>
+  <data name="lblUMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 236</value>
+  </data>
+  <data name="txtAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="txtUmin.TabIndex" type="System.Int32, mscorlib">
+    <value>366</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="txtUmin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblUnit2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="chkByPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 28</value>
+  </data>
+  <data name="&gt;&gt;txtVmin.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblVMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="lblUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpAIConfig.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>(UU)</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="grpAIConfig.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblItem.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="&gt;&gt;txtVmax.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="txtUmax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblVUnit2.TabIndex" type="System.Int32, mscorlib">
+    <value>370</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="cmbCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblItem.Text" xml:space="preserve">
+    <value>AI-</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblVMin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtName.Text" xml:space="preserve">
+    <value>################</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;txtAddress.Name" xml:space="preserve">
+    <value>txtAddress</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>358</value>
+  </data>
+  <data name="lblUnit2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUMax.TabIndex" type="System.Int32, mscorlib">
+    <value>361</value>
+  </data>
+  <data name="grpAIConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>359</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit2.Name" xml:space="preserve">
+    <value>lblVUnit2</value>
+  </data>
+  <data name="&gt;&gt;lblVMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAddress.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtVmax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 33</value>
+  </data>
+  <data name="&gt;&gt;txtUmax.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="&gt;&gt;lblUMin.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtVmax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblUnit.Name" xml:space="preserve">
+    <value>lblUnit</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>533, 403</value>
+  </data>
+  <data name="&gt;&gt;lblVMin.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="lblUnit2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 236</value>
+  </data>
+  <data name="txtUmax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 33</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="cmbCardType.Text" xml:space="preserve">
+    <value>PCI-9999</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 19</value>
+  </data>
+  <data name="&gt;&gt;grpAIConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCardType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 295</value>
+  </data>
+  <data name="lblVMax.Text" xml:space="preserve">
+    <value>Vmax</value>
+  </data>
+  <data name="&gt;&gt;txtUmax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.Name" xml:space="preserve">
+    <value>cmbCardType</value>
+  </data>
+  <data name="&gt;&gt;chkByPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="cmbCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 32</value>
+  </data>
+  <data name="lblAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 113</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;lblVUnit2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblUMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUMax.Text" xml:space="preserve">
+    <value>Umax</value>
+  </data>
+  <data name="&gt;&gt;lblAddress.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="txtVmax.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtAddress.Parent" xml:space="preserve">
+    <value>grpAIConfig</value>
+  </data>
+  <data name="txtVmin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVUnit.Text" xml:space="preserve">
+    <value>Volt.</value>
+  </data>
+  <data name="lblVUnit2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtVmin.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;lblUMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 33</value>
+  </data>
+  <data name="txtUmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 33</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

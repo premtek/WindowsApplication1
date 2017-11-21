@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="dgvStep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpStep.Text" xml:space="preserve">
+    <value>配方</value>
+  </data>
+  <data name="grpStep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstPatternID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="lblFile.Text" xml:space="preserve">
+    <value>1.檔案操作</value>
+  </data>
+  <data name="lblFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPatternEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="lblPatternEditor.Text" xml:space="preserve">
+    <value>2.膠路編輯</value>
+  </data>
+  <data name="lblPatternEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRoundLoopEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="lblRoundLoopEditor.Text" xml:space="preserve">
+    <value>4.輪環編輯</value>
+  </data>
+  <data name="lblRoundLoopEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOthers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 24</value>
+  </data>
+  <data name="lblOthers.Text" xml:space="preserve">
+    <value>6. 其他</value>
+  </data>
+  <data name="lblOthers.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStepEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="lblStepEditor.Text" xml:space="preserve">
+    <value>5.步驟編輯</value>
+  </data>
+  <data name="lblStepEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstRoundNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="treePattern.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage2.Text" xml:space="preserve">
+    <value>樹狀節點</value>
+  </data>
+  <data name="TabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="picPcsSingleGraph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPage3.Text" xml:space="preserve">
+    <value>路徑</value>
+  </data>
+  <data name="TabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNodeEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="lblNodeEditor.Text" xml:space="preserve">
+    <value>3.節點編輯</value>
+  </data>
+  <data name="lblNodeEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnContiStart.Text" xml:space="preserve">
+    <value>連續動作開始</value>
+  </data>
+  <data name="btnContiEnd.Text" xml:space="preserve">
+    <value>連續動作結束</value>
+  </data>
+  <data name="btnExtendOn.Text" xml:space="preserve">
+    <value>延伸路徑啟用</value>
+  </data>
+  <data name="btnExtendOff.Text" xml:space="preserve">
+    <value>延伸路徑關閉</value>
+  </data>
+  <data name="chkNodeConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 28</value>
+  </data>
+  <data name="chkNodeConnect.Text" xml:space="preserve">
+    <value>節點連接</value>
+  </data>
+  <data name="chkNodeConnect.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuFileCreate.Text" xml:space="preserve">
+    <value>開新檔案</value>
+  </data>
+  <data name="mnuFileOpen.Text" xml:space="preserve">
+    <value>開啟舊檔</value>
+  </data>
+  <data name="mnuFileSave.Text" xml:space="preserve">
+    <value>儲存檔案</value>
+  </data>
+  <data name="mnuFileSaveAs.Text" xml:space="preserve">
+    <value>另存新檔</value>
+  </data>
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="mnuPatternAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="mnuPatternDelete.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="mnuPatternCopy.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="mnuPatternPaste.Text" xml:space="preserve">
+    <value>貼上</value>
+  </data>
+  <data name="mnuPatternRename.Text" xml:space="preserve">
+    <value>重新命名</value>
+  </data>
+  <data name="mnuPattern.Text" xml:space="preserve">
+    <value>膠路</value>
+  </data>
+  <data name="mnuNodeAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="mnuNodeDelete.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="mnuNodeCopy.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="mnuNodePaste.Text" xml:space="preserve">
+    <value>貼上</value>
+  </data>
+  <data name="mnuNodeFIDs.Text" xml:space="preserve">
+    <value>定位</value>
+  </data>
+  <data name="mnuNodeArray.Text" xml:space="preserve">
+    <value>陣列</value>
+  </data>
+  <data name="mnuNodeHeight.Text" xml:space="preserve">
+    <value>測高</value>
+  </data>
+  <data name="mnuNode.Text" xml:space="preserve">
+    <value>節點</value>
+  </data>
+  <data name="mnuRoundAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="mnuRoundDelete.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="mnuRoundCopy.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="mnuRoundPaste.Text" xml:space="preserve">
+    <value>貼上</value>
+  </data>
+  <data name="mnuRoundMoveUp.Text" xml:space="preserve">
+    <value>向上移動</value>
+  </data>
+  <data name="mnuRoundMoveDown.Text" xml:space="preserve">
+    <value>向下移動</value>
+  </data>
+  <data name="mnuProcessTime.Text" xml:space="preserve">
+    <value>處理時間設定</value>
+  </data>
+  <data name="mnuRound.Text" xml:space="preserve">
+    <value>輪環</value>
+  </data>
+  <data name="mnuStepAdd.Text" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="mnuStepDelete.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="mnuStepCopy.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="mnuStepPaste.Text" xml:space="preserve">
+    <value>貼上</value>
+  </data>
+  <data name="mnuStepMoveUp.Text" xml:space="preserve">
+    <value>向上移動</value>
+  </data>
+  <data name="mnuStepMoveDown.Text" xml:space="preserve">
+    <value>向下移動</value>
+  </data>
+  <data name="mnuStepParameter.Text" xml:space="preserve">
+    <value>製程參數</value>
+  </data>
+  <data name="mnuStep.Text" xml:space="preserve">
+    <value>步驟</value>
+  </data>
+  <data name="mnuBalance.Text" xml:space="preserve">
+    <value>天平</value>
+  </data>
+  <data name="mnuPark.Text" xml:space="preserve">
+    <value>停駐點</value>
+  </data>
+  <data name="mnuLoadA.Text" xml:space="preserve">
+    <value>A機進料</value>
+  </data>
+  <data name="mnuLoadB.Text" xml:space="preserve">
+    <value>B機進料</value>
+  </data>
+  <data name="mnuUnloadA.Text" xml:space="preserve">
+    <value>A機退料</value>
+  </data>
+  <data name="mnuUnloadB.Text" xml:space="preserve">
+    <value>B機退料</value>
+  </data>
+  <data name="mnuMAP.Text" xml:space="preserve">
+    <value>地圖</value>
+  </data>
+  <data name="mnuOthers.Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="mnuRunRun.Text" xml:space="preserve">
+    <value>運行</value>
+  </data>
+  <data name="mnuRunCCDRun.Text" xml:space="preserve">
+    <value>CCD空跑</value>
+  </data>
+  <data name="mnuRunDryRun.Text" xml:space="preserve">
+    <value>空跑</value>
+  </data>
+  <data name="mnuRunPause.Text" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="mnuRun.Text" xml:space="preserve">
+    <value>運行</value>
+  </data>
+  <data name="btnAlignUnlock.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnNodeMap.ToolTip" xml:space="preserve">
+    <value>Pattern Array Map顯示</value>
+  </data>
+  <data name="btnMachineBBalance.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAPZSURBVHhe7Zq/
+        bhNBEMbvEZICiTKCF4iUF0jBA6ShT01FF6VL6TIlNIg64gEi0qRIE8kFBQUFCBQJKVUUUQUBMt93d+tb
+        7337x/bGgVsXP8v5ZnZmdnw33jNUk8mkeKRYGlIsDSmWhhRLQ4qlIcXSkGJpSLE0pFgaUiwNKZaGFEtD
+        iqUhxdw8ffxoG+wuwR7YUrFzIMUYKOgcTFbMrqolB1KMgYJyNuEaMF6MbVVLDqSYAxT9AahNu7xV61eJ
+        FHOAza2bgM2tm4DNrZuAza2bgM2tm4DNDbMJKPi9s4FVcq1qyoEUfaCQW6ewVfIL3MvRWYoKFLBhFfRQ
+        7KvalkWKChTAB5mfVkGpmDU8Hn8EnwGvKH6yrm+MU1XbskhRgQJGTkExuMkLsOeJtwUOwTwNuVWxlkWK
+        ChTADanCFN9B8lMffI9BSiPuZS5IUYHkKUPxNxiDDRUjBNak3m7Z54IUXZA4dSh+BbIB0I9anyNlJ7Dx
+        xxM20o1rk30uSNEFifkpxS5XforeSxW2aBMI7LFbI/tckKILErMwVZDNSK01wJ7aBF51d62vIvtckKIL
+        kl5aRfgIzgHYk5pA4BNreta5IEUXJI0NxUu1zgY+8zSBP8yGZkPWuSBFGyRMGYrBW4HAJ7kJpPX1kXUu
+        SNEGCTmxY0NRHohs4LMP+PWZdCnD7xtQuUjWuSBFGyRLGYrZfw5HzFATyEu1bhGkaINkPO+rImyyFWRA
+        zNgculDrFkGKNkgW+royZB1UiJcyh+7U2kWQogGJ+JATmwfkh1q/KIjH+RHLS3uWf5CRogFJUoYioU90
+        OKaCWJ+s2CGy3IZSNCBJylA0XKkY84I4bPwfK26ILHNBigYkSRmKBh5ujlWcVLA+dmR2yTIXpGhgEidp
+        DDbihYoVA+vYgKs2TirM158LVXVWb03zGuzY/tM3LgieOhRdWNgbFdMH/HlM5g8xKl6Mw17McBMMz4x/
+        /aJAcN6bKmkKbMQNCJ4OYWej3wEVI5X+c0vXhDNHP2h1MjZ65+CA4K+cZIvAK4m31Cngb5R8fiCMPe+l
+        76M/F3xNaGwnrQ1/NlpndEDw1K+ph6Y/F8JN4EygDX82Wmd0QOB5h+JDMjsXwk0Yu7ZZhxYE5aBSyf5V
+        Zs8LqglVtQnMrfAFPDG2xsEBQfl1Zf7n2P+A73ZQjMCm7T99MyjCTSA34Lnxr18Gh7odGn3HspH60NQ5
+        DAlfExobZwOvBNpPqM06DIVQE0gzGPGusfcdhsD6SgC+JvRnQv380DkMidmN+jgw/vXL4Ag3gQem6RMk
+        mb4pGSmWhhRLQ4plMan+AhyVx2aQxzsWAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnMachineBBalance.ToolTip" xml:space="preserve">
+    <value>天平B秤重</value>
+  </data>
+  <data name="btnWait.ToolTip" xml:space="preserve">
+    <value>等待時間</value>
+  </data>
+  <data name="btnLoadB.ToolTip" xml:space="preserve">
+    <value>B機進料</value>
+  </data>
+  <data name="btnLoad.ToolTip" xml:space="preserve">
+    <value>A機進料</value>
+  </data>
+  <data name="btnSelect.ToolTip" xml:space="preserve">
+    <value>選擇點膠作業閥</value>
+  </data>
+  <data name="btnUnload.ToolTip" xml:space="preserve">
+    <value>A機退料</value>
+  </data>
+  <data name="btnMove3D.ToolTip" xml:space="preserve">
+    <value>移動閥到目標位置</value>
+  </data>
+  <data name="btnNodeAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVGhD7Zpr
+        UeRAFIWpUYAEJKwEJCABCUhYCUhAAhKQgAQkrIPwnapNVc+t00m/Mkt19sf3Y05u30fSr3TmblmWU2HF
+        mbHiSC6Xyz08wgv8NjzBg2t7BFbsRQWACvyEpZA/8AZPzucorNgKyepJvoMrqIYveHYxerFiLSSnbqun
+        45LvQYU/upitWLEGJQTqji7hFSWuJx/H7yt8gGuT8upit2DFUkjkOSSWoiJV1O6EhI16iHxtFa9r9659
+        DVYsgeC5YvW0m8cfbTXh5QrXJNhVtBX3IGiuWI3j7qcg8KPlyg2VT2dfihW3IOCvkMDK8FkVn4rllrY3
+        Z1+CFXMQSGNNYzMmUFQsdleTlrOJYKeYruim9dqKOQiiRGPgF2friG3j9RzYalzH7q3f1cPHig6cK2ga
+        ULw72xyxfby+BfZa/q7aQ1EvSbGiA+dxY1F9h0N7JG+XgzbdOVgxIqd/nafBqu9uaI/k7XLQxvWyqsnS
+        ihE5DUGaxk/wgeTttqBdfMpVy5QVIyZI07IQfCB5uy1o55bF4ptvxQgO41LUtCQEH0jebg/aNudjxRSc
+        afymzpG97R4D/cQeVzyfWDEFZ3E5aN7aBT9I3m4P2sb9QPHyaMUUnMWCP3auDyeNl4l5ldMWVkzZc26u
+        DyeNl4n5v+AcVkzZc26uDyeNl4l5aMHTT1rnWpYEDg/ZeED19lTQ7riNh8DhqK1lPKuqPoKlzU22lqNe
+        HkYUfJOXh1Gvh10FY3+b10OB43hnq58y9r0Fd+dgRQeORxzxNBeMrY5t07biuCMeoQAhoKg5xGsqGLvb
+        H+IJBYCeY9rqgrFRzH9zTCsIdJ6D+BUCnudTywqBz/MxbYXguaKFxromuTk+l66QhN6mXNdLUfHug7iG
+        wFaRKz/jg/gKCekJxU3BCHSjqjYne1ixFZLTrDr/n1oiJKuJZ/6/LTkoQN1d43zeP6b9ZKw4M1acGSvO
+        jBXnZbn7BnBoxwNwkSEpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnNodeAdd.ToolTip" xml:space="preserve">
+    <value>新增節點</value>
+  </data>
+  <data name="btnCircle.ToolTip" xml:space="preserve">
+    <value>點一個圓</value>
+  </data>
+  <data name="btnUnloadB.ToolTip" xml:space="preserve">
+    <value>B機退料</value>
+  </data>
+  <data name="btnArc.ToolTip" xml:space="preserve">
+    <value>點一道弧</value>
+  </data>
+  <data name="btnNodeDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnNodeDelete.ToolTip" xml:space="preserve">
+    <value>刪除節點</value>
+  </data>
+  <data name="btnLine3D.ToolTip" xml:space="preserve">
+    <value>點一條線</value>
+  </data>
+  <data name="btnDots3D.ToolTip" xml:space="preserve">
+    <value>打點</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="btnArray.ToolTip" xml:space="preserve">
+    <value>設定節點的圖樣陣列</value>
+  </data>
+  <data name="btnInspect.ToolTip" xml:space="preserve">
+    <value>設定點膠後檢測</value>
+  </data>
+  <data name="btnAlign.ToolTip" xml:space="preserve">
+    <value>設定CCD定位點與場景</value>
+  </data>
+  <data name="btnCreateRecipe.ToolTip" xml:space="preserve">
+    <value>開啟新檔案</value>
+  </data>
+  <data name="btnStepBasicEdit.ToolTip" xml:space="preserve">
+    <value>參數清單</value>
+  </data>
+  <data name="btnPatternDelete.ToolTip" xml:space="preserve">
+    <value>刪除選取圖樣</value>
+  </data>
+  <data name="btnStepDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnStepDelete.ToolTip" xml:space="preserve">
+    <value>刪除選取步驟</value>
+  </data>
+  <data name="btnRoundAdd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVGhD7Zpr
+        UeRAFIWpUYAEJKwEJCABCUhYCUhAAhKQgAQkrIPwnapNVc+t00m/Mkt19sf3Y05u30fSr3TmblmWU2HF
+        mbHiSC6Xyz08wgv8NjzBg2t7BFbsRQWACvyEpZA/8AZPzucorNgKyepJvoMrqIYveHYxerFiLSSnbqun
+        45LvQYU/upitWLEGJQTqji7hFSWuJx/H7yt8gGuT8upit2DFUkjkOSSWoiJV1O6EhI16iHxtFa9r9659
+        DVYsgeC5YvW0m8cfbTXh5QrXJNhVtBX3IGiuWI3j7qcg8KPlyg2VT2dfihW3IOCvkMDK8FkVn4rllrY3
+        Z1+CFXMQSGNNYzMmUFQsdleTlrOJYKeYruim9dqKOQiiRGPgF2friG3j9RzYalzH7q3f1cPHig6cK2ga
+        ULw72xyxfby+BfZa/q7aQ1EvSbGiA+dxY1F9h0N7JG+XgzbdOVgxIqd/nafBqu9uaI/k7XLQxvWyqsnS
+        ihE5DUGaxk/wgeTttqBdfMpVy5QVIyZI07IQfCB5uy1o55bF4ptvxQgO41LUtCQEH0jebg/aNudjxRSc
+        afymzpG97R4D/cQeVzyfWDEFZ3E5aN7aBT9I3m4P2sb9QPHyaMUUnMWCP3auDyeNl4l5ldMWVkzZc26u
+        DyeNl4n5v+AcVkzZc26uDyeNl4l5aMHTT1rnWpYEDg/ZeED19lTQ7riNh8DhqK1lPKuqPoKlzU22lqNe
+        HkYUfJOXh1Gvh10FY3+b10OB43hnq58y9r0Fd+dgRQeORxzxNBeMrY5t07biuCMeoQAhoKg5xGsqGLvb
+        H+IJBYCeY9rqgrFRzH9zTCsIdJ6D+BUCnudTywqBz/MxbYXguaKFxromuTk+l66QhN6mXNdLUfHug7iG
+        wFaRKz/jg/gKCekJxU3BCHSjqjYne1ixFZLTrDr/n1oiJKuJZ/6/LTkoQN1d43zeP6b9ZKw4M1acGSvO
+        jBXnZbn7BnBoxwNwkSEpAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnRoundAdd.ToolTip" xml:space="preserve">
+    <value>新增一道點膠</value>
+  </data>
+  <data name="btnRoundDelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADwAAAAxCAYAAACGYsqsAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIISURBVGhD5ZnB
+        TQMxEEVRKqAESkhJKYESKIUTlVBASuHKafkjxZJlveyO7Zk9mMOT0Nu1Z54URSBetm37V6BcGZQrg3Jl
+        UK4MypVBuTIoVwall8vl8iru4pOeR6IZb+R7Qemhit0epEXr7ttjxjs97wHlERrcxqZF684SGzID5REa
+        +tEsURMWrbva2OkZKD3Y0GaJmulo3XEVP9WdNXc64wGlFw1OidbZ3VjxSuc8oOxBw0OjdSYt1kDZi5YI
+        ida7qbEGyhG0zFS03kmPNVCOoqWGovVsL9b8lc6NgHIGLdcVLXdarIFyFi3pitbPp8YaKCPQsrvR4vRY
+        A2UUWnov+heckRZroIxEy+9Ft6TGGiijUYQnOj3WQJmBYr6quBb7eKfHGiijUcyzPydr3L+RzYAyEoV4
+        Ygvp0SijUEBPbCE1GmUEWvwo9htcIS0a5Sxa+Cj29nhv95eT9t4IUM6gRV2x1funRqMcRQt2xVbnTotG
+        OYIWG4ot6Pkp0ShH0FLDsQW9lx6NshdbplmuxhVb0Pup0Sh7sCWapWq6Ygs6lxaN0osNb5apGYot6HxK
+        NEoPNrRZomYqtqB7wqNRHqFhe9/I0//wqtF9z6LPCzY0kKKnv1QIuzdqDkovGlxHp8QW7P6IOSh70AIW
+        HfoxfobmTH83oFwZlCuDcmVQrgzKlUG5MijXZXv5AwVKZa4YCXA+AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnRoundDelete.ToolTip" xml:space="preserve">
+    <value>刪除該道點膠</value>
+  </data>
+  <data name="btnRoundUp.ToolTip" xml:space="preserve">
+    <value>將該道提前執行</value>
+  </data>
+  <data name="btnRoundDown.ToolTip" xml:space="preserve">
+    <value>將該道延後執行</value>
+  </data>
+  <data name="btnLock.ToolTip" xml:space="preserve">
+    <value>配方鎖定/解鎖</value>
+  </data>
+  <data name="btnSaveRecipe.ToolTip" xml:space="preserve">
+    <value>儲存檔案</value>
+  </data>
+  <data name="btnLoadRecipe.ToolTip" xml:space="preserve">
+    <value>開啟舊檔案</value>
+  </data>
+  <data name="btnHeight.ToolTip" xml:space="preserve">
+    <value>設定測高位置</value>
+  </data>
+  <data name="btnPark.ToolTip" xml:space="preserve">
+    <value>移動到停駐點/換膠位置</value>
+  </data>
+  <data name="btnCCDRun.ToolTip" xml:space="preserve">
+    <value>以CCD跑點膠路徑</value>
+  </data>
+  <data name="btnPause.ToolTip" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="btnRun.ToolTip" xml:space="preserve">
+    <value>首片試跑</value>
+  </data>
+  <data name="btnMachineABalance.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAQfSURBVHhe7Zov
+        bxRBGMb3IxRBgmzKFyDpF6hAImrwVYgqHKlDViLBNJiaKoIiqamoIamoqEBAgmmCIE0FCf9zPM/dzu07
+        s8/czN1NjvbmxK9sn515/8zOvDO7pRkMBtUjxdqQYm1IsTakWBtSrA0p1oYUa0OKtSHF2pBibUixNqRY
+        G1KsDSnWhhRrQ4op7t+7uwWez8ALcDIjOyqWEkgxBQJiQoMF80bFUgIppkBAOTPhNVDJhHwBtJfigYql
+        BFIsQRu4Sjrks+q/SKRYAiS3GgQktxoEJLcaBCS3GgQkt5yDgIDXgdoOFblb5DVQ/RVrKq55kWIMBLEH
+        VCKL4C/YVnHNixRjIIh3Jqj/waGKa16kGANBcOqq4BbFpYprXqSoQABrQUA5cAr/AJxBTwGLJdkBh+AK
+        /Aaqb4zidUGKCjhn8D9NMCk4a3aVLQvabINL8AcoOxYOWPG6IEUFnO+bYCbBZN6CqZ4Y2h+0fZVNS/G6
+        IEUFnJ8GwSiGAxDpz+2V3xOi3wVwbxekBqJ4XZCiAs5ziuK56ktwzx2eTtR9B+5zFqXqRNG6IMUQOg2C
+        ULBerKv+BPdyB4G+Jg148bogxRA4ZQLf2yBiHKi+DtzPGgSCNlwWk2ZD0bogxRA4TRVFruPoLCC4P80g
+        pGZe0bogxRA4fR8EEXKt+lnQJnsQCNp9aNvHKFYXpBgCh6mieKH6WdBm2kGY9AJWtC5I0QJnOUXxVPW1
+        oA3tPAJZH0zRLrUEi9UFKVrgjE8wtWVFt8ZZgc2XgY+QYnVBihY44wFHBWH5qPrOA2zmHM6K1AUpWuDo
+        InAco+gBBvZSdahYXZCiBY74FqiCsHCLLPZnMtjKWYKkSF2QogNOeN5XzhVflY1ZgK3zwHaMyXWhaY6G
+        KY54LNsAKTrghK+5OU+E8NvBnrIzDbBBnzlvkw69DJvmjhkAciTbASk64CCnKIbM/DdD9gXTfLOI14Wm
+        edYmf9z+S+6otj3BAge5RdHCJLaUvUmgDwcg9X6i0HWhac7axDkYV+Nr26alJ1jgIKcoKviEOIuydgy0
+        41fsX0DZStGvC02z2SZNuCz22+uzXluqSiQwzqKYWw8U7MtB5Bej3hKhBpg8t0LWE2UjF3+ww6RZFLtB
+        2fTajlRfcMDwNEUxhVvnTJj/H4HXpWzTjr89q+nfafteWyqh4IDh1LH1JtF90os99W67/DTWWrxfLDCc
+        epW9SVyNY+92A3/9+4Pz0N4bX4TA8LfA0U1nHelsmET9ae+fG17Ze+OLpaA7G6RgfRifGYY/lgau937C
+        MZ64fsMfSwHXeZdg9D0B99xAHTvNb3Cb4TofJdcVSYW/ZDao+Q1uK6OiFz0HePjFc3iO8BvcVri+u8R6
+        J8Ie3TY6PDP0G1SIFGtDirUhxdqQYl0Mmn825teS8q1rrQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnMachineABalance.ToolTip" xml:space="preserve">
+    <value>天平A秤重</value>
+  </data>
+  <data name="btnDryRun.ToolTip" xml:space="preserve">
+    <value>以閥跑點膠路徑(不出膠)</value>
+  </data>
+  <data name="btnStepUp.ToolTip" xml:space="preserve">
+    <value>將該步提前執行</value>
+  </data>
+  <data name="btnPatternAdd.ToolTip" xml:space="preserve">
+    <value>新增圖樣</value>
+  </data>
+  <data name="btnStepDown.ToolTip" xml:space="preserve">
+    <value>將該步延後執行</value>
+  </data>
+  <data name="btnAddArray.ToolTip" xml:space="preserve">
+    <value>增加陣列</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>產品配方設定</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

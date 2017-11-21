@@ -1,0 +1,1017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="Label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 12</value>
+  </data>
+  <data name="Label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 26</value>
+  </data>
+  <data name="Label25.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="Label25.Text" xml:space="preserve">
+    <value>Handshake List DO</value>
+  </data>
+  <data name="Label25.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label25.Name" xml:space="preserve">
+    <value>Label25</value>
+  </data>
+  <data name="&gt;&gt;Label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label25.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCCDConnectState.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCCDConnectState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 341</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtCCDConnectState.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtCCDConnectState.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCCDConnectState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 39</value>
+  </data>
+  <data name="txtCCDConnectState.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="&gt;&gt;txtCCDConnectState.Name" xml:space="preserve">
+    <value>txtCCDConnectState</value>
+  </data>
+  <data name="&gt;&gt;txtCCDConnectState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCCDConnectState.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;txtCCDConnectState.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCCDConnectState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCCDConnectState.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDConnectState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 312</value>
+  </data>
+  <data name="lblCCDConnectState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lblCCDConnectState.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="lblCCDConnectState.Text" xml:space="preserve">
+    <value>連線狀態</value>
+  </data>
+  <data name="lblCCDConnectState.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCCDConnectState.Name" xml:space="preserve">
+    <value>lblCCDConnectState</value>
+  </data>
+  <data name="&gt;&gt;lblCCDConnectState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDConnectState.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;lblCCDConnectState.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnConnectStatus.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnConnectStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnConnectStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 329</value>
+  </data>
+  <data name="btnConnectStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnConnectStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 56</value>
+  </data>
+  <data name="btnConnectStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="btnConnectStatus.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;btnConnectStatus.Name" xml:space="preserve">
+    <value>btnConnectStatus</value>
+  </data>
+  <data name="&gt;&gt;btnConnectStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConnectStatus.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;btnConnectStatus.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCCDSendData.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnCCDSendData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCCDSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 587</value>
+  </data>
+  <data name="btnCCDSendData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCCDSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="btnCCDSendData.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="btnCCDSendData.Text" xml:space="preserve">
+    <value>傳送資料</value>
+  </data>
+  <data name="&gt;&gt;btnCCDSendData.Name" xml:space="preserve">
+    <value>btnCCDSendData</value>
+  </data>
+  <data name="&gt;&gt;btnCCDSendData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCCDSendData.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;btnCCDSendData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtCCDSendData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCCDSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 523</value>
+  </data>
+  <data name="txtCCDSendData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtCCDSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 33</value>
+  </data>
+  <data name="txtCCDSendData.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;txtCCDSendData.Name" xml:space="preserve">
+    <value>txtCCDSendData</value>
+  </data>
+  <data name="&gt;&gt;txtCCDSendData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCCDSendData.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;txtCCDSendData.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCCDSendData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCCDSendData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDSendData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 493</value>
+  </data>
+  <data name="lblCCDSendData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lblCCDSendData.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="lblCCDSendData.Text" xml:space="preserve">
+    <value>傳送資料</value>
+  </data>
+  <data name="lblCCDSendData.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCCDSendData.Name" xml:space="preserve">
+    <value>lblCCDSendData</value>
+  </data>
+  <data name="&gt;&gt;lblCCDSendData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDSendData.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;lblCCDSendData.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 187</value>
+  </data>
+  <data name="Label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="Label38.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="Label38.Text" xml:space="preserve">
+    <value>CCD Bit1</value>
+  </data>
+  <data name="Label38.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label38.Name" xml:space="preserve">
+    <value>Label38</value>
+  </data>
+  <data name="&gt;&gt;Label38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label38.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;Label38.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCcdBit1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdBit1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 187</value>
+  </data>
+  <data name="btnCcdBit1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdBit1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdBit1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit1.Name" xml:space="preserve">
+    <value>btnCcdBit1</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit1.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label41.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 133</value>
+  </data>
+  <data name="Label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="Label41.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Label41.Text" xml:space="preserve">
+    <value>CCD Bit0</value>
+  </data>
+  <data name="Label41.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label41.Name" xml:space="preserve">
+    <value>Label41</value>
+  </data>
+  <data name="&gt;&gt;Label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label41.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;Label41.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCcdBit0.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdBit0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 133</value>
+  </data>
+  <data name="btnCcdBit0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdBit0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdBit0.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit0.Name" xml:space="preserve">
+    <value>btnCcdBit0</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit0.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBit0.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label44.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 80</value>
+  </data>
+  <data name="Label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 24</value>
+  </data>
+  <data name="Label44.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>CCD ImageTrigger</value>
+  </data>
+  <data name="Label44.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label44.Name" xml:space="preserve">
+    <value>Label44</value>
+  </data>
+  <data name="&gt;&gt;Label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label44.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;Label44.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnCcdImageTrigger.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdImageTrigger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 80</value>
+  </data>
+  <data name="btnCcdImageTrigger.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdImageTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdImageTrigger.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnCcdImageTrigger.Name" xml:space="preserve">
+    <value>btnCcdImageTrigger</value>
+  </data>
+  <data name="&gt;&gt;btnCcdImageTrigger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdImageTrigger.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;btnCcdImageTrigger.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Label47.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label47.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 27</value>
+  </data>
+  <data name="Label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="Label47.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Label47.Text" xml:space="preserve">
+    <value>Dispensing</value>
+  </data>
+  <data name="Label47.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label47.Name" xml:space="preserve">
+    <value>Label47</value>
+  </data>
+  <data name="&gt;&gt;Label47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label47.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;Label47.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pl_CCDHandshakeListDO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="pl_CCDHandshakeListDO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 27</value>
+  </data>
+  <data name="pl_CCDHandshakeListDO.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pl_CCDHandshakeListDO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 698</value>
+  </data>
+  <data name="pl_CCDHandshakeListDO.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDO.Name" xml:space="preserve">
+    <value>pl_CCDHandshakeListDO</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDO.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDO.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="Label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 9</value>
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 26</value>
+  </data>
+  <data name="Label10.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>Handshake List DI</value>
+  </data>
+  <data name="Label10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label10.Name" xml:space="preserve">
+    <value>Label10</value>
+  </data>
+  <data name="&gt;&gt;Label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCcdGate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdGate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 80</value>
+  </data>
+  <data name="btnCcdGate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdGate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdGate.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;btnCcdGate.Name" xml:space="preserve">
+    <value>btnCcdGate</value>
+  </data>
+  <data name="&gt;&gt;btnCcdGate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdGate.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;btnCcdGate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 80</value>
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 24</value>
+  </data>
+  <data name="Label12.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>CCD Gate</value>
+  </data>
+  <data name="Label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label12.Name" xml:space="preserve">
+    <value>Label12</value>
+  </data>
+  <data name="&gt;&gt;Label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label12.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;Label12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCCDReceiveData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCCDReceiveData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 523</value>
+  </data>
+  <data name="txtCCDReceiveData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtCCDReceiveData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 33</value>
+  </data>
+  <data name="txtCCDReceiveData.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;txtCCDReceiveData.Name" xml:space="preserve">
+    <value>txtCCDReceiveData</value>
+  </data>
+  <data name="&gt;&gt;txtCCDReceiveData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCCDReceiveData.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;txtCCDReceiveData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCCDReceiveData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCCDReceiveData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDReceiveData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 493</value>
+  </data>
+  <data name="lblCCDReceiveData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lblCCDReceiveData.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="lblCCDReceiveData.Text" xml:space="preserve">
+    <value>接收資料</value>
+  </data>
+  <data name="lblCCDReceiveData.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCCDReceiveData.Name" xml:space="preserve">
+    <value>lblCCDReceiveData</value>
+  </data>
+  <data name="&gt;&gt;lblCCDReceiveData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCCDReceiveData.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;lblCCDReceiveData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Label52.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 187</value>
+  </data>
+  <data name="Label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 24</value>
+  </data>
+  <data name="Label52.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>CCD Ready</value>
+  </data>
+  <data name="Label52.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label52.Name" xml:space="preserve">
+    <value>Label52</value>
+  </data>
+  <data name="&gt;&gt;Label52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label52.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;Label52.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnCcdOutputResult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdOutputResult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 240</value>
+  </data>
+  <data name="btnCcdOutputResult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdOutputResult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdOutputResult.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnCcdOutputResult.Name" xml:space="preserve">
+    <value>btnCcdOutputResult</value>
+  </data>
+  <data name="&gt;&gt;btnCcdOutputResult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdOutputResult.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;btnCcdOutputResult.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 240</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>CCD Output Result</value>
+  </data>
+  <data name="Label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCcdReady.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdReady.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 187</value>
+  </data>
+  <data name="btnCcdReady.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdReady.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdReady.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnCcdReady.Name" xml:space="preserve">
+    <value>btnCcdReady</value>
+  </data>
+  <data name="&gt;&gt;btnCcdReady.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdReady.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;btnCcdReady.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 133</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 24</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>CCD Busy</value>
+  </data>
+  <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCcdBusy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCcdBusy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 133</value>
+  </data>
+  <data name="btnCcdBusy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCcdBusy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 40</value>
+  </data>
+  <data name="btnCcdBusy.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBusy.Name" xml:space="preserve">
+    <value>btnCcdBusy</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBusy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBusy.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;btnCcdBusy.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 27</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 24</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>CCD</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pl_CCDHandshakeListDI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="pl_CCDHandshakeListDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 27</value>
+  </data>
+  <data name="pl_CCDHandshakeListDI.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="pl_CCDHandshakeListDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 698</value>
+  </data>
+  <data name="pl_CCDHandshakeListDI.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDI.Name" xml:space="preserve">
+    <value>pl_CCDHandshakeListDI</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDI.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pl_CCDHandshakeListDI.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="tmrCcdHandshake.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>996, 757</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CCDHandshake</value>
+  </data>
+  <data name="&gt;&gt;tmrCcdHandshake.Name" xml:space="preserve">
+    <value>tmrCcdHandshake</value>
+  </data>
+  <data name="&gt;&gt;tmrCcdHandshake.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCCDHandshake</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

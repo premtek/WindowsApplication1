@@ -1,0 +1,2041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16E927F3-070B-4E2E-B710-5737A05033E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>Dispensing_Premtek</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>發行\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Dispensing_Premtek.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Dispensing_Premtek.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Radvisual-Holographic-Application.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Dispensing_Premtek.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Dispensing_Premtek.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Dispensing_Premtek.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Dispensing_Premtek.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Advantech.Motion">
+      <HintPath>C:\Program Files (x86)\Advantech\Common Motion\Common Motion DOTNET Component\Lib\Advantech.Motion.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvMotAPI, Version=1.6.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\DTS_20160412V2\WindowsApplication1\WindowsApplication1\bin\Debug\AdvMotAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Automation.BDaq">
+      <HintPath>C:\Windows\System32\Automation.BDaq.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505" />
+    <Reference Include="Cognex.VisionPro.Blob, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.Blob.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.CalibFix, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.CalibFix.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Caliper, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.Caliper.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.Core, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505" />
+    <Reference Include="Cognex.VisionPro.Display.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Cognex.VisionPro.PixelMap, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.PixelMap.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.PMAlign, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.PMAlign.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ToolGroup, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.ToolGroup.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ToolGroup.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAction3AlignPosFindCenter.vb" />
+    <Compile Include="CAction3PointFindCenter.vb" />
+    <Compile Include="CActionAbnormalUnload800AQ.vb" />
+    <Compile Include="CActionCCDValveAutoCalibXY.vb" />
+    <Compile Include="CActionChangeGlue.vb" />
+    <Compile Include="CActionConveyorDCSW800AQ.vb" />
+    <Compile Include="CActionConveyorF230A.vb" />
+    <Compile Include="CActionConveyorF350A.vb" />
+    <Compile Include="CActionMoveToSafePos.vb" />
+    <Compile Include="CActionPurge.vb" />
+    <Compile Include="CActionValveHeightAutoSearch.vb" />
+    <Compile Include="CCalibrationValveParameter.vb" />
+    <Compile Include="CSystemAdapter.vb" />
+    <Compile Include="CUserLevel.vb" />
+    <Compile Include="frmAIConfig.Designer.vb">
+      <DependentUpon>frmAIConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAIConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlignImageMask.Designer.vb">
+      <DependentUpon>frmAlignImageMask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlignImageMask.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlignModule.Designer.vb">
+      <DependentUpon>frmAlignModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlignModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlignPMAlign.Designer.vb">
+      <DependentUpon>frmAlignPMAlign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlignPMAlign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlignPR01.Designer.vb">
+      <DependentUpon>frmAlignPR01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlignPR01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlignThreshold.Designer.vb">
+      <DependentUpon>frmAlignThreshold.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlignThreshold.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlignType.Designer.vb">
+      <DependentUpon>frmAlignType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlignType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAOConfig.Designer.vb">
+      <DependentUpon>frmAOConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAOConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibAlignTool.Designer.vb">
+      <DependentUpon>frmCalibAlignTool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibAlignTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationCCD2Height.Designer.vb">
+      <DependentUpon>frmCalibrationCCD2Height.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationCCD2Height.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationCCDImage.Designer.vb">
+      <DependentUpon>frmCalibrationCCDImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationCCDImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationFlowRate.Designer.vb">
+      <DependentUpon>frmCalibrationFlowRate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationFlowRate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationMenu.Designer.vb">
+      <DependentUpon>frmCalibrationMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationMenuNew.designer.vb">
+      <DependentUpon>frmCalibrationMenuNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationMenuNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationPurge.Designer.vb">
+      <DependentUpon>frmCalibrationPurge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationPurge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationZHeight.Designer.vb">
+      <DependentUpon>frmCalibrationZHeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationZHeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationCCD2Valve1.Designer.vb">
+      <DependentUpon>frmCalibrationCCD2Valve1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationCCD2Valve1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationCCD2Valve2.Designer.vb">
+      <DependentUpon>frmCalibrationCCD2Valve2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationCCD2Valve2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSystemThread.vb" />
+    <Compile Include="frmCCDHandshake.designer.vb">
+      <DependentUpon>frmCCDHandshake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCCDHandshake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalibrationClearGlue.Designer.vb">
+      <DependentUpon>frmCalibrationClearGlue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalibrationClearGlue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCCDTargerEdit.Designer.vb">
+      <DependentUpon>frmCCDTargerEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCCDTargerEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContactCablication.Designer.vb">
+      <DependentUpon>frmContactCablication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmContactCablication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiag.Designer.vb">
+      <DependentUpon>frmDiag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiag350A.Designer.vb">
+      <DependentUpon>frmDiag350A.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiag350A.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDiagWetco.Designer.vb">
+      <DependentUpon>frmDiagWetco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDiagWetco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDIConfig.Designer.vb">
+      <DependentUpon>frmDIConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDIConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDOConfig.Designer.vb">
+      <DependentUpon>frmDOConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDOConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrawGraphics.Designer.vb">
+      <DependentUpon>frmDrawGraphics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrawGraphics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEngineMode.Designer.vb">
+      <DependentUpon>frmEngineMode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEngineMode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEPVConfig.Designer.vb">
+      <DependentUpon>frmEPVConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEPVConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExchange.Designer.vb">
+      <DependentUpon>frmExchange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExchange.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFeedback.Designer.vb">
+      <DependentUpon>frmFeedback.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFeedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGoArrayPosition.Designer.vb">
+      <DependentUpon>frmGoArrayPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGoArrayPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.vb">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInterlockConfig.Designer.vb">
+      <DependentUpon>frmInterlockConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInterlockConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIOList.Designer.vb">
+      <DependentUpon>frmIOList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIOList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIOStatus.Designer.vb">
+      <DependentUpon>frmIOStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIOStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIOTable.Designer.vb">
+      <DependentUpon>frmIOTable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIOTable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLightTowerConfig.Designer.vb">
+      <DependentUpon>frmLightTowerConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLightTowerConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLog.Designer.vb">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain0.Designer.vb">
+      <DependentUpon>frmMain0.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain0.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapping.Designer.vb">
+      <DependentUpon>frmMapping.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapping.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeasurementSubstrate .Designer.vb">
+      <DependentUpon>frmMeasurementSubstrate .vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeasurementSubstrate .vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageConfig.Designer.vb">
+      <DependentUpon>frmMessageConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifyDie.Designer.vb">
+      <DependentUpon>frmModifyDie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifyDie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMotionLoopConfig.Designer.vb">
+      <DependentUpon>frmMotionLoopConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMotionLoopConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMotionOp.Designer.vb">
+      <DependentUpon>frmMotionOp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMotionOp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMotionOption.Designer.vb">
+      <DependentUpon>frmMotionOption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMotionOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperator.Designer.vb">
+      <DependentUpon>frmOperator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpMachine.Designer.vb">
+      <DependentUpon>frmOpMachine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpMachine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpStage.Designer.vb">
+      <DependentUpon>frmOpStage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpStage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPicoController.Designer.vb">
+      <DependentUpon>frmPicoController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPicoController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPicoValveControllerTest.Designer.vb">
+      <DependentUpon>frmPicoValveControllerTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPicoValveControllerTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgramControlLight.Designer.vb">
+      <DependentUpon>frmProgramControlLight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgramControlLight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe01.Designer.vb">
+      <DependentUpon>frmRecipe01.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe01.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe02.Designer.vb">
+      <DependentUpon>frmRecipe02.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe02.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe03.Designer.vb">
+      <DependentUpon>frmRecipe03.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe03.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe04.Designer.vb">
+      <DependentUpon>frmRecipe04.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe04.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe04Step.designer.vb">
+      <DependentUpon>frmRecipe04Step.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe04Step.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipeStepParameter.Designer.vb">
+      <DependentUpon>frmRecipeStepParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipeStepParameter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSafePos.Designer.vb">
+      <DependentUpon>frmSafePos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSafePos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetAutoCalibration.Designer.vb">
+      <DependentUpon>frmSetAutoCalibration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetAutoCalibration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetBalance.Designer.vb">
+      <DependentUpon>frmSetBalance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetBalance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetCCDConnection.Designer.vb">
+      <DependentUpon>frmSetCCDConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetCCDConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetFMCSConnection.Designer.vb">
+      <DependentUpon>frmSetFMCSConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetFMCSConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetLaserReaderConnection.Designer.vb">
+      <DependentUpon>frmSetLaserReaderConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetLaserReaderConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetLightConnection.Designer.vb">
+      <DependentUpon>frmSetLightConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetLightConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetProcessTime.designer.vb">
+      <DependentUpon>frmSetProcessTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetProcessTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetTriggerConnection.Designer.vb">
+      <DependentUpon>frmSetTriggerConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetTriggerConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetUserLevel.Designer.vb">
+      <DependentUpon>frmSetUserLevel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetUserLevel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogIn.designer.vb">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetValveAirPressure.Designer.vb">
+      <DependentUpon>frmSetValveAirPressure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetValveAirPressure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetWaferFilter.Designer.vb">
+      <DependentUpon>frmSetWaferFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetWaferFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSinglePattern.Designer.vb">
+      <DependentUpon>frmSinglePattern.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSinglePattern.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStageVerification.Designer.vb">
+      <DependentUpon>frmStageVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStageVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStageVerificationNew.Designer.vb">
+      <DependentUpon>frmStageVerificationNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStageVerificationNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysDebug.Designer.vb">
+      <DependentUpon>frmSysDebug.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysDebug.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystemSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>frmSystemSet.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmValvePm.designer.vb">
+      <DependentUpon>frmValvePm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmValvePm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWeight.Designer.vb">
+      <DependentUpon>frmWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDispenseRelationship.vb" />
+    <Compile Include="MFunctionCCDFix.vb" />
+    <Compile Include="MFunctionContinueLine.vb" />
+    <Compile Include="MFunctionDispenser.vb" />
+    <Compile Include="MFunctionEditPath.vb" />
+    <Compile Include="MFunctionEqpStatus.vb" />
+    <Compile Include="MFunctionLaserReader.vb" />
+    <Compile Include="MFunctionMap.vb" />
+    <Compile Include="MFunctionMonitor.vb" />
+    <Compile Include="MFunctionMotion.vb" />
+    <Compile Include="MFunctionRecipe.vb" />
+    <Compile Include="MFunctionSubstrate.vb" />
+    <Compile Include="MFunctionWeight1.vb" />
+    <Compile Include="MObject.vb" />
+    <Compile Include="MParameterReadSave.vb" />
+    <Compile Include="MUILanguage.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmManual.Designer.vb">
+      <DependentUpon>frmManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MFunctionModule.vb" />
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmSystemSet.designer.vb">
+      <DependentUpon>frmSystemSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystemSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ucArcTypeParameter.Designer.vb">
+      <DependentUpon>ucArcTypeParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucArcTypeParameter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCalibrationStatus.Designer.vb">
+      <DependentUpon>ucCalibrationStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucCalibrationStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCCDTargerEdit.Designer.vb">
+      <DependentUpon>ucCCDTargerEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucCCDTargerEdit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucChuckStatus.Designer.vb">
+      <DependentUpon>ucChuckStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucChuckStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDCSW800AQStatus.Designer.vb">
+      <DependentUpon>ucDCSW800AQStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDCSW800AQStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDigitKeyboard.Designer.vb">
+      <DependentUpon>ucDigitKeyboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDigitKeyboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDotTypeParameter.designer.vb">
+      <DependentUpon>ucDotTypeParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDotTypeParameter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucHeavyLight.Designer.vb">
+      <DependentUpon>ucHeavyLight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucHeavyLight.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucIndicatorConfig.Designer.vb">
+      <DependentUpon>ucIndicatorConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucIndicatorConfig.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucJoyStick.Designer.vb">
+      <DependentUpon>ucJoyStick.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucJoyStick.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLevelArray.Designer.vb">
+      <DependentUpon>ucLevelArray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucLevelArray.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLevelNonArray.Designer.vb">
+      <DependentUpon>ucLevelNonArray.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucLevelNonArray.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLightControl.Designer.vb">
+      <DependentUpon>ucLightControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucLightControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLineTypeParameter.Designer.vb">
+      <DependentUpon>ucLineTypeParameter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucLineTypeParameter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMemoryMonitor.designer.vb">
+      <DependentUpon>ucMemoryMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucMemoryMonitor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucProcessInfo.Designer.vb">
+      <DependentUpon>ucProcessInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucProcessInfo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPurgeDB.Designer.vb">
+      <DependentUpon>ucPurgeDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucPurgeDB.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecipeStatus.Designer.vb">
+      <DependentUpon>ucRecipeStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecipeStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSelectArrayGoPosition.Designer.vb">
+      <DependentUpon>ucSelectArrayGoPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucSelectArrayGoPosition.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSystemDebugW800AQ.Designer.vb">
+      <DependentUpon>ucSystemDebugW800AQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucSystemDebugW800AQ.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTrainAlignScene.Designer.vb">
+      <DependentUpon>ucTrainAlignScene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucTrainAlignScene.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucValveAirPressure.Designer.vb">
+      <DependentUpon>ucValveAirPressure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucValveAirPressure.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucValveParameterAdvanjet.designer.vb">
+      <DependentUpon>ucValveParameterAdvanjet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucValveParameterAdvanjet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucValveParameterPico.Designer.vb">
+      <DependentUpon>ucValveParameterPico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucValveParameterPico.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucWaferMap.Designer.vb">
+      <DependentUpon>ucWaferMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucWaferMap.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAIConfig.resx">
+      <DependentUpon>frmAIConfig.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAIConfig.zh-CN.resx">
+      <DependentUpon>frmAIConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAIConfig.zh-TW.resx">
+      <DependentUpon>frmAIConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignImageMask.resx">
+      <DependentUpon>frmAlignImageMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignImageMask.zh-CN.resx">
+      <DependentUpon>frmAlignImageMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignImageMask.zh-TW.resx">
+      <DependentUpon>frmAlignImageMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignModule.resx">
+      <DependentUpon>frmAlignModule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignModule.zh-CN.resx">
+      <DependentUpon>frmAlignModule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignModule.zh-TW.resx">
+      <DependentUpon>frmAlignModule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignPMAlign.resx">
+      <DependentUpon>frmAlignPMAlign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignPMAlign.zh-CN.resx">
+      <DependentUpon>frmAlignPMAlign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignPMAlign.zh-TW.resx">
+      <DependentUpon>frmAlignPMAlign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignPR01.resx">
+      <DependentUpon>frmAlignPR01.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignPR01.zh-CN.resx">
+      <DependentUpon>frmAlignPR01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignPR01.zh-TW.resx">
+      <DependentUpon>frmAlignPR01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignThreshold.resx">
+      <DependentUpon>frmAlignThreshold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignThreshold.zh-CN.resx">
+      <DependentUpon>frmAlignThreshold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignThreshold.zh-TW.resx">
+      <DependentUpon>frmAlignThreshold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignType.resx">
+      <DependentUpon>frmAlignType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignType.zh-CN.resx">
+      <DependentUpon>frmAlignType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlignType.zh-TW.resx">
+      <DependentUpon>frmAlignType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAOConfig.resx">
+      <DependentUpon>frmAOConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAOConfig.zh-CN.resx">
+      <DependentUpon>frmAOConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAOConfig.zh-TW.resx">
+      <DependentUpon>frmAOConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibAlignTool.resx">
+      <DependentUpon>frmCalibAlignTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibAlignTool.zh-CN.resx">
+      <DependentUpon>frmCalibAlignTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibAlignTool.zh-TW.resx">
+      <DependentUpon>frmCalibAlignTool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Height.resx">
+      <DependentUpon>frmCalibrationCCD2Height.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Height.zh-CN.resx">
+      <DependentUpon>frmCalibrationCCD2Height.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Height.zh-TW.resx">
+      <DependentUpon>frmCalibrationCCD2Height.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Valve1.zh-CN.resx">
+      <DependentUpon>frmCalibrationCCD2Valve1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Valve1.zh-TW.resx">
+      <DependentUpon>frmCalibrationCCD2Valve1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Valve2.zh-CN.resx">
+      <DependentUpon>frmCalibrationCCD2Valve2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Valve2.zh-TW.resx">
+      <DependentUpon>frmCalibrationCCD2Valve2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCDImage.resx">
+      <DependentUpon>frmCalibrationCCDImage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCDImage.zh-CN.resx">
+      <DependentUpon>frmCalibrationCCDImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCDImage.zh-TW.resx">
+      <DependentUpon>frmCalibrationCCDImage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationFlowRate.resx">
+      <DependentUpon>frmCalibrationFlowRate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationFlowRate.zh-CN.resx">
+      <DependentUpon>frmCalibrationFlowRate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationFlowRate.zh-TW.resx">
+      <DependentUpon>frmCalibrationFlowRate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationMenu.resx">
+      <DependentUpon>frmCalibrationMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationMenu.zh-CN.resx">
+      <DependentUpon>frmCalibrationMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationMenu.zh-TW.resx">
+      <DependentUpon>frmCalibrationMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationMenuNew.resx">
+      <DependentUpon>frmCalibrationMenuNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationMenuNew.zh-CN.resx">
+      <DependentUpon>frmCalibrationMenuNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationMenuNew.zh-TW.resx">
+      <DependentUpon>frmCalibrationMenuNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationPurge.resx">
+      <DependentUpon>frmCalibrationPurge.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationPurge.zh-CN.resx">
+      <DependentUpon>frmCalibrationPurge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationPurge.zh-TW.resx">
+      <DependentUpon>frmCalibrationPurge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationZHeight.resx">
+      <DependentUpon>frmCalibrationZHeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Valve1.resx">
+      <DependentUpon>frmCalibrationCCD2Valve1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationCCD2Valve2.resx">
+      <DependentUpon>frmCalibrationCCD2Valve2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationZHeight.zh-CN.resx">
+      <DependentUpon>frmCalibrationZHeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationZHeight.zh-TW.resx">
+      <DependentUpon>frmCalibrationZHeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCCDHandshake.resx">
+      <DependentUpon>frmCCDHandshake.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationClearGlue.resx">
+      <DependentUpon>frmCalibrationClearGlue.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationClearGlue.zh-CN.resx">
+      <DependentUpon>frmCalibrationClearGlue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalibrationClearGlue.zh-TW.resx">
+      <DependentUpon>frmCalibrationClearGlue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCCDTargerEdit.resx">
+      <DependentUpon>frmCCDTargerEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactCablication.resx">
+      <DependentUpon>frmContactCablication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactCablication.zh-CN.resx">
+      <DependentUpon>frmContactCablication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactCablication.zh-Hant.resx">
+      <DependentUpon>frmContactCablication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContactCablication.zh-TW.resx">
+      <DependentUpon>frmContactCablication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag.en.resx">
+      <DependentUpon>frmDiag.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag.resx">
+      <DependentUpon>frmDiag.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag.zh-CN.resx">
+      <DependentUpon>frmDiag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag.zh-TW.resx">
+      <DependentUpon>frmDiag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag350A.resx">
+      <DependentUpon>frmDiag350A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag350A.zh-CN.resx">
+      <DependentUpon>frmDiag350A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiag350A.zh-TW.resx">
+      <DependentUpon>frmDiag350A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagWetco.en.resx">
+      <DependentUpon>frmDiagWetco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagWetco.resx">
+      <DependentUpon>frmDiagWetco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagWetco.zh-CN.resx">
+      <DependentUpon>frmDiagWetco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDiagWetco.zh-TW.resx">
+      <DependentUpon>frmDiagWetco.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDIConfig.resx">
+      <DependentUpon>frmDIConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDIConfig.zh-CN.resx">
+      <DependentUpon>frmDIConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDIConfig.zh-TW.resx">
+      <DependentUpon>frmDIConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOConfig.resx">
+      <DependentUpon>frmDOConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOConfig.zh-CN.resx">
+      <DependentUpon>frmDOConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOConfig.zh-TW.resx">
+      <DependentUpon>frmDOConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrawGraphics.resx">
+      <DependentUpon>frmDrawGraphics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngineMode.resx">
+      <DependentUpon>frmEngineMode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngineMode.zh-CN.resx">
+      <DependentUpon>frmEngineMode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEngineMode.zh-TW.resx">
+      <DependentUpon>frmEngineMode.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEPVConfig.resx">
+      <DependentUpon>frmEPVConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEPVConfig.zh-CN.resx">
+      <DependentUpon>frmEPVConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEPVConfig.zh-TW.resx">
+      <DependentUpon>frmEPVConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExchange.resx">
+      <DependentUpon>frmExchange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExchange.zh-CN.resx">
+      <DependentUpon>frmExchange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExchange.zh-TW.resx">
+      <DependentUpon>frmExchange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeedback.resx">
+      <DependentUpon>frmFeedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeedback.zh-CN.resx">
+      <DependentUpon>frmFeedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeedback.zh-TW.resx">
+      <DependentUpon>frmFeedback.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGoArrayPosition.resx">
+      <DependentUpon>frmGoArrayPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.zh-CN.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.zh-TW.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterlockConfig.resx">
+      <DependentUpon>frmInterlockConfig.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterlockConfig.zh-CN.resx">
+      <DependentUpon>frmInterlockConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterlockConfig.zh-TW.resx">
+      <DependentUpon>frmInterlockConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOList.resx">
+      <DependentUpon>frmIOList.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOList.zh-CN.resx">
+      <DependentUpon>frmIOList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOList.zh-TW.resx">
+      <DependentUpon>frmIOList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOStatus.resx">
+      <DependentUpon>frmIOStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOStatus.zh-CN.resx">
+      <DependentUpon>frmIOStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOStatus.zh-TW.resx">
+      <DependentUpon>frmIOStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOTable.resx">
+      <DependentUpon>frmIOTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOTable.zh-CN.resx">
+      <DependentUpon>frmIOTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIOTable.zh-TW.resx">
+      <DependentUpon>frmIOTable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLightTowerConfig.resx">
+      <DependentUpon>frmLightTowerConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLightTowerConfig.zh-CN.resx">
+      <DependentUpon>frmLightTowerConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLightTowerConfig.zh-TW.resx">
+      <DependentUpon>frmLightTowerConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.resx">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.zh-CN.resx">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.zh-TW.resx">
+      <DependentUpon>frmLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogIn.zh-TW.resx">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.zh-CN.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.zh-TW.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain0.resx">
+      <DependentUpon>frmMain0.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManual.zh-CN.resx">
+      <DependentUpon>frmManual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManual.zh-TW.resx">
+      <DependentUpon>frmManual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapping.resx">
+      <DependentUpon>frmMapping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapping.zh-CN.resx">
+      <DependentUpon>frmMapping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMapping.zh-TW.resx">
+      <DependentUpon>frmMapping.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeasurementSubstrate .resx">
+      <DependentUpon>frmMeasurementSubstrate .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeasurementSubstrate .zh-CN.resx">
+      <DependentUpon>frmMeasurementSubstrate .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeasurementSubstrate .zh-TW.resx">
+      <DependentUpon>frmMeasurementSubstrate .vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageConfig.resx">
+      <DependentUpon>frmMessageConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageConfig.zh-CN.resx">
+      <DependentUpon>frmMessageConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageConfig.zh-TW.resx">
+      <DependentUpon>frmMessageConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifyDie.resx">
+      <DependentUpon>frmModifyDie.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifyDie.zh-CN.resx">
+      <DependentUpon>frmModifyDie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifyDie.zh-TW.resx">
+      <DependentUpon>frmModifyDie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionLoopConfig.resx">
+      <DependentUpon>frmMotionLoopConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionLoopConfig.zh-CN.resx">
+      <DependentUpon>frmMotionLoopConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionLoopConfig.zh-TW.resx">
+      <DependentUpon>frmMotionLoopConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionOp.resx">
+      <DependentUpon>frmMotionOp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionOp.zh-CN.resx">
+      <DependentUpon>frmMotionOp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionOp.zh-TW.resx">
+      <DependentUpon>frmMotionOp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionOption.resx">
+      <DependentUpon>frmMotionOption.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionOption.zh-CN.resx">
+      <DependentUpon>frmMotionOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMotionOption.zh-TW.resx">
+      <DependentUpon>frmMotionOption.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperator.resx">
+      <DependentUpon>frmOperator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperator.zh-CN.resx">
+      <DependentUpon>frmOperator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperator.zh-TW.resx">
+      <DependentUpon>frmOperator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpMachine.resx">
+      <DependentUpon>frmOpMachine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpMachine.zh-CN.resx">
+      <DependentUpon>frmOpMachine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpMachine.zh-TW.resx">
+      <DependentUpon>frmOpMachine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpStage.resx">
+      <DependentUpon>frmOpStage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpStage.zh-CN.resx">
+      <DependentUpon>frmOpStage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpStage.zh-TW.resx">
+      <DependentUpon>frmOpStage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoController.resx">
+      <DependentUpon>frmPicoController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoController.zh-CN.resx">
+      <DependentUpon>frmPicoController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoController.zh-Hant.resx">
+      <DependentUpon>frmPicoController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoController.zh-TW.resx">
+      <DependentUpon>frmPicoController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoValveControllerTest.resx">
+      <DependentUpon>frmPicoValveControllerTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoValveControllerTest.zh-CN.resx">
+      <DependentUpon>frmPicoValveControllerTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicoValveControllerTest.zh-TW.resx">
+      <DependentUpon>frmPicoValveControllerTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgramControlLight.resx">
+      <DependentUpon>frmProgramControlLight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgramControlLight.zh-CN.resx">
+      <DependentUpon>frmProgramControlLight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgramControlLight.zh-TW.resx">
+      <DependentUpon>frmProgramControlLight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe01.resx">
+      <DependentUpon>frmRecipe01.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe01.zh-CN.resx">
+      <DependentUpon>frmRecipe01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe01.zh-TW.resx">
+      <DependentUpon>frmRecipe01.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe02.resx">
+      <DependentUpon>frmRecipe02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe02.zh-CN.resx">
+      <DependentUpon>frmRecipe02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe02.zh-TW.resx">
+      <DependentUpon>frmRecipe02.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe03.resx">
+      <DependentUpon>frmRecipe03.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe03.zh-CN.resx">
+      <DependentUpon>frmRecipe03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe03.zh-TW.resx">
+      <DependentUpon>frmRecipe03.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe04.resx">
+      <DependentUpon>frmRecipe04.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe04.zh-CN.resx">
+      <DependentUpon>frmRecipe04.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe04.zh-TW.resx">
+      <DependentUpon>frmRecipe04.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe04Step.resx">
+      <DependentUpon>frmRecipe04Step.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe04Step.zh-CN.resx">
+      <DependentUpon>frmRecipe04Step.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe04Step.zh-TW.resx">
+      <DependentUpon>frmRecipe04Step.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipeStepParameter.resx">
+      <DependentUpon>frmRecipeStepParameter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipeStepParameter.zh-CN.resx">
+      <DependentUpon>frmRecipeStepParameter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipeStepParameter.zh-TW.resx">
+      <DependentUpon>frmRecipeStepParameter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSafePos.resx">
+      <DependentUpon>frmSafePos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSafePos.zh-CN.resx">
+      <DependentUpon>frmSafePos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSafePos.zh-TW.resx">
+      <DependentUpon>frmSafePos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetAutoCalibration.resx">
+      <DependentUpon>frmSetAutoCalibration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetAutoCalibration.zh-CN.resx">
+      <DependentUpon>frmSetAutoCalibration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetAutoCalibration.zh-TW.resx">
+      <DependentUpon>frmSetAutoCalibration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetBalance.resx">
+      <DependentUpon>frmSetBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetBalance.zh-CN.resx">
+      <DependentUpon>frmSetBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetBalance.zh-TW.resx">
+      <DependentUpon>frmSetBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetCCDConnection.resx">
+      <DependentUpon>frmSetCCDConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetCCDConnection.zh-CN.resx">
+      <DependentUpon>frmSetCCDConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetCCDConnection.zh-TW.resx">
+      <DependentUpon>frmSetCCDConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetFMCSConnection.resx">
+      <DependentUpon>frmSetFMCSConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetFMCSConnection.zh-CN.resx">
+      <DependentUpon>frmSetFMCSConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetFMCSConnection.zh-TW.resx">
+      <DependentUpon>frmSetFMCSConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetLaserReaderConnection.resx">
+      <DependentUpon>frmSetLaserReaderConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetLaserReaderConnection.zh-CN.resx">
+      <DependentUpon>frmSetLaserReaderConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetLaserReaderConnection.zh-TW.resx">
+      <DependentUpon>frmSetLaserReaderConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetLightConnection.resx">
+      <DependentUpon>frmSetLightConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetLightConnection.zh-CN.resx">
+      <DependentUpon>frmSetLightConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetLightConnection.zh-TW.resx">
+      <DependentUpon>frmSetLightConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetProcessTime.resx">
+      <DependentUpon>frmSetProcessTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetProcessTime.zh-CN.resx">
+      <DependentUpon>frmSetProcessTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetProcessTime.zh-TW.resx">
+      <DependentUpon>frmSetProcessTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetTriggerConnection.resx">
+      <DependentUpon>frmSetTriggerConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetTriggerConnection.zh-CN.resx">
+      <DependentUpon>frmSetTriggerConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetTriggerConnection.zh-TW.resx">
+      <DependentUpon>frmSetTriggerConnection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetUserLevel.resx">
+      <DependentUpon>frmSetUserLevel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogIn.resx">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManual.resx">
+      <DependentUpon>frmManual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetUserLevel.zh-CN.resx">
+      <DependentUpon>frmSetUserLevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetUserLevel.zh-TW.resx">
+      <DependentUpon>frmSetUserLevel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetValveAirPressure.resx">
+      <DependentUpon>frmSetValveAirPressure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetValveAirPressure.zh-CN.resx">
+      <DependentUpon>frmSetValveAirPressure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetValveAirPressure.zh-TW.resx">
+      <DependentUpon>frmSetValveAirPressure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetWaferFilter.resx">
+      <DependentUpon>frmSetWaferFilter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSinglePattern.resx">
+      <DependentUpon>frmSinglePattern.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStageVerification.resx">
+      <DependentUpon>frmStageVerification.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStageVerification.zh-CN.resx">
+      <DependentUpon>frmStageVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStageVerification.zh-TW.resx">
+      <DependentUpon>frmStageVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStageVerificationNew.resx">
+      <DependentUpon>frmStageVerificationNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStageVerificationNew.zh-CN.resx">
+      <DependentUpon>frmStageVerificationNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStageVerificationNew.zh-TW.resx">
+      <DependentUpon>frmStageVerificationNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysDebug.resx">
+      <DependentUpon>frmSysDebug.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemSet.zh-CN.resx">
+      <DependentUpon>frmSystemSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemSet.zh-TW.resx">
+      <DependentUpon>frmSystemSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmValvePm.resx">
+      <DependentUpon>frmValvePm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeight.hsb.resx">
+      <DependentUpon>frmWeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeight.resx">
+      <DependentUpon>frmWeight.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeight.zh-CN.resx">
+      <DependentUpon>frmWeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWeight.zh-TW.resx">
+      <DependentUpon>frmWeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucCalibrationStatus.zh-CN.resx">
+      <DependentUpon>ucCalibrationStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucCCDTargerEdit.resx">
+      <DependentUpon>ucCCDTargerEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDigitKeyboard.resx">
+      <DependentUpon>ucDigitKeyboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHeavyLight.resx">
+      <DependentUpon>ucHeavyLight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHeavyLight.zh-TW.resx">
+      <DependentUpon>ucHeavyLight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucIndicatorConfig.resx">
+      <DependentUpon>ucIndicatorConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucIndicatorConfig.zh-CN.resx">
+      <DependentUpon>ucIndicatorConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucJoyStick.resx">
+      <DependentUpon>ucJoyStick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucJoyStick.zh-CN.resx">
+      <DependentUpon>ucJoyStick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucJoyStick.zh-TW.resx">
+      <DependentUpon>ucJoyStick.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLevelArray.resx">
+      <DependentUpon>ucLevelArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystemSet.resx">
+      <DependentUpon>frmSystemSet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmSystemSet1.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucArcTypeParameter.resx">
+      <DependentUpon>ucArcTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucArcTypeParameter.zh-CN.resx">
+      <DependentUpon>ucArcTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucArcTypeParameter.zh-TW.resx">
+      <DependentUpon>ucArcTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucCalibrationStatus.resx">
+      <DependentUpon>ucCalibrationStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucCalibrationStatus.zh-TW.resx">
+      <DependentUpon>ucCalibrationStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucChuckStatus.resx">
+      <DependentUpon>ucChuckStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDCSW800AQStatus.resx">
+      <DependentUpon>ucDCSW800AQStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDCSW800AQStatus.zh-CN.resx">
+      <DependentUpon>ucDCSW800AQStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDCSW800AQStatus.zh-TW.resx">
+      <DependentUpon>ucDCSW800AQStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDotTypeParameter.resx">
+      <DependentUpon>ucDotTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDotTypeParameter.zh-CN.resx">
+      <DependentUpon>ucDotTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDotTypeParameter.zh-TW.resx">
+      <DependentUpon>ucDotTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLevelArray.zh-CN.resx">
+      <DependentUpon>ucLevelArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLevelArray.zh-TW.resx">
+      <DependentUpon>ucLevelArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLevelNonArray.resx">
+      <DependentUpon>ucLevelNonArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLevelNonArray.zh-CN.resx">
+      <DependentUpon>ucLevelNonArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLevelNonArray.zh-TW.resx">
+      <DependentUpon>ucLevelNonArray.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLightControl.resx">
+      <DependentUpon>ucLightControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLightControl.zh-CN.resx">
+      <DependentUpon>ucLightControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLightControl.zh-TW.resx">
+      <DependentUpon>ucLightControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLineTypeParameter.resx">
+      <DependentUpon>ucLineTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLineTypeParameter.zh-CN.resx">
+      <DependentUpon>ucLineTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLineTypeParameter.zh-TW.resx">
+      <DependentUpon>ucLineTypeParameter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMemoryMonitor.resx">
+      <DependentUpon>ucMemoryMonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucProcessInfo.resx">
+      <DependentUpon>ucProcessInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucProcessInfo.zh-CN.resx">
+      <DependentUpon>ucProcessInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucProcessInfo.zh-TW.resx">
+      <DependentUpon>ucProcessInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPurgeDB.resx">
+      <DependentUpon>ucPurgeDB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPurgeDB.zh-CN.resx">
+      <DependentUpon>ucPurgeDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPurgeDB.zh-TW.resx">
+      <DependentUpon>ucPurgeDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeStatus.resx">
+      <DependentUpon>ucRecipeStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeStatus.zh-CN.resx">
+      <DependentUpon>ucRecipeStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecipeStatus.zh-TW.resx">
+      <DependentUpon>ucRecipeStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSelectArrayGoPosition.resx">
+      <DependentUpon>ucSelectArrayGoPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSystemDebugW800AQ.resx">
+      <DependentUpon>ucSystemDebugW800AQ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTrainAlignScene.resx">
+      <DependentUpon>ucTrainAlignScene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTrainAlignScene.zh-CN.resx">
+      <DependentUpon>ucTrainAlignScene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTrainAlignScene.zh-TW.resx">
+      <DependentUpon>ucTrainAlignScene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveAirPressure.resx">
+      <DependentUpon>ucValveAirPressure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveParameterAdvanjet.resx">
+      <DependentUpon>ucValveParameterAdvanjet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveParameterAdvanjet.zh-CN.resx">
+      <DependentUpon>ucValveParameterAdvanjet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveParameterAdvanjet.zh-TW.resx">
+      <DependentUpon>ucValveParameterAdvanjet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveParameterPico.resx">
+      <DependentUpon>ucValveParameterPico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveParameterPico.zh-CN.resx">
+      <DependentUpon>ucValveParameterPico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucValveParameterPico.zh-TW.resx">
+      <DependentUpon>ucValveParameterPico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucWaferMap.resx">
+      <DependentUpon>ucWaferMap.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Radvisual-Holographic-Application.ico" />
+    <None Include="Resources\Pico.png" />
+    <None Include="Resources\SpeedHigh.png" />
+    <None Include="Resources\SpeedLow.png" />
+    <None Include="Resources\SpeedMid.png" />
+    <None Include="Resources\I33_108.png" />
+    <None Include="Resources\I33_110.png" />
+    <None Include="Resources\I33_112.png" />
+    <None Include="Resources\I33_133.png" />
+    <None Include="Resources\I33_135.png" />
+    <None Include="Resources\I33_155.png" />
+    <None Include="Resources\I33_156.png" />
+    <None Include="Resources\I33_157.png" />
+    <None Include="Resources\li_081.png" />
+    <None Include="Resources\li_231.png" />
+    <None Include="Resources\li_281.png" />
+    <None Include="Resources\Exit1.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\CancelExit1.png" />
+    <None Include="Resources\goPos1.png" />
+    <None Include="Resources\home1.png" />
+    <None Include="Resources\Prev.png" />
+    <None Include="Resources\ServoOff.png" />
+    <None Include="Resources\ServoOn.png" />
+    <None Include="Resources\setup1.png" />
+    <None Include="Resources\Pico_New.png" />
+    <None Include="Resources\CancelExit2.png" />
+    <Content Include="Resources\wallpaper.png" />
+    <None Include="Resources\Weight2.png" />
+    <None Include="Resources\Weight1.png" />
+    <None Include="Resources\未命名-2-021.png" />
+    <None Include="Resources\未命名-2-011.png" />
+    <None Include="Resources\未命名-2-02.png" />
+    <None Include="Resources\未命名-2-01.png" />
+    <None Include="Resources\Red.png" />
+    <None Include="Resources\Green.png" />
+    <None Include="Resources\Gray.png" />
+    <None Include="Resources\Grey35.png" />
+    <None Include="Resources\Green35.png" />
+    <None Include="Resources\Red35.png" />
+    <None Include="Resources\燈號11-05.png" />
+    <None Include="Resources\Update.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Add.png" />
+    <None Include="Resources\ZHeightSearch.png" />
+    <None Include="Resources\Weight.png" />
+    <None Include="Resources\Wait.png" />
+    <None Include="Resources\WaferMap.png" />
+    <None Include="Resources\VideoRun.png" />
+    <None Include="Resources\Unlock.png" />
+    <None Include="Resources\UnloadB.png" />
+    <None Include="Resources\UnloadA.png" />
+    <None Include="Resources\Unload.png" />
+    <None Include="Resources\Temp.png" />
+    <None Include="Resources\Stop.png" />
+    <None Include="Resources\setup.png" />
+    <None Include="Resources\set.png" />
+    <None Include="Resources\SelectValve.png" />
+    <None Include="Resources\SaveExit.png" />
+    <None Include="Resources\Save.png" />
+    <None Include="Resources\Run.png" />
+    <None Include="Resources\Rezero.png" />
+    <None Include="Resources\Purge.png" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\Path.png" />
+    <None Include="Resources\Park.png" />
+    <None Include="Resources\OpenFile.png" />
+    <None Include="Resources\MoveUp.png" />
+    <None Include="Resources\MoveDown.png" />
+    <None Include="Resources\Move.png" />
+    <None Include="Resources\Lock.png" />
+    <None Include="Resources\LoadB.png" />
+    <None Include="Resources\LoadA.png" />
+    <None Include="Resources\Load.png" />
+    <None Include="Resources\Line.png" />
+    <None Include="Resources\LaserReader.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\goPos.png" />
+    <None Include="Resources\GetValue.png" />
+    <None Include="Resources\FIDs.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\DryRun.png" />
+    <None Include="Resources\Dot.png" />
+    <None Include="Resources\Disconnect.png" />
+    <None Include="Resources\CreateFile.png" />
+    <None Include="Resources\Connect.png" />
+    <None Include="Resources\Circle.png" />
+    <None Include="Resources\CancelExit.png" />
+    <None Include="Resources\BuzzerOn.png" />
+    <None Include="Resources\BuzzerMute.png" />
+    <None Include="Resources\Array.png" />
+    <None Include="Resources\Arc.png" />
+    <None Include="Resources\Process Parameter Temperature-03.png" />
+    <None Include="Resources\Process Parameter Temperature-02.png" />
+    <None Include="Resources\Temperature膠管溫度紅線11-02.png" />
+    <None Include="Resources\Temperature膠管溫度紅線11-01.png" />
+    <None Include="Resources\Temperature read set 紅線-02.png" />
+    <None Include="Resources\Temperature read set 紅線-01.png" />
+    <None Include="Resources\Temperature膠管溫度7777png-01.png" />
+    <None Include="Resources\Temperature膠管溫度 白底-01.png" />
+    <None Include="Resources\lll_17.png" />
+    <None Include="Resources\lll_14.png" />
+    <None Include="Resources\StageMap.png" />
+    <None Include="Resources\circle_grey2.png" />
+    <None Include="Resources\GARBAGE2.png" />
+    <None Include="Resources\lii_30.png" />
+    <None Include="Resources\lii_24.png" />
+    <None Include="Resources\lii_19.png" />
+    <None Include="Resources\lii_13.png" />
+    <None Include="Resources\lii_09.png" />
+    <None Include="Resources\lii_05.png" />
+    <None Include="Resources\li_28.png" />
+    <None Include="Resources\li_23.png" />
+    <None Include="Resources\li_17.png" />
+    <None Include="Resources\li_12.png" />
+    <None Include="Resources\li_08.png" />
+    <None Include="Resources\li_03.png" />
+    <None Include="Resources\scale.png" />
+    <None Include="Resources\138-scales.png" />
+    <None Include="Resources\change_user.ico" />
+    <None Include="Resources\Screw Action.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapData\MapData.vbproj">
+      <Project>{c4b7528e-f6fa-40bc-b364-829243bbda08}</Project>
+      <Name>MapData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Premtek.Base\Premtek.Base.csproj">
+      <Project>{89ec5a71-f817-49b0-9aa0-6861581a381a}</Project>
+      <Name>Premtek.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Premtek\Premtek.csproj">
+      <Project>{b9962cde-62c3-4037-82b3-c235b8947c08}</Project>
+      <Name>Premtek</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectAOI\ProjectAOI.vbproj">
+      <Project>{8e7d33a3-7f0c-4374-a76d-9cdde9e54ef5}</Project>
+      <Name>ProjectAOI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectConveyor\ProjectConveyor.vbproj">
+      <Project>{5ba6041d-6a84-45c4-8baa-3f3d9aad2a90}</Project>
+      <Name>ProjectConveyor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectCore\ProjectCore.vbproj">
+      <Project>{2b1fae8f-9ae8-4fa4-8ddc-3da365177691}</Project>
+      <Name>ProjectCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectFMCS\ProjectFeedback.vbproj">
+      <Project>{d77cb24c-dc28-468e-9919-b0f6c7f56bfb}</Project>
+      <Name>ProjectFeedback</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectIO\ProjectIO.vbproj">
+      <Project>{ab1b4d09-75a8-4acf-af7b-9484d8631a6c}</Project>
+      <Name>ProjectIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectLaserInterferometer\ProjectLaserInterferometer.vbproj">
+      <Project>{90583748-2f59-46d9-854c-520f021a512b}</Project>
+      <Name>ProjectLaserInterferometer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectMotion\ProjectMotion.vbproj">
+      <Project>{9cb15806-2608-411c-a2eb-ca428a6a3adf}</Project>
+      <Name>ProjectMotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectRecipe\ProjectRecipe.vbproj">
+      <Project>{2ea9fe4d-abc5-499a-89d7-c41e8a10a1ea}</Project>
+      <Name>ProjectRecipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectTriggerBoard\ProjectTriggerBoard.vbproj">
+      <Project>{77d75110-896e-4791-a5ab-b89a923e069f}</Project>
+      <Name>ProjectTriggerBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectValveController\ProjectValveController.vbproj">
+      <Project>{c106fb9c-bfe8-43b1-82ad-f2a6bfd1716e}</Project>
+      <Name>ProjectValveController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WetcoConveyor\WetcoConveyor.vbproj">
+      <Project>{2e265c0d-bca4-496b-bce9-bfa26635c177}</Project>
+      <Name>WetcoConveyor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="00.System\" />
+    <Folder Include="01.Module\" />
+    <Folder Include="10.Action\" />
+    <Folder Include="20.MainFormPage\" />
+    <Folder Include="21.SubFormPage\" />
+    <Folder Include="22.UserControl\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

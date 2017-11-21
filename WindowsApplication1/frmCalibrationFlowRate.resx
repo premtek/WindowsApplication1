@@ -1,0 +1,3133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLaserPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblCCDPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtCalibrationFlowRatePosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblCCDPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>423</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosX.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="btnGoTilt.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>517</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosY.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblWeighing1PosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCCDPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="lblCCDPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcExposure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 29</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosY.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign3PosY</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnFlowRateNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1426, 956</value>
+  </data>
+  <data name="&gt;&gt;btnALign.Name" xml:space="preserve">
+    <value>btnALign</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosY.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateCancel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosX.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign2Pos.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>524</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosZ.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1738, 956</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 508</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign2Pos.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Valve Pos B</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="gpTiltMove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighingAlign1PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="nmcExposure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 33</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 534</value>
+  </data>
+  <data name="lblLaserPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="btnTrainScene.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="lblScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 33</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign1Pos.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosY.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign1Pos.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblLaserPosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblLaserPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosX.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationFlowRatePosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="UcLightControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>498</value>
+  </data>
+  <data name="lblCCDPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Exposure Time</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign2Pos.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="lblExposureTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 180</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosX.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign3PosX</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnALign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 607</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblLaserPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 67</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosX.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosY.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 30</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosY.Name" xml:space="preserve">
+    <value>lblWeighingAlign1PosY</value>
+  </data>
+  <data name="lblCCDPosY.Text" xml:space="preserve">
+    <value>Pos Y</value>
+  </data>
+  <data name="grpCCDPos.Text" xml:space="preserve">
+    <value>CCD Position</value>
+  </data>
+  <data name="lblLaserPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblLaserPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.Text" xml:space="preserve">
+    <value>Align3 Pos Z</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign2Pos.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLaserPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucJoyStick, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.Name" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosX.Name" xml:space="preserve">
+    <value>lblWeighingAlign2PosX</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosZUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblLaserPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnTrainScene.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Name" xml:space="preserve">
+    <value>lblLaserPosY</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibrationFlowRate</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing3PosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.Name" xml:space="preserve">
+    <value>lblCCDPosZ</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblSceneSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosZ.Name" xml:space="preserve">
+    <value>txtCalibrationFlowRatePosZ</value>
+  </data>
+  <data name="btnALign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetFlowRatePos.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.Text" xml:space="preserve">
+    <value>Align3 Pos X</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign3Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Name" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosZ.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblLaserPosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="grpFlowRateAlignPos.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosXUnit.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="grpHeightSensorPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>899, 332</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosY.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosZ.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.Text" xml:space="preserve">
+    <value>Align3 Pos Y</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLaserPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRateNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosZ.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>530</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.Name" xml:space="preserve">
+    <value>btnGoTilt</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>521</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosX.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 508</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpFlowRateAlignPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 681</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosYUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnTrainScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 26</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign2Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTiltValvePosB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing2PosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosZ.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosY.Name" xml:space="preserve">
+    <value>lblWeighingAlign2PosY</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing1PosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosXUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="lblLaserPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblCCDPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="lblCCDPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRateNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosXUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Name" xml:space="preserve">
+    <value>lblLaserPosXUnit</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosY.Name" xml:space="preserve">
+    <value>lblWeighingAlign3PosY</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 458</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 508</value>
+  </data>
+  <data name="lblLaserPosX.Text" xml:space="preserve">
+    <value> Pos X</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWeighing1PosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFlowRateAlignPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosX.Name" xml:space="preserve">
+    <value>txtCalibrationFlowRatePosX</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Name" xml:space="preserve">
+    <value>nmcExposure</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRateNext.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="lblSceneSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 30</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosY.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGoTilt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>142</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblExposureTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="gpTiltMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 109</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosYUnit.Name" xml:space="preserve">
+    <value>lblWeighing1PosYUnit</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRatePrev.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpFlowRateAlignPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnALign.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 80</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosX.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnGoTilt.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="btnALign.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosXUnit.Name" xml:space="preserve">
+    <value>lblWeighing3PosXUnit</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 368</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Name" xml:space="preserve">
+    <value>lblCCDPosY</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Flow Rate Position</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosX.Name" xml:space="preserve">
+    <value>lblWeighingAlign1PosX</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Name" xml:space="preserve">
+    <value>lblLaserPosZUnit</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFlowRateNext.TabIndex" type="System.Int32, mscorlib">
+    <value>533</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="grpHeightSensorPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 200</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosZ.Name" xml:space="preserve">
+    <value>lblWeighingAlign3PosZ</value>
+  </data>
+  <data name="lblLaserPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign3Pos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="GroupBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="UcDisplay1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 5</value>
+  </data>
+  <data name="lblLaserPosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoPos.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnFlowRatePrev.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1270, 956</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign3Pos.Name" xml:space="preserve">
+    <value>btnCalibrationWeighingGoAlign3Pos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosZ.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="UcStatusBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnALign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnALign.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosZ.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign2PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateOK.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnFlowRateNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRatePrev.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblCCDPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 130</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosXUnit.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 781</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblCCDPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosZUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblLaserPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.TabIndex" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosZ.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblCCDPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Type" xml:space="preserve">
+    <value>WindowsApplication1.ucLightControl, Dispensing_Premtek, Version=3.0.0.13, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosZUnit.Name" xml:space="preserve">
+    <value>lblWeighing1PosZUnit</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosY.Name" xml:space="preserve">
+    <value>txtCalibrationFlowRateCCDPosY</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign1Pos.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="btnFlowRatePrev.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>820, 20</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1582, 956</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Name" xml:space="preserve">
+    <value>lblExposureTimeUnit</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateCancel.Name" xml:space="preserve">
+    <value>btnCalibrationFlowRateCancel</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Name" xml:space="preserve">
+    <value>lblSceneSet</value>
+  </data>
+  <data name="lblLaserPosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 130</value>
+  </data>
+  <data name="btnTrainScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosXUnit.Name" xml:space="preserve">
+    <value>lblWeighing1PosXUnit</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosX.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign2PosX</value>
+  </data>
+  <data name="btnALign.Text" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosY.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblCCDPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosX.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblScene.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLaserPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Name" xml:space="preserve">
+    <value>lblLaserPosZ</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblExposureTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationFlowRatePosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 1038</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblCCDPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign1Pos.Name" xml:space="preserve">
+    <value>btnCalibrationWeighingSetAlign1Pos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosXUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>526</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 180</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnALign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign3Pos.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 130</value>
+  </data>
+  <data name="lblCCDPosZUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="lblLaserPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="UcStatusBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>399</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign3Pos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateSetCcdPos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpHeightSensorPos.Text" xml:space="preserve">
+    <value>Flow Rate Position</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 110</value>
+  </data>
+  <data name="UcStatusBar1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="grpCCDPos.TabIndex" type="System.Int32, mscorlib">
+    <value>494</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosY.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 342</value>
+  </data>
+  <data name="lblLaserPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblCCDPosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblLaserPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblSceneSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 31</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRatePrev.Name" xml:space="preserve">
+    <value>btnFlowRatePrev</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCCDPosZ.Text" xml:space="preserve">
+    <value>Pos Z</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.Text" xml:space="preserve">
+    <value>Align2 Pos X</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="UcJoyStick1.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>525</value>
+  </data>
+  <data name="lblCCDPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign3Pos.Name" xml:space="preserve">
+    <value>btnCalibrationWeighingSetAlign3Pos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblCCDPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UcLightControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 292</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign1Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetFlowRatePos.Name" xml:space="preserve">
+    <value>btnCalibrationSetFlowRatePos</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign1Pos.Name" xml:space="preserve">
+    <value>btnCalibrationWeighingGoAlign1Pos</value>
+  </data>
+  <data name="UcStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>520</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosX.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnGoTilt.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblWeighingAlign2PosZ.Text" xml:space="preserve">
+    <value>Align2 Pos Z</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcExposure.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Name" xml:space="preserve">
+    <value>lblCCDPosZUnit</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblLaserPosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UcJoyStick1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 380</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosZ.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="lblSceneSet.TabIndex" type="System.Int32, mscorlib">
+    <value>511</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 292</value>
+  </data>
+  <data name="lblCCDPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblLaserPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoCCDPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosZ.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Name" xml:space="preserve">
+    <value>lblScene</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTiltValvePosB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosY.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>513</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosX.Name" xml:space="preserve">
+    <value>lblWeighingAlign3PosX</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="btnFlowRateNext.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>520</value>
+  </data>
+  <data name="lblCCDPosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>141</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosYUnit.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosZ.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 342</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign3Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCCDPosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosX.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign1PosX</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 230</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosX.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnFlowRatePrev.TabIndex" type="System.Int32, mscorlib">
+    <value>532</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosYUnit.Name" xml:space="preserve">
+    <value>lblWeighing2PosYUnit</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosX.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing1PosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnGoTilt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="UcJoyStick1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Name" xml:space="preserve">
+    <value>UcJoyStick1</value>
+  </data>
+  <data name="btnGoTilt.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoCCDPos.Name" xml:space="preserve">
+    <value>btnCalibrationFlowRateGoCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="gpTiltMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>899, 1</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>528</value>
+  </data>
+  <data name="nmcExposure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign1Pos.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosX.Name" xml:space="preserve">
+    <value>txtCalibrationFlowRateCCDPosX</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.TabIndex" type="System.Int32, mscorlib">
+    <value>532</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.Text" xml:space="preserve">
+    <value>Align2 Pos Y</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;UcJoyStick1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 106</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 558</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="lblLaserPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTiltValvePosB.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="grpFlowRateAlignPos.Text" xml:space="preserve">
+    <value>Flow Rate Align Position</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 230</value>
+  </data>
+  <data name="UcLightControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 781</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="nmcExposure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>523</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 34</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosZUnit.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 130</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucStatusBar, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnFlowRateNext.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 558</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="grpHeightSensorPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosZ.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign2PosZ</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Name" xml:space="preserve">
+    <value>lblCCDPosYUnit</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosZ.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign3PosZ</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.ToolTip" xml:space="preserve">
+    <value>Move To Position</value>
+  </data>
+  <data name="lblCCDPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;btnALign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnTrainScene.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosY.Name" xml:space="preserve">
+    <value>txtCalibrationFlowRatePosY</value>
+  </data>
+  <data name="gpTiltMove.Text" xml:space="preserve">
+    <value>Tilt Position</value>
+  </data>
+  <data name="btnTrainScene.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosYUnit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosY.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign2PosY</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing1PosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 180</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosZUnit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Type" xml:space="preserve">
+    <value>ProjectAOI.ucDisplay, ProjectAOI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnFlowRateNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="UcJoyStick1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>899, 538</value>
+  </data>
+  <data name="lblScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Name" xml:space="preserve">
+    <value>lblLaserPosYUnit</value>
+  </data>
+  <data name="grpCCDPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosZUnit.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 392</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="UcDisplay1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighingAlign2PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWeighingAlign2PosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 392</value>
+  </data>
+  <data name="grpFlowRateAlignPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 34</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 292</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRateNext.Name" xml:space="preserve">
+    <value>btnFlowRateNext</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Name" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>533</value>
+  </data>
+  <data name="lblWeighing1PosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosY.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>531</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationFlowRatePosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosX.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblLaserPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing1PosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 130</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="lblCCDPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLaserPosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtTiltValvePosB.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 342</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLaserPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblScene.Text" xml:space="preserve">
+    <value>Scene</value>
+  </data>
+  <data name="btnALign.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLaserPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing2PosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;UcStatusBar1.Name" xml:space="preserve">
+    <value>UcStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcLightControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 185</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosZ.Name" xml:space="preserve">
+    <value>lblWeighingAlign1PosZ</value>
+  </data>
+  <data name="grpCCDPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>410, 210</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="lblWeighingAlign2PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoCCDPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosYUnit.Name" xml:space="preserve">
+    <value>lblWeighing3PosYUnit</value>
+  </data>
+  <data name="&gt;&gt;gpTiltMove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblWeighing1PosYUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;grpFlowRateAlignPos.Name" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="btnGoTilt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblCCDPosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblCCDPosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblWeighing1PosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpCCDPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="lblWeighing3PosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 458</value>
+  </data>
+  <data name="lblCCDPosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 30</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateSetCcdPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLaserPosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign3PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 458</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.Text" xml:space="preserve">
+    <value>Align1 Pos Z</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblCCDPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCCDPosYUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 80</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing1PosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoPos.Name" xml:space="preserve">
+    <value>btnCalibrationFlowRateGoPos</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcDisplay1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 15</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetFlowRatePos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>gpTiltMove</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>516</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 458</value>
+  </data>
+  <data name="nmcExposure.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="grpFlowRateAlignPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosZUnit.Name" xml:space="preserve">
+    <value>lblWeighing2PosZUnit</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnFlowRatePrev.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gpTiltMove.TabIndex" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Name" xml:space="preserve">
+    <value>lblLaserPosX</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign2PosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCalibrationSetFlowRatePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRatePosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;grpFlowRateAlignPos.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign2Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Name" xml:space="preserve">
+    <value>UcDisplay1</value>
+  </data>
+  <data name="lblScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 45</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblLaserPosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 130</value>
+  </data>
+  <data name="btnFlowRateNext.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="grpHeightSensorPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighingAlign1PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="lblLaserPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZ.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCCDPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateGoCCDPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="lblLaserPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosX.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblScene.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>399</value>
+  </data>
+  <data name="lblWeighingAlign2PosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosYUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateOK.Name" xml:space="preserve">
+    <value>btnCalibrationFlowRateOK</value>
+  </data>
+  <data name="lblScene.TabIndex" type="System.Int32, mscorlib">
+    <value>510</value>
+  </data>
+  <data name="lblWeighing2PosYUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UcStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 1313</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosX.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLaserPosZ.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnALign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationFlowRateCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnTrainScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign3Pos.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="lblScene.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosY.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGoTilt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;grpHeightSensorPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCCDPosX.Text" xml:space="preserve">
+    <value>Pos X</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateSetCcdPos.Name" xml:space="preserve">
+    <value>btnCalibrationFlowRateSetCcdPos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosXUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblExposureTimeUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosY.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosYUnit.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosZUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblLaserPosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 80</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosYUnit.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosX.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblSceneSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.Text" xml:space="preserve">
+    <value>Align1 Pos X</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosX.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnTrainScene.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationSetFlowRatePos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblCCDPosYUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosX.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="lblLaserPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Name" xml:space="preserve">
+    <value>btnTrainScene</value>
+  </data>
+  <data name="btnFlowRatePrev.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosY.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosY.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign1PosY</value>
+  </data>
+  <data name="btnALign.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 230</value>
+  </data>
+  <data name="lblWeighingAlign1PosY.Text" xml:space="preserve">
+    <value>Align1 Pos Y</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighing1PosXUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCCDPosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Name" xml:space="preserve">
+    <value>lblCCDPosXUnit</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="lblScene.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWeighingAlign2PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 292</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosZ.Name" xml:space="preserve">
+    <value>txtCalibrationWeighingAlign1PosZ</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTrainScene.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosXUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosZ.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblWeighingAlign2PosX.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign2Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnFlowRatePrev.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing3PosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>527</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign3PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 200</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign2PosZ.Name" xml:space="preserve">
+    <value>lblWeighingAlign2PosZ</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblCCDPosXUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="btnGoTilt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 25</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.TabIndex" type="System.Int32, mscorlib">
+    <value>529</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosZUnit.Parent" xml:space="preserve">
+    <value>grpHeightSensorPos</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UcDisplay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>878, 771</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnFlowRateNext.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 24</value>
+  </data>
+  <data name="btnALign.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="lblCCDPosXUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingSetAlign2Pos.Name" xml:space="preserve">
+    <value>btnCalibrationWeighingSetAlign2Pos</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationFlowRateCCDPosZ.Name" xml:space="preserve">
+    <value>txtCalibrationFlowRateCCDPosZ</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 31</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosX.Name" xml:space="preserve">
+    <value>lblCCDPosX</value>
+  </data>
+  <data name="lblLaserPosZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 130</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 558</value>
+  </data>
+  <data name="btnFlowRatePrev.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationFlowRateCCDPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 33</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing1PosYUnit.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grpHeightSensorPos.TabIndex" type="System.Int32, mscorlib">
+    <value>493</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign1Pos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblWeighing3PosZUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>522</value>
+  </data>
+  <data name="lblWeighing2PosXUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;grpCCDPos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnCalibrationFlowRateOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign1PosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnFlowRatePrev.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnTrainScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblCCDPosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;UcLightControl1.Name" xml:space="preserve">
+    <value>UcLightControl1</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign2Pos.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="gpTiltMove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLaserPosXUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign2PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign1Pos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign1PosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSceneSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 48</value>
+  </data>
+  <data name="btnCalibrationFlowRateSetCcdPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing2PosXUnit.Name" xml:space="preserve">
+    <value>lblWeighing2PosXUnit</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign3PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingGoAlign3Pos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblWeighing3PosZUnit.Name" xml:space="preserve">
+    <value>lblWeighing3PosZUnit</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosY.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblWeighingAlign2PosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UcDisplay1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationWeighingGoAlign2Pos.Name" xml:space="preserve">
+    <value>btnCalibrationWeighingGoAlign2Pos</value>
+  </data>
+  <data name="lblLaserPosYUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UcDisplay1.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="&gt;&gt;lblWeighingAlign1PosY.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="lblWeighingAlign1PosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighingAlign3PosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign2PosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCCDPosYUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="btnFlowRateNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;txtCalibrationWeighingAlign3PosX.Parent" xml:space="preserve">
+    <value>grpFlowRateAlignPos</value>
+  </data>
+  <data name="txtCalibrationWeighingAlign1PosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="grpFlowRateAlignPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1328, 5</value>
+  </data>
+  <data name="txtTiltValvePosB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 31</value>
+  </data>
+  <data name="&gt;&gt;btnALign.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign1Pos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>334, 130</value>
+  </data>
+  <data name="lblCCDPosXUnit.Text" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosZUnit.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="grpCCDPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>899, 116</value>
+  </data>
+  <data name="&gt;&gt;UcDisplay1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCCDPosX.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFlowRatePrev.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCCDPosZ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblWeighing1PosZUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="btnCalibrationFlowRateGoPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblCCDPosX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighingAlign3PosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnFlowRatePrev.Text" xml:space="preserve">
+    <value>Prev.</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="&gt;&gt;btnCalibrationFlowRateSetCcdPos.Parent" xml:space="preserve">
+    <value>grpCCDPos</value>
+  </data>
+  <data name="&gt;&gt;lblCCDPosYUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLaserPosXUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnCalibrationWeighingSetAlign3Pos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblWeighing2PosZUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 392</value>
+  </data>
+  <data name="txtCalibrationFlowRatePosZ.Text" xml:space="preserve">
+    <value>000.000</value>
+  </data>
+  <data name="&gt;&gt;txtTiltValvePosB.Name" xml:space="preserve">
+    <value>txtTiltValvePosB</value>
+  </data>
+  <data name="lblExposureTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <metadata name="lblCCDPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcLightControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationFlowRateOK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing2PosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnFlowRatePrev.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign3PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationSetFlowRatePos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationWeighingSetAlign1Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign3PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationFlowRatePosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnFlowRateNext.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationFlowRateSetCcdPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationWeighingSetAlign2Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing2PosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationFlowRateGoPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblExposureTimeUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign2PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationWeighingGoAlign2Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationWeighingGoAlign1Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign3PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationFlowRateCancel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing1PosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblSceneSet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign2PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcStatusBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="gpTiltMove.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign1PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationWeighingSetAlign3Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing3PosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
+  <metadata name="lblWeighingAlign1PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign1PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign2PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing3PosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign3PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign1PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing1PosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>79</value>
+  </metadata>
+  <metadata name="btnCalibrationWeighingGoAlign3Pos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign1PosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCalibrationFlowRateGoCCDPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign3PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationFlowRatePosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcJoyStick1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationFlowRateCCDPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblCCDPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign2PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationFlowRateCCDPosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnGoTilt.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing3PosZUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnTrainScene.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing1PosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighing2PosYUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpFlowRateAlignPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="GroupBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpCCDPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="grpHeightSensorPos.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign1PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtTiltValvePosB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationFlowRateCCDPosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign2PosZ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnALign.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblScene.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblLaserPosXUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcExposure.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationWeighingAlign2PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txtCalibrationFlowRatePosY.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblWeighingAlign3PosX.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="UcDisplay1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

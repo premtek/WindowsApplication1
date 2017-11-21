@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblUser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBinNotch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtRecipe.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="lblPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblNotch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 105</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMachineType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblDieSizeX.Name" xml:space="preserve">
+    <value>lblDieSizeX</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="lblMachineType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 540</value>
+  </data>
+  <data name="&gt;&gt;txtCycle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLotID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenMapping.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblUser.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Group_Data.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Name" xml:space="preserve">
+    <value>lblPitch</value>
+  </data>
+  <data name="txtVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 51</value>
+  </data>
+  <data name="btnOpenMapping.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDieSizeY.Name" xml:space="preserve">
+    <value>lblDieSizeY</value>
+  </data>
+  <data name="&gt;&gt;lblUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblRecipe.Text" xml:space="preserve">
+    <value>Recipe Name(.rcp)</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblProduct.Name" xml:space="preserve">
+    <value>lblProduct</value>
+  </data>
+  <data name="&gt;&gt;txtType.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="lblLotID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 58</value>
+  </data>
+  <data name="&gt;&gt;lblDieSizeY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="&gt;&gt;txtLotID.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMachineType.Name" xml:space="preserve">
+    <value>txtMachineType</value>
+  </data>
+  <data name="txtPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="&gt;&gt;lblMachineType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblFail.Text" xml:space="preserve">
+    <value>Fail Bin</value>
+  </data>
+  <data name="&gt;&gt;txtCycle.Name" xml:space="preserve">
+    <value>txtCycle</value>
+  </data>
+  <data name="&gt;&gt;txtCycle.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtType.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="txtDieSizeX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;piboxWaferMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMachineType.Name" xml:space="preserve">
+    <value>lblMachineType</value>
+  </data>
+  <data name="&gt;&gt;lblBinNotch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMachineType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;piboxWaferMap.Name" xml:space="preserve">
+    <value>piboxWaferMap</value>
+  </data>
+  <data name="btnOpenMapping.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="CblNotch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 32</value>
+  </data>
+  <data name="&gt;&gt;txtBin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 393</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnNewMapping.Name" xml:space="preserve">
+    <value>btnNewMapping</value>
+  </data>
+  <data name="&gt;&gt;lblUser.Name" xml:space="preserve">
+    <value>lblUser</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSavePIIMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOpenMapping.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDieSizeX.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblDieSizeX.Text" xml:space="preserve">
+    <value>Die Width Size (mm)</value>
+  </data>
+  <data name="lblVersion.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtMachineType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnNewMapping.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenMapping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 64</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeX.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtMachineType.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;btnNewMapping.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLotID.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;lblNotch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDieSizeX.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="dieDataSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 40</value>
+  </data>
+  <data name="lblDieSizeY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRecipe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 21</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeY.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblFail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 27</value>
+  </data>
+  <data name="&gt;&gt;btnSavePIIMap.Name" xml:space="preserve">
+    <value>btnSavePIIMap</value>
+  </data>
+  <data name="CblNotch.Items2" xml:space="preserve">
+    <value>Down(180 °)</value>
+  </data>
+  <data name="&gt;&gt;lblDieSizeY.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNotch.Name" xml:space="preserve">
+    <value>lblNotch</value>
+  </data>
+  <data name="&gt;&gt;lblDieSizeY.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;dieDataSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLotID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 108</value>
+  </data>
+  <data name="&gt;&gt;Group_Data.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDieSizeX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 198</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeX.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="txtPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dieDataSave.Name" xml:space="preserve">
+    <value>dieDataSave</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDieSizeX.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="txtDieSizeX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 222</value>
+  </data>
+  <data name="txtRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtDieSizeX.Name" xml:space="preserve">
+    <value>txtDieSizeX</value>
+  </data>
+  <data name="&gt;&gt;lblFail.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="txtCycle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeY.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="lblRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 24</value>
+  </data>
+  <data name="lblRecipe.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblFail.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="lblProduct.Text" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="txtCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 33</value>
+  </data>
+  <data name="btnNewMapping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 46</value>
+  </data>
+  <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeY.Name" xml:space="preserve">
+    <value>txtDieSizeY</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1214, 699</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblBin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 24</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Name" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;txtLotID.Name" xml:space="preserve">
+    <value>txtLotID</value>
+  </data>
+  <data name="&gt;&gt;txtBin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCycle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dieDataSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFail.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOpenMapping.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CblNotch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 621</value>
+  </data>
+  <data name="txtDieSizeX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="lblFail.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="CblNotch.Items3" xml:space="preserve">
+    <value>Left(270 °)</value>
+  </data>
+  <data name="lblMachineType.Text" xml:space="preserve">
+    <value>Machine Type</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCycle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CblNotch.Items" xml:space="preserve">
+    <value>Up(0 °)</value>
+  </data>
+  <data name="txtUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="&gt;&gt;piboxWaferMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Name" xml:space="preserve">
+    <value>txtVersion</value>
+  </data>
+  <data name="&gt;&gt;CblNotch.Name" xml:space="preserve">
+    <value>CblNotch</value>
+  </data>
+  <data name="lblDieSizeY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 24</value>
+  </data>
+  <data name="&gt;&gt;Group_Data.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblCycle.Name" xml:space="preserve">
+    <value>lblCycle</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSavePIIMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piboxWaferMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 14</value>
+  </data>
+  <data name="btnNewMapping.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtLotID.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblDieSizeY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblDieSizeX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="&gt;&gt;OpenFileDialog1.Name" xml:space="preserve">
+    <value>OpenFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;lblLotID.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblBin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="piboxWaferMap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLotID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="Group_Data.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecipe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLotID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <data name="&gt;&gt;GroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 78</value>
+  </data>
+  <data name="GroupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDieSizeY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="lblUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 483</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Cancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCycle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="lblMachineType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 24</value>
+  </data>
+  <data name="Group_Data.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="PictureBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Name" xml:space="preserve">
+    <value>SaveFileDialog1</value>
+  </data>
+  <data name="lblPitch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Group_Data.Name" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="txtMachineType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="lblBinNotch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1049, 14</value>
+  </data>
+  <data name="&gt;&gt;piboxWaferMap.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLotID.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;lblBin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUser.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblFail.Name" xml:space="preserve">
+    <value>lblFail</value>
+  </data>
+  <data name="&gt;&gt;lblBin.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 369</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="CblNotch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 450</value>
+  </data>
+  <data name="lblDieSizeX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnNewMapping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="lblUser.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtType.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 426</value>
+  </data>
+  <data name="txtVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;CblNotch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1049, 222</value>
+  </data>
+  <data name="dieDataSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCycle.Text" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="txtRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="lblRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 312</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Die Data</value>
+  </data>
+  <data name="lblBinNotch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="lblPitch.Text" xml:space="preserve">
+    <value>Pitch (mm)</value>
+  </data>
+  <data name="lblNotch.Text" xml:space="preserve">
+    <value>Notch</value>
+  </data>
+  <data name="&gt;&gt;btnSavePIIMap.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSavePIIMap.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblDieSizeX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 24</value>
+  </data>
+  <data name="lblLotID.Text" xml:space="preserve">
+    <value>Lot ID</value>
+  </data>
+  <data name="&gt;&gt;txtBin.Name" xml:space="preserve">
+    <value>txtBin</value>
+  </data>
+  <data name="lblMachineType.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="GroupBox2.Text" xml:space="preserve">
+    <value>Bin Color</value>
+  </data>
+  <data name="&gt;&gt;dieDataSave.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 202</value>
+  </data>
+  <data name="lblDieSizeX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 27</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;btnSavePIIMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSavePIIMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblProduct.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOpenMapping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 42</value>
+  </data>
+  <data name="&gt;&gt;lblMachineType.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblDieSizeY.Text" xml:space="preserve">
+    <value>Die Height Size (mm)</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;lblProduct.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="GroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 83</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMapping</value>
+  </data>
+  <data name="txtUser.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 597</value>
+  </data>
+  <data name="&gt;&gt;txtMachineType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblProduct.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSavePIIMap.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblRecipe.Name" xml:space="preserve">
+    <value>lblRecipe</value>
+  </data>
+  <data name="lblUser.Text" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="btn_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLotID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="piboxWaferMap.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblLotID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 84</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapping.Name" xml:space="preserve">
+    <value>btnOpenMapping</value>
+  </data>
+  <data name="Group_Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 112</value>
+  </data>
+  <data name="lblBin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_Cancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 24</value>
+  </data>
+  <data name="&gt;&gt;lblNotch.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblPitch.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="txtVersion.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="dieDataSave.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblNotch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="btnSavePIIMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1058, 699</value>
+  </data>
+  <data name="&gt;&gt;OpenFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;lblBinNotch.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtPitch.Name" xml:space="preserve">
+    <value>txtPitch</value>
+  </data>
+  <data name="lblBinNotch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="btnOpenMapping.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="&gt;&gt;txtRecipe.Name" xml:space="preserve">
+    <value>txtRecipe</value>
+  </data>
+  <data name="txtRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 336</value>
+  </data>
+  <data name="lblNotch.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtProduct.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblLotID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtProduct.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="lblProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 141</value>
+  </data>
+  <data name="&gt;&gt;txtUser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 12</value>
+  </data>
+  <data name="&gt;&gt;txtBin.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btn_Cancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;btnNewMapping.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Group_Data.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtRecipe.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtDieSizeY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBin.Text" xml:space="preserve">
+    <value>Bin</value>
+  </data>
+  <data name="&gt;&gt;txtLotID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDieSizeY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 255</value>
+  </data>
+  <data name="txtDieSizeY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
+    <value>lblVersion</value>
+  </data>
+  <data name="btnSavePIIMap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblMachineType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblProduct.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="lblRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="CblNotch.Items1" xml:space="preserve">
+    <value>Right(90°)</value>
+  </data>
+  <data name="&gt;&gt;txtUser.Name" xml:space="preserve">
+    <value>txtUser</value>
+  </data>
+  <data name="txtBin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 33</value>
+  </data>
+  <data name="txtDieSizeY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 279</value>
+  </data>
+  <data name="txtBin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 45</value>
+  </data>
+  <data name="&gt;&gt;btnOpenMapping.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPitch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDieSizeX.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblBinNotch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblRecipe.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblVersion.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.Name" xml:space="preserve">
+    <value>PictureBox2</value>
+  </data>
+  <data name="&gt;&gt;txtUser.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="&gt;&gt;lblBin.Name" xml:space="preserve">
+    <value>lblBin</value>
+  </data>
+  <data name="txtMachineType.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="GroupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="txtUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 507</value>
+  </data>
+  <data name="&gt;&gt;lblMachineType.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="lblFail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCycle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CblNotch.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="dieDataSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 151</value>
+  </data>
+  <data name="&gt;&gt;CblNotch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 165</value>
+  </data>
+  <data name="btnSavePIIMap.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblCycle.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;txtType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piboxWaferMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 700</value>
+  </data>
+  <data name="txtVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="lblDieSizeY.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1376, 781</value>
+  </data>
+  <data name="&gt;&gt;txtProduct.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBinNotch.Parent" xml:space="preserve">
+    <value>GroupBox2</value>
+  </data>
+  <data name="lblPitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="dieDataSave.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnNewMapping.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="lblType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Mapping</value>
+  </data>
+  <data name="txtDieSizeY.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblNotch.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="Group_Data.Text" xml:space="preserve">
+    <value>Mapping Data</value>
+  </data>
+  <data name="&gt;&gt;lblBinNotch.Name" xml:space="preserve">
+    <value>lblBinNotch</value>
+  </data>
+  <data name="lblNotch.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtPitch.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;CblNotch.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="lblCycle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtUser.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txtProduct.Name" xml:space="preserve">
+    <value>txtProduct</value>
+  </data>
+  <data name="lblBinNotch.Text" xml:space="preserve">
+    <value>Notch</value>
+  </data>
+  <data name="lblCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 24</value>
+  </data>
+  <data name="&gt;&gt;lblRecipe.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="txtType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 33</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLotID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblLotID.Name" xml:space="preserve">
+    <value>lblLotID</value>
+  </data>
+  <data name="&gt;&gt;lblFail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtMachineType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 564</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="txtRecipe.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtType.Name" xml:space="preserve">
+    <value>txtType</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="btnNewMapping.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Group_Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 657</value>
+  </data>
+  <data name="txtProduct.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SaveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblUser.Parent" xml:space="preserve">
+    <value>Group_Data</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 33</value>
+  </data>
+  <data name="&gt;&gt;txtVersion.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnNewMapping.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>310, 17</value>
+  </metadata>
+</root>

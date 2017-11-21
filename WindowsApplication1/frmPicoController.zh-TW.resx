@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbCloseVolts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lbCloseVolts.Text" xml:space="preserve">
+    <value>關閉電壓</value>
+  </data>
+  <data name="lbCloseVolts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCloseVolts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 552</value>
+  </data>
+  <data name="btnCloseVolts.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnCloseVolts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 477</value>
+  </data>
+  <data name="btnValveCount.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnValveCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveStroke.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 426</value>
+  </data>
+  <data name="btnValveStroke.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnValveStroke.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 375</value>
+  </data>
+  <data name="btnValveCycle.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnValveCycle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 324</value>
+  </data>
+  <data name="btnValveClose.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnValveClose.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 273</value>
+  </data>
+  <data name="btnValveOpen.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnValveOpen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValvePulse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 120</value>
+  </data>
+  <data name="btnValvePulse.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnValvePulse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetValveMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 28</value>
+  </data>
+  <data name="btnSetValveMode.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetValveMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCloseVolts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 552</value>
+  </data>
+  <data name="txtCloseVolts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtCloseVolts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbFreq.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 524</value>
+  </data>
+  <data name="lbFreq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 422</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 477</value>
+  </data>
+  <data name="txtCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStroke.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 426</value>
+  </data>
+  <data name="txtStroke.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtStroke.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 371</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCycle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 375</value>
+  </data>
+  <data name="txtCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtCycle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 320</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 324</value>
+  </data>
+  <data name="txtClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtClose.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 269</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 75</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 273</value>
+  </data>
+  <data name="txtOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtOpen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPulse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 79</value>
+  </data>
+  <data name="txtPulse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtPulse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxValveMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 28</value>
+  </data>
+  <data name="cbxValveMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 32</value>
+  </data>
+  <data name="cbxValveMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>頻率</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="lbCount.Text" xml:space="preserve">
+    <value>計數</value>
+  </data>
+  <data name="lbCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbStroke.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="lbStroke.Text" xml:space="preserve">
+    <value>行程</value>
+  </data>
+  <data name="lbStroke.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lbCycle.Text" xml:space="preserve">
+    <value>循環時間</value>
+  </data>
+  <data name="lbCycle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lbClose.Text" xml:space="preserve">
+    <value>關閉時間</value>
+  </data>
+  <data name="lbClose.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="lbOpen.Text" xml:space="preserve">
+    <value>開啟時間</value>
+  </data>
+  <data name="lbOpen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbPulse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="lbPulse.Text" xml:space="preserve">
+    <value>脈衝</value>
+  </data>
+  <data name="lbPulse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="lbMode.Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="lbMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValvePowerOnOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 777</value>
+  </data>
+  <data name="btnValvePowerOnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnValvePowerOnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnNozzleHeaters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 678</value>
+  </data>
+  <data name="btnNozzleHeaters.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnNozzleHeaters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbActual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 725</value>
+  </data>
+  <data name="lbActual.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNozzleHeaters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 678</value>
+  </data>
+  <data name="txtNozzleHeaters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtNozzleHeaters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Label13.Text" xml:space="preserve">
+    <value>實際狀態</value>
+  </data>
+  <data name="Label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbNozzleHeaters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="lbNozzleHeaters.Text" xml:space="preserve">
+    <value>加熱器噴嘴</value>
+  </data>
+  <data name="lbNozzleHeaters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnManyCommandTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 873</value>
+  </data>
+  <data name="btnManyCommandTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCycleOnOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 825</value>
+  </data>
+  <data name="btnCycleOnOff.Text" xml:space="preserve">
+    <value>開</value>
+  </data>
+  <data name="btnCycleOnOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>循環</value>
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>閥開關</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveStatus.Text" xml:space="preserve">
+    <value>閥狀態</value>
+  </data>
+  <data name="btnValveStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstValveStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnHeaterStatus.Text" xml:space="preserve">
+    <value>加熱器狀態</value>
+  </data>
+  <data name="btnHeaterStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstHeaterStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAlarmReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 873</value>
+  </data>
+  <data name="btnAlarmReset.Text" xml:space="preserve">
+    <value>重置警示</value>
+  </data>
+  <data name="btnAlarmReset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Label10.Text" xml:space="preserve">
+    <value>命令回覆</value>
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCommandResponse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Label12.Text" xml:space="preserve">
+    <value>閥加熱器</value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>控制</value>
+  </data>
+  <data name="Label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 24</value>
+  </data>
+  <data name="Label15.Text" xml:space="preserve">
+    <value>加熱器模式</value>
+  </data>
+  <data name="Label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxHeaterMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 627</value>
+  </data>
+  <data name="cbxHeaterMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 32</value>
+  </data>
+  <data name="cbxHeaterMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetHeaterMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 627</value>
+  </data>
+  <data name="btnSetHeaterMode.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetHeaterMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>結束時間</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtOffTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 120</value>
+  </data>
+  <data name="txtOffTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="txtOffTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 116</value>
+  </data>
+  <data name="Label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 167</value>
+  </data>
+  <data name="Label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="Label17.Text" xml:space="preserve">
+    <value>關閉個人資料</value>
+  </data>
+  <data name="Label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="Label18.Text" xml:space="preserve">
+    <value>開啟個人資料</value>
+  </data>
+  <data name="Label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxCloseProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 171</value>
+  </data>
+  <data name="cbxCloseProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 32</value>
+  </data>
+  <data name="cbxCloseProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbxOpenProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 222</value>
+  </data>
+  <data name="cbxOpenProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 32</value>
+  </data>
+  <data name="cbxOpenProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetCloseProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 171</value>
+  </data>
+  <data name="btnSetCloseProfile.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetCloseProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 869</value>
+  </data>
+  <data name="lbTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="Label11.Text" xml:space="preserve">
+    <value>閥參數</value>
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetOpenProfile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 171</value>
+  </data>
+  <data name="btnSetOpenProfile.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetOpenProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetOffTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 222</value>
+  </data>
+  <data name="btnSetOffTime.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="btnSetOffTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExit.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pico 閥控制設定</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

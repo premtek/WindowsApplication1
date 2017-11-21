@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>阀:</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>平台:</value>
+  </data>
+  <data name="btnValveCalibration.Text" xml:space="preserve">
+    <value>阀校准</value>
+  </data>
+  <data name="btnValveWeight.Text" xml:space="preserve">
+    <value>阀重量测试</value>
+  </data>
+  <data name="btnStageVerification.Text" xml:space="preserve">
+    <value>平台校验</value>
+  </data>
+  <data name="grpStage1.Text" xml:space="preserve">
+    <value>校准</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnPidController.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAOmSURBVHhe5Zrh
+        UeswEIRfCZRACZRACZRACZRACZRACa8ESqAESngd5O16cp7l2MRKdJdhxjvz/fDq4vGdZUmx/OdwOOwe
+        a+4Na+4Na+4Na94K6A48HnlwMbfAmt0ck38HPFC+wJP7TSfW7ARiAT6BJp95dr/twpqdQG+SLGFBPsA/
+        8cjNeoQ1u4DuJUnyntq0h3zpbzuxZhfQy7kkoVykm/QGa3YBsdtHgi8nYnTAXHtKJ9bsAuLoHwnaKRHi
+        dBkxny6mGmt2Icnh0MeQ0bgqrNnFaHKjcVVYs4vR5EbjqrBmF1vJaXuQYzqwZhdbyWl7kGM6sGYXW8lp
+        e5BjOrBmF6PJjcZVYc0uRpMbjavCml1sJaftQY7pwJpdbCWn7UGO6cCaXWwlp+1BjunAml2MJjcaV4U1
+        uxhNbjSuCmt2sZWctgc5pgNrdrGVnLYHOaYDa3axlZy2BzmmA2t2MZrcaFwV1uxiNLnRuCqs2cVocqNx
+        VVizC5eceuHn426s2YVLTr3w83E31uwAenXJqRd+8viavnWz1pqVQHbvUdp/+Nk78hq/qcaaVUCuANx7
+        WDdcxV84ek/gb3hCy2aMNSuAXAG4GXuX4rSd3EsbN2LyOcoLYc0KoLz7rHefybk7HTDxZR8Sct8ylO5R
+        WnMWSLfSyPI8Q0zoXPIZxi49B9J9TG7jf+tRM1hzFkgv+EP8HwPkAMt+JMQC6jcMZQOlNWeA8vb649H/
+        NkVeyJs5R9n3C9acIV3o0gugfBevgcXledQrWT9YcwZIH4VlMIQ45YV3LdEbfpx/FmvOAOkdX+4UNPMo
+        BDE26LlKxgVrziAXiMPVqyjCcj5Iz1WyZrDmDHKBOFy9S6bFkxzPpY/WOvPMYM0Z5AJxuHpdPeHXPg76
+        XVJMj/rV2rXEmKAr0V9bBO36yxdqUF47XEPMDrrgKlk+W3MGSO/6+vUZpFPbNbCQuZglS2drzgCdWjE+
+        iHcp0Qv0j1TJoEisOUu6WI4R8Sfo+ehdArs/V4q5iGUfgVtzFij3Bv2G+ZJC8BFiAYiOBaUfeVqzAihP
+        i1oIFunc2mF9+wTlApDSd47WrALKiTKZNQGICfLdAwtG2Eu0nW065ZKyxyCwZhUQk3SzAseMk3cT4qow
+        v01afufiZ7FmNVB+1RbwzxaLpJz6y13eAwJrdgC5rj0CC1M6BmSs2QkUr9PPvWRhGx+HZY3RjTVvBcS5
+        nz1Eab3rDmvuDWvuDWvuDWvuDWvui8Of/yj5xxtBMa+XAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnPidController.ToolTip" xml:space="preserve">
+    <value>PID温度控制器</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>校正选单</value>
+  </data>
+</root>

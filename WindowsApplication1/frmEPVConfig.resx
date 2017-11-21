@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblCOMPort.TabIndex" type="System.Int32, mscorlib">
+    <value>493</value>
+  </data>
+  <data name="&gt;&gt;lblType.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cmbEPV.Name" xml:space="preserve">
+    <value>cmbEPV</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblSetValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 38</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbEPV.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="&gt;&gt;btnSet.Name" xml:space="preserve">
+    <value>btnSet</value>
+  </data>
+  <data name="lblSelectIem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblGetUnit.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblGetValue.Text" xml:space="preserve">
+    <value>Get Value</value>
+  </data>
+  <data name="lblSelectIem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="&gt;&gt;cmbCOMPort.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbCOMPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="&gt;&gt;cmbBaudRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGetValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="&gt;&gt;btnSet.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblGetUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCOMPort.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblSelectIem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 38</value>
+  </data>
+  <data name="lblGetValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="cmbBaudRate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblCOMPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 38</value>
+  </data>
+  <data name="btnGet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblGetUnit.Name" xml:space="preserve">
+    <value>lblGetUnit</value>
+  </data>
+  <data name="cmbCOMPort.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="lblGetValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSetUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="cmbEPV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 38</value>
+  </data>
+  <data name="lblValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 37</value>
+  </data>
+  <data name="GroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblSelectIem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 38</value>
+  </data>
+  <data name="&gt;&gt;nmuValue.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbEPV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCOMPort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbEPV.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblSetUnit.Name" xml:space="preserve">
+    <value>lblSetUnit</value>
+  </data>
+  <data name="&gt;&gt;lblCOMPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCOMPort.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblBaudRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 12pt</value>
+  </data>
+  <data name="cmbCOMPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblCOMPort.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Name" xml:space="preserve">
+    <value>lblValue</value>
+  </data>
+  <data name="lblSelectIem.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnSet.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;nmuValue.Name" xml:space="preserve">
+    <value>nmuValue</value>
+  </data>
+  <data name="lblCOMPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 162</value>
+  </data>
+  <data name="&gt;&gt;cmbCOMPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 515</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="cmbEPV.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="lblBaudRate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 88</value>
+  </data>
+  <data name="&gt;&gt;lblSetUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbEPV.TabIndex" type="System.Int32, mscorlib">
+    <value>486</value>
+  </data>
+  <data name="lblBaudRate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="lblGetUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 225</value>
+  </data>
+  <data name="lblSetUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="&gt;&gt;lblSelectIem.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnGet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnGet.Name" xml:space="preserve">
+    <value>btnGet</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblGetValue.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblGetValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSetUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblSetValue.Name" xml:space="preserve">
+    <value>lblSetValue</value>
+  </data>
+  <data name="lblGetUnit.Text" xml:space="preserve">
+    <value>MPa</value>
+  </data>
+  <data name="&gt;&gt;cmbCOMPort.Name" xml:space="preserve">
+    <value>cmbCOMPort</value>
+  </data>
+  <data name="lblSelectIem.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="cmbCOMPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 38</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>494</value>
+  </data>
+  <data name="lblType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="cmbCOMPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 162</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbBaudRate.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="cmbCardType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="btnSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblCOMPort.Name" xml:space="preserve">
+    <value>lblCOMPort</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="lblValue.TabIndex" type="System.Int32, mscorlib">
+    <value>498</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblSetValue.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnGet.ToolTip" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="lblGetValue.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="&gt;&gt;cmbEPV.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmEPVConfig</value>
+  </data>
+  <data name="lblGetValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 38</value>
+  </data>
+  <data name="&gt;&gt;nmuValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblGetUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSet.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="lblType.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblBaudRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 38</value>
+  </data>
+  <data name="btnSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 288</value>
+  </data>
+  <data name="lblSetValue.Text" xml:space="preserve">
+    <value>Set Value</value>
+  </data>
+  <data name="lblValue.Text" xml:space="preserve">
+    <value>00.00</value>
+  </data>
+  <data name="&gt;&gt;btnGet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblCOMPort.Text" xml:space="preserve">
+    <value>COM Port</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblSetValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBaudRate.Text" xml:space="preserve">
+    <value>Baud Rate</value>
+  </data>
+  <data name="nmuValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblSetValue.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblSetValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbBaudRate.Name" xml:space="preserve">
+    <value>cmbBaudRate</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbCardType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 100</value>
+  </data>
+  <data name="lblSetValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblCOMPort.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblGetValue.Name" xml:space="preserve">
+    <value>lblGetValue</value>
+  </data>
+  <data name="nmuValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 39</value>
+  </data>
+  <data name="cmbBaudRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblGetUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cmbCardType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSetValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGetUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGetUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 412</value>
+  </data>
+  <data name="&gt;&gt;lblSelectIem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCOMPort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Electro Pneumatic Valve</value>
+  </data>
+  <data name="lblType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblValue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 412</value>
+  </data>
+  <data name="lblSetValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 312</value>
+  </data>
+  <data name="lblType.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="cmbCOMPort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="cmbEPV.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblGetValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 412</value>
+  </data>
+  <data name="&gt;&gt;lblGetUnit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbCardType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbBaudRate.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblSetUnit.Text" xml:space="preserve">
+    <value>MPa</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSetValue.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="GroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nmuValue.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="lblSetValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="lblCOMPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="lblBaudRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnGet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 88</value>
+  </data>
+  <data name="&gt;&gt;btnGet.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 8</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;lblType.Name" xml:space="preserve">
+    <value>lblType</value>
+  </data>
+  <data name="lblType.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;lblGetValue.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="cmbBaudRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 38</value>
+  </data>
+  <data name="cmbEPV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 38</value>
+  </data>
+  <data name="&gt;&gt;btnSet.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cmbCOMPort.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="cmbBaudRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 225</value>
+  </data>
+  <data name="lblGetUnit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmbCardType.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="nmuValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 312</value>
+  </data>
+  <data name="&gt;&gt;lblSetUnit.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblSetUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGet.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lblSetUnit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGetUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 38</value>
+  </data>
+  <data name="lblSetValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSelectIem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSetUnit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="lblValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblBaudRate.Name" xml:space="preserve">
+    <value>lblBaudRate</value>
+  </data>
+  <data name="lblBaudRate.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="btnGet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 88</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>492, 635</value>
+  </data>
+  <data name="lblSelectIem.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="&gt;&gt;lblType.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnGet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 388</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 612</value>
+  </data>
+  <data name="lblSetUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 316</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSetUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btnSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 515</value>
+  </data>
+  <data name="&gt;&gt;cmbCardType.Name" xml:space="preserve">
+    <value>cmbCardType</value>
+  </data>
+  <data name="&gt;&gt;lblSelectIem.Name" xml:space="preserve">
+    <value>lblSelectIem</value>
+  </data>
+  <data name="cmbBaudRate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="lblType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 38</value>
+  </data>
+  <data name="lblType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 100</value>
+  </data>
+  <data name="cmbCardType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 38</value>
+  </data>
+  <data name="lblGetValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 88</value>
+  </data>
+  <data name="lblSelectIem.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGet.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="lblGetValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;lblSelectIem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBaudRate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Electro Pneumatic Valve</value>
+  </data>
+  <data name="&gt;&gt;nmuValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lblSetUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 38</value>
+  </data>
+  <data name="&gt;&gt;cmbBaudRate.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblGetUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="nmuValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

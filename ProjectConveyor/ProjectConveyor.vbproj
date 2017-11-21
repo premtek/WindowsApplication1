@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BA6041D-6A84-45C4-8BAA-3F3D9AAD2A90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ProjectConveyor</RootNamespace>
+    <AssemblyName>ProjectConveyor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ProjectConveyor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ProjectConveyor.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CConveyorFlow.vb" />
+    <Compile Include="CPLC_RS232.vb" />
+    <Compile Include="CtSockets.vb" />
+    <Compile Include="frmConveyor.designer.vb">
+      <DependentUpon>frmConveyor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConveyor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPLC.Designer.vb">
+      <DependentUpon>frmPLC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPLC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MFunctionConveyor.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucConveyorRecipe.Designer.vb">
+      <DependentUpon>ucConveyorRecipe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucConveyorRecipe.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmConveyor.resx">
+      <DependentUpon>frmConveyor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPLC.resx">
+      <DependentUpon>frmPLC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucConveyorRecipe.resx">
+      <DependentUpon>ucConveyorRecipe.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Premtek.Base\Premtek.Base.csproj">
+      <Project>{89ec5a71-f817-49b0-9aa0-6861581a381a}</Project>
+      <Name>Premtek.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectCore\ProjectCore.vbproj">
+      <Project>{2b1fae8f-9ae8-4fa4-8ddc-3da365177691}</Project>
+      <Name>ProjectCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectIO\ProjectIO.vbproj">
+      <Project>{ab1b4d09-75a8-4acf-af7b-9484d8631a6c}</Project>
+      <Name>ProjectIO</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectMotion\ProjectMotion.vbproj">
+      <Project>{9cb15806-2608-411c-a2eb-ca428a6a3adf}</Project>
+      <Name>ProjectMotion</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectRecipe\ProjectRecipe.vbproj">
+      <Project>{2ea9fe4d-abc5-499a-89d7-c41e8a10a1ea}</Project>
+      <Name>ProjectRecipe</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button0-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button0-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button0-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button1-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button1-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button1-4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked_Lamp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked3_Lamp1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked3_Lamp2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked3_Lamp3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked3_Lamp4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked3_Lamp5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked3_Lamp6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Convey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Station1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Station2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Station3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnChecked_Lamp0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnChecked3_Lamp0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\未命名-2-02.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

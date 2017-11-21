@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E7D33A3-7F0C-4374-A76D-9CDDE9E54EF5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ProjectAOI</RootNamespace>
+    <AssemblyName>ProjectAOI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ProjectAOI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ProjectAOI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cognex.VisionPro, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Blob, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.Blob.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.CalibFix, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.CalibFix.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Caliper, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.Caliper.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Core, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.Display.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ImageProcessing, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.ImageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.PixelMap, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.PixelMap.dll</HintPath>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.PMAlign, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.PMAlign.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ToolGroup, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.ToolGroup.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cognex.VisionPro.ToolGroup.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Cognex\VisionPro\ReferencedAssemblies\Cognex.VisionPro.ToolGroup.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAOICognexVPRO.vb" />
+    <Compile Include="CAOICollection.vb" />
+    <Compile Include="CAOIKeyenceCV200CTCP.vb" />
+    <Compile Include="CAOIOmronFZS2MTCP.vb" />
+    <Compile Include="CAOIOmronFZS2MUDP.vb" />
+    <Compile Include="CLightCards.vb" />
+    <Compile Include="CLightGLC_PD.vb" />
+    <Compile Include="CLight_CTK_P_RS.vb" />
+    <Compile Include="CLight_None.vb" />
+    <Compile Include="CLight_OPT_DP1024_4.vb" />
+    <Compile Include="COMRONFZEthernetPasrser.vb" />
+    <Compile Include="COutputParam.vb" />
+    <Compile Include="CSceneParameter.vb" />
+    <Compile Include="CThreadCogAcqFifoTool.vb" />
+    <Compile Include="CThreadCogToolBlock.vb" />
+    <Compile Include="CVX100_EthernetN_Generator.vb" />
+    <Compile Include="CVX100_EthernetN_Parser.vb" />
+    <Compile Include="IAOIInterface.vb" />
+    <Compile Include="ILightInterface.vb" />
+    <Compile Include="MCommonAOI.vb" />
+    <Compile Include="CLightCollection.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucDisplay.Designer.vb">
+      <DependentUpon>ucDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucDisplay.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucStatusBar.Designer.vb">
+      <DependentUpon>ucStatusBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucStatusBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucDisplay.resx">
+      <DependentUpon>ucDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucStatusBar.resx">
+      <DependentUpon>ucStatusBar.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Premtek.Base\Premtek.Base.csproj">
+      <Project>{89ec5a71-f817-49b0-9aa0-6861581a381a}</Project>
+      <Name>Premtek.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectCore\ProjectCore.vbproj">
+      <Project>{2b1fae8f-9ae8-4fa4-8ddc-3da365177691}</Project>
+      <Name>ProjectCore</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectIO\ProjectIO.vbproj">
+      <Project>{ab1b4d09-75a8-4acf-af7b-9484d8631a6c}</Project>
+      <Name>ProjectIO</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectMotion\ProjectMotion.vbproj">
+      <Project>{9cb15806-2608-411c-a2eb-ca428a6a3adf}</Project>
+      <Name>ProjectMotion</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectRecipe\ProjectRecipe.vbproj">
+      <Project>{2ea9fe4d-abc5-499a-89d7-c41e8a10a1ea}</Project>
+      <Name>ProjectRecipe</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveExit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\set.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setup.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

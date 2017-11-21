@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>硬體錯誤</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>異常警報</value>
+  </data>
+  <data name="Label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="Label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>資訊</value>
+  </data>
+  <data name="Label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>生產中</value>
+  </data>
+  <data name="Label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>閒置</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRedIndicator.Text" xml:space="preserve">
+    <value>紅色燈</value>
+  </data>
+  <data name="lblRedIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYellowIndicator.Text" xml:space="preserve">
+    <value>黃色燈</value>
+  </data>
+  <data name="lblYellowIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGreenIndicator.Text" xml:space="preserve">
+    <value>綠色燈</value>
+  </data>
+  <data name="lblGreenIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBlueIndicator.Text" xml:space="preserve">
+    <value>藍色燈</value>
+  </data>
+  <data name="lblBlueIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBuzzer.Text" xml:space="preserve">
+    <value>蜂鳴器</value>
+  </data>
+  <data name="lblBuzzer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorRedOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkErrorRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkAlarmRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnRedOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkWarnRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleRedOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkIdleRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoRedOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkInfoRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunRedOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkRunRedOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorYellowOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkErrorYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmYellowOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkAlarmYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnYellowOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkWarnYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkIdleYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoYellowOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkInfoYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkRunYellowOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorGreenOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkErrorGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmGreenOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkAlarmGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnGreenOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkWarnGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkIdleGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoGreenOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkInfoGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunGreenOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkRunGreenOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBlueOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkErrorBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBlueOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkAlarmBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkWarnBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBlueOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkIdleBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkInfoBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkRunBlueOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBuzzerOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkErrorBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBuzzerOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkAlarmBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBuzzerOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkWarnBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBuzzerOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkIdleBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBuzzerOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkInfoBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerOn.Text" xml:space="preserve">
+    <value>開啟</value>
+  </data>
+  <data name="chkRunBuzzerOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorRedOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkErrorRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkAlarmRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnRedOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkWarnRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleRedOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkIdleRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoRedOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkInfoRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunRedOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkRunRedOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorYellowOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkErrorYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmYellowOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkAlarmYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnYellowOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkWarnYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkIdleYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoYellowOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkInfoYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkRunYellowOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorGreenOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkErrorGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmGreenOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkAlarmGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnGreenOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkWarnGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkIdleGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoGreenOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkInfoGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunGreenOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkRunGreenOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBlueOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkErrorBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBlueOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkAlarmBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkWarnBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBlueOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkIdleBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkInfoBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkRunBlueOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBuzzerOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkErrorBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBuzzerOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkAlarmBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBuzzerOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkWarnBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBuzzerOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkIdleBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBuzzerOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkInfoBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerOff.Text" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="chkRunBuzzerOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorRedFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkErrorRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmRedFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkAlarmRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnRedFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkWarnRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleRedFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkIdleRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoRedFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkInfoRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunRedFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkRunRedFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorYellowFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkErrorYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmYellowFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkAlarmYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnYellowFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkWarnYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleYellowFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkIdleYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoYellowFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkInfoYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunYellowFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkRunYellowFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorGreenFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkErrorGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmGreenFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkAlarmGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnGreenFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkWarnGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleGreenFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkIdleGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoGreenFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkInfoGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunGreenFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkRunGreenFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBlueFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkErrorBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBlueFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkAlarmBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBlueFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkWarnBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBlueFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkIdleBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBlueFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkInfoBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBlueFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkRunBlueFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkErrorBuzzerFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkErrorBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAlarmBuzzerFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkAlarmBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkWarnBuzzerFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkWarnBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkIdleBuzzerFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkIdleBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkInfoBuzzerFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkInfoBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRunBuzzerFlash.Text" xml:space="preserve">
+    <value>閃爍</value>
+  </data>
+  <data name="chkRunBuzzerFlash.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="grpLightTower.Text" xml:space="preserve">
+    <value>燈塔</value>
+  </data>
+  <data name="grpLightTower.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>指示燈(燈塔/三色燈/四色燈/蜂鳴器)設定</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

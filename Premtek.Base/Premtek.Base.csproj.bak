@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89EC5A71-F817-49B0-9AA0-6861581A381A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Premtek.Base</RootNamespace>
+    <AssemblyName>Premtek.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvMotAPI">
+      <HintPath>..\MachineDLL\AdvMotAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Automation.BDaq, Version=1.0.1.0, Culture=neutral, PublicKeyToken=463f5928d60183a0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MachineDLL\Automation.BDaq.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CALIDMap.cs" />
+    <Compile Include="CCCDTiltValveCalibration.cs" />
+    <Compile Include="CCDLaserCalibration.cs" />
+    <Compile Include="CChangePotCalibration.cs" />
+    <Compile Include="CCleanValveCalibration.cs">
+      <Generator>`</Generator>
+    </Compile>
+    <Compile Include="CDefine.cs" />
+    <Compile Include="CDICards.cs" />
+    <Compile Include="CDICollection.cs" />
+    <Compile Include="CDIVirtual.cs" />
+    <Compile Include="CDI_PCI_1710.cs" />
+    <Compile Include="CDI_PCI_1756.cs" />
+    <Compile Include="CDI_PCI_1758.cs" />
+    <Compile Include="CDOCards.cs" />
+    <Compile Include="CDOCollection.cs" />
+    <Compile Include="CDOVirtual.cs" />
+    <Compile Include="CDO_PCI_1710.cs" />
+    <Compile Include="CDO_PCI_1756.cs" />
+    <Compile Include="CDO_PCI_1758.cs" />
+    <Compile Include="CEqpMsgHandler.cs" />
+    <Compile Include="CIni.cs" />
+    <Compile Include="CInpectionCondition.cs" />
+    <Compile Include="CKeyPress.cs" />
+    <Compile Include="CLaserCCDCalibration.cs" />
+    <Compile Include="CLaserReaderCards.cs" />
+    <Compile Include="CLaserReaderCollection.cs" />
+    <Compile Include="CLaserReader_DLRS1A.cs" />
+    <Compile Include="CLaserReader_KeyenceILS065Voltage.cs" />
+    <Compile Include="CLaserReader_KeyenceLJV7060_TCP.cs" />
+    <Compile Include="CLaserTiltValveCalibration.cs" />
+    <Compile Include="CMotionCards.cs" />
+    <Compile Include="CMotionCardVirtual.cs" />
+    <Compile Include="CMotionCollection.cs" />
+    <Compile Include="CMotion_ModBus.cs" />
+    <Compile Include="CMotion_PCI_Advantech.cs" />
+    <Compile Include="CMsgHandler.cs" />
+    <Compile Include="CPasteLifeTime.cs" />
+    <Compile Include="CPurgeCalibration.cs" />
+    <Compile Include="CSafeRegion.cs" />
+    <Compile Include="CSyncParameter.cs" />
+    <Compile Include="CTriggerBoardCollection.cs" />
+    <Compile Include="CTriggerBoard_30.cs" />
+    <Compile Include="CTriggerBoard_Virtual.cs" />
+    <Compile Include="CValveData.cs" />
+    <Compile Include="CWeightCalibration.cs" />
+    <Compile Include="EqpID.cs" />
+    <Compile Include="IDIInterface.cs" />
+    <Compile Include="IDOInterface.cs" />
+    <Compile Include="IlaserReader.cs" />
+    <Compile Include="IMotionCard.cs" />
+    <Compile Include="ITriggerBoard.cs" />
+    <Compile Include="MCommonLaserReader.cs" />
+    <Compile Include="MCommonTriggerBoard.cs" />
+    <Compile Include="MyEventLog.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectCore\ProjectCore.vbproj">
+      <Project>{2b1fae8f-9ae8-4fa4-8ddc-3da365177691}</Project>
+      <Name>ProjectCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

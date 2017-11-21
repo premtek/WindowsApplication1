@@ -1,0 +1,1170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnScale.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetUserLevel.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="btnScale.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnManual.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnConveyorManual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIOList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetEPV.Name" xml:space="preserve">
+    <value>btnSetEPV</value>
+  </data>
+  <data name="&gt;&gt;btnSetUserLevel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSetEPV.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="&gt;&gt;btnSetInterlock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1569, 946</value>
+  </data>
+  <data name="btnSetInterlock.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnElectricCylinder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetLaserReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 418</value>
+  </data>
+  <data name="btnValveContler.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnConveyorManual.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLight.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="btnIOList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnVacuumKit.Text" xml:space="preserve">
+    <value>Set Chuck Kit</value>
+  </data>
+  <data name="btnScale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetMessage.Name" xml:space="preserve">
+    <value>btnSetMessage</value>
+  </data>
+  <data name="GroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnValveContler.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Name" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="btnSetUserLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetTemp.Text" xml:space="preserve">
+    <value>Chuck Temperature</value>
+  </data>
+  <data name="btnElectricCylinder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnIOList.Text" xml:space="preserve">
+    <value>I/O Status</value>
+  </data>
+  <data name="btnSetLaserReader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnIOSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnIndicator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnIOList.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="btnScale.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetFMCS.Text" xml:space="preserve">
+    <value>Fluid Monitor Control System</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIndicator.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="&gt;&gt;btnSetFMCS.Name" xml:space="preserve">
+    <value>btnSetFMCS</value>
+  </data>
+  <data name="btnScale.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;btnElectricCylinder.Name" xml:space="preserve">
+    <value>btnElectricCylinder</value>
+  </data>
+  <data name="&gt;&gt;btnSetFMCS.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAsaTest.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="btnSetFMCS.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GroupBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnLight.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnSetLaserReader.TabIndex" type="System.Int32, mscorlib">
+    <value>134</value>
+  </data>
+  <data name="btnSetEPV.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Engineer Mode</value>
+  </data>
+  <data name="btnSetUserLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="btnElectricCylinder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnValveContler.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnSetFMCS.TabIndex" type="System.Int32, mscorlib">
+    <value>136</value>
+  </data>
+  <data name="btnSetTemp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnElectricCylinder.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="&gt;&gt;btnIndicator.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GroupBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnIOSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnValveContler.Text" xml:space="preserve">
+    <value>Valve Control</value>
+  </data>
+  <data name="&gt;&gt;btnIndicator.Name" xml:space="preserve">
+    <value>btnIndicator</value>
+  </data>
+  <data name="btnManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnSetInterlock.TabIndex" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="btnSetTemp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnScale.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="&gt;&gt;btnIOList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSetMessage.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetTriggerController.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 229</value>
+  </data>
+  <data name="btnIOSet.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="btnSetTemp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnAsaTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnAsaTest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetEPV.Text" xml:space="preserve">
+    <value>Electro Pneumatic Valve</value>
+  </data>
+  <data name="btnSetMessage.Text" xml:space="preserve">
+    <value>Language Packs</value>
+  </data>
+  <data name="btnConveyorManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnIndicator.Text" xml:space="preserve">
+    <value>Light Tower</value>
+  </data>
+  <data name="&gt;&gt;btnVacuumKit.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnSystemSet.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="btnSystemSet.Text" xml:space="preserve">
+    <value>System Set</value>
+  </data>
+  <data name="&gt;&gt;btnLight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetTriggerController.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnManual.Name" xml:space="preserve">
+    <value>btnManual</value>
+  </data>
+  <data name="&gt;&gt;btnSetFMCS.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnElectricCylinder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnScale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnScale.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnValveContler.Name" xml:space="preserve">
+    <value>btnValveContler</value>
+  </data>
+  <data name="btnBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnSetTemp.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLight.Name" xml:space="preserve">
+    <value>btnLight</value>
+  </data>
+  <data name="btnElectricCylinder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnSetCCD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnElectricCylinder.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnSetUserLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>813, 12</value>
+  </data>
+  <data name="btnVacuumKit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetTriggerController.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnSetUserLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 228</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetCCD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnManual.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnValveContler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnSetFMCS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCCD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 38</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 88</value>
+  </data>
+  <data name="&gt;&gt;btnValveContler.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnElectricCylinder.Text" xml:space="preserve">
+    <value>Set Chuck Pos</value>
+  </data>
+  <data name="GroupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 328</value>
+  </data>
+  <data name="btnSetTemp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetTriggerController.TabIndex" type="System.Int32, mscorlib">
+    <value>135</value>
+  </data>
+  <data name="btnIndicator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 322</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserReader.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetCCD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetInterlock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConveyorManual.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetEPV.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetCCD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetInterlock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetInterlock.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnManual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 30</value>
+  </data>
+  <data name="GroupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetInterlock.Name" xml:space="preserve">
+    <value>btnSetInterlock</value>
+  </data>
+  <data name="GroupBox3.Text" xml:space="preserve">
+    <value>Conveyor</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSetInterlock.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnElectricCylinder.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox4.Name" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="btnSetInterlock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnSetTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 38</value>
+  </data>
+  <data name="&gt;&gt;btnSystemSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSystemSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 38</value>
+  </data>
+  <data name="btnSetLaserReader.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnBack.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="GroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 568</value>
+  </data>
+  <data name="GroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 15</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnSystemSet.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="btnConveyorManual.Text" xml:space="preserve">
+    <value>Conveyor Manual</value>
+  </data>
+  <data name="btnSetUserLevel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnSetUserLevel.Name" xml:space="preserve">
+    <value>btnSetUserLevel</value>
+  </data>
+  <data name="btnSystemSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnManual.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="GroupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLaserReader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetFMCS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 700</value>
+  </data>
+  <data name="btnIOList.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="btnElectricCylinder.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetFMCS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="btnIOList.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStageSafe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 512</value>
+  </data>
+  <data name="btnAsaTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnManual.Text" xml:space="preserve">
+    <value>Motor Control</value>
+  </data>
+  <data name="btnSetTriggerController.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnIOSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetTemp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetEPV.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnStageSafe.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="btnSetCCD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="GroupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnIOList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 125</value>
+  </data>
+  <data name="btnStageSafe.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnSetMessage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSetInterlock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnIndicator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAsaTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnScale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 322</value>
+  </data>
+  <data name="btnSetFMCS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1213, 12</value>
+  </data>
+  <data name="btnVacuumKit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnSetTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetTriggerController.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConveyorManual.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetCCD.Name" xml:space="preserve">
+    <value>btnSetCCD</value>
+  </data>
+  <data name="&gt;&gt;btnSetInterlock.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="&gt;&gt;btnSetCCD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 132</value>
+  </data>
+  <data name="btnManual.TabIndex" type="System.Int32, mscorlib">
+    <value>131</value>
+  </data>
+  <data name="btnSetLaserReader.Text" xml:space="preserve">
+    <value>Height Reader</value>
+  </data>
+  <data name="&gt;&gt;btnAsaTest.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="btnAsaTest.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnLight.Text" xml:space="preserve">
+    <value>Light Control</value>
+  </data>
+  <data name="btnSetTriggerController.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="GroupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="btnIOList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnBack.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnStageSafe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetEPV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnValveContler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 606</value>
+  </data>
+  <data name="btnStageSafe.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnVacuumKit.TabIndex" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="btnSetMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="btnIOSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 220</value>
+  </data>
+  <data name="btnSystemSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetTriggerController.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 804</value>
+  </data>
+  <data name="btnElectricCylinder.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetInterlock.Text" xml:space="preserve">
+    <value>Hardware Interlock</value>
+  </data>
+  <data name="btnSetEPV.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="&gt;&gt;btnSystemSet.Name" xml:space="preserve">
+    <value>btnSystemSet</value>
+  </data>
+  <data name="&gt;&gt;btnValveContler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetUserLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnIOSet.Text" xml:space="preserve">
+    <value>I/O Table</value>
+  </data>
+  <data name="&gt;&gt;btnAsaTest.Name" xml:space="preserve">
+    <value>btnAsaTest</value>
+  </data>
+  <data name="btnIOList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetFMCS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmEngineMode</value>
+  </data>
+  <data name="&gt;&gt;btnSetTriggerController.Name" xml:space="preserve">
+    <value>btnSetTriggerController</value>
+  </data>
+  <data name="btnSetLaserReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetCCD.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnIndicator.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetUserLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetInterlock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 132</value>
+  </data>
+  <data name="&gt;&gt;btnSetEPV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetMessage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnStageSafe.Text" xml:space="preserve">
+    <value>Stage Safe</value>
+  </data>
+  <data name="btnConveyorManual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 322</value>
+  </data>
+  <data name="btnLight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetTriggerController.Text" xml:space="preserve">
+    <value>Trigger Board</value>
+  </data>
+  <data name="btnSystemSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnSetTriggerController.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnIndicator.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="GroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSetCCD.TabIndex" type="System.Int32, mscorlib">
+    <value>133</value>
+  </data>
+  <data name="btnManual.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="btnAsaTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 415</value>
+  </data>
+  <data name="btnIOList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnStageSafe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnVacuumKit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox5.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="btnSystemSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnLight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnScale.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnVacuumKit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetTriggerController.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="GroupBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnScale.Name" xml:space="preserve">
+    <value>btnScale</value>
+  </data>
+  <data name="&gt;&gt;btnLight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSystemSet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnIOSet.Parent" xml:space="preserve">
+    <value>GroupBox4</value>
+  </data>
+  <data name="GroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>339, 804</value>
+  </data>
+  <data name="&gt;&gt;btnConveyorManual.Parent" xml:space="preserve">
+    <value>GroupBox3</value>
+  </data>
+  <data name="btnSetCCD.Text" xml:space="preserve">
+    <value>CCD Connection</value>
+  </data>
+  <data name="GroupBox4.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="btnIOSet.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnIOSet.Name" xml:space="preserve">
+    <value>btnIOSet</value>
+  </data>
+  <data name="&gt;&gt;btnIOSet.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>469</value>
+  </data>
+  <data name="btnManual.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnStageSafe.Name" xml:space="preserve">
+    <value>btnStageSafe</value>
+  </data>
+  <data name="btnSetUserLevel.Text" xml:space="preserve">
+    <value>User Level</value>
+  </data>
+  <data name="btnManual.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnScale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip.Name" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="btnLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnValveContler.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;btnVacuumKit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAsaTest.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserReader.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnAsaTest.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnSetFMCS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStageSafe.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GroupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetLaserReader.Name" xml:space="preserve">
+    <value>btnSetLaserReader</value>
+  </data>
+  <data name="btnBack.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnSetEPV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 512</value>
+  </data>
+  <data name="&gt;&gt;btnSystemSet.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;btnSetCCD.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1357, 848</value>
+  </data>
+  <data name="btnVacuumKit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 132</value>
+  </data>
+  <data name="btnVacuumKit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnBack.Name" xml:space="preserve">
+    <value>btnBack</value>
+  </data>
+  <data name="btnBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnIOSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="&gt;&gt;btnManual.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnStageSafe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnSetMessage.Parent" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="btnIndicator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnConveyorManual.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnConveyorManual.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="GroupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnConveyorManual.TabIndex" type="System.Int32, mscorlib">
+    <value>143</value>
+  </data>
+  <data name="btnIndicator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnIndicator.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnVacuumKit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnElectricCylinder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 228</value>
+  </data>
+  <data name="btnValveContler.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnAsaTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnConveyorManual.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnStageSafe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnSetEPV.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetFMCS.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnConveyorManual.Name" xml:space="preserve">
+    <value>btnConveyorManual</value>
+  </data>
+  <data name="&gt;&gt;btnAsaTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetLaserReader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;btnSetTemp.Name" xml:space="preserve">
+    <value>btnSetTemp</value>
+  </data>
+  <data name="btnIOSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnAsaTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 418</value>
+  </data>
+  <data name="&gt;&gt;btnIOList.Name" xml:space="preserve">
+    <value>btnIOList</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="btnSetMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="btnSetUserLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 88</value>
+  </data>
+  <data name="GroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 12</value>
+  </data>
+  <data name="&gt;&gt;GroupBox5.Name" xml:space="preserve">
+    <value>GroupBox5</value>
+  </data>
+  <data name="btnVacuumKit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnStageSafe.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnSetEPV.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnStageSafe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetEPV.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnVacuumKit.Name" xml:space="preserve">
+    <value>btnVacuumKit</value>
+  </data>
+  <data name="&gt;&gt;btnSetTemp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>33</value>
+  </metadata>
+</root>

@@ -1,0 +1,1029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblCh1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblLightCh3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 295</value>
+  </data>
+  <data name="lblCh1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblCh3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetlight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCh1.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue4.Name" xml:space="preserve">
+    <value>nmuLightValue4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCh2.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="Label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnGetLight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 355</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight.Name" xml:space="preserve">
+    <value>btnSetlight</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight3.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="lblCh3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 295</value>
+  </data>
+  <data name="&gt;&gt;cmbController.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="grpLightController.Text" xml:space="preserve">
+    <value>Light Controller</value>
+  </data>
+  <data name="&gt;&gt;lblCh2.Name" xml:space="preserve">
+    <value>lblCh2</value>
+  </data>
+  <data name="btnSetlight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetlight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 195</value>
+  </data>
+  <data name="btnSetlight2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="nmuLightValue4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 33</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnGetLight2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnGetLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblCh2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGetLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 115</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnSetlight4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblLightCh3.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="lblCh4.TabIndex" type="System.Int32, mscorlib">
+    <value>411</value>
+  </data>
+  <data name="lblCh1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;cmbController.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="lblLightCh2.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbController.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh4.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="btnSetlight4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight2.Name" xml:space="preserve">
+    <value>btnSetlight2</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCh2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetlight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 275</value>
+  </data>
+  <data name="lblCh3.Text" xml:space="preserve">
+    <value>CH3</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>423</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnGetLight4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnGetLight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 195</value>
+  </data>
+  <data name="btnGetLight3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmuLightValue4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 374</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh3.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 520</value>
+  </data>
+  <data name="btnSetlight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="nmuLightValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 33</value>
+  </data>
+  <data name="nmuLightValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 33</value>
+  </data>
+  <data name="grpLightController.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="btnGetLight.ToolTip" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="btnSetlight4.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="lblCh2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="nmuLightValue1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="nmuLightValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 210</value>
+  </data>
+  <data name="lblLightCh2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="btnGetLight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 275</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>Select Controller</value>
+  </data>
+  <data name="btnGetLight3.ToolTip" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="nmuLightValue1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="lblCh2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblLightCh3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight4.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh2.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="cmbController.TabIndex" type="System.Int32, mscorlib">
+    <value>419</value>
+  </data>
+  <data name="lblLightCh2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblLightCh2.TabIndex" type="System.Int32, mscorlib">
+    <value>421</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight3.Name" xml:space="preserve">
+    <value>btnSetlight3</value>
+  </data>
+  <data name="Label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight.Name" xml:space="preserve">
+    <value>btnGetLight</value>
+  </data>
+  <data name="lblLightCh4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="lblCh4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight2.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCh3.Name" xml:space="preserve">
+    <value>lblCh3</value>
+  </data>
+  <data name="nmuLightValue3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 294</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>483</value>
+  </data>
+  <data name="lblCh1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCh4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="nmuLightValue1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCh3.TabIndex" type="System.Int32, mscorlib">
+    <value>410</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight3.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;cmbController.Name" xml:space="preserve">
+    <value>cmbController</value>
+  </data>
+  <data name="&gt;&gt;grpLightController.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetlight3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLightCh4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblLightCh1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh1.Name" xml:space="preserve">
+    <value>lblLightCh1</value>
+  </data>
+  <data name="lblCh2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 215</value>
+  </data>
+  <data name="btnOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCh3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmuLightValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 134</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblCh1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLightCh3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="grpLightController.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 493</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnSetlight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="nmuLightValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>425</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpLightController.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLightCh4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblLightCh1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblCh3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblCh2.Text" xml:space="preserve">
+    <value>CH2</value>
+  </data>
+  <data name="lblLightCh4.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetlight4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLightCh4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 375</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetlight3.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnGetLight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Light Controller</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh2.Name" xml:space="preserve">
+    <value>lblLightCh2</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpLightController.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="nmuLightValue4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="nmuLightValue3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="lblLightCh1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight2.Name" xml:space="preserve">
+    <value>btnGetLight2</value>
+  </data>
+  <data name="lblLightCh1.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;grpLightController.Name" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="btnGetLight2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnGetLight.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCh1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="lblCh3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLightCh1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 85</value>
+  </data>
+  <data name="btnGetLight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblLightCh1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmbController.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue4.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;lblCh3.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight4.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="lblCh3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="btnSetlight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 30</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="nmuLightValue3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 33</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue3.Name" xml:space="preserve">
+    <value>nmuLightValue3</value>
+  </data>
+  <data name="lblCh4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGetLight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;lblCh4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLightCh3.TabIndex" type="System.Int32, mscorlib">
+    <value>421</value>
+  </data>
+  <data name="lblLightCh1.TabIndex" type="System.Int32, mscorlib">
+    <value>421</value>
+  </data>
+  <data name="btnGetLight3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnGetLight4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnGetLight2.ToolTip" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetlight2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCh3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="nmuLightValue2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetlight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmbController.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grpLightController.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblCh2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCh3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmuLightValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>424</value>
+  </data>
+  <data name="btnSetlight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 115</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>420</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="btnGetLight3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue3.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="btnGetLight4.ToolTip" xml:space="preserve">
+    <value>Inspection</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="btnSetlight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblCh4.Text" xml:space="preserve">
+    <value>CH4</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue1.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="btnGetLight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="lblLightCh3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="nmuLightValue2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLightCh2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 30</value>
+  </data>
+  <data name="lblLightCh4.TabIndex" type="System.Int32, mscorlib">
+    <value>421</value>
+  </data>
+  <data name="btnSetlight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 355</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblCh1.TabIndex" type="System.Int32, mscorlib">
+    <value>408</value>
+  </data>
+  <data name="nmuLightValue4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnGetLight2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh4.Name" xml:space="preserve">
+    <value>lblLightCh4</value>
+  </data>
+  <data name="&gt;&gt;lblCh2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="btnGetLight3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh1.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="Label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCh2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblLightCh2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblCh4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 375</value>
+  </data>
+  <data name="lblCh4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmuLightValue4.TabIndex" type="System.Int32, mscorlib">
+    <value>427</value>
+  </data>
+  <data name="btnGetLight4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnSetlight2.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight2.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue2.Name" xml:space="preserve">
+    <value>nmuLightValue2</value>
+  </data>
+  <data name="nmuLightValue3.TabIndex" type="System.Int32, mscorlib">
+    <value>426</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGetLight2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh3.Name" xml:space="preserve">
+    <value>lblLightCh3</value>
+  </data>
+  <data name="lblCh4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnSetlight2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnGetLight4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight4.Name" xml:space="preserve">
+    <value>btnSetlight4</value>
+  </data>
+  <data name="lblLightCh4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnGetLight4.Name" xml:space="preserve">
+    <value>btnGetLight4</value>
+  </data>
+  <data name="btnGetLight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 85</value>
+  </data>
+  <data name="nmuLightValue4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetlight2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLightCh2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 215</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblCh2.TabIndex" type="System.Int32, mscorlib">
+    <value>409</value>
+  </data>
+  <data name="cmbController.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 32</value>
+  </data>
+  <data name="lblLightCh2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight3.Name" xml:space="preserve">
+    <value>btnGetLight3</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>441, 602</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblCh1.Name" xml:space="preserve">
+    <value>lblCh1</value>
+  </data>
+  <data name="nmuLightValue3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnGetLight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSetlight3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;grpLightController.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCh4.Name" xml:space="preserve">
+    <value>lblCh4</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpLightController.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblLightCh1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 135</value>
+  </data>
+  <data name="lblCh1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 135</value>
+  </data>
+  <data name="btnSetlight2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue1.Name" xml:space="preserve">
+    <value>nmuLightValue1</value>
+  </data>
+  <data name="lblLightCh3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmuLightValue3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblCh4.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="Label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetlight3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSetlight3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblCh1.Text" xml:space="preserve">
+    <value>CH1</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;lblCh4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmProgramControlLight</value>
+  </data>
+  <data name="lblCh1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="&gt;&gt;btnGetLight2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblLightCh4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmuLightValue2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblLightCh3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetlight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblLightCh4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmbController.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 30</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnSetlight4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>422</value>
+  </data>
+  <data name="&gt;&gt;nmuLightValue2.Parent" xml:space="preserve">
+    <value>grpLightController</value>
+  </data>
+  <data name="btnSetlight.ToolTip" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="btnSetlight3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

@@ -1,0 +1,1479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblTrainTool.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblImageSource.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblSceneSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lightBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>502</value>
+  </data>
+  <data name="nmcLight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1445, 273</value>
+  </data>
+  <data name="lightBar2.TabIndex" type="System.Int32, mscorlib">
+    <value>501</value>
+  </data>
+  <data name="&gt;&gt;nmcLight4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnACQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExposureTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSceneSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="nmcLight2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcLight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblImageSource.TabIndex" type="System.Int32, mscorlib">
+    <value>508</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkLight1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExposureTimeUnit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 50</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblTrainTool.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lightBar4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblTrainTool.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblExposureTime.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Button2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnACQ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRepeatRun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight4.Name" xml:space="preserve">
+    <value>btnSetLight4</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnSetLight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1507, 168</value>
+  </data>
+  <data name="lightBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1335, 123</value>
+  </data>
+  <data name="chkLight1.Text" xml:space="preserve">
+    <value>CH1</value>
+  </data>
+  <data name="&gt;&gt;nmcLight1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExposureTimeUnit.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnSetLight1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 50</value>
+  </data>
+  <data name="btnReset.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="&gt;&gt;lightBar2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight3.Name" xml:space="preserve">
+    <value>btnSetLight3</value>
+  </data>
+  <data name="chkLight3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLight4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btnACQ.Text" xml:space="preserve">
+    <value>ACQ</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="chkLight2.Text" xml:space="preserve">
+    <value>CH2</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkLight4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nmcLight1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>516</value>
+  </data>
+  <data name="btnSetLight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 50</value>
+  </data>
+  <data name="&gt;&gt;lblImageSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetLight3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcExposure.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcLight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1445, 173</value>
+  </data>
+  <data name="lblExposureTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="nmcExposure.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="btnSetLight1.TabIndex" type="System.Int32, mscorlib">
+    <value>498</value>
+  </data>
+  <data name="chkLight3.Text" xml:space="preserve">
+    <value>CH3</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Cog.ToolBlock</value>
+  </data>
+  <data name="&gt;&gt;lightBar3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight2.Name" xml:space="preserve">
+    <value>btnSetLight2</value>
+  </data>
+  <data name="lblSceneSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1253, 41</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnSetLight3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnReset.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Name" xml:space="preserve">
+    <value>btnRun</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="chkLight1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="nmcLight3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="nmcLight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 33</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblScene.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLight2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblExposureTimeUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1507, 330</value>
+  </data>
+  <data name="btnACQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetLight1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnRun.Text" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="&gt;&gt;CogToolBlockEditV21.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="btnACQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 70</value>
+  </data>
+  <data name="lblScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nmcLight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 33</value>
+  </data>
+  <data name="lblTrainTool.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CogToolBlockEditV21.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>489, 0</value>
+  </data>
+  <data name="nmcLight2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="lblRepeatability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1253, 621</value>
+  </data>
+  <data name="lblScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 29</value>
+  </data>
+  <data name="lightBar2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnRepeatRun.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="nmcExposure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 33</value>
+  </data>
+  <data name="lblImageSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1248, 374</value>
+  </data>
+  <data name="&gt;&gt;nmcLight3.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight1.Name" xml:space="preserve">
+    <value>btnSetLight1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="nmcLight1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 33</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nmcLight1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="lblTrainTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1248, 476</value>
+  </data>
+  <data name="lblExposureTime.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="Button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblImageSource.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatability.Name" xml:space="preserve">
+    <value>lblRepeatability</value>
+  </data>
+  <data name="btnRepeatRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lightBar3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnCancel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnACQ.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACAAIAAgIAAAMDAwADxuPEA8fG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAACAgICAgIDAwMCAgICAgAAAgICAgMDAAADAgICAgIAAAICAwMAAAADAwMDAwMDAAADAwAA
+        AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAMAAAMAAAAAAAAAAAAAAAADAAACAwMAAAAAAwMDAwMDAwAA
+        AgICAwMAAAADAgICAgIBAQICAgICBAEBBAQCAgICAQEEBAQEBAQEAQEBBAQCAgEBBAEBAQEBAQEBAQEB
+        BAQBAQQBAQEBAQEBAQEBAQEBAQEEAQEBAQEBAQEBAQEBBAEBBAQEBAQEBAEBAQEEBAIBAQICAgICBAEB
+        AQQEAgICAQECAgICAgQEBAQCAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1252, 273</value>
+  </data>
+  <data name="btnRepeatRun.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSceneSet.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="lightBar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="&gt;&gt;lightBar3.Name" xml:space="preserve">
+    <value>lightBar3</value>
+  </data>
+  <data name="&gt;&gt;lblTrainTool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRepeatRun.Name" xml:space="preserve">
+    <value>btnRepeatRun</value>
+  </data>
+  <data name="lblSetLight.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Name" xml:space="preserve">
+    <value>lblSceneSet</value>
+  </data>
+  <data name="&gt;&gt;chkLight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CogToolBlockEditV21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTrainTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="chkLight2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="lblSceneSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="btnSetLight4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLight1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcLight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1445, 223</value>
+  </data>
+  <data name="&gt;&gt;lightBar4.Name" xml:space="preserve">
+    <value>lightBar4</value>
+  </data>
+  <data name="&gt;&gt;nmcLight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetLight4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetLight3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnSetLight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1507, 268</value>
+  </data>
+  <data name="btnSetLight4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLight2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;chkLight2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nmcLight2.Name" xml:space="preserve">
+    <value>nmcLight2</value>
+  </data>
+  <data name="&gt;&gt;lblImageSource.Name" xml:space="preserve">
+    <value>lblImageSource</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;lblScene.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="chkLight3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;chkLight3.Name" xml:space="preserve">
+    <value>chkLight3</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Name" xml:space="preserve">
+    <value>lblScene</value>
+  </data>
+  <data name="&gt;&gt;CogToolBlockEditV21.Type" xml:space="preserve">
+    <value>Cognex.VisionPro.ToolBlock.CogToolBlockEditV2, Cognex.VisionPro.ToolGroup.Controls, Version=59.0.0.0, Culture=neutral, PublicKeyToken=ef0f902af9dee505</value>
+  </data>
+  <data name="&gt;&gt;nmcLight1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSetLight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;chkLight2.Name" xml:space="preserve">
+    <value>chkLight2</value>
+  </data>
+  <data name="Button2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lightBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="lightBar4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1582, 956</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1445, 328</value>
+  </data>
+  <data name="btnRepeatRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="lblSetLight.Text" xml:space="preserve">
+    <value>2. Set Light</value>
+  </data>
+  <data name="&gt;&gt;nmcLight1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTrainTool.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Name" xml:space="preserve">
+    <value>lblExposureTimeUnit</value>
+  </data>
+  <data name="chkLight3.TabIndex" type="System.Int32, mscorlib">
+    <value>504</value>
+  </data>
+  <data name="&gt;&gt;btnACQ.Name" xml:space="preserve">
+    <value>btnACQ</value>
+  </data>
+  <data name="lblScene.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="chkLight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="nmcLight1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1445, 123</value>
+  </data>
+  <data name="btnRepeatRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1394, 528</value>
+  </data>
+  <data name="btnSetLight3.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLight4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnRepeatRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRepeatRun.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSetLight1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="lblImageSource.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatability.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatability.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lightBar1.Name" xml:space="preserve">
+    <value>lightBar1</value>
+  </data>
+  <data name="&gt;&gt;chkLight4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTime.Name" xml:space="preserve">
+    <value>lblExposureTime</value>
+  </data>
+  <data name="btnSetLight1.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="nmcLight4.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="nmcExposure.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkLight1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1252, 123</value>
+  </data>
+  <data name="chkLight2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1252, 173</value>
+  </data>
+  <data name="btnACQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1253, 404</value>
+  </data>
+  <data name="&gt;&gt;chkLight4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CogToolBlockEditV21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="nmcExposure.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lightBar1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRun.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="&gt;&gt;lightBar4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcExposure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLight4.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="nmcLight3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSetLight2.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;nmcLight2.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btnSetLight2.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="btnOK.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblTrainTool.Text" xml:space="preserve">
+    <value>4. Train Tool</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;lightBar1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="chkLight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1252, 223</value>
+  </data>
+  <data name="lblExposureTimeUnit.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblSetLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1248, 87</value>
+  </data>
+  <data name="lblScene.Text" xml:space="preserve">
+    <value>1. Scene</value>
+  </data>
+  <data name="&gt;&gt;nmcLight2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="CogToolBlockEditV21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lightBar4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1335, 273</value>
+  </data>
+  <data name="btnACQ.TabIndex" type="System.Int32, mscorlib">
+    <value>507</value>
+  </data>
+  <data name="nmcLight2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTrainTool.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkLight4.Name" xml:space="preserve">
+    <value>chkLight4</value>
+  </data>
+  <data name="lightBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 45</value>
+  </data>
+  <data name="&gt;&gt;lblRepeatability.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSetLight.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;nmcLight3.Name" xml:space="preserve">
+    <value>nmcLight3</value>
+  </data>
+  <data name="chkLight1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkLight1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="btnRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="btnRun.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGbSURBVFhHzZaBTcQwDEVvBEZgBEZgBEa4ERiBTRiB
+        ERiBEW6EG6H4W/rGVI5t2msOS0+yklz/r+vkclqW5e6Eg7MJB2cTDs7mJ+nHk/Cc8CCUscfEq4DFGVcB
+        RtPYauIseLGMLyE1Upl4Ed5WvAtepAt+t36WmstMfAj+IUdxHpmAQ7/wSK4jE+hsv/BQqKvalmwzcRE+
+        BeyIaH4IdVXbkr4JCKLBHgUf+JztBqaualvSM1FuPYnWVqaualtSm/CHEKrg3xqfBdVhlEaoq9qW1CYo
+        AgOjHkB/MJBHaxTqqrYltQn+J1RnCaqAwKEXzSvUVW1LchP+DaN5D9fCdDSvUFe1Lbm9CUQ0r1BXtS3J
+        TWBXMKJ5Dz4XAr0TzSvUVW1L+j1RnQXsiXSHUFe1LalNcHfADCoTrYFBxiG7A/CcgBGYohkIsgKI8vJD
+        XdW2pGeic2vq3L5EcrsJgrKvzeBcSD+Bh7qqbcnfTOyGuqptyT8xgfL+Wnggl5EJRPs+sJPhHZOBiqDD
+        sQVvDZ6rl6HQxD0JB2cTDs5lOX0DYVNZ1Bj6n58AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnReset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1321, 528</value>
+  </data>
+  <data name="nmcLight2.TabIndex" type="System.Int32, mscorlib">
+    <value>493</value>
+  </data>
+  <data name="&gt;&gt;lblTrainTool.Name" xml:space="preserve">
+    <value>lblTrainTool</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnRepeatRun.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRun.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkLight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="nmcLight3.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="lightBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1335, 173</value>
+  </data>
+  <data name="nmcLight4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepeatability.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLight1.TabIndex" type="System.Int32, mscorlib">
+    <value>506</value>
+  </data>
+  <data name="btnSetLight2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 50</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmCalibAlignTool</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkLight3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkLight3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 28</value>
+  </data>
+  <data name="chkLight2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1248, 12</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 24</value>
+  </data>
+  <data name="&gt;&gt;chkLight1.Name" xml:space="preserve">
+    <value>chkLight1</value>
+  </data>
+  <data name="&gt;&gt;btnACQ.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chkLight1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="btnSetLight1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1507, 118</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTime.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;lightBar4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;nmcLight4.Name" xml:space="preserve">
+    <value>nmcLight4</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkLight3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRepeatRun.Text" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="&gt;&gt;lightBar2.Name" xml:space="preserve">
+    <value>lightBar2</value>
+  </data>
+  <data name="btnSetLight3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1507, 218</value>
+  </data>
+  <data name="lblExposureTimeUnit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSetLight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nmcLight1.TabIndex" type="System.Int32, mscorlib">
+    <value>494</value>
+  </data>
+  <data name="btnCancel.ToolTip" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>5. Test</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CogToolBlockEditV21.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1464, 528</value>
+  </data>
+  <data name="lblImageSource.Text" xml:space="preserve">
+    <value>3. Image Source</value>
+  </data>
+  <data name="lblExposureTimeUnit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblSetLight.Name" xml:space="preserve">
+    <value>lblSetLight</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1947, 1220</value>
+  </data>
+  <data name="Label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLight3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTimeUnit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSetLight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkLight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnReset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="btnRun.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="lblSetLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 33</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lightBar3.TabIndex" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="btnRepeatRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;btnACQ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lightBar4.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="btnRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 70</value>
+  </data>
+  <data name="btnRun.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lblImageSource.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1738, 956</value>
+  </data>
+  <data name="&gt;&gt;lightBar3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblImageSource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;nmcExposure.Name" xml:space="preserve">
+    <value>nmcExposure</value>
+  </data>
+  <data name="&gt;&gt;lblImageSource.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;nmcLight2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblImageSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="Button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lightBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;lblSetLight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lightBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CogToolBlockEditV21.Name" xml:space="preserve">
+    <value>CogToolBlockEditV21</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>516</value>
+  </data>
+  <data name="lblSetLight.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="chkLight2.TabIndex" type="System.Int32, mscorlib">
+    <value>505</value>
+  </data>
+  <data name="lblTrainTool.TabIndex" type="System.Int32, mscorlib">
+    <value>509</value>
+  </data>
+  <data name="&gt;&gt;nmcLight1.Name" xml:space="preserve">
+    <value>nmcLight1</value>
+  </data>
+  <data name="lblRepeatability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 146</value>
+  </data>
+  <data name="&gt;&gt;lightBar4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSetLight4.TabIndex" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="Button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="lblRepeatability.TabIndex" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="&gt;&gt;nmcLight3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblExposureTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 70</value>
+  </data>
+  <data name="&gt;&gt;chkLight3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nmcLight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 33</value>
+  </data>
+  <data name="nmcLight4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1900, 1038</value>
+  </data>
+  <data name="&gt;&gt;chkLight1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblExposureTimeUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 24</value>
+  </data>
+  <data name="&gt;&gt;btnRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1248, 512</value>
+  </data>
+  <data name="btnSetLight3.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="lblExposureTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 24</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nmcLight1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="nmcLight4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="&gt;&gt;chkLight1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="nmcLight3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="btnOK.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="chkLight4.Text" xml:space="preserve">
+    <value>CH4</value>
+  </data>
+  <data name="lblScene.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnSetLight1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExposureTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1248, 327</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nmcExposure.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btnRun.TabIndex" type="System.Int32, mscorlib">
+    <value>517</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTimeUnit.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="lblScene.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblRepeatability.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt</value>
+  </data>
+  <data name="chkLight4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CogToolBlockEditV21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lightBar2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lightBar2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSetLight2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;btnSetLight3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CogToolBlockEditV21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1208, 1000</value>
+  </data>
+  <data name="&gt;&gt;btnRepeatRun.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>513</value>
+  </data>
+  <data name="&gt;&gt;lblSceneSet.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;chkLight2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblSetLight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lblScene.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblExposureTime.Text" xml:space="preserve">
+    <value>3. Exposure Time</value>
+  </data>
+  <data name="chkLight4.TabIndex" type="System.Int32, mscorlib">
+    <value>503</value>
+  </data>
+  <data name="lightBar3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1335, 223</value>
+  </data>
+  <data name="btnReset.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CogToolBlockEditV21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="chkLight2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;nmcLight4.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lblExposureTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnRepeatRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 9pt, style=Bold</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1791, 1220</value>
+  </data>
+  <data name="chkLight2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微軟正黑體, 14.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lightBar3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="lightBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkLight4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Button1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lightBar2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="CogToolBlockEditV21.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkLight1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcLight3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRun.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblSceneSet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSetLight3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblImageSource.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTrainTool.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblScene.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lightBar4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lightBar3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcLight2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnReset.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Button2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSetLight2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkLight2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="btnSetLight1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblExposureTime.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcLight4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnSetLight4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcExposure.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnOK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblRepeatability.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblExposureTimeUnit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nmcLight1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCancel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkLight3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnRepeatRun.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblSetLight.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnACQ.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
